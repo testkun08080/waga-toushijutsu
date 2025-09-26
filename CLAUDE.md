@@ -77,11 +77,13 @@ portfolio/
 
 **Core Scripts:**
 - `sumalize.py` - Main data collection script with yfinance API integration
-- `split_stocks.py` - Utility to split large datasets into manageable chunks
+- `split_stocks.py` - **Enhanced** utility with command-line arguments for flexible file splitting
 - `get_jp_stocklist.py` - Stock list acquisition from JPX official data sources
 
 **Data Processing Features:**
-- Command-line interface with flexible JSON file input
+- **Enhanced CLI**: `split_stocks.py` now supports `--input`, `--size`, and `--verbose` flags
+- Flexible input file specification (default: `stocks_all.json`)
+- Customizable chunk sizes for different use cases
 - Comprehensive logging with execution time tracking
 - Error handling and retry mechanisms for API failures
 - Rate limiting for API compliance and stability
@@ -99,7 +101,11 @@ python sumalize.py stocks_1.json
 # Update master stock list
 python get_jp_stocklist.py
 
-# Split master list into chunks
+# Enhanced split functionality with arguments
+python split_stocks.py --input stocks_all.json --size 1000
+python split_stocks.py -i custom_data.json -s 500 --verbose
+
+# Legacy split (still supported)
 python split_stocks.py
 ```
 
@@ -141,12 +147,13 @@ python split_stocks.py
 - **Trigger**: Manual execution for stock list updates
 - **Purpose**: Update master stock list and regenerate split files
 - **Environment**: Ubuntu latest with Python 3.11
-- **Process**:
+- **Enhanced Process**:
   1. Download latest stock data from JPX using `get_jp_stocklist.py`
   2. Generate `stocks_all.json` with all current Japanese stocks
-  3. Split into manageable chunks using improved splitting logic
-  4. Commit updated files with Japanese date format
-- **Output**: Updated `stocks_all.json` and `stocks_*.json` files
+  3. **NEW**: Use enhanced `split_stocks.py --input stocks_all.json --size 1000` for reliable splitting
+  4. **NEW**: JSON validation for all generated split files
+  5. Commit updated files with Japanese date format
+- **Output**: Updated `stocks_all.json` and `stocks_*.json` files with validation
 - **Commit Format**: "📋 日本株式のリストを更新(YYYY年MM月DD日)"
 
 #### **Workflow 3: `deploy-github-pages.yml` (Web Application Deployment)**
