@@ -110,13 +110,13 @@ npm run build
 機能要求や改善提案は Issue を通じてお気軽にご連絡ください。
 
 
-## 🔗 リンク
-- **アプリケーション**: `https://testkun08080.github.io/waga-toushijutsu/`
+## 🔗 関連リンク
+- **(ウェブアプリケーション)[testkun.net/waga-toushijutsu/]**
 - **データソース**: 日本取引所グループ（JPX）公式データ
 ```html
   https://www.jpx.co.jp/markets/statistics-equities/misc/tvdivq0000001vg2-att/data_j.xls
   ```
 
 ## 📕 参考本
-- https://amzn.to/3IEVRkq
+- [我が投資術](https://amzn.to/3IEVRkq)
   
