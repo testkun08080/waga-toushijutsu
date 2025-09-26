@@ -65,54 +65,30 @@ jobs:
         working-directory: ./stock_list
         run: |
           echo "🔀 Starting stock list splitting..."
+          echo "Timestamp: $(date)"
 
-          # Modify split_stocks.py to use stocks_all.json as input
-          python -c "
-import json
-import math
-
-def split_stocks_json(input_file='stocks_all.json', chunk_size=1000):
-    try:
-        with open(input_file, 'r', encoding='utf-8') as f:
-            stock_data = json.load(f)
-
-        total_companies = len(stock_data)
-        total_files = math.ceil(total_companies / chunk_size)
-
-        print(f'総企業数: {total_companies}社')
-        print(f'分割ファイル数: {total_files}ファイル')
-        print(f'1ファイルあたり: 最大{chunk_size}社')
-        print('-' * 50)
-
-        for i in range(total_files):
-            start_idx = i * chunk_size
-            end_idx = min((i + 1) * chunk_size, total_companies)
-            chunk_data = stock_data[start_idx:end_idx]
-
-            output_filename = f'stocks_{i + 1}.json'
-
-            with open(output_filename, 'w', encoding='utf-8') as f:
-                json.dump(chunk_data, f, ensure_ascii=False, indent=2)
-
-            print(f'✅ {output_filename}: {len(chunk_data)}社 (#{start_idx + 1}-#{end_idx})')
-
-        print('-' * 50)
-        print(f'分割完了: {total_files}個のファイルを作成しました')
-
-    except Exception as e:
-        print(f'❌ エラー: {e}')
-        exit(1)
-
-print('📊 stocks_all.json分割ツール')
-print('=' * 60)
-split_stocks_json()
-"
+          # Use the improved split_stocks.py script
+          python split_stocks.py --input stocks_all.json --size 1000
 
           echo "✅ Stock list splitting completed"
 
           # List all generated files
           echo "📄 Generated files:"
           ls -la stocks_*.json
+
+          # Verify each split file contains valid JSON data
+          echo "🔍 Verifying split files..."
+          for file in stocks_[0-9]*.json; do
+            if [ -f "$file" ]; then
+              companies=$(cat "$file" | jq length 2>/dev/null)
+              if [ $? -eq 0 ]; then
+                echo "✅ $file: $companies companies (Valid JSON)"
+              else
+                echo "❌ $file: Invalid JSON format"
+                exit 1
+              fi
+            fi
+          done
 
       - name: 📊 Generate update summary
         run: |

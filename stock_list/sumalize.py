@@ -282,7 +282,7 @@ def get_stock_data(stock_info):
 
 def main(json_filename="stocks_temp.json"):
     """メイン処理
-    
+
     Args:
         json_filename (str): 処理対象のJSONファイル名
     """
@@ -426,37 +426,33 @@ def parse_arguments():
   
 利用可能なファイル:
   stocks_1.json, stocks_2.json, stocks_3.json, stocks_4.json
-  stocks_temp.json, stocks.json
+  stocks_temp.json, stocks_all.json
         """,
     )
-    
+
     parser.add_argument(
         "json_file",
         nargs="?",
         default="stocks_temp.json",
-        help="処理対象のJSONファイル名 (デフォルト: stocks_temp.json)"
+        help="処理対象のJSONファイル名 (デフォルト: stocks_temp.json)",
     )
-    
-    parser.add_argument(
-        "--json", "-j",
-        dest="json_file_alt",
-        help="処理対象のJSONファイル名（--jsonオプション）"
-    )
-    
+
+    parser.add_argument("--json", "-j", dest="json_file_alt", help="処理対象のJSONファイル名（--jsonオプション）")
+
     return parser.parse_args()
 
 
 if __name__ == "__main__":
     # コマンドライン引数を解析
     args = parse_arguments()
-    
+
     # ファイル名を決定（--jsonオプションが優先）
     json_filename = args.json_file_alt if args.json_file_alt else args.json_file
-    
+
     # yfinanceのバージョン確認
     print(f"yfinance version: {yf.__version__}")
     logger.info(f"yfinance version: {yf.__version__}")
-    
+
     print(f"処理対象ファイル: {json_filename}")
     print("=" * 60)
 

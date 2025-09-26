@@ -136,7 +136,7 @@ export const DataTable: React.FC<DataTableProps> = ({
                         {String(value || '-').replace('（内国株式）', '')}
                       </div>
                     ) : isNetCash ? (
-                      <span className={value && value > 0 ? 'text-success' : 'text-error'}>
+                      <span className={value && typeof value === 'number' && value > 0 ? 'text-success' : 'text-error'}>
                         {formatValue(value, column.format)}
                       </span>
                     ) : (
