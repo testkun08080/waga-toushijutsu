@@ -1,0 +1,176 @@
+name: 📊 Stock Data Fetch
+
+permissions:
+  contents: write
+  actions: read
+
+on:
+  workflow_dispatch:
+    inputs:
+      stock_file:
+        description: "Stock JSON file to process"
+        required: true
+        default: "stocks_1.json"
+        type: choice
+        options:
+          - "stocks_1.json"
+          - "stocks_2.json"
+          - "stocks_3.json"
+          - "stocks_4.json"
+          - "stocks_temp.json"
+      batch_name:
+        description: "Batch identifier (for output filename)"
+        required: true
+        default: "batch1"
+        type: string
+
+jobs:
+  fetch-stock-data:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: 🔄 Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: 📦 Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r stock_list/requirements.txt
+
+      - name: 📋 Show input parameters
+        run: |
+          echo "Processing file: ${{ github.event.inputs.stock_file }}"
+          echo "Batch name: ${{ github.event.inputs.batch_name }}"
+          echo "Working directory: $(pwd)"
+          ls -la stock_list/
+
+      - name: 🏃 Run stock data collection
+        working-directory: ./stock_list
+        run: |
+          echo "🚀 Starting stock data collection..."
+          echo "File: ${{ github.event.inputs.stock_file }}"
+          echo "Timestamp: $(date)"
+
+          # Run the Python script with the selected JSON file
+          python sumalize.py "${{ github.event.inputs.stock_file }}"
+
+          echo "✅ Stock data collection completed"
+
+          # List generated files
+          echo "📄 Generated files:"
+          ls -la japanese_stocks_data_*.csv 2>/dev/null || echo "No CSV files generated"
+
+      - name: 📂 Move files to Export directory
+        run: |
+          # Create Export directory if it doesn't exist
+          mkdir -p Export
+
+          # Move generated CSV files to Export directory with batch naming
+          cd stock_list
+          for file in japanese_stocks_data_*.csv; do
+            if [ -f "$file" ]; then
+              # Extract timestamp from original filename
+              timestamp=$(echo "$file" | grep -o '[0-9]\{8\}_[0-9]\{6\}')
+              # Create new filename with batch identifier
+              new_name="stock_data_${{ github.event.inputs.batch_name }}_${timestamp}.csv"
+              echo "📦 Moving $file to ../Export/$new_name"
+              mv "$file" "../Export/$new_name"
+            fi
+          done
+
+          # Also move log file if exists
+          if [ -f "stock_data_log.txt" ]; then
+            log_name="stock_data_log_${{ github.event.inputs.batch_name }}_$(date +%Y%m%d_%H%M%S).txt"
+            echo "📋 Moving log file to ../Export/$log_name"
+            mv "stock_data_log.txt" "../Export/$log_name"
+          fi
+
+          cd ..
+          echo "📁 Export directory contents:"
+          ls -la Export/
+
+      - name: 📊 Generate summary report
+        run: |
+          cd Export
+          echo "# 📊 Stock Data Collection Report" > README.md
+          echo "" >> README.md
+          echo "**Generated:** $(date)" >> README.md
+          echo "**Batch:** ${{ github.event.inputs.batch_name }}" >> README.md
+          echo "**Source File:** ${{ github.event.inputs.stock_file }}" >> README.md
+          echo "**Workflow:** ${{ github.workflow }}" >> README.md
+          echo "" >> README.md
+          echo "## 📄 Generated Files" >> README.md
+          echo "" >> README.md
+
+          for file in stock_data_*.csv; do
+            if [ -f "$file" ]; then
+              size=$(ls -lh "$file" | awk '{print $5}')
+              lines=$(wc -l < "$file")
+              echo "- **$file** - Size: $size, Records: $((lines-1))" >> README.md
+            fi
+          done
+
+          if [ -f "stock_data_log_*.txt" ]; then
+            echo "" >> README.md
+            echo "## 📋 Log Files" >> README.md
+            for logfile in stock_data_log_*.txt; do
+              if [ -f "$logfile" ]; then
+                size=$(ls -lh "$logfile" | awk '{print $5}')
+                echo "- **$logfile** - Size: $size" >> README.md
+              fi
+            done
+          fi
+
+          echo "" >> README.md
+          echo "## 🤖 Automation Info" >> README.md
+          echo "- **GitHub Action:** [${{ github.workflow }}](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})" >> README.md
+          echo "- **Commit SHA:** ${{ github.sha }}" >> README.md
+          echo "- **Repository:** ${{ github.repository }}" >> README.md
+
+      - name: 🔧 Configure Git
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+      - name: 💾 Commit and push changes
+        run: |
+          # Add all new files in Export directory
+          git add Export/
+
+          # Check if there are any changes to commit
+          if git diff --staged --quiet; then
+            echo "ℹ️ No changes to commit"
+          else
+            # Commit with descriptive message
+            git commit -m "📊 Update stock data: ${{ github.event.inputs.batch_name }} from ${{ github.event.inputs.stock_file }}
+
+            - Processed: ${{ github.event.inputs.stock_file }}
+            - Batch: ${{ github.event.inputs.batch_name }}
+            - Generated: $(date)
+            - Workflow: ${{ github.workflow }}
+            
+            🤖 Generated by GitHub Action"
+            
+            # Push changes
+            git push
+            
+            echo "✅ Changes committed and pushed successfully"
+          fi
+
+      - name: 📈 Upload artifacts
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: stock-data-${{ github.event.inputs.batch_name }}
+          path: |
+            Export/stock_data_*.csv
+            Export/stock_data_log_*.txt
+            Export/README.md
+          retention-days: 30

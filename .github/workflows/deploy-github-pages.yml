@@ -1,0 +1,91 @@
+name: 🌐 Deploy to GitHub Pages
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+on:
+  push:
+    branches: ["main", "master"]
+    paths: ["stock_serch/**"]
+  pull_request:
+    branches: ["main", "master"]
+    paths: ["stock_serch/**"]
+  workflow_dispatch:
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🔄 Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 🟢 Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+          cache-dependency-path: "stock_serch/package-lock.json"
+
+      - name: 📦 Install dependencies
+        working-directory: ./stock_serch
+        run: npm ci
+
+      - name: 🏗️ Build application
+        working-directory: ./stock_serch
+        run: npm run build
+        env:
+          NODE_ENV: production
+
+      - name: 📊 Build summary
+        working-directory: ./stock_serch
+        run: |
+          echo "🎯 Build completed successfully"
+          echo "📦 Build directory contents:"
+          ls -la dist/
+          echo "📊 Build size:"
+          du -sh dist/
+
+          # Check if critical files exist
+          if [ -f "dist/index.html" ]; then
+            echo "✅ index.html found"
+          else
+            echo "❌ index.html missing"
+            exit 1
+          fi
+
+      - name: 📄 Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: 📤 Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "./stock_serch/dist"
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+
+    steps:
+      - name: 🚀 Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: ✅ Deployment Summary
+        run: |
+          echo "🎉 Deployment completed successfully!"
+          echo "🌐 Site URL: ${{ steps.deployment.outputs.page_url }}"
+          echo "📅 Deployed at: $(date)"
+          echo "🔗 GitHub Pages URL: ${{ steps.deployment.outputs.page_url }}"
