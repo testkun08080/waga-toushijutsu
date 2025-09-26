@@ -1,7 +1,11 @@
 # 📊 日本株式分析プラットフォーム (waga-toushijutsu)
 
 ## 🌟 概要
-[我が投資術](https://amzn.to/4nPN9P5)を実践してみようと思い、yahoo fincnace を使用して取得したデータを可視化するwebアプリケーションです。
+[我が投資術](https://amzn.to/3IEVRkq)を実践してみようと思い、yahoo fincnace を使用して取得したデータを可視化するwebアプリケーションです。
+
+## なぜ作成したか
+- シンプル可視化したかったという思い
+- 日本をよくしている企業を見つけて、より良い好循環が生まれれば幸い
 
 ## ✨ 主な機能
 
@@ -112,5 +116,7 @@ npm run build
 ```html
   https://www.jpx.co.jp/markets/statistics-equities/misc/tvdivq0000001vg2-att/data_j.xls
   ```
-- **[我が投資術本](https://amzn.to/4nPN9P5)**
+
+## 📕 参考本
+- https://amzn.to/3IEVRkq
   
