@@ -18,11 +18,6 @@ on:
           - "stocks_3.json"
           - "stocks_4.json"
           - "stocks_temp.json"
-      batch_name:
-        description: "Batch identifier (for output filename)"
-        required: true
-        default: "batch1"
-        type: string
 
 jobs:
   fetch-stock-data:
@@ -49,7 +44,6 @@ jobs:
       - name: 📋 Show input parameters
         run: |
           echo "Processing file: ${{ github.event.inputs.stock_file }}"
-          echo "Batch name: ${{ github.event.inputs.batch_name }}"
           echo "Working directory: $(pwd)"
           ls -la stock_list/
 
@@ -63,78 +57,16 @@ jobs:
           python sumalize.py "${{ github.event.inputs.stock_file }}"
 
           echo "✅ Stock data collection completed"
-          echo "📄 Generated files:"
-          ls -la japanese_stocks_data_*.csv 2>/dev/null || echo "No CSV files generated"
-
-      - name: 📂 Move files to Export directory
-        run: |
-          mkdir -p Export
-          cd stock_list
-          for file in japanese_stocks_data_*.csv; do
-            if [ -f "$file" ]; then
-              timestamp=$(echo "$file" | grep -o '[0-9]\{8\}_[0-9]\{6\}')
-              new_name="stock_data_${{ github.event.inputs.batch_name }}_${timestamp}.csv"
-              echo "📦 Moving $file to ../Export/$new_name"
-              mv "$file" "../Export/$new_name"
-            fi
-          done
-
-          if [ -f "stock_data_log.txt" ]; then
-            log_name="stock_data_log_${{ github.event.inputs.batch_name }}_$(date +%Y%m%d_%H%M%S).txt"
-            echo "📋 Moving log file to ../Export/$log_name"
-            mv "stock_data_log.txt" "../Export/$log_name"
-          fi
-
-          cd ..
-          echo "📁 Export directory contents:"
-          ls -la Export/
-
-      - name: 📊 Generate summary report
-        run: |
-          cd Export
-          echo "# 📊 Stock Data Collection Report" > README.md
-          echo "" >> README.md
-          echo "**Generated:** $(date)" >> README.md
-          echo "**Batch:** ${{ github.event.inputs.batch_name }}" >> README.md
-          echo "**Source File:** ${{ github.event.inputs.stock_file }}" >> README.md
-          echo "**Workflow:** ${{ github.workflow }}" >> README.md
-          echo "" >> README.md
-          echo "## 📄 Generated Files" >> README.md
-          echo "" >> README.md
-
-          for file in stock_data_*.csv; do
-            if [ -f "$file" ]; then
-              size=$(ls -lh "$file" | awk '{print $5}')
-              lines=$(wc -l < "$file")
-              echo "- **$file** - Size: $size, Records: $((lines-1))" >> README.md
-            fi
-          done
-
-          if ls stock_data_log_*.txt 1> /dev/null 2>&1; then
-            echo "" >> README.md
-            echo "## 📋 Log Files" >> README.md
-            for logfile in stock_data_log_*.txt; do
-              if [ -f "$logfile" ]; then
-                size=$(ls -lh "$logfile" | awk '{print $5}')
-                echo "- **$logfile** - Size: $size" >> README.md
-              fi
-            done
-          fi
-
-          echo "" >> README.md
-          echo "## 🤖 Automation Info" >> README.md
-          echo "- **GitHub Action:** [${{ github.workflow }}](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})" >> README.md
-          echo "- **Commit SHA:** ${{ github.sha }}" >> README.md
-          echo "- **Repository:** ${{ github.repository }}" >> README.md
+          echo "📄 Generated files in Export directory:"
+          ls -la Export/ 2>/dev/null || echo "No files in Export directory"
 
       - name: Git config and pull
         run: |
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git pull origin main --rebase || true
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull origin main --rebase || true
 
       - name: 💾 Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "ファイル更新！"
-       

@@ -11,10 +11,14 @@ import logging
 warnings.filterwarnings("ignore")
 
 # ログ設定
+# Exportフォルダが存在しない場合は作成
+import os
+os.makedirs("Export", exist_ok=True)
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s",
-    handlers=[logging.FileHandler("stock_data_log.txt", encoding="utf-8"), logging.StreamHandler()],
+    handlers=[logging.FileHandler("Export/stock_data_log.txt", encoding="utf-8"), logging.StreamHandler()],
 )
 logger = logging.getLogger(__name__)
 
@@ -372,10 +376,12 @@ def main(json_filename="stocks_temp.json"):
         print(f"取得成功: {len(results)}社")
         print(f"取得失敗: {len(stock_list) - len(results)}社")
 
-        # CSVファイルに保存（入力ファイル名ベース）
+        # CSVファイルに保存（Export フォルダに直接保存）
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         base_name = json_filename.replace(".json", "").replace("stocks_", "")
-        filename = f"japanese_stocks_data_{base_name}_{timestamp}.csv"
+
+
+        filename = f"Export/japanese_stocks_data_{base_name}_{timestamp}.csv"
         df.to_csv(filename, index=False, encoding="utf-8-sig")
         print(f"\nデータをCSVファイルに保存しました: {filename}")
 
