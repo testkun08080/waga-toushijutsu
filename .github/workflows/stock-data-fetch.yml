@@ -141,6 +141,9 @@ jobs:
 
       - name: 💾 Commit and push changes
         run: |
+          # Pull
+          git pull --rebase origin main
+          
           # Add all new files in Export directory
           git add Export/
 
