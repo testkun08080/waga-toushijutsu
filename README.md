@@ -29,6 +29,8 @@
 
 ### GitHub Actions 自動化
 1. **📊 Stock Data Fetch**: 特定株式チャンクの詳細データ収集（手動実行）
+   - シンプルな入力パラメータ（株式ファイル選択のみ）
+   - `stock_list/Export/` への直接保存
 2. **📋 Stock List Update**: マスター株式リストの更新と分割（手動実行）
 3. **🌐 Deploy to GitHub Pages**: Web アプリケーションの自動デプロイ
 
@@ -51,7 +53,7 @@ uv run split_stocks.py --input stocks_all.json --size 1000
 # カスタム分割設定
 uv run split_stocks.py -i custom_data.json -s 500
 
-# 特定チャンクの処理
+# 特定チャンクの処理（Export/フォルダに直接保存）
 uv run sumalize.py stocks_1.json
 ```
 
@@ -69,6 +71,13 @@ npm run build
 
 ### GitHub Actions 自動化
 
+#### 株式データ収集ワークフロー
+1. GitHub リポジトリの **Actions** タブに移動
+2. **"📊 Stock Data Fetch"** ワークフローを選択
+3. **"Run workflow"** をクリック
+4. 処理対象の株式ファイルを選択（stocks_1.json ～ stocks_4.json）
+5. 実行してデータを `stock_list/Export/` に保存
+
 #### 株式リスト更新ワークフロー
 1. GitHub リポジトリの **Actions** タブに移動
 2. **"📋 Stock List Update"** ワークフローを選択
@@ -85,12 +94,15 @@ npm run build
 
 ### 株式データ管理
 ```
-株式データ構造:
+stock_list/ ディレクトリ構造:
 ├── stocks_all.json      # マスターリスト（全企業）
 ├── stocks_1.json        # 企業 1-1000
 ├── stocks_2.json        # 企業 1001-2000
 ├── stocks_3.json        # 企業 2001-3000
-└── stocks_4.json        # 企業 3001+
+├── stocks_4.json        # 企業 3001+
+└── Export/              # 生成されたデータファイル
+    ├── japanese_stocks_data_*.csv
+    └── stock_data_log.txt
 ```
 
 

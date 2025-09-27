@@ -172,7 +172,7 @@ python split_stocks.py
 **Automated File Organization:**
 - Time-stamped CSV files with standardized naming
 - Execution logs for debugging and monitoring
-- Auto-generated README with comprehensive metadata
+- Direct export to `stock_list/Export/` directory
 - Git version control integration with descriptive commit messages
 
 ## Data Architecture
@@ -256,18 +256,21 @@ This repository serves as a comprehensive Japanese stock analysis platform with:
 
 ### Data Collection Operations
 ```bash
-# Manual stock data collection (existing workflow)
+# Manual stock data collection (simplified workflow)
 # Navigate to GitHub Actions → "📊 Stock Data Fetch"
 # Select stock file (stocks_1.json - stocks_4.json)
-# Specify batch name and execute
+# Execute - files saved directly to stock_list/Export/
 
-# Update master stock list (new workflow)
+# Update master stock list
 # Navigate to GitHub Actions → "📋 Stock List Update"
 # Optionally specify update reason
 # Execute to refresh stocks_all.json and split files
 
 # Check available stock files
 ls stock_list/stocks_*.json
+
+# Check generated exports
+ls stock_list/Export/
 ```
 
 ### Web Application Development
