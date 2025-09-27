@@ -31,8 +31,9 @@ portfolio/
 │   └── deploy-github-pages.yml # Automated web application deployment (NEW)
 ├── current/                    # Personal portfolio data
 │   └── tes.md                 # Portfolio tracking file
-├── Export/                     # Generated data exports
-│   └── README.md              # Export documentation
+├── stock_list/                 # Data collection and processing
+│   ├── Export/                # Generated data exports
+│   │   └── README.md          # Export documentation
 ├── serch/                      # Research and analysis data
 │   ├── kogata/                # Small-cap company data by industry
 │   │   ├── *.csv             # Industry-specific financial data (23 sectors)
@@ -41,7 +42,6 @@ portfolio/
 │   │   ├── summary_data.json # Analysis summary
 │   │   └── 高ネットキャッシュ比率企業分析.md
 │   ├── 統合データ*.csv        # Consolidated datasets
-├── stock_list/                 # Data collection and processing
 │   ├── sumalize.py            # Main data collection script
 │   ├── split_stocks.py        # JSON file splitting utility
 │   ├── get_jp_stocklist.py    # Stock list acquisition from JPX
@@ -139,9 +139,9 @@ python split_stocks.py
 - **Trigger**: Manual button execution (workflow_dispatch)
 - **Purpose**: Process specific stock chunks for detailed financial data
 - **Environment**: Ubuntu latest with Python 3.11
-- **Input Parameters**: Stock file selection (stocks_1.json - stocks_4.json) and batch naming
-- **Process**: Data collection → Export organization → Automatic commit
-- **Output**: Structured files in Export/ directory with summary reports
+- **Input Parameters**: Stock file selection (stocks_1.json - stocks_4.json)
+- **Process**: Data collection → Direct export to stock_list/Export/ → Automatic commit
+- **Output**: Structured files in stock_list/Export/ directory with summary reports
 
 #### **Workflow 2: `stock-list-update.yml` (Automated Stock List Management)**
 - **Trigger**: Manual execution for stock list updates
@@ -167,10 +167,10 @@ python split_stocks.py
 - **Features**: Concurrent deployment protection, build artifact upload
 - **URL**: Accessible via GitHub Pages with repository path
 
-### 4. Export Management (`Export/`)
+### 4. Export Management (`stock_list/Export/`)
 
 **Automated File Organization:**
-- Time-stamped CSV files with batch identifiers
+- Time-stamped CSV files with standardized naming
 - Execution logs for debugging and monitoring
 - Auto-generated README with comprehensive metadata
 - Git version control integration with descriptive commit messages
@@ -322,8 +322,7 @@ npm run preview
 **Execution**: Manual via GitHub Actions interface
 **Parameters**:
 - `stock_file`: Choose from stocks_1.json - stocks_4.json or stocks_temp.json
-- `batch_name`: Identifier for output files (e.g., "batch1", "Q1-2024")
-**Output Location**: `Export/` directory with timestamped files
+**Output Location**: `stock_list/Export/` directory with timestamped files
 
 #### 2. Stock List Update Workflow
 **Purpose**: Refresh master stock list and regenerate split files
