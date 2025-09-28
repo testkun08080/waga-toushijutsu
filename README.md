@@ -1,4 +1,4 @@
-# 📊 日本株式分析プラットフォーム (waga-toushijutsu)
+# 📊 YhooFinance x 我が投資術(日本株式スクリーニングアプリ)
 
 ## 🌟 概要
 [我が投資術](https://amzn.to/3IEVRkq)を実践してみようと思い、yahoo fincnace を使用して取得したデータを可視化するwebアプリケーションです。
@@ -13,7 +13,6 @@
 - **リアルタイム検索・フィルタリング**: 静的ウェブアプリを使用して簡易複数条件による企業スクリーニング
 - **柔軟なデータ分割**: 改善された `split_stocks.py` による カスタマイズ可能なファイル分割
 - **株式リスト更新**: JPX 公式データからの最新株式リスト取得をgithubaction上で行える
-
 
 ## 🏗️ システム構成
 
@@ -117,12 +116,11 @@ stock_list/ ディレクトリ構造:
 
 
 ### コントリビューション
-このプロジェクトは個人開発・AI アシスタント連携による実験的な取り組みです。
+このプロジェクトは個人開発による実験的な取り組みです。
 機能要求や改善提案は Issue を通じてお気軽にご連絡ください。
 
-
 ## 🔗 関連リンク
-- **(ウェブアプリケーション)[testkun.net/waga-toushijutsu/]*
+- [**ウェブアプリケーション**](testkun.net/waga-toushijutsu/)
 - **データソース**: 日本取引所グループ（JPX）公式データ
 ```html
   https://www.jpx.co.jp/markets/statistics-equities/misc/tvdivq0000001vg2-att/data_j.xls
