@@ -1,6 +1,7 @@
 import React from 'react';
 import type { StockData, SortConfig } from '../types/stock';
 import { formatNumber, formatCurrency, formatPercentage } from '../utils/csvParser';
+import type { ColumnConfig } from './ColumnSelector';
 
 interface DataTableProps {
   data: StockData[];
@@ -8,6 +9,7 @@ interface DataTableProps {
   onSort: (key: keyof StockData) => void;
   currentPage: number;
   itemsPerPage: number;
+  visibleColumns: ColumnConfig[];
 }
 
 export const DataTable: React.FC<DataTableProps> = ({
@@ -15,7 +17,8 @@ export const DataTable: React.FC<DataTableProps> = ({
   sortConfig,
   onSort,
   currentPage,
-  itemsPerPage
+  itemsPerPage,
+  visibleColumns
 }) => {
   const startIndex = (currentPage - 1) * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
@@ -44,40 +47,26 @@ export const DataTable: React.FC<DataTableProps> = ({
     </th>
   );
 
-  // 動的にすべての列を取得
-  const getAvailableColumns = (): Array<{key: keyof StockData, label: string, format: string}> => {
-    if (currentData.length === 0) return [];
-    
-    const firstRow = currentData[0];
-    const columns: Array<{key: keyof StockData, label: string, format: string}> = [];
-    
-    Object.keys(firstRow).forEach(key => {
-      const typedKey = key as keyof StockData;
-      const value = firstRow[typedKey];
-      
-      // 常に表示する基本列
-      if (['会社名', '銘柄コード', '業種', '優先市場'].includes(key)) {
-        columns.push({key: typedKey, label: key, format: 'string'});
-      }
-      // 数値列で値が存在するもの
-      else if (typeof value === 'number' || (Array.isArray(currentData) && currentData.some(row => typeof row[typedKey] === 'number'))) {
-        let format = 'number';
-        if (key.includes('率') || key.includes('ROE')) format = 'percentage';
-        else if (key.includes('総額') || key.includes('売上高') || key.includes('利益') || key.includes('負債') || key.includes('資産') || key.includes('キャッシュ')) format = 'currency';
-        else if (key.includes('PBR') || key.includes('PER')) format = 'decimal';
-        
-        columns.push({key: typedKey, label: key, format});
-      }
-      // その他の文字列列
-      else if (value !== null && value !== undefined) {
-        columns.push({key: typedKey, label: key, format: 'string'});
-      }
+  // 表示する列のみを取得
+  const getDisplayColumns = (): Array<{key: keyof StockData, label: string, format: string}> => {
+    const displayColumns: Array<{key: keyof StockData, label: string, format: string}> = [];
+
+    visibleColumns.filter(col => col.visible).forEach(col => {
+      const key = col.key as keyof StockData;
+
+      let format = 'string';
+      if (col.key.includes('率') || col.key.includes('ROE')) format = 'percentage';
+      else if (col.key.includes('総額') || col.key.includes('売上高') || col.key.includes('利益') || col.key.includes('負債') || col.key.includes('資産') || col.key.includes('キャッシュ')) format = 'currency';
+      else if (col.key.includes('PBR') || col.key.includes('PER')) format = 'decimal';
+      else if (typeof currentData[0]?.[key] === 'number') format = 'number';
+
+      displayColumns.push({key, label: col.label, format});
     });
-    
-    return columns;
+
+    return displayColumns;
   };
 
-  const columns = getAvailableColumns();
+  const columns = getDisplayColumns();
 
   const formatValue = (value: any, format: string) => {
     if (value === null || value === undefined) return '-';
@@ -106,7 +95,7 @@ export const DataTable: React.FC<DataTableProps> = ({
                 key={column.key} 
                 label={column.label} 
                 sortKey={column.key} 
-                className={`min-w-24 ${index === 0 || index === 1 ? 'sticky z-10 bg-base-200' : ''} ${index === 0 ? 'left-0' : index === 1 ? 'left-48' : ''}`}
+                className={`min-w-24 ${index === 0 || index === 1 ? 'sticky z-10 bg-base-200' : ''} ${index === 0 ? 'left-0' : index === 1 ? 'left-32' : ''}`}
               />
             ))}
           </tr>
@@ -118,7 +107,7 @@ export const DataTable: React.FC<DataTableProps> = ({
                 const value = stock[column.key];
                 const isNetCash = column.key === 'ネットキャッシュ（流動資産-負債）';
                 const isSticky = colIndex === 0 || colIndex === 1;
-                const stickyClass = isSticky ? `sticky z-10 bg-white ${colIndex === 0 ? 'left-0' : 'left-48'}` : '';
+                const stickyClass = isSticky ? `sticky z-10 bg-white ${colIndex === 0 ? 'left-0' : 'left-32'}` : '';
                 
                 return (
                   <td 
