@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 import { VitePWA } from "vite-plugin-pwa"
 
 // https://vite.dev/config/
-export default defineConfig({
+export default defineConfig(() => ({
   plugins: [
     react(),
     tailwindcss(),
@@ -33,7 +33,10 @@ export default defineConfig({
         enabled: true,
       },
     }),],
-  base: process.env.NODE_ENV === 'production' ? '/waga-toushijutsu/' : '/',
+  base: process.env.GITHUB_PAGES === 'true' ? '/waga-toushijutsu/' : '/',
+  define: {
+    'import.meta.env.VITE_GITHUB_PAGES': JSON.stringify(process.env.GITHUB_PAGES)
+  },
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
@@ -47,4 +50,4 @@ export default defineConfig({
       }
     }
   }
-})
+}))

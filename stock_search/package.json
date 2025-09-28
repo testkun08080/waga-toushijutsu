@@ -7,8 +7,10 @@
     "dev": "vite",
     "prebuild": "node scripts/copy-csv-files.js",
     "build": "tsc -b && vite build",
+    "build:github": "cross-env GITHUB_PAGES=true npm run build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "preview:github": "cross-env GITHUB_PAGES=true npm run build && vite preview --base=/waga-toushijutsu/",
     "copy-csv": "node scripts/copy-csv-files.js"
   },
   "dependencies": {

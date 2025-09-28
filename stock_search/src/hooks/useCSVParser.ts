@@ -30,7 +30,7 @@ export const useCSVParser = (file: CSVFile | null) => {
       setError(null);
 
       // base path for GitHub Pages
-      const basePath = import.meta.env.MODE === 'production' ? '/waga-toushijutsu' : '';
+      const basePath = import.meta.env.VITE_GITHUB_PAGES === 'true' ? '/waga-toushijutsu' : '';
       const response = await fetch(`${basePath}${csvFile.url}`);
 
       if (!response.ok) {

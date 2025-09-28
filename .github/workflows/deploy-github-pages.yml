@@ -44,6 +44,7 @@ jobs:
         run: npm run build
         env:
           NODE_ENV: production
+          GITHUB_PAGES: true
 
       - name: 📊 Build summary
         working-directory: ./stock_search

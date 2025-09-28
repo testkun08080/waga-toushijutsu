@@ -32,7 +32,7 @@ export const DataPage = () => {
       setError(null);
 
       // base path for GitHub Pages
-      const basePath = import.meta.env.MODE === 'production' ? '/waga-toushijutsu' : '';
+      const basePath = import.meta.env.VITE_GITHUB_PAGES === 'true' ? '/waga-toushijutsu' : '';
       const response = await fetch(`${basePath}/csv/files.json`);
 
       if (!response.ok) {
