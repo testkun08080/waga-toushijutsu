@@ -70,3 +70,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "ファイル更新！"
+          push_options: --force
