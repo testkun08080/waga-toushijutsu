@@ -49,7 +49,7 @@ portfolio/
 │   ├── stocks_*.json          # Split stock data (4 files, 1000 companies each)
 │   ├── requirements.txt       # Python dependencies
 │   └── yfTest.ipynb          # Testing notebook
-├── stock_serch/               # Web application (React + TypeScript)
+├── stock_search/               # Web application (React + TypeScript)
 │   ├── src/
 │   │   ├── components/       # React components
 │   │   │   ├── DataTable.tsx # Dynamic CSV display
@@ -109,7 +109,7 @@ python split_stocks.py -i custom_data.json -s 500 --verbose
 python split_stocks.py
 ```
 
-### 2. Web Application (`stock_serch/`)
+### 2. Web Application (`stock_search/`)
 
 **Technology Stack:**
 - **Frontend**: React 18 + TypeScript + Vite
@@ -129,7 +129,7 @@ python split_stocks.py
 
 **Deployment Information:**
 - **URL**: `https://{username}.github.io/waga-toushijutsu/`
-- **Auto-Deploy**: Triggered on changes to `stock_serch/` directory
+- **Auto-Deploy**: Triggered on changes to `stock_search/` directory
 - **Build Process**: Vite production build with optimized chunks
 - **Performance**: Vendor chunks separated for efficient caching
 
@@ -157,7 +157,7 @@ python split_stocks.py
 - **Commit Format**: "📋 日本株式のリストを更新(YYYY年MM月DD日)"
 
 #### **Workflow 3: `deploy-github-pages.yml` (Web Application Deployment)**
-- **Trigger**: Automatic on push to main/master branch when `stock_serch/` changes
+- **Trigger**: Automatic on push to main/master branch when `stock_search/` changes
 - **Purpose**: Build and deploy React application to GitHub Pages
 - **Environment**: Ubuntu latest with Node.js 20
 - **Process**:
@@ -276,7 +276,7 @@ ls stock_list/Export/
 ### Web Application Development
 ```bash
 # Start development server
-cd stock_serch
+cd stock_search
 npm run dev
 
 # Build for production (matches GitHub Actions)
@@ -292,7 +292,7 @@ npm run preview
 ### Deployment Operations
 
 **Automatic Deployment:**
-- Push changes to `stock_serch/` directory on main/master branch
+- Push changes to `stock_search/` directory on main/master branch
 - GitHub Actions automatically builds and deploys to GitHub Pages
 - Monitor deployment status in repository Actions tab
 
@@ -341,7 +341,7 @@ npm run preview
 
 #### 3. GitHub Pages Deployment Workflow
 **Purpose**: Build and deploy web application
-**Execution**: Automatic on `stock_serch/` changes, or manual
+**Execution**: Automatic on `stock_search/` changes, or manual
 **Process Flow**:
 1. Build React application with production configuration
 2. Generate optimized bundle with vendor chunk separation
@@ -401,12 +401,12 @@ npm run preview
 ### Local Development Process
 1. **Environment Setup**: Python 3.11+ and Node.js 20+ required
 2. **Data Development**: Work in `stock_list/` directory for data processing scripts
-3. **Web Development**: Work in `stock_serch/` directory for React application
+3. **Web Development**: Work in `stock_search/` directory for React application
 4. **Testing**: Use provided test files and validation scripts
 5. **Deployment**: Push to main branch triggers automatic deployment
 
 ### Production Deployment Process
-1. **Code Changes**: Modify files in `stock_serch/` directory
+1. **Code Changes**: Modify files in `stock_search/` directory
 2. **Automatic Build**: GitHub Actions builds application automatically
 3. **Deployment**: Application deployed to GitHub Pages with optimized configuration
 4. **Verification**: Check live site and deployment logs for issues

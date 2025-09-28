@@ -76,7 +76,7 @@ npm run preview
 ## 📂 プロジェクト構造
 
 ```
-stock_serch/
+stock_search/
 ├── src/
 │   ├── components/         # Reactコンポーネント
 │   ├── hooks/              # カスタムフック

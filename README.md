@@ -21,7 +21,7 @@
 - **yfinance API** との統合によるリアルタイムデータ取得
 
 
-### Web アプリケーション (`stock_serch/`)
+### Web アプリケーション (`stock_search/`)
 - **React 18 + TypeScript + Vite** による現代的な Web インターface
 - **Tailwind CSS + DaisyUI** によるレスポンシブデザイン
 
@@ -58,7 +58,7 @@ uv run sumalize.py stocks_1.json
 
 #### Web アプリケーション
 ```bash
-cd stock_serch
+cd stock_search
 npm install
 
 # 開発サーバー起動
@@ -85,7 +85,7 @@ npm run build
 5. 実行して `stocks_all.json` と分割ファイルを自動更新
 
 #### Web アプリケーション デプロイ
-- `stock_serch/` ディレクトリのファイルを変更
+- `stock_search/` ディレクトリのファイルを変更
 - メインブランチにプッシュ
 - 自動的にビルド・デプロイが実行される
 - ライブサイト: `https://{username}.github.io/waga-toushijutsu/`
