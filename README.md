@@ -122,7 +122,7 @@ stock_list/ ディレクトリ構造:
 
 
 ## 🔗 関連リンク
-- **(ウェブアプリケーション)[testkun.net/waga-toushijutsu/]*
+- [**ウェブアプリケーション**](testkun.net/waga-toushijutsu/)
 - **データソース**: 日本取引所グループ（JPX）公式データ
 ```html
   https://www.jpx.co.jp/markets/statistics-equities/misc/tvdivq0000001vg2-att/data_j.xls
