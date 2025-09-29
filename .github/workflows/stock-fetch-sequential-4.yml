@@ -1,0 +1,102 @@
+name: 📊 Sequential Stock Fetch - Part 4 (Final)
+
+permissions:
+  contents: write
+  actions: write
+
+on:
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: "開始理由（オプション）"
+        required: false
+        default: "Sequential stock data collection - Part 4 (Final)"
+        type: string
+
+jobs:
+  fetch-stocks-4-final:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    permissions:
+      contents: write
+
+    outputs:
+      success: ${{ steps.process.outcome == 'success' }}
+
+    steps:
+      - name: 🔄 Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: 📦 Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r stock_list/requirements.txt
+
+      - name: 📋 Show process info
+        run: |
+          echo "🚀 Sequential Stock Fetch - Part 4/4 (Final)"
+          echo "Processing file: stocks_4.json"
+          echo "Reason: ${{ github.event.inputs.reason }}"
+          echo "Timestamp: $(date)"
+          echo "Working directory: $(pwd)"
+          ls -la stock_list/
+
+      - name: 🏃 Process stocks_4.json (Final)
+        id: process
+        working-directory: ./stock_list
+        run: |
+          echo "🚀 Starting stock data collection for stocks_4.json (Final part)..."
+          echo "Timestamp: $(date)"
+
+          python sumalize.py "stocks_4.json"
+
+          echo "✅ Part 4 (Final) completed successfully"
+          echo "📄 Generated files in Export directory:"
+          ls -la Export/ 2>/dev/null || echo "No files in Export directory"
+          echo ""
+          echo "🎉 ALL SEQUENTIAL STOCK FETCH PARTS COMPLETED!"
+          echo "📊 All 4 parts (stocks_1.json - stocks_4.json) have been processed"
+
+      - name: Git config and pull
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull origin main --rebase || true
+
+      - name: 💾 Commit changes - Part 4 (Final)
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "🎉 Sequential Stock Fetch - 全4部完了！ ($(date +'%Y年%m月%d日 %H:%M'))"
+          push_options: --force
+
+  completion-summary:
+    needs: fetch-stocks-4-final
+    runs-on: ubuntu-latest
+    if: needs.fetch-stocks-4-final.outputs.success == 'true'
+
+    steps:
+      - name: 🔄 Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 📊 Generate completion summary
+        run: |
+          echo "🎉 SEQUENTIAL STOCK FETCH COMPLETED SUCCESSFULLY!"
+          echo "================================================="
+          echo "⏰ Completion time: $(date)"
+          echo "📂 All data exported to: stock_list/Export/"
+          echo "📊 Processed files:"
+          echo "  ✅ Part 1: stocks_1.json"
+          echo "  ✅ Part 2: stocks_2.json"
+          echo "  ✅ Part 3: stocks_3.json"
+          echo "  ✅ Part 4: stocks_4.json"
+          echo ""
+          echo "📄 Export directory contents:"
+          ls -la stock_list/Export/ 2>/dev/null || echo "No files found"
+          echo ""
+          echo "🚀 Sequential workflow chain execution completed!"
