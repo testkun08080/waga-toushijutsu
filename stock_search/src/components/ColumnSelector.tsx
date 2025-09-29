@@ -56,7 +56,7 @@ export const getDefaultColumns = (availableColumns: string[]): ColumnConfig[] =>
 
   return availableColumns.map(col => ({
     key: col,
-    visible: true, // 全列をデフォルトで表示
+    visible: !['会計基準', '都道府県'].includes(col), // 会計基準・都道府県はデフォルトで非表示、他はデフォルトで表示
     ...columnDefinitions[col] || { label: col, category: 'basic' }
   }));
 };

@@ -6,8 +6,8 @@ import { urlParamsToFilters, updateUrlWithFilters, generateShareUrl } from '../u
 const initialFilters: SearchFilters = {
   companyName: '',
   industries: [],
-  market: '',
-  prefecture: '',
+  market: [],
+  prefecture: [],
   marketCapMin: null,
   marketCapMax: null,
   pbrMin: null,
@@ -73,13 +73,13 @@ export const useFilters = (data: StockData[]) => {
         return false;
       }
 
-      // 市場フィルター
-      if (filters.market && stock.優先市場 !== filters.market) {
+      // 市場フィルター（複数選択）
+      if (filters.market.length > 0 && !filters.market.includes(stock.優先市場 || '')) {
         return false;
       }
 
-      // 都道府県フィルター
-      if (filters.prefecture && stock.都道府県 !== filters.prefecture) {
+      // 都道府県フィルター（複数選択）
+      if (filters.prefecture.length > 0 && !filters.prefecture.includes(stock.都道府県 || '')) {
         return false;
       }
 
@@ -100,26 +100,26 @@ export const useFilters = (data: StockData[]) => {
       }
 
       // 時価総額フィルター
-      if (filters.marketCapMin !== null && (stock.時価総額 === null || stock.時価総額 === undefined || stock.時価総額 < filters.marketCapMin * 100000000)) {
+      if (filters.marketCapMin !== null && (stock.時価総額 === null || stock.時価総額 === undefined || stock.時価総額 < filters.marketCapMin * 1000000)) {
         return false;
       }
-      if (filters.marketCapMax !== null && (stock.時価総額 === null || stock.時価総額 === undefined || stock.時価総額 > filters.marketCapMax * 100000000)) {
+      if (filters.marketCapMax !== null && (stock.時価総額 === null || stock.時価総額 === undefined || stock.時価総額 > filters.marketCapMax * 1000000)) {
         return false;
       }
 
       // 売上高フィルター
-      if (filters.revenueMin !== null && (stock.売上高 === null || stock.売上高 === undefined || stock.売上高 < filters.revenueMin * 100000000)) {
+      if (filters.revenueMin !== null && (stock.売上高 === null || stock.売上高 === undefined || stock.売上高 < filters.revenueMin * 1000000)) {
         return false;
       }
-      if (filters.revenueMax !== null && (stock.売上高 === null || stock.売上高 === undefined || stock.売上高 > filters.revenueMax * 100000000)) {
+      if (filters.revenueMax !== null && (stock.売上高 === null || stock.売上高 === undefined || stock.売上高 > filters.revenueMax * 1000000)) {
         return false;
       }
 
       // 営業利益フィルター
-      if (filters.operatingProfitMin !== null && (stock.営業利益 === null || stock.営業利益 === undefined || stock.営業利益 < filters.operatingProfitMin * 100000000)) {
+      if (filters.operatingProfitMin !== null && (stock.営業利益 === null || stock.営業利益 === undefined || stock.営業利益 < filters.operatingProfitMin * 1000000)) {
         return false;
       }
-      if (filters.operatingProfitMax !== null && (stock.営業利益 === null || stock.営業利益 === undefined || stock.営業利益 > filters.operatingProfitMax * 100000000)) {
+      if (filters.operatingProfitMax !== null && (stock.営業利益 === null || stock.営業利益 === undefined || stock.営業利益 > filters.operatingProfitMax * 1000000)) {
         return false;
       }
 
@@ -132,10 +132,10 @@ export const useFilters = (data: StockData[]) => {
       }
 
       // 当期純利益フィルター
-      if (filters.netProfitMin !== null && (stock.当期純利益 === null || stock.当期純利益 === undefined || stock.当期純利益 < filters.netProfitMin * 100000000)) {
+      if (filters.netProfitMin !== null && (stock.当期純利益 === null || stock.当期純利益 === undefined || stock.当期純利益 < filters.netProfitMin * 1000000)) {
         return false;
       }
-      if (filters.netProfitMax !== null && (stock.当期純利益 === null || stock.当期純利益 === undefined || stock.当期純利益 > filters.netProfitMax * 100000000)) {
+      if (filters.netProfitMax !== null && (stock.当期純利益 === null || stock.当期純利益 === undefined || stock.当期純利益 > filters.netProfitMax * 1000000)) {
         return false;
       }
 
@@ -164,58 +164,58 @@ export const useFilters = (data: StockData[]) => {
       }
 
       // 負債フィルター
-      if (filters.totalLiabilitiesMin !== null && (stock.負債 === null || stock.負債 === undefined || stock.負債 < filters.totalLiabilitiesMin * 100000000)) {
+      if (filters.totalLiabilitiesMin !== null && (stock.負債 === null || stock.負債 === undefined || stock.負債 < filters.totalLiabilitiesMin * 1000000)) {
         return false;
       }
-      if (filters.totalLiabilitiesMax !== null && (stock.負債 === null || stock.負債 === undefined || stock.負債 > filters.totalLiabilitiesMax * 100000000)) {
+      if (filters.totalLiabilitiesMax !== null && (stock.負債 === null || stock.負債 === undefined || stock.負債 > filters.totalLiabilitiesMax * 1000000)) {
         return false;
       }
 
       // 流動負債フィルター
-      if (filters.currentLiabilitiesMin !== null && (stock.流動負債 === null || stock.流動負債 === undefined || stock.流動負債 < filters.currentLiabilitiesMin * 100000000)) {
+      if (filters.currentLiabilitiesMin !== null && (stock.流動負債 === null || stock.流動負債 === undefined || stock.流動負債 < filters.currentLiabilitiesMin * 1000000)) {
         return false;
       }
-      if (filters.currentLiabilitiesMax !== null && (stock.流動負債 === null || stock.流動負債 === undefined || stock.流動負債 > filters.currentLiabilitiesMax * 100000000)) {
+      if (filters.currentLiabilitiesMax !== null && (stock.流動負債 === null || stock.流動負債 === undefined || stock.流動負債 > filters.currentLiabilitiesMax * 1000000)) {
         return false;
       }
 
       // 流動資産フィルター
-      if (filters.currentAssetsMin !== null && (stock.流動資産 === null || stock.流動資産 === undefined || stock.流動資産 < filters.currentAssetsMin * 100000000)) {
+      if (filters.currentAssetsMin !== null && (stock.流動資産 === null || stock.流動資産 === undefined || stock.流動資産 < filters.currentAssetsMin * 1000000)) {
         return false;
       }
-      if (filters.currentAssetsMax !== null && (stock.流動資産 === null || stock.流動資産 === undefined || stock.流動資産 > filters.currentAssetsMax * 100000000)) {
+      if (filters.currentAssetsMax !== null && (stock.流動資産 === null || stock.流動資産 === undefined || stock.流動資産 > filters.currentAssetsMax * 1000000)) {
         return false;
       }
 
       // 総負債フィルター
-      if (filters.totalDebtMin !== null && (stock.総負債 === null || stock.総負債 === undefined || stock.総負債 < filters.totalDebtMin * 100000000)) {
+      if (filters.totalDebtMin !== null && (stock.総負債 === null || stock.総負債 === undefined || stock.総負債 < filters.totalDebtMin * 1000000)) {
         return false;
       }
-      if (filters.totalDebtMax !== null && (stock.総負債 === null || stock.総負債 === undefined || stock.総負債 > filters.totalDebtMax * 100000000)) {
+      if (filters.totalDebtMax !== null && (stock.総負債 === null || stock.総負債 === undefined || stock.総負債 > filters.totalDebtMax * 1000000)) {
         return false;
       }
 
       // 現金及び現金同等物フィルター
-      if (filters.cashMin !== null && (stock['現金及び現金同等物'] === null || stock['現金及び現金同等物'] === undefined || stock['現金及び現金同等物'] < filters.cashMin * 100000000)) {
+      if (filters.cashMin !== null && (stock['現金及び現金同等物'] === null || stock['現金及び現金同等物'] === undefined || stock['現金及び現金同等物'] < filters.cashMin * 1000000)) {
         return false;
       }
-      if (filters.cashMax !== null && (stock['現金及び現金同等物'] === null || stock['現金及び現金同等物'] === undefined || stock['現金及び現金同等物'] > filters.cashMax * 100000000)) {
+      if (filters.cashMax !== null && (stock['現金及び現金同等物'] === null || stock['現金及び現金同等物'] === undefined || stock['現金及び現金同等物'] > filters.cashMax * 1000000)) {
         return false;
       }
 
       // 投資有価証券フィルター
-      if (filters.investmentsMin !== null && (stock.投資有価証券 === null || stock.投資有価証券 === undefined || stock.投資有価証券 < filters.investmentsMin * 100000000)) {
+      if (filters.investmentsMin !== null && (stock.投資有価証券 === null || stock.投資有価証券 === undefined || stock.投資有価証券 < filters.investmentsMin * 1000000)) {
         return false;
       }
-      if (filters.investmentsMax !== null && (stock.投資有価証券 === null || stock.投資有価証券 === undefined || stock.投資有価証券 > filters.investmentsMax * 100000000)) {
+      if (filters.investmentsMax !== null && (stock.投資有価証券 === null || stock.投資有価証券 === undefined || stock.投資有価証券 > filters.investmentsMax * 1000000)) {
         return false;
       }
 
       // ネットキャッシュフィルター
-      if (filters.netCashMin !== null && (stock.ネットキャッシュ === null || stock.ネットキャッシュ === undefined || stock.ネットキャッシュ < filters.netCashMin * 100000000)) {
+      if (filters.netCashMin !== null && (stock.ネットキャッシュ === null || stock.ネットキャッシュ === undefined || stock.ネットキャッシュ < filters.netCashMin * 1000000)) {
         return false;
       }
-      if (filters.netCashMax !== null && (stock.ネットキャッシュ === null || stock.ネットキャッシュ === undefined || stock.ネットキャッシュ > filters.netCashMax * 100000000)) {
+      if (filters.netCashMax !== null && (stock.ネットキャッシュ === null || stock.ネットキャッシュ === undefined || stock.ネットキャッシュ > filters.netCashMax * 1000000)) {
         return false;
       }
 
@@ -308,11 +308,33 @@ export const useFilters = (data: StockData[]) => {
     return industries;
   }, [data]);
 
+  // ユニークな市場一覧を取得
+  const availableMarkets = useMemo(() => {
+    const markets = data
+      .map(stock => stock.優先市場)
+      .filter((market): market is string => market !== undefined && market !== null && market !== '')
+      .filter((market, index, arr) => arr.indexOf(market) === index)
+      .sort();
+    return markets;
+  }, [data]);
+
+  // ユニークな都道府県一覧を取得
+  const availablePrefectures = useMemo(() => {
+    const prefectures = data
+      .map(stock => stock.都道府県)
+      .filter((prefecture): prefecture is string => prefecture !== undefined && prefecture !== null && prefecture !== '')
+      .filter((prefecture, index, arr) => arr.indexOf(prefecture) === index)
+      .sort();
+    return prefectures;
+  }, [data]);
+
   return {
     filters,
     filteredData,
     sortConfig,
     availableIndustries,
+    availableMarkets,
+    availablePrefectures,
     updateFilter,
     clearFilters,
     handleSort,

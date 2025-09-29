@@ -49,20 +49,6 @@ export const NotFound: React.FC = () => {
             </button>
           </div>
 
-          {/* 追加情報 */}
-          <div className="mt-12 p-4 bg-info/10 border border-info/30 rounded-lg">
-            <h3 className="font-semibold text-info mb-2">
-              💡 よくアクセスされるページ
-            </h3>
-            <div className="flex flex-col sm:flex-row gap-2 justify-center">
-              <Link
-                to="/"
-                className="link link-info text-sm"
-              >
-                📊 データビューア
-              </Link>
-            </div>
-          </div>
 
           {/* サポート情報 */}
           <div className="mt-6 text-xs text-base-content/50">

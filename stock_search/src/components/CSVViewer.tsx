@@ -5,6 +5,7 @@ import { SearchFilters } from './SearchFilters';
 import { DataTable } from './DataTable';
 import { Pagination } from './Pagination';
 import { ColumnSelector, getDefaultColumns, type ColumnConfig } from './ColumnSelector';
+import { DownloadButton } from './DownloadButton';
 import type { PaginationConfig } from '../types/stock';
 
 interface CSVFile {
@@ -21,7 +22,7 @@ interface CSVViewerProps {
 
 export const CSVViewer = ({ file }: CSVViewerProps) => {
   const { data, loading, error, reload } = useCSVParser(file);
-  const { filters, filteredData, sortConfig, availableIndustries, updateFilter, clearFilters, handleSort, copyShareUrl } = useFilters(data);
+  const { filters, filteredData, sortConfig, availableIndustries, availableMarkets, availablePrefectures, updateFilter, clearFilters, handleSort, copyShareUrl } = useFilters(data);
   const [shareMessage, setShareMessage] = useState<string | null>(null);
   const [paginationConfig, setPaginationConfig] = useState<PaginationConfig>({
     currentPage: 1,
@@ -165,20 +166,67 @@ export const CSVViewer = ({ file }: CSVViewerProps) => {
 
   return (
     <div className="space-y-6">
-      {/* ヘッダー情報とサマリー */}
+
+
+      {/* 検索フィルター */}
+      <SearchFilters
+        filters={filters}
+        availableIndustries={availableIndustries}
+        availableMarkets={availableMarkets}
+        availablePrefectures={availablePrefectures}
+        onFilterChange={updateFilter}
+        onClearFilters={clearFilters}
+      />
+
+            {/* ヘッダー情報とサマリー */}
       <div className="card bg-base-100 shadow-sm">
         <div className="card-body">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-4">
             <div>
-              <h2 className="card-title text-xl">{file.displayName}</h2>
-              <p className="text-base-content/70 text-sm">
-                {summary ? `${summary.filteredCount.toLocaleString()} 件のデータ` : ''}
-                {summary && summary.filteredCount !== summary.totalCount && ` (${summary.totalCount.toLocaleString()} 件中)`}
-              </p>
+              <h2 className="card-title text-xl">検索結果:</h2>
             </div>
 
-            {/* コントロールボタン */}
-            <div className="flex gap-2">
+
+          </div>
+
+          {/* データサマリー */}
+          {summary && summary.totalCount > 0 && (
+            <div className="grid grid-cols-2 md:grid-cols-5 gap-4 text-center">
+              <div>
+                <div className="text-2xl font-bold text-primary">{summary.totalCount}</div>
+                <div className="text-sm text-base-content/70">総企業数</div>
+              </div>
+              <div>
+                <div className="text-2xl font-bold text-secondary">{summary.filteredCount}</div>
+                <div className="text-sm text-base-content/70">検索結果</div>
+              </div>
+              <div>
+                <div className="text-lg font-bold text-base-content">{(summary.avgMarketCap / 1000000).toFixed(0)}</div>
+                <div className="text-sm text-base-content/70">平均時価総額（百万円）</div>
+              </div>
+              <div>
+                <div className="text-lg font-bold text-base-content">{summary.avgPBR.toFixed(2)}</div>
+                <div className="text-sm text-base-content/70">平均PBR</div>
+              </div>
+              <div>
+                <div className="text-lg font-bold text-base-content">{(summary.avgROE * 100).toFixed(1)}%</div>
+                <div className="text-sm text-base-content/70">平均ROE</div>
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
+
+                  {/* コントロールボタン */}
+            <div className="flex flex-wrap gap-2">
+              {/* CSVダウンロードボタン */}
+              <DownloadButton
+                data={filteredData}
+                columns={columns}
+                fileName={file.name.replace(/\.[^/.]+$/, "")} // 拡張子を除去
+                totalCount={data.length}
+              />
+
               {/* シェアボタン */}
               {hasActiveFilters() && (
                 <div className="relative">
@@ -206,43 +254,6 @@ export const CSVViewer = ({ file }: CSVViewerProps) => {
                 />
               )}
             </div>
-          </div>
-
-          {/* データサマリー */}
-          {summary && summary.totalCount > 0 && (
-            <div className="grid grid-cols-2 md:grid-cols-5 gap-4 text-center">
-              <div>
-                <div className="text-2xl font-bold text-primary">{summary.totalCount}</div>
-                <div className="text-sm text-base-content/70">総企業数</div>
-              </div>
-              <div>
-                <div className="text-2xl font-bold text-secondary">{summary.filteredCount}</div>
-                <div className="text-sm text-base-content/70">検索結果</div>
-              </div>
-              <div>
-                <div className="text-lg font-bold text-base-content">{(summary.avgMarketCap / 100000000).toFixed(0)}億円</div>
-                <div className="text-sm text-base-content/70">平均時価総額</div>
-              </div>
-              <div>
-                <div className="text-lg font-bold text-base-content">{summary.avgPBR.toFixed(2)}</div>
-                <div className="text-sm text-base-content/70">平均PBR</div>
-              </div>
-              <div>
-                <div className="text-lg font-bold text-base-content">{(summary.avgROE * 100).toFixed(1)}%</div>
-                <div className="text-sm text-base-content/70">平均ROE</div>
-              </div>
-            </div>
-          )}
-        </div>
-      </div>
-
-      {/* 検索フィルター */}
-      <SearchFilters
-        filters={filters}
-        availableIndustries={availableIndustries}
-        onFilterChange={updateFilter}
-        onClearFilters={clearFilters}
-      />
 
       {/* データテーブル */}
       <DataTable

@@ -61,16 +61,9 @@ export const formatNumber = (value: number | null, decimals = 0): string => {
 
 export const formatCurrency = (value: number | null): string => {
   if (value === null || value === undefined) return '-';
-  
-  if (value >= 1000000000000) {
-    return `${formatNumber(value / 1000000000000, 1)}兆円`;
-  } else if (value >= 100000000) {
-    return `${formatNumber(value / 100000000, 0)}億円`;
-  } else if (value >= 10000) {
-    return `${formatNumber(value / 10000, 0)}万円`;
-  } else {
-    return `${formatNumber(value)}円`;
-  }
+
+  // 全て百万円単位で表示（単位サフィックスなし）
+  return formatNumber(value / 1000000, 0);
 };
 
 export const formatPercentage = (value: number | null): string => {

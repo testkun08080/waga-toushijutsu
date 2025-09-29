@@ -1,28 +1,20 @@
 import React, { useState } from 'react';
-import { MARKET_OPTIONS } from '../types/stock';
 import type { SearchFilters as SearchFiltersType } from '../types/stock';
 
 interface SearchFiltersProps {
   filters: SearchFiltersType;
   availableIndustries: string[];
+  availableMarkets: string[];
+  availablePrefectures: string[];
   onFilterChange: (key: keyof SearchFiltersType, value: string | number | string[] | null) => void;
   onClearFilters: () => void;
 }
 
-// 都道府県のオプション
-const PREFECTURE_OPTIONS = [
-  '北海道', '青森県', '岩手県', '宮城県', '秋田県', '山形県', '福島県',
-  '茨城県', '栃木県', '群馬県', '埼玉県', '千葉県', '東京都', '神奈川県',
-  '新潟県', '富山県', '石川県', '福井県', '山梨県', '長野県', '岐阜県',
-  '静岡県', '愛知県', '三重県', '滋賀県', '京都府', '大阪府', '兵庫県',
-  '奈良県', '和歌山県', '鳥取県', '島根県', '岡山県', '広島県', '山口県',
-  '徳島県', '香川県', '愛媛県', '高知県', '福岡県', '佐賀県', '長崎県',
-  '熊本県', '大分県', '宮崎県', '鹿児島県', '沖縄県'
-];
-
 export const SearchFilters: React.FC<SearchFiltersProps> = ({
   filters,
   availableIndustries,
+  availableMarkets,
+  availablePrefectures,
   onFilterChange,
   onClearFilters
 }) => {
@@ -47,6 +39,24 @@ export const SearchFilters: React.FC<SearchFiltersProps> = ({
       onFilterChange('industries', [...currentIndustries, industry]);
     } else {
       onFilterChange('industries', currentIndustries.filter(i => i !== industry));
+    }
+  };
+
+  const handleMarketChange = (market: string, checked: boolean) => {
+    const currentMarkets = filters.market || [];
+    if (checked) {
+      onFilterChange('market', [...currentMarkets, market]);
+    } else {
+      onFilterChange('market', currentMarkets.filter(m => m !== market));
+    }
+  };
+
+  const handlePrefectureChange = (prefecture: string, checked: boolean) => {
+    const currentPrefectures = filters.prefecture || [];
+    if (checked) {
+      onFilterChange('prefecture', [...currentPrefectures, prefecture]);
+    } else {
+      onFilterChange('prefecture', currentPrefectures.filter(p => p !== prefecture));
     }
   };
 
@@ -129,48 +139,10 @@ export const SearchFilters: React.FC<SearchFiltersProps> = ({
               />
             </div>
 
-            {/* 市場選択 */}
-            <div className="form-control">
-              <label className="label">
-                <span className="label-text">優先市場</span>
-              </label>
-              <select
-                className="select select-bordered select-sm"
-                value={filters.market}
-                onChange={(e) => onFilterChange('market', e.target.value)}
-              >
-                <option value="">すべて</option>
-                {MARKET_OPTIONS.map((market) => (
-                  <option key={market} value={market}>
-                    {market.replace('（内国株式）', '')}
-                  </option>
-                ))}
-              </select>
-            </div>
-
-            {/* 都道府県選択 */}
-            <div className="form-control">
-              <label className="label">
-                <span className="label-text">都道府県</span>
-              </label>
-              <select
-                className="select select-bordered select-sm"
-                value={filters.prefecture}
-                onChange={(e) => onFilterChange('prefecture', e.target.value)}
-              >
-                <option value="">すべて</option>
-                {PREFECTURE_OPTIONS.map((prefecture) => (
-                  <option key={prefecture} value={prefecture}>
-                    {prefecture}
-                  </option>
-                ))}
-              </select>
-            </div>
-
             {/* 時価総額 */}
             <NumberRangeInput
               label="時価総額"
-              unit="億円"
+              unit="百万円"
               minKey="marketCapMin"
               maxKey="marketCapMax"
               isInteger={true}
@@ -194,6 +166,52 @@ export const SearchFilters: React.FC<SearchFiltersProps> = ({
                       onChange={(e) => handleIndustryChange(industry, e.target.checked)}
                     />
                     <span className="label-text text-sm">{industry}</span>
+                  </label>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          {/* 優先市場選択（複数選択） */}
+          <div className="form-control mt-6">
+            <label className="label">
+              <span className="label-text">優先市場選択（複数選択可）</span>
+              <span className="label-text-alt">{filters.market.length > 0 ? `${filters.market.length}件選択中` : ''}</span>
+            </label>
+            <div className="bg-base-100 border border-base-300 rounded-lg p-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
+                {availableMarkets.map((market) => (
+                  <label key={market} className="label cursor-pointer justify-start">
+                    <input
+                      type="checkbox"
+                      className="checkbox checkbox-sm mr-2"
+                      checked={filters.market.includes(market)}
+                      onChange={(e) => handleMarketChange(market, e.target.checked)}
+                    />
+                    <span className="label-text text-sm">{market.replace('（内国株式）', '')}</span>
+                  </label>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          {/* 都道府県選択（複数選択） */}
+          <div className="form-control mt-6">
+            <label className="label">
+              <span className="label-text">都道府県選択（複数選択可）</span>
+              <span className="label-text-alt">{filters.prefecture.length > 0 ? `${filters.prefecture.length}件選択中` : ''}</span>
+            </label>
+            <div className="bg-base-100 border border-base-300 rounded-lg p-4 max-h-48 overflow-y-auto">
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2">
+                {availablePrefectures.map((prefecture) => (
+                  <label key={prefecture} className="label cursor-pointer justify-start">
+                    <input
+                      type="checkbox"
+                      className="checkbox checkbox-sm mr-2"
+                      checked={filters.prefecture.includes(prefecture)}
+                      onChange={(e) => handlePrefectureChange(prefecture, e.target.checked)}
+                    />
+                    <span className="label-text text-sm">{prefecture}</span>
                   </label>
                 ))}
               </div>
@@ -234,10 +252,10 @@ export const SearchFilters: React.FC<SearchFiltersProps> = ({
         </div>
         <div className="collapse-content">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            <NumberRangeInput label="売上高" unit="億円" minKey="revenueMin" maxKey="revenueMax" isInteger={true} />
-            <NumberRangeInput label="営業利益" unit="億円" minKey="operatingProfitMin" maxKey="operatingProfitMax" isInteger={true} />
+            <NumberRangeInput label="売上高" unit="百万円" minKey="revenueMin" maxKey="revenueMax" isInteger={true} />
+            <NumberRangeInput label="営業利益" unit="百万円" minKey="operatingProfitMin" maxKey="operatingProfitMax" isInteger={true} />
             <NumberRangeInput label="営業利益率" unit="%" minKey="operatingMarginMin" maxKey="operatingMarginMax" step={0.1} />
-            <NumberRangeInput label="当期純利益" unit="億円" minKey="netProfitMin" maxKey="netProfitMax" isInteger={true} />
+            <NumberRangeInput label="当期純利益" unit="百万円" minKey="netProfitMin" maxKey="netProfitMax" isInteger={true} />
             <NumberRangeInput label="純利益率" unit="%" minKey="netMarginMin" maxKey="netMarginMax" step={0.1} />
           </div>
         </div>
@@ -255,11 +273,11 @@ export const SearchFilters: React.FC<SearchFiltersProps> = ({
         </div>
         <div className="collapse-content">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            <NumberRangeInput label="負債" unit="億円" minKey="totalLiabilitiesMin" maxKey="totalLiabilitiesMax" isInteger={true} />
-            <NumberRangeInput label="流動負債" unit="億円" minKey="currentLiabilitiesMin" maxKey="currentLiabilitiesMax" isInteger={true} />
-            <NumberRangeInput label="流動資産" unit="億円" minKey="currentAssetsMin" maxKey="currentAssetsMax" isInteger={true} />
-            <NumberRangeInput label="総負債" unit="億円" minKey="totalDebtMin" maxKey="totalDebtMax" isInteger={true} />
-            <NumberRangeInput label="投資有価証券" unit="億円" minKey="investmentsMin" maxKey="investmentsMax" isInteger={true} />
+            <NumberRangeInput label="負債" unit="百万円" minKey="totalLiabilitiesMin" maxKey="totalLiabilitiesMax" isInteger={true} />
+            <NumberRangeInput label="流動負債" unit="百万円" minKey="currentLiabilitiesMin" maxKey="currentLiabilitiesMax" isInteger={true} />
+            <NumberRangeInput label="流動資産" unit="百万円" minKey="currentAssetsMin" maxKey="currentAssetsMax" isInteger={true} />
+            <NumberRangeInput label="総負債" unit="百万円" minKey="totalDebtMin" maxKey="totalDebtMax" isInteger={true} />
+            <NumberRangeInput label="投資有価証券" unit="百万円" minKey="investmentsMin" maxKey="investmentsMax" isInteger={true} />
           </div>
         </div>
       </div>
@@ -276,8 +294,8 @@ export const SearchFilters: React.FC<SearchFiltersProps> = ({
         </div>
         <div className="collapse-content">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            <NumberRangeInput label="現金及び現金同等物" unit="億円" minKey="cashMin" maxKey="cashMax" isInteger={true} />
-            <NumberRangeInput label="ネットキャッシュ" unit="億円" minKey="netCashMin" maxKey="netCashMax" isInteger={true} />
+            <NumberRangeInput label="現金及び現金同等物" unit="百万円" minKey="cashMin" maxKey="cashMax" isInteger={true} />
+            <NumberRangeInput label="ネットキャッシュ" unit="百万円" minKey="netCashMin" maxKey="netCashMax" isInteger={true} />
             <NumberRangeInput label="ネットキャッシュ比率" unit="%" minKey="netCashRatioMin" maxKey="netCashRatioMax" step={0.1} />
           </div>
         </div>

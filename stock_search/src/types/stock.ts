@@ -5,7 +5,7 @@ export interface StockData {
   業種?: string;
   優先市場?: string;
   決算月?: string | null;
-  会計基準?: string | null;
+  // 会計基準?: string | null;
   都道府県?: string | null;
   時価総額?: number | null;
   PBR?: number | null;
@@ -33,8 +33,8 @@ export interface StockData {
 export interface SearchFilters {
   companyName: string;
   industries: string[];  // 複数業種選択
-  market: string;
-  prefecture: string;    // 都道府県
+  market: string[];      // 複数市場選択
+  prefecture: string[];  // 複数都道府県選択
 
   // 既存のフィルター
   marketCapMin: number | null;

@@ -5,7 +5,7 @@ export const Navigation = () => {
 
   const navItems = [
     { path: '/', label: 'データビューア', icon: '📊' },
-    { path: '/about', label: 'サービスについて', icon: '📖' },
+    { path: '/about', label: 'このサイトについて', icon: '📖' },
   ];
 
   return (
@@ -14,7 +14,7 @@ export const Navigation = () => {
         {/* ロゴ */}
         <div className="navbar-start">
           <Link to="/" className="btn btn-ghost normal-case text-xl">
-            📊 Japanese Stock Search
+            📊 yf x 日本株スクリーニング
           </Link>
         </div>
 

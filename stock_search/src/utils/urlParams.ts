@@ -6,10 +6,14 @@ export const filtersToUrlParams = (filters: SearchFilters): URLSearchParams => {
 
   // 文字列フィルター
   if (filters.companyName) params.set('company', filters.companyName);
-  if (filters.market) params.set('market', filters.market);
-  if (filters.prefecture) params.set('prefecture', filters.prefecture);
 
-  // 業種（複数選択）
+  // 複数選択フィルター
+  if (filters.market.length > 0) {
+    params.set('market', filters.market.join(','));
+  }
+  if (filters.prefecture.length > 0) {
+    params.set('prefecture', filters.prefecture.join(','));
+  }
   if (filters.industries.length > 0) {
     params.set('industries', filters.industries.join(','));
   }
@@ -72,13 +76,17 @@ export const urlParamsToFilters = (searchParams: URLSearchParams): Partial<Searc
   const company = searchParams.get('company');
   if (company) filters.companyName = company;
 
+  // 複数選択フィルター
   const market = searchParams.get('market');
-  if (market) filters.market = market;
+  if (market) {
+    filters.market = market.split(',').filter(Boolean);
+  }
 
   const prefecture = searchParams.get('prefecture');
-  if (prefecture) filters.prefecture = prefecture;
+  if (prefecture) {
+    filters.prefecture = prefecture.split(',').filter(Boolean);
+  }
 
-  // 業種（複数選択）
   const industries = searchParams.get('industries');
   if (industries) {
     filters.industries = industries.split(',').filter(Boolean);

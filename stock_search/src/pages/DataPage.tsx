@@ -114,7 +114,7 @@ export const DataPage = () => {
           📊 データビューア
         </h1>
         <p className="text-base-content/70">
-          最新のCSVデータを自動的に読み込んで分析
+          データをフィルタリングしてCSV形式でダウンロード可能
         </p>
       </div>
 

@@ -28,7 +28,7 @@ export const AboutPage = () => {
         {/* ヘッダー */}
         <div className="text-center mb-8">
           <h1 className="text-4xl font-bold text-base-content mb-2">
-            📖 サービスについて
+            ℹ️ このサイトについて
           </h1>
           <p className="text-base-content/70">
             yf x 日本株スクリーニングサービス
@@ -77,11 +77,11 @@ export const AboutPage = () => {
         {/* データソース */}
         <div className="card bg-base-100 shadow-sm mb-8">
           <div className="card-body">
-            <h2 className="card-title text-2xl mb-4">📊 データソース</h2>
+            <h2 className="card-title text-2xl mb-4">📊 データソース / 🙏 お礼</h2>
             <p className="text-base-content/80 leading-relaxed mb-4">
               株式のリストは以下のJPXのエクセルデータを元にしています。
             </p>
-            <ul className="list-disc list-inside text-base-content/80 space-y-2">
+            <ul className="list-disc list-inside text-base-content/80 mb-4">
               <li>
                 <a
                   href="https://www.jpx.co.jp/markets/statistics-equities/misc/tvdivq0000001vg2-att/data_j.xls"
@@ -103,15 +103,8 @@ export const AboutPage = () => {
                 </a>
               </li>
             </ul>
-          </div>
-        </div>
-
-        {/* お礼 */}
-        <div className="card bg-base-100 shadow-sm mb-8">
-          <div className="card-body">
-            <h2 className="card-title text-2xl mb-4">🙏 お礼</h2>
             <p className="text-base-content/80 leading-relaxed">
-              使わせていただいているJPXのデータやyfinanceの作成者に感謝申し上げます。
+            ※使わせていただいているJPXのデータやyfinanceの作成者に感謝申し上げます。
             </p>
           </div>
         </div>
@@ -158,7 +151,7 @@ export const AboutPage = () => {
             </p>
             <div className="flex gap-4 justify-center items-center flex-wrap">
               <a
-                href="https://github.com/sponsors"
+                href="https://github.com/sponsors/testkun08080"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-outline gap-2 hover:bg-gray-800 hover:text-white"
@@ -191,8 +184,9 @@ export const AboutPage = () => {
               ご質問やご要望がございましたら、お気軽にご連絡ください。
             </p>
             <div className="flex gap-4 justify-center">
+              
               <a
-                href="mailto:your-email@example.com"
+                href="mailto:testkun.08080@gmail.com"
                 className="btn btn-outline gap-2 hover:bg-red-500 hover:text-white hover:border-red-500"
                 title="メールでお問い合わせ"
               >
@@ -200,7 +194,7 @@ export const AboutPage = () => {
                 メール
               </a>
               <a
-                href="https://github.com/dangpee"
+                href="https://github.com/testkun08080"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-outline gap-2 hover:bg-gray-800 hover:text-white hover:border-gray-800"
