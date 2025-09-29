@@ -100,3 +100,9 @@ jobs:
           ls -la stock_list/Export/ 2>/dev/null || echo "No files found"
           echo ""
           echo "🚀 Sequential workflow chain execution completed!"
+
+      - name: 🔗 Workflow Chain Info
+        run: |
+          echo "✅ Part 4 completed successfully"
+          echo "🔄 Next: CSV Combine will auto-trigger via workflow_run"
+          echo "🚀 Then: GitHub Pages deployment will follow automatically"

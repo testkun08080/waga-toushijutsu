@@ -23,9 +23,9 @@ on:
         default: "Latest CSV files combination"
         type: string
 
-  # デプロイワークフロー後に自動実行
+  # Part 4完了後に自動実行
   workflow_run:
-    workflows: ["🌐 Deploy to GitHub Pages"]
+    workflows: ["📊 Sequential Stock Fetch - Part 4 (Final)"]
     types:
       - completed
 
@@ -126,3 +126,4 @@ jobs:
         with:
           commit_message: |
             📊 CSV結合ファイル生成 ($(date +'%Y年%m月%d日'))
+
