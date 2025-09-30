@@ -25,7 +25,7 @@ on:
 
   # Part 4完了後に自動実行
   workflow_run:
-    workflows: ["📊 Sequential Stock Fetch - Part 4 (Final)"]
+    workflows:  ["📊 Sequential Stock Fetch - Part 4 (Final)"]
     types:
       - completed
 
