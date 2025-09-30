@@ -32,6 +32,7 @@ export interface StockData {
 
 export interface SearchFilters {
   companyName: string;
+  stockCode?: string;    // 銘柄コード検索
   industries: string[];  // 複数業種選択
   market: string[];      // 複数市場選択
   prefecture: string[];  // 複数都道府県選択

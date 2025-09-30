@@ -7,12 +7,15 @@ import argparse
 from datetime import datetime
 import warnings
 import logging
+import requests
+
 
 warnings.filterwarnings("ignore")
 
 # ログ設定
 # Exportフォルダが存在しない場合は作成
 import os
+
 os.makedirs("Export", exist_ok=True)
 
 logging.basicConfig(
@@ -21,6 +24,45 @@ logging.basicConfig(
     handlers=[logging.FileHandler("Export/stock_data_log.txt", encoding="utf-8"), logging.StreamHandler()],
 )
 logger = logging.getLogger(__name__)
+
+
+def get_prefecture_from_zip(zip_code):
+    """郵便番号から都道府県名を取得（digital-address API使用）"""
+    try:
+        if not zip_code:
+            return None
+
+        # 郵便番号の前処理（ハイフンや空白を除去）
+        print("zip_code", zip_code)
+        clean_zip = str(zip_code).replace("-", "").replace("−", "").replace(" ", "").replace("　", "")
+
+        print("clean_zip", clean_zip)
+
+        if len(clean_zip) < 7:  # 郵便番号として短すぎる場合
+            return None
+
+        # digital-address APIにリクエスト
+        url = f"https://digital-address.app/{clean_zip}"
+        print(f"  🌐 digital-address API: {url}")
+
+        response = requests.get(url, timeout=10)
+        response.raise_for_status()
+
+        data = response.json()
+        print(f"  📡 API Response: {data}")
+
+        if data.get("addresses") and len(data["addresses"]) > 0:
+            # addressesの最初の要素からpref_nameを取得
+            address = data["addresses"][0]
+            prefecture = address.get("pref_name")
+            print(f"  🏢 都道府県: {prefecture}")
+            return prefecture
+
+        return None
+
+    except Exception as e:
+        print(f"    郵便番号変換エラー ({zip_code}): {e}")
+        return None
 
 
 def format_duration(seconds):
@@ -100,9 +142,9 @@ def safe_get_financial_data(ticker, statement_type, item, fallback_items=None):
 
 
 def calculate_net_cash(current_assets, investments, total_liabilities):
-    """ネットキャッシュを計算"""
+    """ネットキャッシュを計算: 流動資産 + 投資有価証券×70% - 負債"""
     try:
-        if all(x is not None for x in [current_assets, total_liabilities]):
+        if current_assets is not None and total_liabilities is not None:
             inv_value = (investments * 0.7) if investments is not None else 0
             return current_assets + inv_value - total_liabilities
         return None
@@ -168,6 +210,13 @@ def get_stock_data(stock_info):
         pe_ratio = safe_get_value(info, "priceEarningsRatio")
         print(f"  📊 trailingPE: {trailing_pe}, priceEarningsRatio: {pe_ratio}")
 
+        # 郵便番号と都道府県のデバッグ
+        zip_code = safe_get_value(info, "zip")
+        prefecture_from_zip = get_prefecture_from_zip(zip_code)
+        city = safe_get_value(info, "city")
+        state = safe_get_value(info, "state")
+        print(f"  🏢 zip: {zip_code}, 都道府県(zip): {prefecture_from_zip}, city: {city}, state: {state}")
+
         # データ収集
         result = {
             "会社名": stock_info["銘柄名"] or safe_get_value(info, "longName") or safe_get_value(info, "shortName"),
@@ -175,8 +224,8 @@ def get_stock_data(stock_info):
             "業種": stock_info.get("33業種区分") or safe_get_value(info, "industry") or safe_get_value(info, "sector"),
             "優先市場": stock_info.get("市場・商品区分", ""),
             "決算月": settlement_period,
-            "会計基準": None,  # yfinanceでは詳細不明
-            "都道府県": safe_get_value(info, "city") or safe_get_value(info, "state"),
+            # "会計基準": None,  # yfinanceでは詳細不明 - コメントアウト
+            "都道府県": get_prefecture_from_zip(safe_get_value(info, "zip")) or None,
             "時価総額": safe_get_value(info, "marketCap"),
             "PBR": safe_get_value(info, "priceToBook"),
             "PER(会予)": forward_pe,
@@ -237,12 +286,14 @@ def get_stock_data(stock_info):
             else:
                 result["自己資本比率"] = None
 
-            # ネットキャッシュの計算（現金 - 総負債）
-            if cash_and_equivalents is not None and total_debt is not None:
-                net_cash = cash_and_equivalents - total_debt
-            else:
-                net_cash = None
+            # ネットキャッシュの計算（流動資産 + 投資有価証券×70% - 負債）
+            net_cash = calculate_net_cash(current_assets, investments, total_liabilities)
             result["ネットキャッシュ"] = net_cash
+
+            # デバッグ用: ネットキャッシュ計算の詳細を表示
+            if any(x is not None for x in [current_assets, investments, total_liabilities]):
+                inv_70 = (investments * 0.7) if investments is not None else 0
+                print(f"  📊 ネットキャッシュ計算: {current_assets} + {inv_70:.0f} - {total_liabilities} = {net_cash}")
 
             # ネットキャッシュ比率の計算
             if net_cash and result["時価総額"]:
@@ -341,7 +392,7 @@ def main(json_filename="stocks_temp.json"):
             "業種",
             "優先市場",
             "決算月",
-            "会計基準",
+            # "会計基準",  # コメントアウト
             "都道府県",
             "時価総額",
             "PBR",
@@ -379,7 +430,6 @@ def main(json_filename="stocks_temp.json"):
         # CSVファイルに保存（Export フォルダに直接保存）
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         base_name = json_filename.replace(".json", "").replace("stocks_", "")
-
 
         filename = f"Export/japanese_stocks_data_{base_name}_{timestamp}.csv"
         df.to_csv(filename, index=False, encoding="utf-8-sig")

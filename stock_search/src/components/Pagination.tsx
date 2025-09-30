@@ -47,8 +47,8 @@ export const Pagination: React.FC<PaginationProps> = ({
   if (totalItems === 0) return null;
 
   return (
-    <div className="bg-white rounded-lg shadow-sm p-4">
-      <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+    <div className="bg-white rounded-lg shadow-sm p-3 sm:p-4">
+      <div className="flex flex-col sm:flex-row items-center justify-between gap-3 sm:gap-4">
         {/* アイテム数表示 */}
         <div className="text-sm text-base-content/70">
           {startIndex} - {endIndex} 件 / 全 {totalItems} 件
@@ -75,13 +75,13 @@ export const Pagination: React.FC<PaginationProps> = ({
           </button>
 
           {/* ページ番号 */}
-          <div className="flex gap-1">
+          <div className="flex gap-1 overflow-x-auto">
             {getPageNumbers().map((page) => (
               <button
                 key={page}
-                className={`btn btn-sm ${
-                  page === currentPage 
-                    ? 'btn-primary' 
+                className={`btn btn-sm min-w-[2.5rem] ${
+                  page === currentPage
+                    ? 'btn-primary'
                     : 'btn-ghost'
                 }`}
                 onClick={() => onPageChange(page)}

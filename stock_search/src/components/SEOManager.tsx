@@ -17,12 +17,12 @@ interface SEOManagerProps {
 
 // デフォルトのSEOデータ（誤字を修正済み）
 const defaultSEOData: SEOData = {
-  title: 'yf我が投資術 ｜Yahoo Finance x 我が投資術',
-  description: 'Yahoo Financeのデータを使用して、我が投資術の基本であるネットキャッシュ比率やその他スクリーニングができるサービスです。',
-  keywords: '我が投資術,投資,Yahoo Finance,ネットキャッシュ,ネットキャッシュ比率,スクリーニング',
+  title: 'yfわが投資術 ｜Yahoo Finance x わが投資術',
+  description: 'Yahoo Financeのデータを使用して、わが投資術の基本であるネットキャッシュ比率やその他スクリーニングができるサービスです。',
+  keywords: 'わが投資術,投資,Yahoo Finance,ネットキャッシュ,ネットキャッシュ比率,スクリーニング',
   url: 'https://testkun.net/waga-toushijutsu/',
   imageUrl: 'https://testkun.net/waga-toushijutsu/favicon.png',
-  siteName: 'yf我が投資術',
+  siteName: 'yfわが投資術',
   twitterSite: '@testkun08080',
   author: 'testkun08080'
 };

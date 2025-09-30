@@ -7,6 +7,7 @@ import {
   generateFileNameWithFilters,
   estimateCSVSize
 } from '../utils/csvDownload';
+import SponsorshipModal from './SponsorshipModal';
 
 interface DownloadButtonProps {
   data: StockData[];
@@ -27,6 +28,7 @@ export const DownloadButton: React.FC<DownloadButtonProps> = ({
   const [downloadMessage, setDownloadMessage] = useState<string | null>(null);
   const [lastDownloadTime, setLastDownloadTime] = useState<number>(0);
   const [cooldownRemaining, setCooldownRemaining] = useState<number>(0);
+  const [showDonationModal, setShowDonationModal] = useState(false);
 
   // クールダウン時間（ミリ秒）
   const COOLDOWN_DURATION = 3000; // 3秒
@@ -91,6 +93,9 @@ export const DownloadButton: React.FC<DownloadButtonProps> = ({
       setDownloadMessage(`✅ ${downloadFileName} をダウンロードしました`);
       setTimeout(() => setDownloadMessage(null), 4000);
 
+      // ドネーションモーダルを表示
+      setShowDonationModal(true);
+
     } catch (error) {
       console.error('CSV download error:', error);
       setDownloadMessage('❗ ダウンロードに失敗しました');
@@ -134,7 +139,7 @@ export const DownloadButton: React.FC<DownloadButtonProps> = ({
           </>
         ) : (
           <>
-            📥 CSV
+            📥 CSVダウンロード
             <span className="text-xs opacity-70">
               {data.length > 0 ? `(${data.length}件)` : ''}
             </span>
@@ -155,6 +160,12 @@ export const DownloadButton: React.FC<DownloadButtonProps> = ({
           データがありません
         </div>
       )}
+
+      {/* ドネーションモーダル */}
+      <SponsorshipModal
+        isOpen={showDonationModal}
+        onClose={() => setShowDonationModal(false)}
+      />
     </div>
   );
 };

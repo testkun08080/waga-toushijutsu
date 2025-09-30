@@ -99,14 +99,14 @@ export const DataTable: React.FC<DataTableProps> = ({
   const hasCurrencyFields = columns.some(col => isCurrencyField(col.key));
 
   return (
-    <div className="overflow-x-auto bg-white rounded-lg shadow-sm">
+    <div className="overflow-x-auto bg-white rounded-lg shadow-sm" style={{maxWidth: '100vw'}}>
       {/* 単位表示 */}
       {hasCurrencyFields && (
-        <div className="px-4 py-2 bg-base-100 border-b text-sm text-base-content/70">
+        <div className="px-2 sm:px-4 py-2 bg-base-100  text-xs sm:text-sm text-base-content/70">
           💰 金額単位: 百万円
         </div>
       )}
-      <table className="table table-zebra w-full">
+      <table className="table table-zebra w-full min-w-max">
         <thead className="bg-base-200">
           <tr className="text-center">
             {columns.map((column, index) => (
@@ -114,7 +114,7 @@ export const DataTable: React.FC<DataTableProps> = ({
                 key={column.key} 
                 label={column.label} 
                 sortKey={column.key} 
-                className={`min-w-24 ${index === 0 || index === 1 ? 'sticky z-10 bg-base-200' : ''} ${index === 0 ? 'left-0' : index === 1 ? 'left-32' : ''}`}
+                className={`min-w-24 ${index === 0 || index === 1 ? ' z-10 bg-base-200' : ''} ${index === 0 ? 'left-0 min-w-20 max-w-20' : index === 1 ? 'left-20 min-w-16 max-w-16' : ''}`}
               />
             ))}
           </tr>
@@ -125,22 +125,23 @@ export const DataTable: React.FC<DataTableProps> = ({
               {columns.map((column, colIndex) => {
                 const value = stock[column.key];
                 const isNetCash = column.key === 'ネットキャッシュ（流動資産-負債）';
-                const isSticky = colIndex === 0 || colIndex === 1;
-                const stickyClass = isSticky ? `sticky z-10 bg-white ${colIndex === 0 ? 'left-0' : 'left-32'}` : '';
+                // const isSticky = colIndex === 0 || colIndex === 1;
+                const isSticky = false;
+                const stickyClass = isSticky ? `sticky z-10 bg-white ${colIndex === 0 ? 'left-0 min-w-20 max-w-20' : 'left-20 min-w-16 max-w-16'}` : '';
                 
                 return (
                   <td 
                     key={column.key} 
-                    className={`text-sm ${column.format === 'string' ? 'text-left' : 'text-right'} ${stickyClass}`}
+                    className={`text-xs ${column.format === 'string' ? 'text-left' : 'text-right'} ${stickyClass} px-1`}
                   >
                     {column.format === 'string' && column.key === '会社名' ? (
-                      <div className="max-w-48 truncate font-medium" title={String(value)}>
+                      <div className="max-w-20 truncate font-medium text-xs" title={String(value)}>
                         {String(value || '-')}
                       </div>
                     ) : column.format === 'string' && column.key === '銘柄コード' ? (
-                      <span className="font-mono">{String(value || '-')}</span>
+                      <span className="font-mono text-xs">{String(value || '-')}</span>
                     ) : column.format === 'string' && (column.key === '業種' || column.key === '優先市場') ? (
-                      <div className="max-w-32 truncate" title={String(value)}>
+                      <div className="max-w-20 truncate text-xs" title={String(value)}>
                         {String(value || '-').replace('（内国株式）', '')}
                       </div>
                     ) : isNetCash ? (

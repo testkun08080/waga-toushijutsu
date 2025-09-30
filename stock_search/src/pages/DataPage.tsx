@@ -56,14 +56,6 @@ export const DataPage = () => {
   };
 
 
-  const formatFileSize = (bytes: number): string => {
-    const kb = bytes / 1024;
-    if (kb < 1024) {
-      return `${kb.toFixed(1)} KB`;
-    }
-    const mb = kb / 1024;
-    return `${mb.toFixed(1)} MB`;
-  };
 
   const formatDate = (dateString: string): string => {
     const date = new Date(dateString);
@@ -142,11 +134,12 @@ export const DataPage = () => {
                 <div className="flex items-center justify-between">
                   <div>
                     <h2 className="card-title">
-                      📊 現在のデータファイル
+                      📊 現在のデータファイル更新日
                     </h2>
-                    <p className="text-base-content/70">
-                      最新のファイルが自動的に読み込まれます
-                    </p>
+                                          <div className="text-sm text-base-content/70 mt-1">
+                         更新日: {formatDate(selectedFile.lastModified)}
+                      </div>
+
                   </div>
                   <button
                     className="btn btn-sm btn-outline"
@@ -156,19 +149,6 @@ export const DataPage = () => {
                   </button>
                 </div>
 
-                <div className="mt-4 p-4 bg-primary/10 rounded-lg">
-                  <div className="flex items-start gap-3">
-                    <div className="text-2xl">📄</div>
-                    <div className="flex-1">
-                      <div className="font-medium text-lg">
-                        {selectedFile.displayName}
-                      </div>
-                      <div className="text-sm text-base-content/70 mt-1">
-                        サイズ: {formatFileSize(selectedFile.size)} • 更新日: {formatDate(selectedFile.lastModified)}
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           )}

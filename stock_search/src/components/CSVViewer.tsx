@@ -6,6 +6,7 @@ import { DataTable } from './DataTable';
 import { Pagination } from './Pagination';
 import { ColumnSelector, getDefaultColumns, type ColumnConfig } from './ColumnSelector';
 import { DownloadButton } from './DownloadButton';
+import { ShareButton } from './ShareButton';
 import type { PaginationConfig } from '../types/stock';
 
 interface CSVFile {
@@ -22,8 +23,7 @@ interface CSVViewerProps {
 
 export const CSVViewer = ({ file }: CSVViewerProps) => {
   const { data, loading, error, reload } = useCSVParser(file);
-  const { filters, filteredData, sortConfig, availableIndustries, availableMarkets, availablePrefectures, updateFilter, clearFilters, handleSort, copyShareUrl } = useFilters(data);
-  const [shareMessage, setShareMessage] = useState<string | null>(null);
+  const { filters, filteredData, sortConfig, availableIndustries, availableMarkets, availablePrefectures, updateFilter, clearFilters, handleSort, shareFilters } = useFilters(data);
   const [paginationConfig, setPaginationConfig] = useState<PaginationConfig>({
     currentPage: 1,
     itemsPerPage: 50,
@@ -79,15 +79,6 @@ export const CSVViewer = ({ file }: CSVViewerProps) => {
     ));
   };
 
-  const handleShareClick = async () => {
-    const success = await copyShareUrl();
-    if (success) {
-      setShareMessage('🔗 フィルターURLをコピーしました！');
-    } else {
-      setShareMessage('❗ URLのコピーに失敗しました');
-    }
-    setTimeout(() => setShareMessage(null), 3000);
-  };
 
   const hasActiveFilters = () => {
     return (
@@ -178,20 +169,18 @@ export const CSVViewer = ({ file }: CSVViewerProps) => {
         onClearFilters={clearFilters}
       />
 
-            {/* ヘッダー情報とサマリー */}
+      {/* ヘッダー情報とサマリー */}
       <div className="card bg-base-100 shadow-sm">
         <div className="card-body">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-4">
             <div>
               <h2 className="card-title text-xl">検索結果:</h2>
             </div>
-
-
           </div>
 
           {/* データサマリー */}
           {summary && summary.totalCount > 0 && (
-            <div className="grid grid-cols-2 md:grid-cols-5 gap-4 text-center">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 text-center">
               <div>
                 <div className="text-2xl font-bold text-primary">{summary.totalCount}</div>
                 <div className="text-sm text-base-content/70">総企業数</div>
@@ -200,60 +189,60 @@ export const CSVViewer = ({ file }: CSVViewerProps) => {
                 <div className="text-2xl font-bold text-secondary">{summary.filteredCount}</div>
                 <div className="text-sm text-base-content/70">検索結果</div>
               </div>
-              <div>
-                <div className="text-lg font-bold text-base-content">{(summary.avgMarketCap / 1000000).toFixed(0)}</div>
-                <div className="text-sm text-base-content/70">平均時価総額（百万円）</div>
-              </div>
-              <div>
-                <div className="text-lg font-bold text-base-content">{summary.avgPBR.toFixed(2)}</div>
-                <div className="text-sm text-base-content/70">平均PBR</div>
-              </div>
-              <div>
-                <div className="text-lg font-bold text-base-content">{(summary.avgROE * 100).toFixed(1)}%</div>
-                <div className="text-sm text-base-content/70">平均ROE</div>
-              </div>
+
             </div>
           )}
         </div>
       </div>
 
-                  {/* コントロールボタン */}
-            <div className="flex flex-wrap gap-2">
-              {/* CSVダウンロードボタン */}
-              <DownloadButton
-                data={filteredData}
+      {/* データ操作メニュー */}
+      <div className="bg-base-100 rounded-lg shadow-sm p-4 mb-4">
+        <div className="flex items-center justify-between mb-3">
+          <h3 className="text-lg font-semibold text-base-content flex items-center gap-2">
+            ⚙️ データ操作
+          </h3>
+          <div className="text-sm text-base-content/60">
+            {filteredData.length}件のデータを操作できます
+          </div>
+        </div>
+
+        <div className="flex flex-wrap gap-3 items-center">
+          {/* CSVダウンロードボタン */}
+          <div className="flex flex-col items-start">
+            <DownloadButton
+              data={filteredData}
+              columns={columns}
+              fileName={file.name.replace(/\.[^/.]+$/, "")} // 拡張子を除去
+              totalCount={data.length}
+            />
+            <span className="text-xs text-base-content/60 mt-1">検索結果をExcelで開けます</span>
+          </div>
+
+          {/* 列選択ボタン */}
+          {columns.length > 0 && (
+            <div className="flex flex-col items-start">
+              <ColumnSelector
                 columns={columns}
-                fileName={file.name.replace(/\.[^/.]+$/, "")} // 拡張子を除去
-                totalCount={data.length}
+                onColumnChange={handleColumnChange}
+                onCategoryToggle={handleCategoryToggle}
               />
-
-              {/* シェアボタン */}
-              {hasActiveFilters() && (
-                <div className="relative">
-                  <button
-                    onClick={handleShareClick}
-                    className="btn btn-outline btn-sm"
-                    title="フィルター結果を共有"
-                  >
-                    🔗 共有
-                  </button>
-                  {shareMessage && (
-                    <div className="absolute top-full left-0 mt-2 px-3 py-2 bg-success text-success-content text-sm rounded-lg shadow-lg whitespace-nowrap z-10">
-                      {shareMessage}
-                    </div>
-                  )}
-                </div>
-              )}
-
-              {/* 列選択ボタン */}
-              {columns.length > 0 && (
-                <ColumnSelector
-                  columns={columns}
-                  onColumnChange={handleColumnChange}
-                  onCategoryToggle={handleCategoryToggle}
-                />
-              )}
+              <span className="text-xs text-base-content/60 mt-1">表示する項目を選択できます</span>
             </div>
+          )}
+
+          {/* シェアボタン */}
+          {hasActiveFilters() && (
+            <div className="flex flex-col items-start">
+              <ShareButton
+                shareUrl={shareFilters()}
+                title={`投資分析結果 - ${filteredData.length}件の銘柄`}
+                description={`株式検索の結果${filteredData.length}件の銘柄が見つかりました。検索条件を確認してください。`}
+              />
+              <span className="text-xs text-base-content/60 mt-1">URLをコピー・SNSで共有</span>
+            </div>
+          )}
+        </div>
+      </div>
 
       {/* データテーブル */}
       <DataTable

@@ -24,7 +24,7 @@ export const getDefaultColumns = (availableColumns: string[]): ColumnConfig[] =>
     '優先市場': { label: '優先市場', category: 'basic' },
     '都道府県': { label: '都道府県', category: 'basic' },
     '決算月': { label: '決算月', category: 'basic' },
-    '会計基準': { label: '会計基準', category: 'basic' },
+    // '会計基準': { label: '会計基準', category: 'basic' }, // コメントアウト
 
     // バリュエーション指標
     '時価総額': { label: '時価総額', category: 'valuation' },
@@ -56,7 +56,7 @@ export const getDefaultColumns = (availableColumns: string[]): ColumnConfig[] =>
 
   return availableColumns.map(col => ({
     key: col,
-    visible: !['会計基準', '都道府県'].includes(col), // 会計基準・都道府県はデフォルトで非表示、他はデフォルトで表示
+    visible: !['都道府県'].includes(col), // 都道府県はデフォルトで非表示、他はデフォルトで表示
     ...columnDefinitions[col] || { label: col, category: 'basic' }
   }));
 };
@@ -95,13 +95,13 @@ export const ColumnSelector: React.FC<ColumnSelectorProps> = ({
   return (
     <div className="dropdown dropdown-end">
       <div tabIndex={0} role="button" className="btn btn-outline btn-sm">
-        👁️ 表示列選択
+        👁️ 表示項目を選択
         <span className="badge badge-sm ml-1">{visibleCount}/{totalCount}</span>
       </div>
 
-      <div tabIndex={0} className="dropdown-content z-[1] bg-base-100 rounded-lg shadow-lg border border-base-300 w-80 p-4 mt-2">
+      <div tabIndex={0} className="dropdown-content z-[1] bg-base-100 rounded-lg shadow-lg border border-base-300 w-80 sm:w-96 p-4 mt-2 max-w-[90vw]">
         <div className="flex items-center justify-between mb-4">
-          <h3 className="font-semibold">表示列の選択</h3>
+          <h3 className="font-semibold">表示項目の選択</h3>
           <button
             onClick={() => (document.activeElement as HTMLElement)?.blur()}
             className="btn btn-ghost btn-xs"
