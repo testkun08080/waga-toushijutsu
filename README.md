@@ -1,176 +1,110 @@
-# 📊 YhooFinance x 日本株式スクリーニング ( with わが投資術)
+# 📊 YhooFinance × 日本株式スクリーニング  
+**（with わが投資術）**
 
 ---
 
-## ⚠️ 重要な注意事項
+## ⚠️ 注意事項
 
-**このプロジェクトは Yahoo Finance のデータ取得を補助し可視化するツールです。**
+このプロジェクトは **Yahoo Finance のデータを取得・可視化するためのツール**です。  
+本ツールの利用により生じたいかなる損害についても、作者は一切の責任を負いません。
 
-- ⚠️ **取得したデータの利用については Yahoo の利用規約に従ってください**
-- 🚫 **本リポジトリはデータ自体を配布しません**
-- ✅ **個人利用・研究・教育目的のみで使用してください**
-- ❌ **データの二次配布・商用利用は禁止されています**
-- 🔒 **プライベートリポジトリでの使用を強く推奨します**
-  - パブリックリポジトリで使用すると、データの二次配布に当たる可能性があると考えられます
-  - フォークする際は必ずプライベートリポジトリに設定してください
-  - GitHub Actions で生成されたデータファイルも非公開のままにしてください
+- **データの利用は Yahoo の利用規約に従ってください**  
+- **本リポジトリはデータそのものを配布しません**  
+- **個人利用・研究・教育目的のみ使用可**  
+- **商用利用・再配布は禁止です**  
+- **プライベートリポジトリでの使用を推奨します**
 
-データは**あなた自身の環境**で取得する必要があります。詳細は [法的情報・利用規約](#️-法的情報利用規約) をご確認ください。
+> 💡 取得したデータは、**あなた自身の環境でのみ利用**してください。
 
 ---
 
-## 🌟 概要
+## 📘 概要
 
-[わが投資術](https://amzn.to/3IEVRkq)を実践してみようと思い、yahoo fincnace を使用して取得したデータを可視化する web アプリケーションです。
+[わが投資術](https://amzn.to/3IEVRkq) の考え方をもとに、  
+**日本株をシンプルに分析・可視化**するためのツールです。
 
-## なぜ作成したか
+- 📈 GitHub Actions による自動データ収集  
+- 🔍 Web上でのスクリーニング・可視化  
+- ⚙️ JPX公式データ対応・簡易データ分割機能  
 
--   シンプルに可視化したかったという思い
--   日本をよくしている企業を見つけて、より良い好循環が生まれれば幸い
+---
 
-## ✨ 主な機能
+## 💡 開発の目的
 
--   **GitHub Actions による自動データパイプライン**: 株式データの収集と更新を完全自動化
--   **リアルタイム検索・フィルタリング**: 静的ウェブアプリを使用して簡易複数条件による企業スクリーニング
--   **柔軟なデータ分割**: 改善された `split_stocks.py` による カスタマイズ可能なファイル分割
--   **株式リスト更新**: JPX 公式データからの最新株式リスト取得を githubaction 上で行える
+「日本をよくしている企業を見つけたい」  
+そんな想いから生まれた、**個人開発による実験的プロジェクト**です。
 
-## 🏗️ システム構成
+---
 
--   データ収集パイプライン (`stock_list/`)
--   Web アプリケーション (`stock_search/`)
+## ⚖️ 法的情報
 
-### GitHub Actions 自動化
+このツールは **yfinance** ライブラリを利用して  
+**Yahoo Finance 公開データ**を取得しています。
 
-1. **📊 Stock Data Fetch**: 特定株式チャンクの詳細データ収集（手動実行）
-    - シンプルな入力パラメータ（株式ファイル選択のみ）
-    - `stock_list/Export/` への直接保存
-2. **📋 Stock List Update**: マスター株式リストの更新と分割（手動実行）
-3. **🌐 Deploy to GitHub Pages**: Web アプリケーションの自動デプロイ
+- yfinance は **Yahoo, Inc. と提携・公認関係にありません**  
+- 取得したデータの **二次配布は禁止** されています  
+- すべてのデータは **ユーザーの環境で取得** してください  
+- 利用時は **Yahoo の利用規約** を遵守してください  
 
-## 🚀 利用開始
+🔗 **参考リンク**
+- [Yahoo! 利用規約](https://legal.yahoo.com/us/en/yahoo/terms/otos/index.html)  
+- [Yahoo! Finance Terms](https://finance.yahoo.com/about/terms)
 
-### ローカル開発環境
+---
 
-#### データ処理
+## 🧾 免責事項
 
-```bash
-cd stock_list
-uv venv -p 3.11
-uv pip install -r requirements.txt
+本ソフトウェアは **現状のまま（"as is"）** 提供されます。  
+動作・結果・データの正確性を保証するものではありません。  
+利用はすべて **自己責任** でお願いいたします。
 
-# 株式リスト更新
-uv run get_jp_stocklist.py
+---
 
-# データ分割 (改良版 - 引数対応)
-uv run split_stocks.py --input stocks_all.json --size 1000
+## 🛠️ 技術概要
 
-# カスタム分割設定
-uv run split_stocks.py -i custom_data.json -s 500
+| 項目 | 内容 |
+|------|------|
+| **Backend** | Python 3.11+, pandas, yfinance |
+| **Frontend** | React 19 + TypeScript + Vite |
+| **CI/CD** | GitHub Actions + GitHub Pages |
+| **スタイル** | Tailwind CSS, DaisyUI |
+| **データ形式** | CSV, JSON |
 
-# 特定チャンクの処理（Export/フォルダに直接保存）分けて更新するのを推奨
-uv run sumalize.py stocks_1.json
-uv run sumalize.py stocks_2.json
-uv run sumalize.py stocks_3.json
-uv run sumalize.py stocks_4.json
-```
+---
 
-#### Web アプリケーション
+## 📕 データ出典
 
-```bash
-cd stock_search
-npm install
+- 日本取引所グループ（JPX）公式株式データ  
+  🔗 [https://www.jpx.co.jp/markets/statistics-equities/misc/tvdivq0000001vg2-att/data_j.xls](https://www.jpx.co.jp/markets/statistics-equities/misc/tvdivq0000001vg2-att/data_j.xls)
 
-# 開発サーバー起動
-npm run dev
+---
 
-# プロダクションビルド
-npm run build
-```
+## 🧭 ライセンス
 
-### GitHub Actions 自動化
+- **yfinance:** Apache License 2.0  
+- **本プロジェクト:** MIT License（非商用前提）  
+- **データ:** Yahoo! Japan 利用規約に従うこと  
 
-#### 株式データ収集ワークフロー
+---
 
-1. GitHub リポジトリの **Actions** タブに移動
-2. **"📊 Stock Data Fetch"** ワークフローを選択
-3. **"Run workflow"** をクリック
-4. 処理対象の株式ファイルを選択（stocks_1.json ～ stocks_4.json）
-5. 実行してデータを `stock_list/Export/` に保存
+## ✅ 要点まとめ
 
-#### 株式リスト更新ワークフロー
+| 項目 | 内容 |
+|------|------|
+| データ配布 | ❌ しない（自分の環境で取得） |
+| 商用利用 | 🚫 不可 |
+| 個人利用 | ✅ 可 |
+| 寄付 | 💰 任意（保証なし） |
+| 表示場所 | 🗒️ README または LICENSE 内 |
 
-1. GitHub リポジトリの **Actions** タブに移動
-2. **"📋 Stock List Update"** ワークフローを選択
-3. **"Run workflow"** をクリック
-4. 更新理由を入力（オプション）
-5. 実行して `stocks_all.json` と分割ファイルを自動更新
+---
 
-#### Web アプリケーション デプロイ
+## 💬 コントリビューション
 
--   `stock_search/` ディレクトリのファイルを変更
--   メインブランチにプッシュ
--   自動的にビルド・デプロイが実行される
--   ライブサイト: `https://{username}.github.io/waga-toushijutsu/`
+このプロジェクトは個人による実験的開発です。  
+提案・改善・アイデアなどがあれば、**Issue または Pull Request** からぜひご連絡ください。
 
-### 株式データ管理
+---
 
-```
-stock_list/ ディレクトリ構造:
-├── stocks_all.json      # マスターリスト（全企業）
-├── stocks_1.json        # 企業 1-1000
-├── stocks_2.json        # 企業 1001-2000
-├── stocks_3.json        # 企業 2001-3000
-├── stocks_4.json        # 企業 3001+
-└── Export/              # 生成されたデータファイル
-    ├── japanese_stocks_data_*.csv
-    └── stock_data_log.txt
-```
-
-## 🔧 技術仕様
-
-### プログラミング言語・フレームワーク
-
--   **バックエンド**: Python 3.11+, pandas, yfinance
--   **フロントエンド**: React 19, TypeScript, Vite
--   **スタイリング**: Tailwind CSS, DaisyUI
--   **自動化**: GitHub Actions, GitHub Pages
--   **データ処理**: CSV, JSON, Papa Parse
-
-### コントリビューション
-
-このプロジェクトは個人開発による実験的な取り組みです。
-機能要求や改善提案は Issue を通じてお気軽にご連絡ください。
-
-## ⚖️ 法的情報・利用規約
-
-### データ利用に関する重要な注意事項
-
-このプロジェクトは **yfinance** ライブラリを使用してYahoo Financeの公開APIからデータを取得しています。
-
-**重要**:
-- yfinanceはYahoo, Inc.と提携、承認、または検証されたものではありません
-- Yahoo Financeから取得したデータの**二次配布は禁止**されています
-- このリポジトリのデータファイル（`stock_list/Export/`）はGit管理から除外されています
-- ユーザーは**個人利用目的のみ**で、自身の環境でデータを取得してください
-
-
-### ライセンス・利用規約
-
-- **yfinance**: Apache Software License の下で配布
-- **Yahoo Finance データ**: Yahoo!の利用規約に従う必要があります
-  - [Yahoo Terms of Service](https://legal.yahoo.com/us/en/yahoo/terms/otos/index.html)
-  - [Yahoo Developer Terms](https://legal.yahoo.com/us/en/yahoo/terms/product-atos/apiforydn/index.html)
-  - [Yahoo Finance Terms](https://finance.yahoo.com/about/terms)
-- **本プロジェクト**: 研究・教育目的での使用を想定
-
-**免責事項**: このツールの使用によって取得された実際のデータの使用権については、Yahoo!の利用規約を参照してください。投資判断は自己責任で行ってください。
-
-## 🔗 関連リンク / 📕 参考本
--   **データソース**: 日本取引所グループ（JPX）公式データ
-
-```html
-https://www.jpx.co.jp/markets/statistics-equities/misc/tvdivq0000001vg2-att/data_j.xls
-```
-
-[わが投資術](https://amzn.to/3IEVRkq)
+© 2025 [Your Name or GitHub ID]  
+Released under the [MIT License](./LICENSE)
