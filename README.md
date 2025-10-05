@@ -74,9 +74,40 @@
 
 ---
 
-## 🚀 セットアップガイド（完全ローカル）
+## 🚀 セットアップガイド
 
-### データ取得環境のセットアップ
+### 方法1: Docker Compose（推奨・最速）
+
+一つのコマンドでデータ収集からWebアプリ起動まで完結
+
+```bash
+# 1. リポジトリをクローン
+git clone https://github.com/yourusername/waga-toushijutsu.git
+cd waga-toushijutsu
+
+# 2. 環境変数を設定（オプション）
+cp .env.example .env
+# .envを編集して処理対象ファイルを変更可能
+
+# 3. Docker起動（データ収集 → ビルド → プレビュー）
+./scripts/start.sh --build
+
+# 4. ブラウザでアクセス
+# http://localhost:4173
+```
+
+**必要な環境:**
+
+- Docker Desktop 20.10.0+
+- メモリ 4GB以上推奨
+
+詳細は [DOCKER.md](DOCKER.md) を参照してください。
+
+---
+
+### 方法2: ローカル環境（従来の方法）
+
+#### データ取得環境のセットアップ
 
 ```bash
 # 1. リポジトリをクローン
@@ -103,7 +134,7 @@ uv run sumalize.py stocks_samples.json
 uv run combine_latest_csv.py
 ```
 
-### フロントエンド環境のセットアップ
+#### フロントエンド環境のセットアップ
 
 ```bash
 # 1. フロントエンドディレクトリへ移動
