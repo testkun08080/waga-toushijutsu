@@ -74,27 +74,125 @@
 
 ---
 
-## 📕 データ出典
+## 🚀 セットアップガイド（完全ローカル）
 
-- 日本取引所グループ（JPX）公式株式データ  
-  🔗 [https://www.jpx.co.jp/markets/statistics-equities/misc/tvdivq0000001vg2-att/data_j.xls](https://www.jpx.co.jp/markets/statistics-equities/misc/tvdivq0000001vg2-att/data_j.xls)
+### データ取得環境のセットアップ
+
+```bash
+# 1. リポジトリをクローン
+git clone https://github.com/yourusername/waga-toushijutsu.git
+cd waga-toushijutsu/stock_list
+
+# 2. Python環境のセットアップ（uvを使用）
+uv venv -p 3.11
+source .venv/bin/activate  # Windows: .venv\Scripts\activate
+
+# 3. 依存関係をインストール
+uv pip install -r requirements.txt
+
+# 4. 株式リスト取得（初回のみ）
+uv run get_jp_stocklist.py
+
+# 5. データ取得を実行
+uv run sumalize.py stocks_1.json
+
+# 6. CSV結合（オプション）
+uv run combine_latest_csv.py
+```
+
+### フロントエンド環境のセットアップ
+
+```bash
+# 1. フロントエンドディレクトリへ移動
+cd stock_search
+
+# 2. 依存関係をインストール
+npm install
+
+# 3. ビルド
+npm run build
+
+# 4. プレビュー
+npm run preview
+# http://localhost:4173/ にアクセス
+
+```
+
+---
+
+## 📋 データ取得方法
+
+### 方法1: GitHub Actions を使用（推奨）
+
+⚠️ **重要**: **プライベートリポジトリでの使用を強く推奨します**
+
+1. このリポジトリを**プライベートリポジトリとしてフォーク**します
+   - パブリックリポジトリで使用すると、データの二次配布に当たる可能性があると考えられます
+   - GitHub でフォークする際に "Private" オプションを選択してください
+2. フォークしたプライベートリポジトリの **Actions** タブに移動
+3. **"📊 Stock Data Fetch"** ワークフローを選択
+4. **"Run workflow"** をクリック
+5. 処理対象の株式ファイルを選択（stocks_1.json ～ stocks_4.json）
+6. 実行完了後、`stock_list/Export/` ディレクトリにデータファイルが生成されます
+
+**重要事項**:
+
+- GitHub Actionsで生成されたデータは、**あなたのプライベートリポジトリ内でのみ**保持してください
+- データファイルを含むリポジトリを公開しないでください
+- ローカル環境での使用が最も安全です
+
+
+---
+
+## 📁 生成されるファイル
+
+実行後、`stock_list/Export/` ディレクトリに以下のファイルが生成されます：
+
+```
+Export/
+├── japanese_stocks_data_1_YYYYMMDD_HHMMSS.csv  # stocks_1.json のデータ
+├── japanese_stocks_data_2_YYYYMMDD_HHMMSS.csv  # stocks_2.json のデータ
+├── japanese_stocks_data_3_YYYYMMDD_HHMMSS.csv  # stocks_3.json のデータ
+├── japanese_stocks_data_4_YYYYMMDD_HHMMSS.csv  # stocks_4.json のデータ
+└── YYYYMMDD_combined.csv                       # 結合されたデータ（オプション）
+```
+
+---
+
+## 🔒 データ管理のベストプラクティス
+
+1. **個人利用のみ**: データは投資研究や学習目的でのみ使用してください
+2. **定期更新**: 最新データが必要な場合は、定期的に再取得してください
+3. **バックアップ**: 重要なデータは個人のローカル環境にバックアップしてください
+4. **共有禁止**: データファイルを他のユーザーと共有しないでください
+5. **公開禁止**: データファイルをGitHubやその他のプラットフォームで公開しないでください
+
+---
+
+
+## 📚 参考/出典
+
+- [yfinance GitHub Repository](https://github.com/ranaroussi/yfinance)
+- [Yahoo Finance](https://finance.yahoo.com/)
+- [日本取引所グループ（JPX）](https://www.jpx.co.jp/)
+- [わが投資術](https://amzn.to/3IEVRkq)
 
 ---
 
 ## 🧭 ライセンス
 
-- **yfinance:** Apache License 2.0  
-- **本プロジェクト:** MIT License（非商用前提）  
-- **データ:** Yahoo! Japan 利用規約に従うこと  
+- **yfinance:** Apache License 2.0
+- **本プロジェクト:** MIT License（非商用前提）
+- **データ:** Yahoo! Japan 利用規約に従うこと
 
 ---
 
 ## 💬 コントリビューション
 
-このプロジェクトは個人による実験的開発です。  
+このプロジェクトは個人による実験的開発です。
 提案・改善・アイデアなどがあれば、**Issue または Pull Request** からぜひご連絡ください。
 
 ---
 
-© 2025 [Your Name or GitHub ID]  
+© 2025 [Your Name or GitHub ID]
 Released under the [MIT License](./LICENSE)
