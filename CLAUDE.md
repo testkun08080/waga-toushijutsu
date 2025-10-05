@@ -324,7 +324,7 @@ npm run preview
 **Purpose**: Process specific stock chunks for detailed financial data
 **Execution**: Manual via GitHub Actions interface
 **Parameters**:
-- `stock_file`: Choose from stocks_1.json - stocks_4.json or stocks_temp.json
+- `stock_file`: Choose from stocks_1.json - stocks_4.json or stocks_samples.json
 **Output Location**: `stock_list/Export/` directory with timestamped files
 
 #### 2. Stock List Update Workflow

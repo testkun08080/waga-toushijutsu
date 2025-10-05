@@ -335,7 +335,7 @@ def get_stock_data(stock_info):
         return None
 
 
-def main(json_filename="stocks_temp.json"):
+def main(json_filename="stocks_samples.json"):
     """メイン処理
 
     Args:
@@ -476,21 +476,21 @@ def parse_arguments():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 使用例:
-  python sumalize.py                    # stocks_temp.jsonを処理（デフォルト）
+  python sumalize.py                    # stocks_samples.jsonを処理（デフォルト）
   python sumalize.py stocks_1.json     # stocks_1.jsonを処理
   python sumalize.py --json stocks_2.json  # stocks_2.jsonを処理
   
 利用可能なファイル:
   stocks_1.json, stocks_2.json, stocks_3.json, stocks_4.json
-  stocks_temp.json, stocks_all.json
+  stocks_samples.json, stocks_all.json
         """,
     )
 
     parser.add_argument(
         "json_file",
         nargs="?",
-        default="stocks_temp.json",
-        help="処理対象のJSONファイル名 (デフォルト: stocks_temp.json)",
+        default="stocks_samples.json",
+        help="処理対象のJSONファイル名 (デフォルト: stocks_samples.json)",
     )
 
     parser.add_argument("--json", "-j", dest="json_file_alt", help="処理対象のJSONファイル名（--jsonオプション）")

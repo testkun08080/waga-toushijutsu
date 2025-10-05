@@ -85,7 +85,6 @@ cd waga-toushijutsu/stock_list
 
 # 2. Python環境のセットアップ（uvを使用）
 uv venv -p 3.11
-source .venv/bin/activate  # Windows: .venv\Scripts\activate
 
 # 3. 依存関係をインストール
 uv pip install -r requirements.txt
@@ -94,7 +93,11 @@ uv pip install -r requirements.txt
 uv run get_jp_stocklist.py
 
 # 5. データ取得を実行
-uv run sumalize.py stocks_1.json
+uv run sumalize.py stocks_samples.json
+# uv run sumalize.py stocks_1.json
+# uv run sumalize.py stocks_2.json
+# uv run sumalize.py stocks_3.json
+# uv run sumalize.py stocks_4.json
 
 # 6. CSV結合（オプション）
 uv run combine_latest_csv.py

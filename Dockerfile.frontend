@@ -1,0 +1,50 @@
+# React Frontend Service Dockerfile
+# フロントエンドビルド・プレビューサービス用Dockerfile
+
+FROM node:20-alpine AS base
+
+# 作業ディレクトリ設定
+WORKDIR /app
+
+# 依存関係のインストール（キャッシュ最適化）
+FROM base AS deps
+COPY stock_search/package*.json ./
+RUN npm ci
+
+# ビルドステージ
+FROM base AS builder
+COPY stock_search/package*.json ./
+COPY --from=deps /app/node_modules ./node_modules
+COPY stock_search/ .
+
+# データディレクトリを準備
+RUN mkdir -p public/data
+
+# TypeScriptコンパイルとViteビルド
+RUN npm run build
+
+# プレビューステージ
+FROM base AS runner
+WORKDIR /app
+
+# 環境変数のデフォルト値を設定
+ENV NODE_ENV=production
+ENV PORT=4173
+ENV VITE_BASE_PATH=/
+
+# 必要なファイルのみコピー
+COPY --from=builder /app/dist ./dist
+COPY --from=builder /app/package*.json ./
+COPY --from=builder /app/node_modules ./node_modules
+
+# 非rootユーザーで実行
+RUN addgroup -g 1001 -S nodejs && \
+    adduser -S reactuser -u 1001 && \
+    chown -R reactuser:nodejs /app
+USER reactuser
+
+# ポート公開（環境変数で動的に設定可能）
+EXPOSE ${PORT}
+
+# プレビューサーバー起動（環境変数を使用）
+CMD sh -c "npm run preview -- --host 0.0.0.0 --port ${PORT}"

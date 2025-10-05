@@ -1,0 +1,70 @@
+version: "3.8"
+
+services:
+  # Pythonデータ収集サービス
+  python-service:
+    build:
+      context: .
+      dockerfile: Dockerfile.python
+    container_name: stock-data-collector
+    env_file:
+      - .env
+    volumes:
+      # 株式データディレクトリをマウント
+      - ./stock_list:/app:rw
+      # Exportディレクトリを共有
+      - stock-data:/app/Export
+    environment:
+      - PYTHONUNBUFFERED=1
+      - STOCK_FILE=${STOCK_FILE:-stocks_1.json}
+      - CHUNK_SIZE=${CHUNK_SIZE:-1000}
+    networks:
+      - stock-network
+    # データ収集完了後に終了
+    restart: "no"
+
+  # React フロントエンドサービス
+  frontend-service:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    container_name: stock-frontend
+    env_file:
+      - .env
+    ports:
+      - "4173:4173"
+    volumes:
+      # データディレクトリをマウント（読み取り専用）
+      - stock-data:/app/public/data:ro
+      # 開発時のホットリロード用（オプション）
+      - ./stock_search/src:/app/src:ro
+    environment:
+      - NODE_ENV=${NODE_ENV:-production}
+      - VITE_BASE_PATH=${VITE_BASE_PATH:-/}
+    networks:
+      - stock-network
+    depends_on:
+      python-service:
+        condition: service_completed_successfully
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "wget",
+          "--no-verbose",
+          "--tries=1",
+          "--spider",
+          "http://localhost:4173",
+        ]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 30s
+
+networks:
+  stock-network:
+    driver: bridge
+
+volumes:
+  stock-data:
+    driver: local
