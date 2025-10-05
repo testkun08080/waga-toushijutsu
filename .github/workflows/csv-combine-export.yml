@@ -23,12 +23,6 @@ on:
         default: "Latest CSV files combination"
         type: string
 
-  # Part 4完了後に自動実行
-  workflow_run:
-    workflows:  ["📊 Sequential Stock Fetch - Part 4 (Final)"]
-    types:
-      - completed
-
 jobs:
   combine-csv:
     runs-on: ubuntu-latest
@@ -126,4 +120,19 @@ jobs:
         with:
           commit_message: |
             📊 CSV結合ファイル生成 ($(date +'%Y年%m月%d日'))
+
+      # 次のワークフローをトリガー
+      - name: 🚀 Trigger next workflows
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            // Deploy to GitHub Pages をトリガー
+            await github.rest.actions.createWorkflowDispatch({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: 'deploy-github-pages.yml',
+              ref: 'main'
+            });
+            console.log('✅ Triggered: Deploy to GitHub Pages');
 

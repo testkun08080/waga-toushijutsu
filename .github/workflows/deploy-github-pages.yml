@@ -14,12 +14,6 @@ on:
     paths: ["stock_search/**"]
   workflow_dispatch:
 
-  # CSV結合完了後に自動実行
-  workflow_run:
-    workflows: ["📋 CSV Combine & Export"]
-    types:
-      - completed
-
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
 # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:

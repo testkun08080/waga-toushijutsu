@@ -104,5 +104,23 @@ jobs:
       - name: 🔗 Workflow Chain Info
         run: |
           echo "✅ Part 4 completed successfully"
-          echo "🔄 Next: CSV Combine will auto-trigger via workflow_run"
-          echo "🚀 Then: GitHub Pages deployment will follow automatically"
+          echo "🔄 Next: CSV Combine will be triggered"
+          echo "🚀 Then: GitHub Pages deployment will follow"
+
+      # 次のワークフローをトリガー
+      - name: 🚀 Trigger CSV Combine & Export
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            // CSV Combine & Export をトリガー
+            await github.rest.actions.createWorkflowDispatch({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: 'csv-combine-export.yml',
+              ref: 'main',
+              inputs: {
+                reason: 'Auto-triggered after Sequential Stock Fetch Part 4 completion'
+              }
+            });
+            console.log('✅ Triggered: CSV Combine & Export');
