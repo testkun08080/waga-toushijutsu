@@ -50,9 +50,25 @@ export const Footer: React.FC = () => {
             Copyright © {new Date().getFullYear()} - All right reserved by
             testkun
           </p>
-          {/* 免責事項 */}
 
-          <p className="text-xs text-base-content/50 text-center">
+          {/* データ利用に関する重要な注意 */}
+          <div className="text-xs text-base-content/60 text-center space-y-1 mt-2">
+            <p className="font-semibold">
+              ⚠️ このプロジェクトは Yahoo Finance のデータ取得を補助するツールです
+            </p>
+            <p>
+              取得したデータの利用については Yahoo の利用規約に従ってください
+            </p>
+            <p>
+              本リポジトリはデータ自体を配布しません・個人利用目的のみで使用してください
+            </p>
+            <p className="font-semibold text-error">
+              🔒 プライベートリポジトリでの使用を強く推奨します
+            </p>
+          </div>
+
+          {/* 投資判断に関する免責事項 */}
+          <p className="text-xs text-base-content/50 text-center mt-2">
             ⚠️ 投資判断は自己責任で行ってください。本サービスで提供される情報は投資助言ではありません。
           </p>
         </aside>

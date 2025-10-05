@@ -1,5 +1,24 @@
 # 📊 YhooFinance x 日本株式スクリーニング ( with わが投資術)
 
+---
+
+## ⚠️ 重要な注意事項
+
+**このプロジェクトは Yahoo Finance のデータ取得を補助し可視化するツールです。**
+
+- ⚠️ **取得したデータの利用については Yahoo の利用規約に従ってください**
+- 🚫 **本リポジトリはデータ自体を配布しません**
+- ✅ **個人利用・研究・教育目的のみで使用してください**
+- ❌ **データの二次配布・商用利用は禁止されています**
+- 🔒 **プライベートリポジトリでの使用を強く推奨します**
+  - パブリックリポジトリで使用すると、データの二次配布に当たる可能性があると考えられます
+  - フォークする際は必ずプライベートリポジトリに設定してください
+  - GitHub Actions で生成されたデータファイルも非公開のままにしてください
+
+データは**あなた自身の環境**で取得する必要があります。詳細は [法的情報・利用規約](#️-法的情報利用規約) をご確認ください。
+
+---
+
 ## 🌟 概要
 
 [わが投資術](https://amzn.to/3IEVRkq)を実践してみようと思い、yahoo fincnace を使用して取得したデータを可視化する web アプリケーションです。
@@ -49,8 +68,11 @@ uv run split_stocks.py --input stocks_all.json --size 1000
 # カスタム分割設定
 uv run split_stocks.py -i custom_data.json -s 500
 
-# 特定チャンクの処理（Export/フォルダに直接保存）
+# 特定チャンクの処理（Export/フォルダに直接保存）分けて更新するのを推奨
 uv run sumalize.py stocks_1.json
+uv run sumalize.py stocks_2.json
+uv run sumalize.py stocks_3.json
+uv run sumalize.py stocks_4.json
 ```
 
 #### Web アプリケーション
@@ -120,15 +142,35 @@ stock_list/ ディレクトリ構造:
 このプロジェクトは個人開発による実験的な取り組みです。
 機能要求や改善提案は Issue を通じてお気軽にご連絡ください。
 
-## 🔗 関連リンク
+## ⚖️ 法的情報・利用規約
 
--   [**ウェブアプリケーション**](testkun.net/waga-toushijutsu/)
+### データ利用に関する重要な注意事項
+
+このプロジェクトは **yfinance** ライブラリを使用してYahoo Financeの公開APIからデータを取得しています。
+
+**重要**:
+- yfinanceはYahoo, Inc.と提携、承認、または検証されたものではありません
+- Yahoo Financeから取得したデータの**二次配布は禁止**されています
+- このリポジトリのデータファイル（`stock_list/Export/`）はGit管理から除外されています
+- ユーザーは**個人利用目的のみ**で、自身の環境でデータを取得してください
+
+
+### ライセンス・利用規約
+
+- **yfinance**: Apache Software License の下で配布
+- **Yahoo Finance データ**: Yahoo!の利用規約に従う必要があります
+  - [Yahoo Terms of Service](https://legal.yahoo.com/us/en/yahoo/terms/otos/index.html)
+  - [Yahoo Developer Terms](https://legal.yahoo.com/us/en/yahoo/terms/product-atos/apiforydn/index.html)
+  - [Yahoo Finance Terms](https://finance.yahoo.com/about/terms)
+- **本プロジェクト**: 研究・教育目的での使用を想定
+
+**免責事項**: このツールの使用によって取得された実際のデータの使用権については、Yahoo!の利用規約を参照してください。投資判断は自己責任で行ってください。
+
+## 🔗 関連リンク / 📕 参考本
 -   **データソース**: 日本取引所グループ（JPX）公式データ
 
 ```html
 https://www.jpx.co.jp/markets/statistics-equities/misc/tvdivq0000001vg2-att/data_j.xls
 ```
 
-## 📕 参考本
-
--   [わが投資術](https://amzn.to/3IEVRkq)
+[わが投資術](https://amzn.to/3IEVRkq)
