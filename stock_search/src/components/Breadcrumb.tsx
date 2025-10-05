@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import React from "react";
+import { Link, useLocation } from "react-router-dom";
 
 interface BreadcrumbItem {
   label: string;
@@ -12,10 +12,10 @@ interface BreadcrumbProps {
 }
 
 const routeMap: Record<string, { label: string; icon: string }> = {
-  '/': { label: 'データビューア', icon: '📊' },
-  '/data': { label: 'データビューア', icon: '📊' },
-  '/about': { label: 'このサイトについて', icon: 'ℹ️' },
-  '/help': { label: 'ヘルプ', icon: '❓' },
+  "/": { label: "データビューア", icon: "📊" },
+  "/data": { label: "データビューア", icon: "📊" },
+  "/about": { label: "このアプリについて", icon: "ℹ️" },
+  "/help": { label: "ヘルプ", icon: "❓" },
 };
 
 export const Breadcrumb: React.FC<BreadcrumbProps> = ({ items }) => {
@@ -44,7 +44,7 @@ export const Breadcrumb: React.FC<BreadcrumbProps> = ({ items }) => {
                 </span>
               ) : (
                 <Link
-                  to={item.href || '/'}
+                  to={item.href || "/"}
                   className="flex items-center gap-1 text-primary hover:text-primary-focus transition-colors"
                 >
                   {item.icon && <span>{item.icon}</span>}
@@ -64,17 +64,17 @@ function generateBreadcrumbItems(pathname: string): BreadcrumbItem[] {
 
   // ホームは常に含める
   items.push({
-    label: 'ホーム',
-    href: '/',
-    icon: '🏠'
+    label: "ホーム",
+    href: "/",
+    icon: "🏠",
   });
 
   // 現在のページの情報を追加
   const currentRoute = routeMap[pathname];
-  if (currentRoute && pathname !== '/') {
+  if (currentRoute && pathname !== "/") {
     items.push({
       label: currentRoute.label,
-      icon: currentRoute.icon
+      icon: currentRoute.icon,
     });
   }
 

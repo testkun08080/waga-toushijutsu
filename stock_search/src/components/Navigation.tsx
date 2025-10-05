@@ -1,11 +1,11 @@
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation } from "react-router-dom";
 
 export const Navigation = () => {
   const location = useLocation();
 
   const navItems = [
-    { path: '/', label: 'データビューア', icon: '📊' },
-    { path: '/about', label: 'このサイトについて', icon: '📖' },
+    { path: "/", label: "データビューア", icon: "📊" },
+    { path: "/about", label: "このアプリについて", icon: "📖" },
   ];
 
   return (
@@ -14,9 +14,7 @@ export const Navigation = () => {
         {/* ロゴ */}
         <div className="navbar-start">
           <Link to="/" className="btn btn-ghost normal-case text-xl">
-            <h1 className="text-2xl font-bold">
-            📊 yf x 日本株スクリーニング
-            </h1>
+            <h1 className="text-2xl font-bold">📊 yf x 日本株スクリーニング</h1>
           </Link>
         </div>
 
@@ -29,8 +27,8 @@ export const Navigation = () => {
                   to={item.path}
                   className={`gap-2 ${
                     location.pathname === item.path
-                      ? 'active bg-primary text-primary-content'
-                      : ''
+                      ? "active bg-primary text-primary-content"
+                      : ""
                   }`}
                 >
                   <span>{item.icon}</span>
@@ -69,7 +67,7 @@ export const Navigation = () => {
                   <Link
                     to={item.path}
                     className={`gap-2 ${
-                      location.pathname === item.path ? 'active' : ''
+                      location.pathname === item.path ? "active" : ""
                     }`}
                   >
                     <span>{item.icon}</span>
