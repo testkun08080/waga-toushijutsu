@@ -14,7 +14,9 @@ export const Navigation = () => {
         {/* ロゴ */}
         <div className="navbar-start">
           <Link to="/" className="btn btn-ghost normal-case text-xl">
+            <h1 className="text-2xl font-bold">
             📊 yf x 日本株スクリーニング
+            </h1>
           </Link>
         </div>
 
