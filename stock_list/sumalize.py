@@ -2,7 +2,6 @@ import yfinance as yf
 import pandas as pd
 import json
 import time
-import sys
 import argparse
 from datetime import datetime
 import warnings
@@ -332,7 +331,7 @@ def get_stock_data(stock_info):
         return None
 
 
-def main(json_filename="stock_samples.json"):
+def main(json_filename="stocks_sample.json"):
     """メイン処理
 
     Args:
@@ -435,7 +434,7 @@ def main(json_filename="stock_samples.json"):
 
         # 全体の実行時間をログ出力
         logger.info("=" * 80)
-        logger.info(f"日本株財務データ取得プロセス完了")
+        logger.info("日本株財務データ取得プロセス完了")
         logger.info(f"開始時刻: {overall_start_datetime.strftime('%Y-%m-%d %H:%M:%S')}")
         logger.info(f"終了時刻: {overall_end_datetime.strftime('%Y-%m-%d %H:%M:%S')}")
         logger.info(f"総実行時間: {format_duration(overall_duration)}")
@@ -454,7 +453,7 @@ def main(json_filename="stock_samples.json"):
 
         logger.error("\n❌ データが取得できませんでした")
         logger.error("=" * 80)
-        logger.error(f"日本株財務データ取得プロセス失敗")
+        logger.error("日本株財務データ取得プロセス失敗")
         logger.error(f"開始時刻: {overall_start_datetime.strftime('%Y-%m-%d %H:%M:%S')}")
         logger.error(f"終了時刻: {overall_end_datetime.strftime('%Y-%m-%d %H:%M:%S')}")
         logger.error(f"総実行時間: {format_duration(overall_duration)}")
@@ -470,21 +469,21 @@ def parse_arguments():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 使用例:
-  python sumalize.py                    # stock_samples.jsonを処理（デフォルト）
+  python sumalize.py                    # stocks_sample.jsonを処理（デフォルト）
   python sumalize.py stocks_1.json     # stocks_1.jsonを処理
   python sumalize.py --json stocks_2.json  # stocks_2.jsonを処理
   
 利用可能なファイル:
   stocks_1.json, stocks_2.json, stocks_3.json, stocks_4.json
-  stock_samples.json, stocks_all.json
+  stocks_sample.json, stocks_all.json
         """,
     )
 
     parser.add_argument(
         "json_file",
         nargs="?",
-        default="stock_samples.json",
-        help="処理対象のJSONファイル名 (デフォルト: stock_samples.json)",
+        default="stocks_sample.json",
+        help="処理対象のJSONファイル名 (デフォルト: stocks_sample.json)",
     )
 
     parser.add_argument("--json", "-j", dest="json_file_alt", help="処理対象のJSONファイル名（--jsonオプション）")

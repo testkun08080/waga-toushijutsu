@@ -17,7 +17,7 @@ on:
           - "stocks_2.json"
           - "stocks_3.json"
           - "stocks_4.json"
-          - "stock_samples.json"
+          - "stocks_sample.json"
 
 jobs:
   fetch-stock-data:

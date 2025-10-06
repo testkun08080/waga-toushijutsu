@@ -7,13 +7,8 @@ permissions:
 on:
   workflow_dispatch:
     inputs:
-      max_files:
-        description: "結合するファイルの最大数（空白の場合は全て）"
-        required: false
-        default: ""
-        type: string
       custom_date:
-        description: "カスタム日付 (YYYYMMDD形式、空白の場合は今日の日付)"
+        description: "対象日付 (YYYYMMDD形式、空白の場合は今日の日付)"
         required: false
         default: ""
         type: string
@@ -47,8 +42,7 @@ jobs:
 
       - name: 📋 Show input parameters
         run: |
-          echo "Max files: ${{ github.event.inputs.max_files || 'all' }}"
-          echo "Custom date: ${{ github.event.inputs.custom_date || 'today' }}"
+          echo "Target date: ${{ github.event.inputs.custom_date || 'today' }}"
           echo "Reason: ${{ github.event.inputs.reason || 'Auto-triggered after deployment' }}"
           echo "Working directory: $(pwd)"
           echo "Current CSV files in Export directory:"
@@ -71,16 +65,16 @@ jobs:
 
           # Pythonスクリプトの引数を準備
           ARGS=""
-          if [ -n "${{ github.event.inputs.max_files }}" ]; then
-            ARGS="$ARGS --max-files ${{ github.event.inputs.max_files }}"
-          fi
           if [ -n "${{ github.event.inputs.custom_date }}" ]; then
-            ARGS="$ARGS --date ${{ github.event.inputs.custom_date }}"
+            ARGS="--date ${{ github.event.inputs.custom_date }}"
+            echo "Target date: ${{ github.event.inputs.custom_date }}"
+          else
+            echo "Target date: today ($(date +'%Y%m%d'))"
           fi
 
           echo "Arguments: $ARGS"
 
-          # CSV結合スクリプトを実行
+          # CSV結合スクリプトを実行（指定日付のファイルのみを結合）
           python combine_latest_csv.py $ARGS
 
           echo "✅ CSV combination completed"
