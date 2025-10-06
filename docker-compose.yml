@@ -5,7 +5,7 @@ services:
   python-service:
     build:
       context: .
-      dockerfile: Dockerfile.python
+      dockerfile: Dockerfile.fetch
     container_name: stock-data-collector
     env_file:
       - .env
