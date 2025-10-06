@@ -27,7 +27,7 @@ services:
   frontend-service:
     build:
       context: .
-      dockerfile: Dockerfile.frontend
+      dockerfile: Dockerfile.app
     container_name: stock-frontend
     env_file:
       - .env

@@ -20,7 +20,8 @@ COPY stock_search/ .
 # データディレクトリを準備
 RUN mkdir -p public/csv
 
-# TypeScriptコンパイルとViteビルド
+# TypeScriptコンパイルとViteビルド (Docker環境: CSV copy skipped)
+ENV DOCKER_ENV=true
 RUN npm run build
 
 # 本番環境ステージ（nginx使用）
