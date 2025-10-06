@@ -32,12 +32,10 @@ services:
     env_file:
       - .env
     ports:
-      - "4173:4173"
+      - "8080:80"
     volumes:
-      # データディレクトリをマウント（読み取り専用）
-      - stock-data:/app/public/data:ro
-      # 開発時のホットリロード用（オプション）
-      - ./stock_search/src:/app/src:ro
+      # CSVデータディレクトリをマウント（読み取り専用）
+      - stock-data:/usr/share/nginx/html/csv:ro
     environment:
       - NODE_ENV=${NODE_ENV:-production}
       - VITE_BASE_PATH=${VITE_BASE_PATH:-/}
@@ -54,7 +52,7 @@ services:
           "--no-verbose",
           "--tries=1",
           "--spider",
-          "http://localhost:4173",
+          "http://localhost:80",
         ]
       interval: 10s
       timeout: 5s

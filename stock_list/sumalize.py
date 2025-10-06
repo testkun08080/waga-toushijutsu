@@ -33,35 +33,30 @@ def get_prefecture_from_zip(zip_code):
             return None
 
         # 郵便番号の前処理（ハイフンや空白を除去）
-        print("zip_code", zip_code)
         clean_zip = str(zip_code).replace("-", "").replace("−", "").replace(" ", "").replace("　", "")
-
-        print("clean_zip", clean_zip)
 
         if len(clean_zip) < 7:  # 郵便番号として短すぎる場合
             return None
 
         # digital-address APIにリクエスト
         url = f"https://digital-address.app/{clean_zip}"
-        print(f"  🌐 digital-address API: {url}")
 
         response = requests.get(url, timeout=10)
         response.raise_for_status()
 
         data = response.json()
-        print(f"  📡 API Response: {data}")
 
         if data.get("addresses") and len(data["addresses"]) > 0:
             # addressesの最初の要素からpref_nameを取得
             address = data["addresses"][0]
             prefecture = address.get("pref_name")
-            print(f"  🏢 都道府県: {prefecture}")
+            logger.debug(f"  🏢 都道府県: {prefecture}")
             return prefecture
 
         return None
 
     except Exception as e:
-        print(f"    郵便番号変換エラー ({zip_code}): {e}")
+        logger.debug(f"    郵便番号変換エラー ({zip_code}): {e}")
         return None
 
 
@@ -137,7 +132,7 @@ def safe_get_financial_data(ticker, statement_type, item, fallback_items=None):
 
         return None
     except Exception as e:
-        print(f"    データ取得エラー ({item}): {e}")
+        logger.debug(f"    データ取得エラー ({item}): {e}")
         return None
 
 
@@ -160,8 +155,8 @@ def get_stock_data(stock_info):
     start_time = time.time()
     start_datetime = datetime.now()
 
-    print(f"取得中: {stock_info['銘柄名']} ({ticker_symbol})")
-    logger.info(
+    logger.info(f"取得中: {stock_info['銘柄名']} ({ticker_symbol})")
+    logger.debug(
         f"データ取得開始: {stock_info['銘柄名']} ({ticker_symbol}) - 開始時刻: {start_datetime.strftime('%Y-%m-%d %H:%M:%S')}"
     )
 
@@ -172,7 +167,7 @@ def get_stock_data(stock_info):
         # 基本情報取得
         info = ticker.info
         if not info:
-            print(f"  ⚠️ 基本情報が取得できませんでした: {ticker_symbol}")
+            logger.warning(f"  ⚠️ 基本情報が取得できませんでした: {ticker_symbol}")
             return None
 
         # 時間を置いてAPIレート制限を回避
@@ -183,7 +178,7 @@ def get_stock_data(stock_info):
             financials = ticker.financials
             balance_sheet = ticker.balance_sheet
         except Exception as e:
-            print(f"  ⚠️ 財務諸表取得エラー: {e}")
+            logger.warning(f"  ⚠️ 財務諸表取得エラー: {e}")
             financials = pd.DataFrame()
             balance_sheet = pd.DataFrame()
 
@@ -203,19 +198,19 @@ def get_stock_data(stock_info):
 
         # PER(会予)のデバッグ
         forward_pe = info.get("forwardPE", None)
-        print(f"  📊 forwardPE値: {forward_pe} (type: {type(forward_pe)})")
+        # print(f"  📊 forwardPE値: {forward_pe} (type: {type(forward_pe)})")
 
         # その他のPE関連データもチェック
-        trailing_pe = safe_get_value(info, "trailingPE")
-        pe_ratio = safe_get_value(info, "priceEarningsRatio")
-        print(f"  📊 trailingPE: {trailing_pe}, priceEarningsRatio: {pe_ratio}")
+        # trailing_pe = safe_get_value(info, "trailingPE")
+        # pe_ratio = safe_get_value(info, "priceEarningsRatio")
+        # print(f"  📊 trailingPE: {trailing_pe}, priceEarningsRatio: {pe_ratio}")
 
         # 郵便番号と都道府県のデバッグ
         zip_code = safe_get_value(info, "zip")
-        prefecture_from_zip = get_prefecture_from_zip(zip_code)
-        city = safe_get_value(info, "city")
-        state = safe_get_value(info, "state")
-        print(f"  🏢 zip: {zip_code}, 都道府県(zip): {prefecture_from_zip}, city: {city}, state: {state}")
+        # prefecture_from_zip = get_prefecture_from_zip(zip_code)
+        # city = safe_get_value(info, "city")
+        # state = safe_get_value(info, "state")
+        # print(f"  🏢 zip: {zip_code}, 都道府県(zip): {prefecture_from_zip}, city: {city}, state: {state}")
 
         # データ収集
         result = {
@@ -293,7 +288,9 @@ def get_stock_data(stock_info):
             # デバッグ用: ネットキャッシュ計算の詳細を表示
             if any(x is not None for x in [current_assets, investments, total_liabilities]):
                 inv_70 = (investments * 0.7) if investments is not None else 0
-                print(f"  📊 ネットキャッシュ計算: {current_assets} + {inv_70:.0f} - {total_liabilities} = {net_cash}")
+                logger.debug(
+                    f"  📊 ネットキャッシュ計算: {current_assets} + {inv_70:.0f} - {total_liabilities} = {net_cash}"
+                )
 
             # ネットキャッシュ比率の計算
             if net_cash and result["時価総額"]:
@@ -317,8 +314,8 @@ def get_stock_data(stock_info):
         end_datetime = datetime.now()
         duration = end_time - start_time
 
-        print(f"  ✅ 取得完了: {result['会社名']}")
-        logger.info(
+        logger.info(f"  ✅ 取得完了: {result['会社名']}")
+        logger.debug(
             f"データ取得完了: {result['会社名']} ({ticker_symbol}) - 終了時刻: {end_datetime.strftime('%Y-%m-%d %H:%M:%S')} - 実行時間: {format_duration(duration)}"
         )
         return result
@@ -328,14 +325,14 @@ def get_stock_data(stock_info):
         end_datetime = datetime.now()
         duration = end_time - start_time
 
-        print(f"  ❌ エラー: {ticker_symbol} - {e}")
+        logger.error(f"  ❌ エラー: {ticker_symbol} - {e}")
         logger.error(
             f"データ取得エラー: {stock_info['銘柄名']} ({ticker_symbol}) - 終了時刻: {end_datetime.strftime('%Y-%m-%d %H:%M:%S')} - 実行時間: {format_duration(duration)} - エラー: {e}"
         )
         return None
 
 
-def main(json_filename="stocks_samples.json"):
+def main(json_filename="stock_samples.json"):
     """メイン処理
 
     Args:
@@ -353,25 +350,22 @@ def main(json_filename="stocks_samples.json"):
     try:
         with open(json_filename, "r", encoding="utf-8") as f:
             stock_list = json.load(f)
-        print(f"{json_filename}から{len(stock_list)}社の銘柄データを読み込みました")
-        logger.info(f"銘柄データ読み込み完了: {len(stock_list)}社 (from {json_filename})")
+        logger.info(f"{json_filename}から{len(stock_list)}社の銘柄データを読み込みました")
     except FileNotFoundError:
-        print(f"❌ {json_filename}ファイルが見つかりません")
-        logger.error(f"{json_filename}ファイルが見つかりません")
+        logger.error(f"❌ {json_filename}ファイルが見つかりません")
         return None
     except json.JSONDecodeError:
-        print(f"❌ {json_filename}ファイルの形式が正しくありません")
-        logger.error(f"{json_filename}ファイルの形式が正しくありません")
+        logger.error(f"❌ {json_filename}ファイルの形式が正しくありません")
         return None
 
-    print("=" * 60)
-    print("日本株財務データ取得開始")
-    print("=" * 60)
+    logger.info("=" * 60)
+    logger.info("日本株財務データ取得開始")
+    logger.info("=" * 60)
 
     results = []
 
     for i, stock in enumerate(stock_list, 1):
-        print(f"\n[{i}/{len(stock_list)}] ", end="")
+        logger.info(f"\n[{i}/{len(stock_list)}]")
         result = get_stock_data(stock)
 
         if result:
@@ -421,11 +415,11 @@ def main(json_filename="stocks_samples.json"):
         overall_duration = overall_end_time - overall_start_time
 
         # 結果を表示
-        print("\n" + "=" * 60)
-        print("取得結果サマリー")
-        print("=" * 60)
-        print(f"取得成功: {len(results)}社")
-        print(f"取得失敗: {len(stock_list) - len(results)}社")
+        logger.info("\n" + "=" * 60)
+        logger.info("取得結果サマリー")
+        logger.info("=" * 60)
+        logger.info(f"取得成功: {len(results)}社")
+        logger.info(f"取得失敗: {len(stock_list) - len(results)}社")
 
         # CSVファイルに保存（Export フォルダに直接保存）
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -433,11 +427,11 @@ def main(json_filename="stocks_samples.json"):
 
         filename = f"Export/japanese_stocks_data_{base_name}_{timestamp}.csv"
         df.to_csv(filename, index=False, encoding="utf-8-sig")
-        print(f"\nデータをCSVファイルに保存しました: {filename}")
+        logger.info(f"\nデータをCSVファイルに保存しました: {filename}")
 
         # データの一部を表示
-        print("\n取得データ（最初の3列）:")
-        print(df[["会社名", "銘柄コード", "時価総額", "PBR", "ROE"]].head())
+        logger.info("\n取得データ（最初の3列）:")
+        logger.info(f"\n{df[['会社名', '銘柄コード', '時価総額', 'PBR', 'ROE']].head()}")
 
         # 全体の実行時間をログ出力
         logger.info("=" * 80)
@@ -458,7 +452,7 @@ def main(json_filename="stocks_samples.json"):
         overall_end_datetime = datetime.now()
         overall_duration = overall_end_time - overall_start_time
 
-        print("\n❌ データが取得できませんでした")
+        logger.error("\n❌ データが取得できませんでした")
         logger.error("=" * 80)
         logger.error(f"日本株財務データ取得プロセス失敗")
         logger.error(f"開始時刻: {overall_start_datetime.strftime('%Y-%m-%d %H:%M:%S')}")
@@ -476,21 +470,21 @@ def parse_arguments():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 使用例:
-  python sumalize.py                    # stocks_samples.jsonを処理（デフォルト）
+  python sumalize.py                    # stock_samples.jsonを処理（デフォルト）
   python sumalize.py stocks_1.json     # stocks_1.jsonを処理
   python sumalize.py --json stocks_2.json  # stocks_2.jsonを処理
   
 利用可能なファイル:
   stocks_1.json, stocks_2.json, stocks_3.json, stocks_4.json
-  stocks_samples.json, stocks_all.json
+  stock_samples.json, stocks_all.json
         """,
     )
 
     parser.add_argument(
         "json_file",
         nargs="?",
-        default="stocks_samples.json",
-        help="処理対象のJSONファイル名 (デフォルト: stocks_samples.json)",
+        default="stock_samples.json",
+        help="処理対象のJSONファイル名 (デフォルト: stock_samples.json)",
     )
 
     parser.add_argument("--json", "-j", dest="json_file_alt", help="処理対象のJSONファイル名（--jsonオプション）")
@@ -506,15 +500,13 @@ if __name__ == "__main__":
     json_filename = args.json_file_alt if args.json_file_alt else args.json_file
 
     # yfinanceのバージョン確認
-    print(f"yfinance version: {yf.__version__}")
     logger.info(f"yfinance version: {yf.__version__}")
-
-    print(f"処理対象ファイル: {json_filename}")
-    print("=" * 60)
+    logger.info(f"処理対象ファイル: {json_filename}")
+    logger.info("=" * 60)
 
     # メイン処理実行
     df_result = main(json_filename)
 
-    print("\n" + "=" * 60)
-    print("処理完了")
-    print("=" * 60)
+    logger.info("\n" + "=" * 60)
+    logger.info("処理完了")
+    logger.info("=" * 60)

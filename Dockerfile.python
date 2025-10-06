@@ -34,4 +34,4 @@ ENV CHUNK_SIZE=1000
 
 # デフォルトコマンド（株式リスト取得 → 分割 → データ収集）
 # 環境変数を使用して動的に設定
-CMD sh -c "python get_jp_stocklist.py && python split_stocks.py --input stocks_all.json --size ${CHUNK_SIZE} && python sumalize.py ${STOCK_FILE}"
+CMD sh -c "python get_jp_stocklist.py && python split_stocks.py --input stocks_all.json --size ${CHUNK_SIZE} && python sumalize.py ${STOCK_FILE} && python combine_latest_csv.py"

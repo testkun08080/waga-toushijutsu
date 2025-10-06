@@ -124,7 +124,7 @@ uv pip install -r requirements.txt
 uv run get_jp_stocklist.py
 
 # 5. データ取得を実行
-uv run sumalize.py stocks_samples.json
+uv run sumalize.py stock_samples.json
 # uv run sumalize.py stocks_1.json
 # uv run sumalize.py stocks_2.json
 # uv run sumalize.py stocks_3.json

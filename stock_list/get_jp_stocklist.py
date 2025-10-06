@@ -3,6 +3,17 @@ import pandas as pd
 import xlrd
 from openpyxl import Workbook
 import json
+import logging
+
+# ログ設定
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.StreamHandler()
+    ]
+)
+logger = logging.getLogger(__name__)
 
 # ファイルのURL
 url = "https://www.jpx.co.jp/markets/statistics-equities/misc/tvdivq0000001vg2-att/data_j.xls"
@@ -53,4 +64,4 @@ json_list = selected_df.to_dict(orient="records")
 with open("stocks_all.json", "w", encoding="utf-8") as f:
     json.dump(json_list, f, ensure_ascii=False, indent=2)
 
-print("JSONファイルに保存しました: stocks_all.json")
+logger.info("JSONファイルに保存しました: stocks_all.json")

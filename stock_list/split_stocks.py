@@ -7,6 +7,17 @@ import json
 import math
 import argparse
 import sys
+import logging
+
+# ログ設定
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.StreamHandler()
+    ]
+)
+logger = logging.getLogger(__name__)
 
 
 def split_stocks_json(input_file="stocks_all.json", chunk_size=1000):
@@ -25,10 +36,10 @@ def split_stocks_json(input_file="stocks_all.json", chunk_size=1000):
         total_companies = len(stock_data)
         total_files = math.ceil(total_companies / chunk_size)
 
-        print(f"総企業数: {total_companies}社")
-        print(f"分割ファイル数: {total_files}ファイル")
-        print(f"1ファイルあたり: 最大{chunk_size}社")
-        print("-" * 50)
+        logger.info(f"総企業数: {total_companies}社")
+        logger.info(f"分割ファイル数: {total_files}ファイル")
+        logger.info(f"1ファイルあたり: 最大{chunk_size}社")
+        logger.info("-" * 50)
 
         # チャンクに分割して保存
         for i in range(total_files):
@@ -43,25 +54,25 @@ def split_stocks_json(input_file="stocks_all.json", chunk_size=1000):
             with open(output_filename, "w", encoding="utf-8") as f:
                 json.dump(chunk_data, f, ensure_ascii=False, indent=2)
 
-            print(f"✅ {output_filename}: {len(chunk_data)}社 (#{start_idx + 1}-#{end_idx})")
+            logger.info(f"✅ {output_filename}: {len(chunk_data)}社 (#{start_idx + 1}-#{end_idx})")
 
-        print("-" * 50)
-        print(f"分割完了: {total_files}個のファイルを作成しました")
+        logger.info("-" * 50)
+        logger.info(f"分割完了: {total_files}個のファイルを作成しました")
 
         # 各ファイルの情報を表示
-        print("\n作成されたファイル:")
+        logger.info("\n作成されたファイル:")
         for i in range(total_files):
             filename = f"stocks_{i + 1}.json"
             with open(filename, "r", encoding="utf-8") as f:
                 data = json.load(f)
-            print(f"  {filename}: {len(data)}社")
+            logger.info(f"  {filename}: {len(data)}社")
 
     except FileNotFoundError:
-        print(f"❌ エラー: {input_file}が見つかりません")
+        logger.error(f"❌ エラー: {input_file}が見つかりません")
     except json.JSONDecodeError:
-        print(f"❌ エラー: {input_file}の形式が正しくありません")
+        logger.error(f"❌ エラー: {input_file}の形式が正しくありません")
     except Exception as e:
-        print(f"❌ エラー: {e}")
+        logger.error(f"❌ エラー: {e}")
 
 
 if __name__ == "__main__":
@@ -89,16 +100,16 @@ if __name__ == "__main__":
 
     # バリデーション
     if args.size <= 0:
-        print("❌ エラー: チャンクサイズは正の整数である必要があります")
+        logger.error("❌ エラー: チャンクサイズは正の整数である必要があります")
         sys.exit(1)
 
-    print("=" * 60)
-    print("📊 stocks_all.json分割ツール")
-    print("=" * 60)
-    print(f"入力ファイル: {args.input}")
-    print(f"チャンクサイズ: {args.size}社")
+    logger.info("=" * 60)
+    logger.info("📊 stocks_all.json分割ツール")
+    logger.info("=" * 60)
+    logger.info(f"入力ファイル: {args.input}")
+    logger.info(f"チャンクサイズ: {args.size}社")
     if args.verbose:
-        print("詳細モード: ON")
-    print("=" * 60)
+        logger.info("詳細モード: ON")
+    logger.info("=" * 60)
 
     split_stocks_json(input_file=args.input, chunk_size=args.size)
