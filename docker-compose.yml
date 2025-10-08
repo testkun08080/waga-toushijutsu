@@ -38,7 +38,6 @@ services:
       - stock-data:/usr/share/nginx/html/csv:ro
     environment:
       - NODE_ENV=${NODE_ENV:-production}
-      - VITE_BASE_PATH=${VITE_BASE_PATH:-/}
     networks:
       - stock-network
     depends_on:
