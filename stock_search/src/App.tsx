@@ -1,14 +1,12 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Navigation } from "./components/Navigation";
 import { Footer } from "./components/Footer";
-import { SEOManager } from "./components/SEOManager";
 import { AboutPage, DataPage } from "./pages";
 import { NotFound } from "./pages/NotFound";
 
 function App() {
   return (
     <Router>
-      <SEOManager />
       <div className="min-h-screen bg-base-100 flex flex-col">
         <Navigation />
         <main className="flex-1">

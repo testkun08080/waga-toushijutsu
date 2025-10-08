@@ -1,13 +1,13 @@
-import React, { useState } from 'react';
-import type { StockData } from '../types/stock';
-import type { ColumnConfig } from './ColumnSelector';
+import React, { useState } from "react";
+import type { StockData } from "../types/stock";
+import type { ColumnConfig } from "./ColumnSelector";
 import {
   convertToCSV,
   downloadCSV,
   generateFileNameWithFilters,
-  estimateCSVSize
-} from '../utils/csvDownload';
-import SponsorshipModal from './SponsorshipModal';
+  estimateCSVSize,
+} from "../utils/csvDownload";
+import SponsorshipModal from "./SponsorshipModal";
 
 interface DownloadButtonProps {
   data: StockData[];
@@ -20,9 +20,9 @@ interface DownloadButtonProps {
 export const DownloadButton: React.FC<DownloadButtonProps> = ({
   data,
   columns,
-  fileName = 'stock_data',
+  fileName = "stock_data",
   totalCount,
-  className = ''
+  className = "",
 }) => {
   const [isDownloading, setIsDownloading] = useState(false);
   const [downloadMessage, setDownloadMessage] = useState<string | null>(null);
@@ -37,7 +37,7 @@ export const DownloadButton: React.FC<DownloadButtonProps> = ({
   React.useEffect(() => {
     if (cooldownRemaining > 0) {
       const timer = setInterval(() => {
-        setCooldownRemaining(prev => {
+        setCooldownRemaining((prev) => {
           if (prev <= 100) {
             return 0;
           }
@@ -54,7 +54,7 @@ export const DownloadButton: React.FC<DownloadButtonProps> = ({
 
     // データチェック
     if (data.length === 0) {
-      setDownloadMessage('❗ ダウンロードするデータがありません');
+      setDownloadMessage("❗ ダウンロードするデータがありません");
       setTimeout(() => setDownloadMessage(null), 3000);
       return;
     }
@@ -64,7 +64,9 @@ export const DownloadButton: React.FC<DownloadButtonProps> = ({
     if (timeSinceLastDownload < COOLDOWN_DURATION) {
       const remaining = COOLDOWN_DURATION - timeSinceLastDownload;
       setCooldownRemaining(remaining);
-      setDownloadMessage(`⏱️ ${Math.ceil(remaining / 1000)}秒後に再度お試しください`);
+      setDownloadMessage(
+        `⏱️ ${Math.ceil(remaining / 1000)}秒後に再度お試しください`,
+      );
       setTimeout(() => setDownloadMessage(null), remaining + 500);
       return;
     }
@@ -80,7 +82,7 @@ export const DownloadButton: React.FC<DownloadButtonProps> = ({
       const downloadFileName = generateFileNameWithFilters(
         fileName,
         data.length,
-        totalCount || data.length
+        totalCount || data.length,
       );
 
       // ダウンロード実行
@@ -95,10 +97,9 @@ export const DownloadButton: React.FC<DownloadButtonProps> = ({
 
       // ドネーションモーダルを表示
       setShowDonationModal(true);
-
     } catch (error) {
-      console.error('CSV download error:', error);
-      setDownloadMessage('❗ ダウンロードに失敗しました');
+      console.error("CSV download error:", error);
+      setDownloadMessage("❗ ダウンロードに失敗しました");
       setTimeout(() => setDownloadMessage(null), 3000);
     } finally {
       setIsDownloading(false);
@@ -106,8 +107,9 @@ export const DownloadButton: React.FC<DownloadButtonProps> = ({
   };
 
   const estimatedSize = estimateCSVSize(data, columns);
-  const visibleColumnCount = columns.filter(col => col.visible).length;
-  const isDisabled = isDownloading || data.length === 0 || cooldownRemaining > 0;
+  const visibleColumnCount = columns.filter((col) => col.visible).length;
+  const isDisabled =
+    isDownloading || data.length === 0 || cooldownRemaining > 0;
 
   return (
     <div className={`relative ${className}`}>
@@ -115,10 +117,8 @@ export const DownloadButton: React.FC<DownloadButtonProps> = ({
         onClick={handleDownload}
         disabled={isDisabled}
         className={`btn btn-outline btn-sm gap-2 ${
-          data.length === 0 ? 'btn-disabled' : ''
-        } ${
-          cooldownRemaining > 0 ? 'btn-disabled opacity-60' : ''
-        }`}
+          data.length === 0 ? "btn-disabled" : ""
+        } ${cooldownRemaining > 0 ? "btn-disabled opacity-60" : ""}`}
         title={
           cooldownRemaining > 0
             ? `クールダウン中: あと${Math.ceil(cooldownRemaining / 1000)}秒`
@@ -141,7 +141,7 @@ export const DownloadButton: React.FC<DownloadButtonProps> = ({
           <>
             📥 CSVダウンロード
             <span className="text-xs opacity-70">
-              {data.length > 0 ? `(${data.length}件)` : ''}
+              {data.length > 0 ? `(${data.length}件)` : ""}
             </span>
           </>
         )}

@@ -1,2 +1,2 @@
-export { AboutPage } from './AboutPage';
-export { DataPage } from './DataPage';
+export { AboutPage } from "./AboutPage";
+export { DataPage } from "./DataPage";

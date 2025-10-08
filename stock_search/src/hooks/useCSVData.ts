@@ -1,6 +1,6 @@
-import { useState, useCallback } from 'react';
-import type { StockData } from '../types/stock';
-import { parseCSVFile } from '../utils/csvParser';
+import { useState, useCallback } from "react";
+import type { StockData } from "../types/stock";
+import { parseCSVFile } from "../utils/csvParser";
 
 export const useCSVData = () => {
   const [data, setData] = useState<StockData[]>([]);
@@ -16,9 +16,10 @@ export const useCSVData = () => {
       setData(parsedData);
       console.log(`✅ ${parsedData.length}件のデータを読み込みました`);
     } catch (err) {
-      const errorMessage = err instanceof Error ? err.message : 'データの読み込みに失敗しました';
+      const errorMessage =
+        err instanceof Error ? err.message : "データの読み込みに失敗しました";
       setError(errorMessage);
-      console.error('❌ CSVデータ読み込みエラー:', err);
+      console.error("❌ CSVデータ読み込みエラー:", err);
     } finally {
       setLoading(false);
     }
@@ -34,6 +35,6 @@ export const useCSVData = () => {
     loading,
     error,
     loadCSVFile,
-    clearData
+    clearData,
   };
 };

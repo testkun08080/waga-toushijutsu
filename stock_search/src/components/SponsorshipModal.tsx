@@ -1,12 +1,15 @@
-import React, { useEffect, useRef } from 'react';
-import SponsorshipButtons from './SponsorshipButtons';
+import React, { useEffect, useRef } from "react";
+import SponsorshipButtons from "./SponsorshipButtons";
 
 interface SponsorshipModalProps {
   isOpen: boolean;
   onClose: () => void;
 }
 
-const SponsorshipModal: React.FC<SponsorshipModalProps> = ({ isOpen, onClose }) => {
+const SponsorshipModal: React.FC<SponsorshipModalProps> = ({
+  isOpen,
+  onClose,
+}) => {
   const modalCheckboxRef = useRef<HTMLInputElement>(null);
   const modalId = "sponsorship_modal";
 
@@ -59,7 +62,12 @@ const SponsorshipModal: React.FC<SponsorshipModalProps> = ({ isOpen, onClose }) 
                   stroke="currentColor"
                   viewBox="0 0 24 24"
                 >
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M5 13l4 4L19 7"
+                  />
                 </svg>
               </div>
             </div>

@@ -1,10 +1,12 @@
-import React from 'react';
+import React from "react";
 
 interface SponsorshipButtonsProps {
   className?: string;
 }
 
-const SponsorshipButtons: React.FC<SponsorshipButtonsProps> = ({ className = "" }) => {
+const SponsorshipButtons: React.FC<SponsorshipButtonsProps> = ({
+  className = "",
+}) => {
   const sponsorshipLinks = {
     github: "https://github.com/sponsors/testkun08080",
     buyMeACoffee: "https://www.buymeacoffee.com/testkun08080",
@@ -99,7 +101,7 @@ const SponsorshipButtons: React.FC<SponsorshipButtonsProps> = ({ className = "" 
             viewBox="0 0 24 24"
             aria-hidden="true"
           >
-            <path d="M13.5 2C13.5 2 13 2.44 13 3.5v7c0 .88.39 1.67 1 2.22v4.28c0 .55-.45 1-1 1h-2c-.55 0-1-.45-1-1v-4.28c.61-.55 1-1.34 1-2.22v-7C11 2.44 10.5 2 10.5 2h-3C7.5 2 7 2.44 7 3.5v7c0 .88.39 1.67 1 2.22v4.28c0 1.1.9 2 2 2h4c1.1 0 2-.9 2-2v-4.28c.61-.55 1-1.34 1-2.22v-7c0-1.06-.5-1.5-.5-1.5h-3zM8 6h8v4H8V6zm2 11.5c0-.28.22-.5.5-.5h3c.28 0 .5.22.5.5s-.22.5-.5.5h-3c-.28 0-.5-.22-.5-.5z"/>
+            <path d="M13.5 2C13.5 2 13 2.44 13 3.5v7c0 .88.39 1.67 1 2.22v4.28c0 .55-.45 1-1 1h-2c-.55 0-1-.45-1-1v-4.28c.61-.55 1-1.34 1-2.22v-7C11 2.44 10.5 2 10.5 2h-3C7.5 2 7 2.44 7 3.5v7c0 .88.39 1.67 1 2.22v4.28c0 1.1.9 2 2 2h4c1.1 0 2-.9 2-2v-4.28c.61-.55 1-1.34 1-2.22v-7c0-1.06-.5-1.5-.5-1.5h-3zM8 6h8v4H8V6zm2 11.5c0-.28.22-.5.5-.5h3c.28 0 .5.22.5.5s-.22.5-.5.5h-3c-.28 0-.5-.22-.5-.5z" />
           </svg>
           <span className="truncate">📚 参考書籍を購入</span>
           <svg

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 interface ShareButtonProps {
   shareUrl: string;
@@ -9,7 +9,7 @@ interface ShareButtonProps {
 export const ShareButton: React.FC<ShareButtonProps> = ({
   shareUrl,
   title = "投資分析結果",
-  description = "株式検索結果を共有"
+  description = "株式検索結果を共有",
 }) => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [copyMessage, setCopyMessage] = useState<string | null>(null);
@@ -17,10 +17,10 @@ export const ShareButton: React.FC<ShareButtonProps> = ({
   const handleCopyUrl = async () => {
     try {
       await navigator.clipboard.writeText(shareUrl);
-      setCopyMessage('🔗 URLをコピーしました！');
+      setCopyMessage("🔗 URLをコピーしました！");
       setTimeout(() => setCopyMessage(null), 2000);
     } catch (error) {
-      setCopyMessage('❗ URLのコピーに失敗しました');
+      setCopyMessage("❗ URLのコピーに失敗しました");
       setTimeout(() => setCopyMessage(null), 2000);
     }
     setIsDropdownOpen(false);
@@ -31,29 +31,29 @@ export const ShareButton: React.FC<ShareButtonProps> = ({
     const encodedTitle = encodeURIComponent(title);
     const encodedDescription = encodeURIComponent(description);
 
-    let shareUrlSNS = '';
+    let shareUrlSNS = "";
 
     switch (platform) {
-      case 'twitter':
+      case "twitter":
         shareUrlSNS = `https://twitter.com/intent/tweet?text=${encodedTitle}&url=${encodedUrl}`;
         break;
-      case 'facebook':
+      case "facebook":
         shareUrlSNS = `https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`;
         break;
-      case 'line':
+      case "line":
         shareUrlSNS = `https://social-plugins.line.me/lineit/share?url=${encodedUrl}&text=${encodedTitle}`;
         break;
-      case 'linkedin':
+      case "linkedin":
         shareUrlSNS = `https://www.linkedin.com/sharing/share-offsite/?url=${encodedUrl}`;
         break;
-      case 'email':
+      case "email":
         shareUrlSNS = `mailto:?subject=${encodedTitle}&body=${encodedDescription}%0A%0A${encodedUrl}`;
         break;
       default:
         return;
     }
 
-    window.open(shareUrlSNS, '_blank', 'width=600,height=400');
+    window.open(shareUrlSNS, "_blank", "width=600,height=400");
     setIsDropdownOpen(false);
   };
 
@@ -83,7 +83,9 @@ export const ShareButton: React.FC<ShareButtonProps> = ({
                 <span className="text-lg">🔗</span>
                 <div className="text-left">
                   <div className="font-medium">URLをコピー</div>
-                  <div className="text-xs text-base-content/60">リンクをクリップボードにコピー</div>
+                  <div className="text-xs text-base-content/60">
+                    リンクをクリップボードにコピー
+                  </div>
                 </div>
               </button>
             </li>
@@ -93,52 +95,60 @@ export const ShareButton: React.FC<ShareButtonProps> = ({
             {/* SNS Share Buttons */}
             <li>
               <button
-                onClick={() => handleSNSShare('twitter')}
+                onClick={() => handleSNSShare("twitter")}
                 className="flex items-center gap-3 hover:bg-base-200 rounded-lg p-3"
               >
                 <span className="text-lg">🐦</span>
                 <div className="text-left">
                   <div className="font-medium">Twitter</div>
-                  <div className="text-xs text-base-content/60">X (旧Twitter) で共有</div>
+                  <div className="text-xs text-base-content/60">
+                    X (旧Twitter) で共有
+                  </div>
                 </div>
               </button>
             </li>
 
             <li>
               <button
-                onClick={() => handleSNSShare('line')}
+                onClick={() => handleSNSShare("line")}
                 className="flex items-center gap-3 hover:bg-base-200 rounded-lg p-3"
               >
                 <span className="text-lg">💬</span>
                 <div className="text-left">
                   <div className="font-medium">LINE</div>
-                  <div className="text-xs text-base-content/60">LINEで友達に共有</div>
+                  <div className="text-xs text-base-content/60">
+                    LINEで友達に共有
+                  </div>
                 </div>
               </button>
             </li>
 
             <li>
               <button
-                onClick={() => handleSNSShare('facebook')}
+                onClick={() => handleSNSShare("facebook")}
                 className="flex items-center gap-3 hover:bg-base-200 rounded-lg p-3"
               >
                 <span className="text-lg">📘</span>
                 <div className="text-left">
                   <div className="font-medium">Facebook</div>
-                  <div className="text-xs text-base-content/60">Facebookで共有</div>
+                  <div className="text-xs text-base-content/60">
+                    Facebookで共有
+                  </div>
                 </div>
               </button>
             </li>
 
             <li>
               <button
-                onClick={() => handleSNSShare('linkedin')}
+                onClick={() => handleSNSShare("linkedin")}
                 className="flex items-center gap-3 hover:bg-base-200 rounded-lg p-3"
               >
                 <span className="text-lg">💼</span>
                 <div className="text-left">
                   <div className="font-medium">LinkedIn</div>
-                  <div className="text-xs text-base-content/60">LinkedIn で共有</div>
+                  <div className="text-xs text-base-content/60">
+                    LinkedIn で共有
+                  </div>
                 </div>
               </button>
             </li>
@@ -147,13 +157,15 @@ export const ShareButton: React.FC<ShareButtonProps> = ({
 
             <li>
               <button
-                onClick={() => handleSNSShare('email')}
+                onClick={() => handleSNSShare("email")}
                 className="flex items-center gap-3 hover:bg-base-200 rounded-lg p-3"
               >
                 <span className="text-lg">📧</span>
                 <div className="text-left">
                   <div className="font-medium">メール</div>
-                  <div className="text-xs text-base-content/60">メールで送信</div>
+                  <div className="text-xs text-base-content/60">
+                    メールで送信
+                  </div>
                 </div>
               </button>
             </li>

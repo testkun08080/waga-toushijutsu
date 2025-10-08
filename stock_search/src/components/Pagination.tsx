@@ -1,6 +1,6 @@
-import React from 'react';
-import { ITEMS_PER_PAGE_OPTIONS } from '../types/stock';
-import type { PaginationConfig } from '../types/stock';
+import React from "react";
+import { ITEMS_PER_PAGE_OPTIONS } from "../types/stock";
+import type { PaginationConfig } from "../types/stock";
 
 interface PaginationProps {
   config: PaginationConfig;
@@ -11,18 +11,18 @@ interface PaginationProps {
 export const Pagination: React.FC<PaginationProps> = ({
   config,
   onPageChange,
-  onItemsPerPageChange
+  onItemsPerPageChange,
 }) => {
   const { currentPage, itemsPerPage, totalItems } = config;
   const totalPages = Math.ceil(totalItems / itemsPerPage);
-  
+
   const startIndex = (currentPage - 1) * itemsPerPage + 1;
   const endIndex = Math.min(currentPage * itemsPerPage, totalItems);
 
   const getPageNumbers = () => {
     const pages: number[] = [];
     const maxVisiblePages = 5;
-    
+
     if (totalPages <= maxVisiblePages) {
       for (let i = 1; i <= totalPages; i++) {
         pages.push(i);
@@ -31,16 +31,16 @@ export const Pagination: React.FC<PaginationProps> = ({
       const halfVisible = Math.floor(maxVisiblePages / 2);
       let start = Math.max(1, currentPage - halfVisible);
       let end = Math.min(totalPages, start + maxVisiblePages - 1);
-      
+
       if (end - start + 1 < maxVisiblePages) {
         start = Math.max(1, end - maxVisiblePages + 1);
       }
-      
+
       for (let i = start; i <= end; i++) {
         pages.push(i);
       }
     }
-    
+
     return pages;
   };
 
@@ -80,9 +80,7 @@ export const Pagination: React.FC<PaginationProps> = ({
               <button
                 key={page}
                 className={`btn btn-sm min-w-[2.5rem] ${
-                  page === currentPage
-                    ? 'btn-primary'
-                    : 'btn-ghost'
+                  page === currentPage ? "btn-primary" : "btn-ghost"
                 }`}
                 onClick={() => onPageChange(page)}
               >

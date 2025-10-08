@@ -11,4 +11,20 @@ dependencies = [
 [dependency-groups]
 dev = [
     "ipykernel>=6.30.1",
+    "pip-licenses>=5.0.0",
 ]
+
+
+[tool.pip-licenses]
+# 出力形式
+format = "markdown"
+
+
+# 無視するパッケージ
+ignore-packages = [
+  "scipy",
+  "numpy"
+]
+
+# 許可されないライセンスでエラー
+fail-on = "MIT;AGPL;LGPL"

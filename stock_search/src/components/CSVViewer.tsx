@@ -1,13 +1,17 @@
-import { useState, useEffect } from 'react';
-import { useCSVParser } from '../hooks/useCSVParser';
-import { useFilters } from '../hooks/useFilters';
-import { SearchFilters } from './SearchFilters';
-import { DataTable } from './DataTable';
-import { Pagination } from './Pagination';
-import { ColumnSelector, getDefaultColumns, type ColumnConfig } from './ColumnSelector';
-import { DownloadButton } from './DownloadButton';
-import { ShareButton } from './ShareButton';
-import type { PaginationConfig } from '../types/stock';
+import { useState, useEffect } from "react";
+import { useCSVParser } from "../hooks/useCSVParser";
+import { useFilters } from "../hooks/useFilters";
+import { SearchFilters } from "./SearchFilters";
+import { DataTable } from "./DataTable";
+import { Pagination } from "./Pagination";
+import {
+  ColumnSelector,
+  getDefaultColumns,
+  type ColumnConfig,
+} from "./ColumnSelector";
+import { DownloadButton } from "./DownloadButton";
+import { ShareButton } from "./ShareButton";
+import type { PaginationConfig } from "../types/stock";
 
 interface CSVFile {
   name: string;
@@ -23,19 +27,30 @@ interface CSVViewerProps {
 
 export const CSVViewer = ({ file }: CSVViewerProps) => {
   const { data, loading, error, reload } = useCSVParser(file);
-  const { filters, filteredData, sortConfig, availableIndustries, availableMarkets, availablePrefectures, updateFilter, clearFilters, handleSort, shareFilters } = useFilters(data);
+  const {
+    filters,
+    filteredData,
+    sortConfig,
+    availableIndustries,
+    availableMarkets,
+    availablePrefectures,
+    updateFilter,
+    clearFilters,
+    handleSort,
+    shareFilters,
+  } = useFilters(data);
   const [paginationConfig, setPaginationConfig] = useState<PaginationConfig>({
     currentPage: 1,
     itemsPerPage: 50,
-    totalItems: 0
+    totalItems: 0,
   });
   const [columns, setColumns] = useState<ColumnConfig[]>([]);
 
   // データが読み込まれたときに列設定を初期化
   useEffect(() => {
     if (data.length > 0) {
-      const availableColumns = Object.keys(data[0]).filter(key =>
-        !key.startsWith('_') // 内部フィールドを除外
+      const availableColumns = Object.keys(data[0]).filter(
+        (key) => !key.startsWith("_"), // 内部フィールドを除外
       );
       setColumns(getDefaultColumns(availableColumns));
     }
@@ -43,42 +58,41 @@ export const CSVViewer = ({ file }: CSVViewerProps) => {
 
   // フィルター結果が変わったときにページをリセット
   useEffect(() => {
-    setPaginationConfig(prev => ({
+    setPaginationConfig((prev) => ({
       ...prev,
       currentPage: 1,
-      totalItems: filteredData.length
+      totalItems: filteredData.length,
     }));
   }, [filteredData.length]);
 
   const handlePageChange = (page: number) => {
-    setPaginationConfig(prev => ({
+    setPaginationConfig((prev) => ({
       ...prev,
-      currentPage: page
+      currentPage: page,
     }));
   };
 
   const handleItemsPerPageChange = (itemsPerPage: number) => {
-    setPaginationConfig(prev => ({
+    setPaginationConfig((prev) => ({
       ...prev,
       currentPage: 1,
-      itemsPerPage
+      itemsPerPage,
     }));
   };
 
   const handleColumnChange = (key: string, visible: boolean) => {
-    setColumns(prev => prev.map(col =>
-      col.key === key ? { ...col, visible } : col
-    ));
+    setColumns((prev) =>
+      prev.map((col) => (col.key === key ? { ...col, visible } : col)),
+    );
   };
 
   const handleCategoryToggle = (category: string, visible: boolean) => {
-    setColumns(prev => prev.map(col =>
-      col.category === category && !col.essential
-        ? { ...col, visible }
-        : col
-    ));
+    setColumns((prev) =>
+      prev.map((col) =>
+        col.category === category && !col.essential ? { ...col, visible } : col,
+      ),
+    );
   };
-
 
   const hasActiveFilters = () => {
     return (
@@ -87,7 +101,7 @@ export const CSVViewer = ({ file }: CSVViewerProps) => {
       filters.market ||
       filters.prefecture ||
       Object.entries(filters).some(([key, value]) =>
-        key.includes('Min') || key.includes('Max') ? value !== null : false
+        key.includes("Min") || key.includes("Max") ? value !== null : false,
       )
     );
   };
@@ -95,16 +109,31 @@ export const CSVViewer = ({ file }: CSVViewerProps) => {
   const getDataSummary = () => {
     if (data.length === 0) return null;
 
-    const validMarketCap = data.filter(stock => stock.時価総額).map(stock => stock.時価総額!);
-    const validPBR = data.filter(stock => stock.PBR).map(stock => stock.PBR!);
-    const validROE = data.filter(stock => stock.ROE).map(stock => stock.ROE!);
+    const validMarketCap = data
+      .filter((stock) => stock.時価総額)
+      .map((stock) => stock.時価総額!);
+    const validPBR = data
+      .filter((stock) => stock.PBR)
+      .map((stock) => stock.PBR!);
+    const validROE = data
+      .filter((stock) => stock.ROE)
+      .map((stock) => stock.ROE!);
 
     return {
       totalCount: data.length,
       filteredCount: filteredData.length,
-      avgMarketCap: validMarketCap.length > 0 ? validMarketCap.reduce((a, b) => a + b, 0) / validMarketCap.length : 0,
-      avgPBR: validPBR.length > 0 ? validPBR.reduce((a, b) => a + b, 0) / validPBR.length : 0,
-      avgROE: validROE.length > 0 ? validROE.reduce((a, b) => a + b, 0) / validROE.length : 0,
+      avgMarketCap:
+        validMarketCap.length > 0
+          ? validMarketCap.reduce((a, b) => a + b, 0) / validMarketCap.length
+          : 0,
+      avgPBR:
+        validPBR.length > 0
+          ? validPBR.reduce((a, b) => a + b, 0) / validPBR.length
+          : 0,
+      avgROE:
+        validROE.length > 0
+          ? validROE.reduce((a, b) => a + b, 0) / validROE.length
+          : 0,
     };
   };
 
@@ -126,8 +155,17 @@ export const CSVViewer = ({ file }: CSVViewerProps) => {
       <div className="card bg-base-100 shadow-sm">
         <div className="card-body">
           <div className="alert alert-error">
-            <svg className="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
+            <svg
+              className="stroke-current shrink-0 h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z"
+              />
             </svg>
             <span>{error}</span>
           </div>
@@ -157,8 +195,6 @@ export const CSVViewer = ({ file }: CSVViewerProps) => {
 
   return (
     <div className="space-y-6">
-
-
       {/* 検索フィルター */}
       <SearchFilters
         filters={filters}
@@ -182,14 +218,17 @@ export const CSVViewer = ({ file }: CSVViewerProps) => {
           {summary && summary.totalCount > 0 && (
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 text-center">
               <div>
-                <div className="text-2xl font-bold text-primary">{summary.totalCount}</div>
+                <div className="text-2xl font-bold text-primary">
+                  {summary.totalCount}
+                </div>
                 <div className="text-sm text-base-content/70">総企業数</div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-secondary">{summary.filteredCount}</div>
+                <div className="text-2xl font-bold text-secondary">
+                  {summary.filteredCount}
+                </div>
                 <div className="text-sm text-base-content/70">検索結果</div>
               </div>
-
             </div>
           )}
         </div>
@@ -215,7 +254,9 @@ export const CSVViewer = ({ file }: CSVViewerProps) => {
               fileName={file.name.replace(/\.[^/.]+$/, "")} // 拡張子を除去
               totalCount={data.length}
             />
-            <span className="text-xs text-base-content/60 mt-1">検索結果をExcelで開けます</span>
+            <span className="text-xs text-base-content/60 mt-1">
+              検索結果をExcelで開けます
+            </span>
           </div>
 
           {/* 列選択ボタン */}
@@ -226,7 +267,9 @@ export const CSVViewer = ({ file }: CSVViewerProps) => {
                 onColumnChange={handleColumnChange}
                 onCategoryToggle={handleCategoryToggle}
               />
-              <span className="text-xs text-base-content/60 mt-1">表示する項目を選択できます</span>
+              <span className="text-xs text-base-content/60 mt-1">
+                表示する項目を選択できます
+              </span>
             </div>
           )}
 
@@ -238,7 +281,9 @@ export const CSVViewer = ({ file }: CSVViewerProps) => {
                 title={`投資分析結果 - ${filteredData.length}件の銘柄`}
                 description={`株式検索の結果${filteredData.length}件の銘柄が見つかりました。検索条件を確認してください。`}
               />
-              <span className="text-xs text-base-content/60 mt-1">URLをコピー・SNSで共有</span>
+              <span className="text-xs text-base-content/60 mt-1">
+                URLをコピー・SNSで共有
+              </span>
             </div>
           )}
         </div>
@@ -259,7 +304,7 @@ export const CSVViewer = ({ file }: CSVViewerProps) => {
         <Pagination
           config={{
             ...paginationConfig,
-            totalItems: filteredData.length
+            totalItems: filteredData.length,
           }}
           onPageChange={handlePageChange}
           onItemsPerPageChange={handleItemsPerPageChange}

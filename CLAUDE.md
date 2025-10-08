@@ -4,24 +4,53 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Overview
 
-This is a comprehensive Japanese stock analysis platform designed for individual development with AI assistance. The repository provides automated data collection, web-based analysis, Docker deployment, and continuous deployment capabilities for analyzing 3795+ Japanese small-cap companies.
+**個人向け日本株式分析プラットフォーム** - yfinance APIを活用した3795+銘柄の小型株分析ツール
 
-### Core System Capabilities
-- **Automated Data Pipeline**: GitHub Actions-powered stock data collection with sequential workflows
-- **Web Application**: React-based interface for real-time analysis
-- **Docker Environment**: Production-ready containerized deployment with nginx
-- **Research Repository**: Historical financial data across 23+ Japanese industry sectors
-- **Export Management**: Structured data versioning and automated CSV combination
-- **Continuous Integration**: Fully automated workflow orchestration for data collection and processing
+このリポジトリは個人開発・個人環境での使用を想定した、シンプルで効率的な株式分析システムです。
 
-### Key Features
-- Store personal portfolio data in the `current/` directory
-- Maintain comprehensive research data and industry analysis in the `search/` directory
-- Process and analyze 3795+ Japanese small-cap companies with automated workflows
-- Real-time data fetching with yfinance API integration
-- Interactive web-based data exploration and filtering
-- Automated stock list updates, sequential data collection, and CSV combination
-- Docker-based local development and production deployment
+### システム構成
+
+**1. データ収集パイプライン** (Python 3.11)
+- JPX公式データから最新株式リスト自動取得
+- yfinance APIによる財務データ収集
+- 4段階Sequential実行でAPI制限・タイムアウト回避
+- 自動CSV結合機能
+
+**2. Webアプリケーション** (React 19 + TypeScript + Vite)
+- シンプルなローカルアプリケーション（SEO・PWA削除済み）
+- 動的カラム検出・日本語金融データ対応
+- リアルタイム検索・フィルタリング
+- レスポンシブデザイン（Tailwind CSS + DaisyUI）
+
+**3. Docker環境** (nginx + Python)
+- 本番同等の実行環境
+- マルチステージビルド最適化
+- ボリューム共有によるデータ連携
+- nginxによる高速静的ファイル配信
+
+**4. GitHub Actions CI** (7ワークフロー)
+- Sequential Stock Fetch (Part 1-4): 各120分実行
+- CSV Combine & Export
+- Stock List Update
+- Stock Data Fetch (単体テスト用)
+
+### 重要な設計方針
+
+✅ **個人環境特化**
+- SEO最適化不要（削除済み）
+- PWA機能不要（削除済み）
+- GitHub Pages不要（削除済み）
+- シンプルなローカル/Docker実行
+
+✅ **自動化重視**
+- データ収集の完全自動化
+- エラーハンドリング・リトライ機能
+- ワークフロー連鎖実行
+
+✅ **パフォーマンス最適化**
+- ベンダーチャンク分離
+- nginx静的配信
+- Docker build cache活用
 
 ## Repository Structure
 
@@ -77,7 +106,7 @@ waga-toushijutsu/
 │   │   └── App.tsx                      # Main application
 │   ├── public/                          # Public assets
 │   │   ├── csv/                         # CSV files (not in git, copied during build)
-│   │   └── *.ico, *.png                 # Favicons and PWA icons
+│   │   └── favicon.ico                  # Favicon
 │   ├── scripts/
 │   │   └── copy-csv-files.js            # Prebuild script to copy CSV files
 │   ├── dist/                            # Built application
@@ -138,12 +167,11 @@ python combine_latest_csv.py --date 20251006
 ### 2. Web Application (`stock_search/`)
 
 **Technology Stack:**
-- **Frontend**: React 18 + TypeScript + Vite
+- **Frontend**: React 19 + TypeScript + Vite
 - **Styling**: Tailwind CSS + DaisyUI
 - **State Management**: Custom hooks with local state
 - **CSV Processing**: Papa Parse with Japanese character support
 - **Deployment**: Docker with nginx
-- **PWA**: Service Worker with offline support
 
 **Key Features:**
 - Dynamic column detection and display for any CSV structure
@@ -330,7 +358,9 @@ Copy ../stock_list/Export/*_combined.csv → public/csv/
     ↓
 Vite build → dist/csv/
     ↓
-npm run preview → http://localhost:4173
+npm run preview → http://localhost:4173 (Vite preview)
+or
+docker-compose up → http://localhost:8080 (nginx production)
 ```
 
 #### **B. Docker Environment**
@@ -348,10 +378,12 @@ Frontend Container:
   Browser: http://localhost:8080/csv/YYYYMMDD_combined.csv
 ```
 
-**Key Insight**:
-- Local development includes CSV files directly in build via prebuild script
-- Docker deployment uses volume mounting for dynamic CSV access
-- Both approaches serve CSV files at `/csv/` path for consistency
+**Key Insights**:
+- Local development: CSV files included in build via prebuild script
+- Docker deployment: Volume mounting for dynamic CSV access
+- Vite preview server: Port 4173 (development testing)
+- nginx production server: Port 8080 (Docker environment)
+- Consistent `/csv/` path across all deployment contexts
 
 ## Data Architecture
 
@@ -415,17 +447,17 @@ This repository serves as a comprehensive Japanese stock analysis platform with:
 
 ### Technical Environment
 - **Backend**: Python 3.11+ (data processing and API integration)
-- **Frontend**: React 18 + TypeScript + Vite (modern web interface)
+- **Frontend**: React 19 + TypeScript + Vite (modern web interface)
 - **Data Processing**: yfinance, pandas, Papa Parse
-- **Deployment**: GitHub Actions + Docker
+- **Deployment**: Docker + nginx (個人環境向け)
 - **CSV Processing**: Robust handling of Japanese financial data formats
 - **Version Control**: Git-based data versioning and change tracking
-- **Containerization**: Docker + Docker Compose for local development and production
+- **Containerization**: Docker Compose (nginx production + Python data service)
 
 ### Automation Strategy
-- **Sequential Workflows**: Multi-part data collection to avoid timeouts and rate limits
-- **Workflow Orchestration**: Auto-triggered workflow chains for complete automation
-- **Data Pipeline**: Collection → Combination → Docker Deployment
+- **Sequential Workflows**: Multi-part data collection to avoid timeouts and rate limits (GitHub Actions)
+- **Workflow Orchestration**: Auto-triggered workflow chains for complete automation (7 workflows)
+- **Data Pipeline**: Collection → Combination → Local/Docker Use
 - **Quality Assurance**: Build verification, health checks, and error handling
 - **Monitoring**: Comprehensive logging and artifact retention (30 days)
 
@@ -514,19 +546,24 @@ docker-compose down
 docker-compose down -v && docker-compose up --build
 ```
 
-### CSV Combination Operations
+### CSV Combination & Docker Deployment
 
-**Manual CSV Combination:**
+**CSV Combination:**
 ```bash
-# GitHub Actions
+# GitHub Actions (Automated after Sequential Part 4)
 # Navigate to Actions → "📋 CSV Combine & Export"
-# Click "Run workflow"
-# Combined CSV files available in stock_list/Export/
+# Combined CSV files in stock_list/Export/
+
+# Local
+cd stock_list
+python combine_latest_csv.py
+# or with custom date
+python combine_latest_csv.py --date 20251006
 ```
 
 **Docker Deployment:**
 ```bash
-# Build and deploy both services
+# Build and start both services (data collection + frontend)
 docker-compose up --build
 
 # Access application
@@ -534,6 +571,9 @@ open http://localhost:8080
 
 # View logs
 docker-compose logs -f
+
+# Stop and clean
+docker-compose down -v
 ```
 
 ### Stock List Update Operations
@@ -625,12 +665,12 @@ ls -lh stocks_*.json
 ### Integration Points
 - **yfinance API**: Primary data source with rate limiting and retry logic
 - **JPX Official Data**: Stock list source with Excel → JSON conversion
-- **GitHub Actions**: 7 workflows with complex orchestration
+- **GitHub Actions**: 7 workflows with sequential orchestration
 - **React Components**: Modular design for easy extension and maintenance
 - **TypeScript**: Type safety for Japanese financial data structures
-- **Tailwind CSS**: Responsive design system with DaisyUI components
-- **Docker**: Production-ready containerization with multi-stage builds
-- **nginx**: High-performance static file serving with caching
+- **Tailwind CSS + DaisyUI**: Responsive design system
+- **Docker + nginx**: Production-ready containerization with multi-stage builds
+- **Papa Parse**: CSV parsing with Japanese character support
 
 ### Security and Compliance
 - **API Rate Limiting**: Respectful usage of external APIs (yfinance, JPX)
@@ -651,28 +691,36 @@ ls -lh stocks_*.json
 5. **Docker Testing**: Use docker-compose for integration testing
 6. **Deployment**: Deploy using Docker Compose
 
-### Production Deployment Process
-1. **Data Collection**: Run sequential workflows or manual collection
-2. **CSV Combination**: Automatic or manual CSV combination
-3. **Code Changes**: Modify files in `stock_search/` directory
-4. **Build**: Build application locally or via Docker
-5. **Deployment**: Deploy using Docker Compose
-6. **Verification**: Check application at http://localhost:8080
+### Docker Production Deployment
+1. **Data Collection**: Run sequential workflows via GitHub Actions (6-8 hours)
+2. **CSV Combination**: Automatic combination after Part 4
+3. **Code Changes**: Modify files in `stock_search/` directory if needed
+4. **Build & Deploy**: `docker-compose up --build` (builds both services)
+5. **Verification**: Check application at http://localhost:8080
+6. **Monitoring**: Use `docker-compose logs -f` for real-time logs
 
-### Docker Deployment Process
-1. **Configuration**: Set environment variables in `.env` file
-2. **Build**: `docker-compose up --build` builds both services
-3. **Data Collection**: Python service runs data collection pipeline
-4. **Frontend Serving**: nginx serves React application with CSV access
-5. **Monitoring**: Check logs with `docker-compose logs -f`
-6. **Updates**: Rebuild with `docker-compose up --build` after changes
-
-### Data Update Process
+### Complete Data Update & Deployment Workflow
 1. **Sequential Collection**: Start Part 1 workflow via GitHub Actions
-2. **Automatic Chain**: Parts 2-4 execute automatically
-3. **CSV Combination**: Automatic combination after Part 4
-4. **Local Access**: CSV files available in stock_list/Export/
-5. **Docker Deployment**: Deploy using Docker Compose if needed
-6. **Verification**: Check application at http://localhost:8080
+2. **Automatic Chain**: Parts 2-4 execute automatically (6-8 hours)
+3. **CSV Combination**: Automatic combination after Part 4 completion
+4. **Local Access**: CSV files available in `stock_list/Export/`
+5. **Docker Build**: `docker-compose up --build` for local deployment
+6. **Verification**: Access application at http://localhost:8080
 
-This comprehensive setup supports end-to-end Japanese stock market analysis from automated data collection through web-based visualization, with full CI/CD capabilities for continuous research workflows and production-ready Docker deployment for local hosting.
+## システム概要
+
+個人向け日本株式分析プラットフォーム。GitHub Actionsによる自動データ収集と、Docker + nginxによるローカルデプロイメントを提供。
+
+**主要機能:**
+- JPX公式データからの株式リスト自動取得（3795+銘柄）
+- yfinance APIによる財務データ収集
+- 4段階Sequential実行でタイムアウト回避
+- React 19 + TypeScript + Viteによるモダンなウェブインターフェース
+- Docker Composeによる2サービス構成（Python + nginx）
+- 日本語財務データの完全サポート
+
+**デプロイメント:**
+- **開発**: Vite dev server (port 5173) + Vite preview (port 4173)
+- **本番**: nginx production server (port 8080) via Docker Compose
+
+詳細は[DOCKER.md](DOCKER.md)を参照してください。

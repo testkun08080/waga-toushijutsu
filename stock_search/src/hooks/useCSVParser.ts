@@ -1,6 +1,6 @@
-import { useState, useEffect } from 'react';
-import Papa from 'papaparse';
-import type { StockData } from '../types/stock';
+import { useState, useEffect } from "react";
+import Papa from "papaparse";
+import type { StockData } from "../types/stock";
 
 interface CSVFile {
   name: string;
@@ -32,7 +32,9 @@ export const useCSVParser = (file: CSVFile | null) => {
       const response = await fetch(csvFile.url);
 
       if (!response.ok) {
-        throw new Error(`CSVファイルの読み込みに失敗しました (${response.status})`);
+        throw new Error(
+          `CSVファイルの読み込みに失敗しました (${response.status})`,
+        );
       }
 
       const csvText = await response.text();
@@ -42,22 +44,22 @@ export const useCSVParser = (file: CSVFile | null) => {
         skipEmptyLines: true,
         complete: (results) => {
           if (results.errors.length > 0) {
-            console.warn('CSV parsing warnings:', results.errors);
+            console.warn("CSV parsing warnings:", results.errors);
           }
 
           const parsedData = results.data as any[];
           if (parsedData.length === 0) {
-            throw new Error('CSVファイルにデータがありません');
+            throw new Error("CSVファイルにデータがありません");
           }
 
           // データを StockData 形式に変換
-          const stockData: StockData[] = parsedData.map(row => {
+          const stockData: StockData[] = parsedData.map((row) => {
             const processedRow: any = {};
 
-            Object.keys(row).forEach(key => {
+            Object.keys(row).forEach((key) => {
               const value = row[key];
 
-              if (value === '' || value === '-' || value === 'N/A') {
+              if (value === "" || value === "-" || value === "N/A") {
                 processedRow[key] = null;
                 return;
               }
@@ -66,8 +68,8 @@ export const useCSVParser = (file: CSVFile | null) => {
               const trimmed = String(value).trim();
 
               // 日本の数値フォーマット対応
-              const numericValue = trimmed.replace(/[,円%倍]/g, '');
-              if (!isNaN(Number(numericValue)) && numericValue !== '') {
+              const numericValue = trimmed.replace(/[,円%倍]/g, "");
+              if (!isNaN(Number(numericValue)) && numericValue !== "") {
                 processedRow[key] = Number(numericValue);
               } else {
                 processedRow[key] = trimmed;
@@ -81,11 +83,13 @@ export const useCSVParser = (file: CSVFile | null) => {
         },
         error: (error: any) => {
           throw new Error(`CSV解析エラー: ${error.message}`);
-        }
+        },
       });
     } catch (err) {
-      console.error('CSV loading error:', err);
-      setError(err instanceof Error ? err.message : 'データの読み込みに失敗しました');
+      console.error("CSV loading error:", err);
+      setError(
+        err instanceof Error ? err.message : "データの読み込みに失敗しました",
+      );
     } finally {
       setLoading(false);
     }
@@ -95,6 +99,6 @@ export const useCSVParser = (file: CSVFile | null) => {
     data,
     loading,
     error,
-    reload: () => file && loadCSVData(file)
+    reload: () => file && loadCSVData(file),
   };
 };

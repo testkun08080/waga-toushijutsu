@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 export const Footer: React.FC = () => {
   return (
@@ -54,7 +54,8 @@ export const Footer: React.FC = () => {
           {/* データ利用に関する重要な注意 */}
           <div className="text-xs text-base-content/60 text-center space-y-1 mt-2">
             <p className="font-semibold">
-              ⚠️ このプロジェクトは Yahoo Finance のデータ取得を補助するツールです
+              ⚠️ このプロジェクトは Yahoo Finance
+              のデータ取得を補助するツールです
             </p>
             <p>
               取得したデータの利用については Yahoo の利用規約に従ってください
@@ -69,12 +70,11 @@ export const Footer: React.FC = () => {
 
           {/* 投資判断に関する免責事項 */}
           <p className="text-xs text-base-content/50 text-center mt-2">
-            ⚠️ 投資判断は自己責任で行ってください。本サービスで提供される情報は投資助言ではありません。
+            ⚠️
+            投資判断は自己責任で行ってください。本サービスで提供される情報は投資助言ではありません。
           </p>
         </aside>
-
       </div>
     </footer>
   );
 };
-

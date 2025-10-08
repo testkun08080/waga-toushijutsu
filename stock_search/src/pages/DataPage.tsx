@@ -40,14 +40,14 @@ export const DataPage = () => {
         // 404エラーの場合は、csvフォルダが存在しないと判断
         if (response.status === 404) {
           console.info(
-            "CSV directory or files.json not found - showing upload interface"
+            "CSV directory or files.json not found - showing upload interface",
           );
           setCsvFiles([]);
           setError(null); // エラーではなく正常な状態として扱う
           return;
         }
         throw new Error(
-          `CSVファイル一覧の読み込みに失敗しました (${response.status})`
+          `CSVファイル一覧の読み込みに失敗しました (${response.status})`,
         );
       }
 
@@ -55,7 +55,7 @@ export const DataPage = () => {
       const contentType = response.headers.get("content-type");
       if (!contentType || !contentType.includes("application/json")) {
         console.info(
-          "files.json not found (got HTML instead) - showing upload interface"
+          "files.json not found (got HTML instead) - showing upload interface",
         );
         setCsvFiles([]);
         setError(null);
@@ -87,7 +87,7 @@ export const DataPage = () => {
         setError(null);
       } else {
         setError(
-          err instanceof Error ? err.message : "データの読み込みに失敗しました"
+          err instanceof Error ? err.message : "データの読み込みに失敗しました",
         );
       }
     } finally {
