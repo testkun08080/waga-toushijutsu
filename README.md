@@ -38,22 +38,6 @@
 
 ---
 
-## ⚖️ 法的情報
-
-このツールは **yfinance** ライブラリを利用して  
-**Yahoo Finance 公開データ**を取得しています。
-
-- yfinance は **Yahoo, Inc. と提携・公認関係にありません**  
-- 取得したデータの **二次配布は禁止** されています  
-- すべてのデータは **ユーザーの環境で取得** してください  
-- 利用時は **Yahoo の利用規約** を遵守してください  
-
-🔗 **参考リンク**
-- [Yahoo! 利用規約](https://legal.yahoo.com/us/en/yahoo/terms/otos/index.html)  
-- [Yahoo! Finance Terms](https://finance.yahoo.com/about/terms)
-
----
-
 ## 🧾 免責事項
 
 本ソフトウェアは **現状のまま** 提供されます。  
@@ -80,6 +64,9 @@
 
 一つのコマンドでデータ収集からWebアプリ起動まで完結
 
+**データ収集時間:**
+約3700社のデータをダウンロードするにはおよそ４時間ほどかかります
+
 ```bash
 # 1. リポジトリをクローン
 git clone https://github.com/yourusername/waga-toushijutsu.git
@@ -95,17 +82,9 @@ cp .env.example .env
 # 4. ブラウザでアクセス
 # http://localhost:4173
 ```
-
-**必要な環境:**
-
-- Docker Desktop 20.10.0+
-- メモリ 4GB以上推奨
-
-詳細は [DOCKER.md](DOCKER.md) を参照してください。
-
 ---
 
-### 方法2: ローカル環境（従来の方法）
+### 方法2: ローカル環境
 
 #### データ取得環境のセットアップ
 
@@ -121,16 +100,21 @@ uv venv -p 3.11
 uv pip install -r requirements.txt
 
 # 4. 株式リスト取得（初回のみ）
-uv run get_jp_stocklist.py
+uv run get_jp_stocklist.py 
 
 # 5. データ取得を実行
-uv run sumalize.py stocks_sample.json
+uv run sumalize.py stocks_sample.json   #ダウンロードテスト用
+
+#===約1000社ずつダウンロード(推奨)===
 # uv run sumalize.py stocks_1.json
 # uv run sumalize.py stocks_2.json
 # uv run sumalize.py stocks_3.json
 # uv run sumalize.py stocks_4.json
 
-# 6. CSV結合（オプション）
+#===すべての銘柄を対象にしたダウロード===
+# uv run sumalize.py stocks_all.json
+
+# 6. CSV結合
 uv run combine_latest_csv.py
 ```
 
@@ -143,7 +127,7 @@ cd stock_search
 # 2. 依存関係をインストール
 npm install
 
-# 3. ビルド
+# 3. ビルド（ビルドしないとcsvが正常にpublicへコピーされません）
 npm run build
 
 # 4. プレビュー
@@ -162,7 +146,6 @@ npm run preview
 
 1. このリポジトリを**プライベートリポジトリとしてフォーク**します
    - パブリックリポジトリで使用すると、データの二次配布に当たる可能性があると考えられます
-   - GitHub でフォークする際に "Private" オプションを選択してください
 2. フォークしたプライベートリポジトリの **Actions** タブに移動
 3. **"📊 Stock Data Fetch"** ワークフローを選択
 4. **"Run workflow"** をクリック
@@ -204,19 +187,20 @@ Export/
 ---
 
 
-## 📚 参考/出典
+## 📚 参考/出典 / 🙏 お礼
 
 - [yfinance GitHub Repository](https://github.com/ranaroussi/yfinance)
 - [Yahoo Finance](https://finance.yahoo.com/)
 - [日本取引所グループ（JPX）](https://www.jpx.co.jp/)
 - [わが投資術](https://amzn.to/3IEVRkq)
 
+※使わせていただいているJPXのデータやyfinanceの作成者に感謝申し上げます。
+
 ---
 
 ## 🧭 ライセンス
-
-- **yfinance:** Apache License 2.0
 - **本プロジェクト:** MIT License（非商用前提）
+- **yfinance:** Apache License 2.0
 - **データ:** Yahoo! Japan 利用規約に従うこと
 
 ---
