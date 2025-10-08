@@ -12,10 +12,8 @@ import logging
 # ログ設定
 logging.basicConfig(
     level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[
-        logging.StreamHandler()
-    ]
+    format="%(asctime)s - %(levelname)s - %(message)s",
+    handlers=[logging.StreamHandler()],
 )
 logger = logging.getLogger(__name__)
 
@@ -54,7 +52,9 @@ def split_stocks_json(input_file="stocks_all.json", chunk_size=1000):
             with open(output_filename, "w", encoding="utf-8") as f:
                 json.dump(chunk_data, f, ensure_ascii=False, indent=2)
 
-            logger.info(f"✅ {output_filename}: {len(chunk_data)}社 (#{start_idx + 1}-#{end_idx})")
+            logger.info(
+                f"✅ {output_filename}: {len(chunk_data)}社 (#{start_idx + 1}-#{end_idx})"
+            )
 
         logger.info("-" * 50)
         logger.info(f"分割完了: {total_files}個のファイルを作成しました")
@@ -89,10 +89,19 @@ if __name__ == "__main__":
     )
 
     parser.add_argument(
-        "-i", "--input", default="stocks_all.json", help="入力JSONファイル名 (デフォルト: stocks_all.json)"
+        "-i",
+        "--input",
+        default="stocks_all.json",
+        help="入力JSONファイル名 (デフォルト: stocks_all.json)",
     )
 
-    parser.add_argument("-s", "--size", type=int, default=1000, help="1ファイルあたりの企業数 (デフォルト: 1000)")
+    parser.add_argument(
+        "-s",
+        "--size",
+        type=int,
+        default=1000,
+        help="1ファイルあたりの企業数 (デフォルト: 1000)",
+    )
 
     parser.add_argument("-v", "--verbose", action="store_true", help="詳細な出力を表示")
 

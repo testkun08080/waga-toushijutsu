@@ -8,10 +8,8 @@ import logging
 # ログ設定
 logging.basicConfig(
     level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[
-        logging.StreamHandler()
-    ]
+    format="%(asctime)s - %(levelname)s - %(message)s",
+    handlers=[logging.StreamHandler()],
 )
 logger = logging.getLogger(__name__)
 
@@ -37,7 +35,9 @@ sheet_xlsx = workbook_xlsx.active
 # データを .xls から .xlsx に書き込む
 for row in range(sheet_xls.nrows):
     for col in range(sheet_xls.ncols):
-        sheet_xlsx.cell(row=row + 1, column=col + 1).value = sheet_xls.cell_value(row, col)
+        sheet_xlsx.cell(row=row + 1, column=col + 1).value = sheet_xls.cell_value(
+            row, col
+        )
 
 # .xlsx ファイルを保存
 workbook_xlsx.save(xlsx_file)

@@ -20,13 +20,14 @@ from pathlib import Path
 # ログ設定
 logging.basicConfig(
     level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
+    format="%(asctime)s - %(levelname)s - %(message)s",
     handlers=[
-        logging.FileHandler('combine_csv.log', encoding='utf-8'),
-        logging.StreamHandler()
-    ]
+        logging.FileHandler("combine_csv.log", encoding="utf-8"),
+        logging.StreamHandler(),
+    ],
 )
 logger = logging.getLogger(__name__)
+
 
 def get_latest_csv_files(export_dir="./Export", target_date=None):
     """
@@ -54,10 +55,7 @@ def get_latest_csv_files(export_dir="./Export", target_date=None):
     logger.info(f"対象日付: {target_date}")
 
     # 今日の日付のファイルのみをフィルタリング
-    csv_files = [
-        f for f in all_csv_files
-        if target_date in os.path.basename(f)
-    ]
+    csv_files = [f for f in all_csv_files if target_date in os.path.basename(f)]
 
     if not csv_files:
         logger.warning(f"⚠️  {target_date} のCSVファイルが見つかりません")
@@ -71,9 +69,10 @@ def get_latest_csv_files(export_dir="./Export", target_date=None):
     logger.info(f"✅ {target_date} のCSVファイル: {len(csv_files)}個")
     for i, file in enumerate(csv_files):
         mod_time = datetime.fromtimestamp(os.path.getmtime(file))
-        logger.info(f"  {i+1}. {os.path.basename(file)} (更新日時: {mod_time})")
+        logger.info(f"  {i + 1}. {os.path.basename(file)} (更新日時: {mod_time})")
 
     return csv_files
+
 
 def get_today_date():
     """
@@ -83,6 +82,7 @@ def get_today_date():
         str: 今日の日付（YYYYMMDD形式）
     """
     return datetime.now().strftime("%Y%m%d")
+
 
 def combine_csv_files(csv_files, output_file):
     """
@@ -103,11 +103,13 @@ def combine_csv_files(csv_files, output_file):
             logger.info(f"読み込み中: {os.path.basename(csv_file)}")
 
             # CSVファイルを読み込み（日本語対応）
-            df = pd.read_csv(csv_file, encoding='utf-8')
+            df = pd.read_csv(csv_file, encoding="utf-8")
 
             # BOM（Byte Order Mark）を除去
-            if df.columns[0].startswith('\ufeff'):
-                df.columns = [df.columns[0].replace('\ufeff', '')] + df.columns[1:].tolist()
+            if df.columns[0].startswith("\ufeff"):
+                df.columns = [df.columns[0].replace("\ufeff", "")] + df.columns[
+                    1:
+                ].tolist()
 
             # データの基本情報をログ出力
             logger.info(f"  - 行数: {len(df)}, 列数: {len(df.columns)}")
@@ -124,22 +126,28 @@ def combine_csv_files(csv_files, output_file):
         combined_df = pd.concat(combined_data, ignore_index=True)
 
         # 重複データの除去（銘柄コードベース）
-        if '銘柄コード' in combined_df.columns:
+        if "銘柄コード" in combined_df.columns:
             before_dedup = len(combined_df)
-            combined_df = combined_df.drop_duplicates(subset=['銘柄コード'], keep='last')
+            combined_df = combined_df.drop_duplicates(
+                subset=["銘柄コード"], keep="last"
+            )
             after_dedup = len(combined_df)
-            logger.info(f"重複除去: {before_dedup} → {after_dedup} 行 ({before_dedup - after_dedup}行を除去)")
+            logger.info(
+                f"重複除去: {before_dedup} → {after_dedup} 行 ({before_dedup - after_dedup}行を除去)"
+            )
 
         # 出力ディレクトリを作成
         os.makedirs(os.path.dirname(output_file), exist_ok=True)
 
         # 結合されたデータを保存
-        combined_df.to_csv(output_file, index=False, encoding='utf-8')
+        combined_df.to_csv(output_file, index=False, encoding="utf-8")
 
         logger.info(f"✅ 結合完了: {output_file}")
         logger.info(f"   - 総行数: {len(combined_df)}")
         logger.info(f"   - 総列数: {len(combined_df.columns)}")
-        logger.info(f"   - ファイルサイズ: {os.path.getsize(output_file) / (1024*1024):.2f} MB")
+        logger.info(
+            f"   - ファイルサイズ: {os.path.getsize(output_file) / (1024 * 1024):.2f} MB"
+        )
 
         return True
 
@@ -147,17 +155,29 @@ def combine_csv_files(csv_files, output_file):
         logger.error(f"❌ CSVファイル結合中にエラーが発生: {str(e)}")
         return False
 
+
 def main():
     """
     メイン実行関数
     """
-    parser = argparse.ArgumentParser(description='最新のCSVファイルを結合して日付付きファイルを生成')
-    parser.add_argument('--export-dir', default='./Export',
-                       help='CSVファイルが格納されているディレクトリ (デフォルト: ./Export)')
-    parser.add_argument('--output-dir', default='./Export',
-                       help='出力ディレクトリ (デフォルト: ./Export)')
-    parser.add_argument('--date', default=None,
-                       help='使用する日付 (YYYYMMDD形式、未指定の場合は今日の日付)')
+    parser = argparse.ArgumentParser(
+        description="最新のCSVファイルを結合して日付付きファイルを生成"
+    )
+    parser.add_argument(
+        "--export-dir",
+        default="./Export",
+        help="CSVファイルが格納されているディレクトリ (デフォルト: ./Export)",
+    )
+    parser.add_argument(
+        "--output-dir",
+        default="./Export",
+        help="出力ディレクトリ (デフォルト: ./Export)",
+    )
+    parser.add_argument(
+        "--date",
+        default=None,
+        help="使用する日付 (YYYYMMDD形式、未指定の場合は今日の日付)",
+    )
 
     args = parser.parse_args()
 
@@ -196,6 +216,7 @@ def main():
         logger.error("❌ CSV結合処理が失敗しました")
         logger.error("=" * 60)
         return False
+
 
 if __name__ == "__main__":
     success = main()
