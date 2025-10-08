@@ -10,7 +10,7 @@ const SponsorshipButtons: React.FC<SponsorshipButtonsProps> = ({
   const sponsorshipLinks = {
     github: "https://github.com/sponsors/testkun08080",
     buyMeACoffee: "https://www.buymeacoffee.com/testkun08080",
-    amazonBook: "https://www.amazon.co.jp/dp/YOUR_BOOK_ASIN", // 書籍のASINコードに置き換えてください
+    amazonBook: "https://amzn.to/3IEVRkq",
   };
 
   const handleSponsorClick = (url: string) => {

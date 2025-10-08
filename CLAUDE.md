@@ -724,3 +724,16 @@ ls -lh stocks_*.json
 - **本番**: nginx production server (port 8080) via Docker Compose
 
 詳細は[DOCKER.md](DOCKER.md)を参照してください。
+
+## Support / 寄付
+
+このプロジェクトが役立つ場合は、サポートをご検討ください。
+
+[![GitHub Sponsors](https://img.shields.io/badge/Sponsor-GitHub-pink?style=for-the-badge&logo=github)](https://github.com/sponsors/testkun08080)
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Support-yellow?style=for-the-badge&logo=buy-me-a-coffee)](https://www.buymeacoffee.com/testkun08080)
+
+**寄付方法:**
+- **GitHub Sponsors**: 継続的なサポート、月額プランあり
+- **Buy Me a Coffee**: 一回限りの寄付、感謝の気持ちを伝える
+
+ご支援いただいたサポートは、プロジェクトの継続的な開発と改善に使用されます。

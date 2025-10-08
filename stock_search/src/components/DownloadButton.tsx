@@ -31,7 +31,7 @@ export const DownloadButton: React.FC<DownloadButtonProps> = ({
   const [showDonationModal, setShowDonationModal] = useState(false);
 
   // クールダウン時間（ミリ秒）
-  const COOLDOWN_DURATION = 3000; // 3秒
+  const COOLDOWN_DURATION = 1000; // 3秒
 
   // クールダウンタイマーの更新
   React.useEffect(() => {
@@ -65,7 +65,7 @@ export const DownloadButton: React.FC<DownloadButtonProps> = ({
       const remaining = COOLDOWN_DURATION - timeSinceLastDownload;
       setCooldownRemaining(remaining);
       setDownloadMessage(
-        `⏱️ ${Math.ceil(remaining / 1000)}秒後に再度お試しください`,
+        `⏱️ ${Math.ceil(remaining / 1000)}秒後に再度お試しください`
       );
       setTimeout(() => setDownloadMessage(null), remaining + 500);
       return;
@@ -82,7 +82,7 @@ export const DownloadButton: React.FC<DownloadButtonProps> = ({
       const downloadFileName = generateFileNameWithFilters(
         fileName,
         data.length,
-        totalCount || data.length,
+        totalCount || data.length
       );
 
       // ダウンロード実行
@@ -95,8 +95,14 @@ export const DownloadButton: React.FC<DownloadButtonProps> = ({
       setDownloadMessage(`✅ ${downloadFileName} をダウンロードしました`);
       setTimeout(() => setDownloadMessage(null), 4000);
 
-      // ドネーションモーダルを表示
-      setShowDonationModal(true);
+      // 3回に1回の確率でドネーションモーダルを表示
+      const downloadCount =
+        parseInt(localStorage.getItem("downloadCount") || "0", 10) + 1;
+      localStorage.setItem("downloadCount", downloadCount.toString());
+
+      if (downloadCount % 3 === 0) {
+        setShowDonationModal(true);
+      }
     } catch (error) {
       console.error("CSV download error:", error);
       setDownloadMessage("❗ ダウンロードに失敗しました");
