@@ -34,10 +34,7 @@ export const DataPage = () => {
       setLoading(true);
       setError(null);
 
-      // base path for GitHub Pages
-      const basePath =
-        import.meta.env.VITE_GITHUB_PAGES === "true" ? "/waga-toushijutsu" : "";
-      const response = await fetch(`${basePath}/csv/files.json`);
+      const response = await fetch("/csv/files.json");
 
       if (!response.ok) {
         // 404エラーの場合は、csvフォルダが存在しないと判断

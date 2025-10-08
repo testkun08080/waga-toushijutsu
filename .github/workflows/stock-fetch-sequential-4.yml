@@ -105,7 +105,6 @@ jobs:
         run: |
           echo "✅ Part 4 completed successfully"
           echo "🔄 Next: CSV Combine will be triggered"
-          echo "🚀 Then: GitHub Pages deployment will follow"
 
       # 次のワークフローをトリガー
       - name: 🚀 Trigger CSV Combine & Export

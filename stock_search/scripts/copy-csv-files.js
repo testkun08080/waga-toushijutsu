@@ -12,8 +12,20 @@ const PROJECT_ROOT = join(__dirname, '../../');
 const EXPORT_DIR = join(PROJECT_ROOT, 'stock_list/Export');
 const PUBLIC_CSV_DIR = join(__dirname, '../public/csv');
 
+// Environment detection
+const IS_DOCKER = process.env.DOCKER_ENV === 'true';
+
 function copyCSVFiles() {
   console.log('📁 CSVファイルコピースクリプト開始');
+  console.log(`Environment: Docker=${IS_DOCKER}`);
+
+  // Docker環境ではスキップ（ボリュームマウント使用）
+  if (IS_DOCKER) {
+    console.log('🐳 Docker環境: CSVファイルはボリュームマウントで提供されます');
+    console.log('⏭️  CSVコピーをスキップします');
+    return;
+  }
+
   console.log(`Export dir: ${EXPORT_DIR}`);
   console.log(`Public CSV dir: ${PUBLIC_CSV_DIR}`);
 

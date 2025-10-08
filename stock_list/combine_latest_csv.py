@@ -28,29 +28,47 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-def get_latest_csv_files(export_dir="./Export"):
+def get_latest_csv_files(export_dir="./Export", target_date=None):
     """
     Exportディレクトリから最新のCSVファイルを取得
 
     Args:
         export_dir (str): CSVファイルが格納されているディレクトリ
+        target_date (str): 対象日付 (YYYYMMDD形式、Noneの場合は今日)
 
     Returns:
-        list: 最新のCSVファイルのリスト
+        list: 最新のCSVファイルのリスト（今日の日付のもののみ）
     """
     # CSVファイルのパターンを定義
     pattern = os.path.join(export_dir, "japanese_stocks_data_*.csv")
-    csv_files = glob.glob(pattern)
+    all_csv_files = glob.glob(pattern)
+
+    if not all_csv_files:
+        logger.warning(f"CSVファイルが見つかりません: {pattern}")
+        return []
+
+    # 対象日付を決定
+    if target_date is None:
+        target_date = datetime.now().strftime("%Y%m%d")
+
+    logger.info(f"対象日付: {target_date}")
+
+    # 今日の日付のファイルのみをフィルタリング
+    csv_files = [
+        f for f in all_csv_files
+        if target_date in os.path.basename(f)
+    ]
 
     if not csv_files:
-        logger.warning(f"CSVファイルが見つかりません: {pattern}")
+        logger.warning(f"⚠️  {target_date} のCSVファイルが見つかりません")
+        logger.info(f"全{len(all_csv_files)}個のファイルから検索しましたが、該当なし")
         return []
 
     # ファイルの更新日時でソート（最新順）
     csv_files.sort(key=os.path.getmtime, reverse=True)
 
     # 各ファイルの情報をログ出力
-    logger.info(f"発見されたCSVファイル: {len(csv_files)}個")
+    logger.info(f"✅ {target_date} のCSVファイル: {len(csv_files)}個")
     for i, file in enumerate(csv_files):
         mod_time = datetime.fromtimestamp(os.path.getmtime(file))
         logger.info(f"  {i+1}. {os.path.basename(file)} (更新日時: {mod_time})")
@@ -140,8 +158,6 @@ def main():
                        help='出力ディレクトリ (デフォルト: ./Export)')
     parser.add_argument('--date', default=None,
                        help='使用する日付 (YYYYMMDD形式、未指定の場合は今日の日付)')
-    parser.add_argument('--max-files', type=int, default=None,
-                       help='結合するファイルの最大数（未指定の場合は全て）')
 
     args = parser.parse_args()
 
@@ -150,21 +166,18 @@ def main():
     logger.info("🚀 Latest CSV Combiner 実行開始")
     logger.info("=" * 60)
 
-    # 最新のCSVファイルを取得
-    csv_files = get_latest_csv_files(args.export_dir)
+    # 対象日付を決定
+    target_date = args.date if args.date else get_today_date()
+
+    # 指定日付のCSVファイルを取得
+    csv_files = get_latest_csv_files(args.export_dir, target_date)
 
     if not csv_files:
-        logger.error("❌ 結合するCSVファイルが見つかりません")
+        logger.error(f"❌ {target_date} のCSVファイルが見つかりません")
         return False
 
-    # ファイル数を制限（指定されている場合）
-    if args.max_files and args.max_files > 0:
-        csv_files = csv_files[:args.max_files]
-        logger.info(f"📋 結合対象を最新{args.max_files}ファイルに制限")
-
     # 出力ファイル名を生成
-    date_str = args.date if args.date else get_today_date()
-    output_filename = f"{date_str}_combined.csv"
+    output_filename = f"{target_date}_combined.csv"
     output_path = os.path.join(args.output_dir, output_filename)
 
     logger.info(f"📁 出力ファイル: {output_path}")

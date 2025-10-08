@@ -68,7 +68,7 @@
 |------|------|
 | **Backend** | Python 3.11+, pandas, yfinance |
 | **Frontend** | React 19 + TypeScript + Vite |
-| **CI/CD** | GitHub Actions + GitHub Pages |
+| **CI/CD** | GitHub Actions + Docker |
 | **スタイル** | Tailwind CSS, DaisyUI |
 | **データ形式** | CSV, JSON |
 

@@ -4,71 +4,95 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Overview
 
-This is a comprehensive Japanese stock analysis platform designed for individual development with AI assistance. The repository provides automated data collection, web-based analysis, and continuous deployment capabilities for analyzing 3795+ Japanese small-cap companies.
+This is a comprehensive Japanese stock analysis platform designed for individual development with AI assistance. The repository provides automated data collection, web-based analysis, Docker deployment, and continuous deployment capabilities for analyzing 3795+ Japanese small-cap companies.
 
 ### Core System Capabilities
-- **Automated Data Pipeline**: GitHub Actions-powered stock data collection and updates
-- **Web Application**: React-based interface deployed on GitHub Pages for real-time analysis
+- **Automated Data Pipeline**: GitHub Actions-powered stock data collection with sequential workflows
+- **Web Application**: React-based interface for real-time analysis
+- **Docker Environment**: Production-ready containerized deployment with nginx
 - **Research Repository**: Historical financial data across 23+ Japanese industry sectors
-- **Export Management**: Structured data versioning and automated reporting
-- **Continuous Deployment**: Automated web application deployment and data updates
+- **Export Management**: Structured data versioning and automated CSV combination
+- **Continuous Integration**: Fully automated workflow orchestration for data collection and processing
 
 ### Key Features
 - Store personal portfolio data in the `current/` directory
-- Maintain comprehensive research data and industry analysis in the `serch/` directory
-- Process and analyze 3795+ Japanese small-cap companies with automated updates
+- Maintain comprehensive research data and industry analysis in the `search/` directory
+- Process and analyze 3795+ Japanese small-cap companies with automated workflows
 - Real-time data fetching with yfinance API integration
-- Interactive web-based data exploration and filtering via GitHub Pages
-- Automated stock list updates and data splitting workflows
+- Interactive web-based data exploration and filtering
+- Automated stock list updates, sequential data collection, and CSV combination
+- Docker-based local development and production deployment
 
 ## Repository Structure
 
 ```
-portfolio/
-├── .github/workflows/          # GitHub Actions automation
-│   ├── stock-data-fetch.yml   # Manual data collection from specific stock chunks
-│   ├── stock-list-update.yml  # Automated stock list updates and splitting (NEW)
-│   └── deploy-github-pages.yml # Automated web application deployment (NEW)
-├── current/                    # Personal portfolio data
-│   └── tes.md                 # Portfolio tracking file
-├── stock_list/                 # Data collection and processing
-│   ├── Export/                # Generated data exports
-│   │   └── README.md          # Export documentation
-├── serch/                      # Research and analysis data
-│   ├── kogata/                # Small-cap company data by industry
-│   │   ├── *.csv             # Industry-specific financial data (23 sectors)
-│   ├── high_netcash/         # High net cash companies analysis
-│   │   ├── *.csv             # Sector-specific high net cash data
-│   │   ├── summary_data.json # Analysis summary
+waga-toushijutsu/
+├── .github/workflows/                    # GitHub Actions automation (7 workflows)
+│   ├── stock-data-fetch.yml             # Manual: Single stock file processing
+│   ├── stock-fetch-sequential-1.yml     # Automated: Part 1/4 → triggers Part 2
+│   ├── stock-fetch-sequential-2.yml     # Automated: Part 2/4 → triggers Part 3
+│   ├── stock-fetch-sequential-3.yml     # Automated: Part 3/4 → triggers Part 4
+│   ├── stock-fetch-sequential-4.yml     # Automated: Part 4/4 → triggers CSV combine
+│   ├── csv-combine-export.yml           # Automated: Combine CSVs
+│   └── stock-list-update.yml            # Manual: Stock list updates and splitting
+├── current/                              # Personal portfolio data
+│   └── tes.md                           # Portfolio tracking file
+├── stock_list/                           # Data collection and processing
+│   ├── Export/                          # Generated CSV data exports (gitignored in production)
+│   ├── combine_latest_csv.py            # CSV combination script
+│   ├── sumalize.py                      # Main data collection script with yfinance
+│   ├── split_stocks.py                  # JSON file splitting utility (enhanced CLI)
+│   ├── get_jp_stocklist.py              # Stock list acquisition from JPX
+│   ├── stocks_all.json                  # Master stock list (~3795 companies)
+│   ├── stocks_1.json                    # Split 1: Companies 1-1000
+│   ├── stocks_2.json                    # Split 2: Companies 1001-2000
+│   ├── stocks_3.json                    # Split 3: Companies 2001-3000
+│   ├── stocks_4.json                    # Split 4: Companies 3001-3795
+│   ├── requirements.txt                 # Python dependencies (pandas, yfinance, etc.)
+│   └── pyproject.toml                   # Python project configuration
+├── search/                                # Research and analysis data
+│   ├── kogata/                          # Small-cap company data by industry
+│   │   ├── *.csv                        # Industry-specific financial data (23 sectors)
+│   ├── high_netcash/                    # High net cash companies analysis
+│   │   ├── *.csv                        # Sector-specific high net cash data
+│   │   ├── summary_data.json            # Analysis summary
 │   │   └── 高ネットキャッシュ比率企業分析.md
-│   ├── 統合データ*.csv        # Consolidated datasets
-│   ├── sumalize.py            # Main data collection script
-│   ├── split_stocks.py        # JSON file splitting utility
-│   ├── get_jp_stocklist.py    # Stock list acquisition from JPX
-│   ├── stocks_all.json        # Master stock list (updated by GitHub Actions)
-│   ├── stocks_*.json          # Split stock data (4 files, 1000 companies each)
-│   ├── requirements.txt       # Python dependencies
-│   └── yfTest.ipynb          # Testing notebook
-├── stock_search/               # Web application (React + TypeScript)
+│   └── 統合データ*.csv                   # Consolidated datasets
+├── stock_search/                         # Web application (React + TypeScript + Vite)
 │   ├── src/
-│   │   ├── components/       # React components
-│   │   │   ├── DataTable.tsx # Dynamic CSV display
+│   │   ├── components/                  # React components
+│   │   │   ├── DataTable.tsx           # Dynamic CSV display
 │   │   │   ├── FileUpload.tsx
 │   │   │   ├── SearchFilters.tsx
 │   │   │   └── Pagination.tsx
-│   │   ├── hooks/           # Custom React hooks
+│   │   ├── hooks/                       # Custom React hooks
 │   │   │   ├── useCSVData.ts
+│   │   │   ├── useCSVParser.ts
 │   │   │   └── useFilters.ts
-│   │   ├── utils/           # Utility functions
-│   │   │   └── csvParser.ts # CSV parsing and formatting
-│   │   ├── types/           # TypeScript definitions
+│   │   ├── utils/                       # Utility functions
+│   │   │   ├── csvParser.ts            # CSV parsing and formatting
+│   │   │   └── csvDownload.ts          # CSV download utilities
+│   │   ├── types/                       # TypeScript definitions
 │   │   │   └── stock.ts
-│   │   └── App.tsx          # Main application
-│   ├── dist/                # Built application (deployed to GitHub Pages)
-│   ├── package.json         # Node.js dependencies
-│   └── vite.config.ts       # Vite configuration with GitHub Pages support
-├── CLAUDE.md                   # This file
-└── README.md                   # Project documentation
+│   │   └── App.tsx                      # Main application
+│   ├── public/                          # Public assets
+│   │   ├── csv/                         # CSV files (not in git, copied during build)
+│   │   └── *.ico, *.png                 # Favicons and PWA icons
+│   ├── scripts/
+│   │   └── copy-csv-files.js            # Prebuild script to copy CSV files
+│   ├── dist/                            # Built application
+│   │   └── csv/                         # CSV files included in build
+│   ├── nginx.conf                       # Nginx configuration for Docker production
+│   ├── package.json                     # Node.js dependencies
+│   ├── vite.config.ts                   # Vite configuration
+│   └── tsconfig.json                    # TypeScript configuration
+├── Dockerfile.fetch                     # Python service (data collection)
+├── Dockerfile.app                   # Frontend service (nginx production)
+├── docker-compose.yml                    # Docker orchestration configuration
+├── .env.sample                          # Environment variables template
+├── CLAUDE.md                            # This file
+├── DOCKER.md                            # Docker deployment documentation
+└── README.md                            # Project documentation
 ```
 
 ## System Components
@@ -77,11 +101,12 @@ portfolio/
 
 **Core Scripts:**
 - `sumalize.py` - Main data collection script with yfinance API integration
-- `split_stocks.py` - **Enhanced** utility with command-line arguments for flexible file splitting
+- `split_stocks.py` - Enhanced utility with command-line arguments for flexible file splitting
 - `get_jp_stocklist.py` - Stock list acquisition from JPX official data sources
+- `combine_latest_csv.py` - Combines multiple CSV exports into single dated file
 
 **Data Processing Features:**
-- **Enhanced CLI**: `split_stocks.py` now supports `--input`, `--size`, and `--verbose` flags
+- **Enhanced CLI**: `split_stocks.py` supports `--input`, `--size`, and `--verbose` flags
 - Flexible input file specification (default: `stocks_all.json`)
 - Customizable chunk sizes for different use cases
 - Comprehensive logging with execution time tracking
@@ -105,8 +130,9 @@ python get_jp_stocklist.py
 python split_stocks.py --input stocks_all.json --size 1000
 python split_stocks.py -i custom_data.json -s 500 --verbose
 
-# Legacy split (still supported)
-python split_stocks.py
+# Combine latest CSV files
+python combine_latest_csv.py
+python combine_latest_csv.py --date 20251006
 ```
 
 ### 2. Web Application (`stock_search/`)
@@ -116,7 +142,8 @@ python split_stocks.py
 - **Styling**: Tailwind CSS + DaisyUI
 - **State Management**: Custom hooks with local state
 - **CSV Processing**: Papa Parse with Japanese character support
-- **Deployment**: GitHub Pages with automated CI/CD
+- **Deployment**: Docker with nginx
+- **PWA**: Service Worker with offline support
 
 **Key Features:**
 - Dynamic column detection and display for any CSV structure
@@ -126,54 +153,205 @@ python split_stocks.py
 - Pagination and sorting capabilities
 - File upload with drag-and-drop support
 - Optimized bundle splitting for performance
+- CSV files automatically copied during build via prebuild script
 
-**Deployment Information:**
-- **URL**: `https://{username}.github.io/waga-toushijutsu/`
-- **Auto-Deploy**: Triggered on changes to `stock_search/` directory
-- **Build Process**: Vite production build with optimized chunks
+**Build Process:**
+1. **Prebuild**: `node scripts/copy-csv-files.js` copies latest combined CSV from `stock_list/Export/` to `public/csv/`
+2. **Build**: Vite builds application with optimized vendor chunks
+3. **Output**: `dist/` directory with CSV files included at `dist/csv/`
+
+**Docker Deployment:**
+- **Container**: nginx:alpine serving static build
+- **Volume**: CSV files mounted from shared volume
 - **Performance**: Vendor chunks separated for efficient caching
+- **Access**: http://localhost:8080
 
-### 3. GitHub Actions Automation (`.github/workflows/`)
+### 3. Docker Environment
 
-#### **Workflow 1: `stock-data-fetch.yml` (Manual Data Collection)**
-- **Trigger**: Manual button execution (workflow_dispatch)
-- **Purpose**: Process specific stock chunks for detailed financial data
-- **Environment**: Ubuntu latest with Python 3.11
-- **Input Parameters**: Stock file selection (stocks_1.json - stocks_4.json)
-- **Process**: Data collection → Direct export to stock_list/Export/ → Automatic commit
-- **Output**: Structured files in stock_list/Export/ directory with summary reports
+**Two-Service Architecture:**
 
-#### **Workflow 2: `stock-list-update.yml` (Automated Stock List Management)**
-- **Trigger**: Manual execution for stock list updates
-- **Purpose**: Update master stock list and regenerate split files
-- **Environment**: Ubuntu latest with Python 3.11
-- **Enhanced Process**:
-  1. Download latest stock data from JPX using `get_jp_stocklist.py`
-  2. Generate `stocks_all.json` with all current Japanese stocks
-  3. **NEW**: Use enhanced `split_stocks.py --input stocks_all.json --size 1000` for reliable splitting
-  4. **NEW**: JSON validation for all generated split files
-  5. Commit updated files with Japanese date format
-- **Output**: Updated `stocks_all.json` and `stocks_*.json` files with validation
-- **Commit Format**: "📋 日本株式のリストを更新(YYYY年MM月DD日)"
+#### **Python Service** (`Dockerfile.fetch`)
+- **Base Image**: python:3.11-slim
+- **Purpose**: Data collection and processing
+- **Working Directory**: `/app`
+- **Volumes**: `stock-data` volume shared at `/app/Export`
+- **Default Command**: Sequential execution of:
+  1. `get_jp_stocklist.py` - Fetch latest stock list
+  2. `split_stocks.py` - Split into chunks
+  3. `sumalize.py` - Collect financial data
+  4. `combine_latest_csv.py` - Combine CSV files
+- **Environment Variables**:
+  - `STOCK_FILE` - Stock file to process (default: stocks_1.json)
+  - `CHUNK_SIZE` - Split chunk size (default: 1000)
 
-#### **Workflow 3: `deploy-github-pages.yml` (Web Application Deployment)**
-- **Trigger**: Automatic on push to main/master branch when `stock_search/` changes
-- **Purpose**: Build and deploy React application to GitHub Pages
-- **Environment**: Ubuntu latest with Node.js 20
+#### **Frontend Service** (`Dockerfile.app`)
+- **Base Image**: nginx:alpine (production)
+- **Multi-stage Build**:
+  1. **Builder Stage**: Node.js 20 - builds React application
+  2. **Runner Stage**: nginx - serves static files
+- **Working Directory**: `/usr/share/nginx/html`
+- **Volumes**: `stock-data` volume mounted at `/usr/share/nginx/html/csv` (read-only)
+- **Port**: 80 (exposed as 8080 on host)
+- **Configuration**: Custom nginx.conf with:
+  - SPA routing support
+  - Gzip compression
+  - Static asset caching
+  - CSV file CORS headers
+  - Security headers
+
+**Data Flow:**
+```
+Python Container → /app/Export (combine_latest_csv.py)
+       ↓
+  stock-data volume
+       ↓
+Frontend Container → /usr/share/nginx/html/csv (nginx serving)
+       ↓
+  Browser access: http://localhost:8080/csv/YYYYMMDD_combined.csv
+```
+
+**Docker Compose Configuration:**
+- **Network**: `stock-network` (bridge driver)
+- **Volume**: `stock-data` (local driver) - shared between services
+- **Dependencies**: Frontend depends on Python service completion
+- **Health Checks**: Frontend HTTP health check on port 80
+- **Restart Policy**: Python service runs once, Frontend always available
+
+**Usage:**
+```bash
+# Start both services
+docker-compose up --build
+
+# Access frontend
+open http://localhost:8080
+
+# View logs
+docker-compose logs -f
+
+# Stop services
+docker-compose down
+
+# Clean volumes
+docker-compose down -v
+```
+
+### 4. GitHub Actions Automation (`.github/workflows/`)
+
+**Workflow Orchestration Chain:**
+
+```
+Sequential Data Collection Workflows (Manual Start)
+    ↓
+stock-fetch-sequential-1.yml (Part 1/4)
+    ↓ Auto-trigger on success
+stock-fetch-sequential-2.yml (Part 2/4)
+    ↓ Auto-trigger on success
+stock-fetch-sequential-3.yml (Part 3/4)
+    ↓ Auto-trigger on success
+stock-fetch-sequential-4.yml (Part 4/4)
+    ↓ Auto-trigger on success
+csv-combine-export.yml (Combine all CSV files)
+    ↓
+CSV Data Ready for Local/Docker Use
+```
+
+#### **Workflow 1: `stock-data-fetch.yml` (Manual Single File Processing)**
+- **Trigger**: Manual (workflow_dispatch)
+- **Purpose**: Process single stock file for quick testing
+- **Input**: Stock file selection (stocks_1.json - stocks_4.json, stocks_sample.json)
+- **Timeout**: 60 minutes
+- **Process**: Data collection → Export to stock_list/Export/ → Commit
+- **Use Case**: Quick data collection for specific stock chunk
+
+#### **Workflow 2-5: Sequential Stock Fetch Workflows**
+**Part 1** (`stock-fetch-sequential-1.yml`):
+- **Trigger**: Manual (workflow_dispatch)
+- **Process**: stocks_1.json → Commit → Auto-trigger Part 2
+- **Timeout**: 120 minutes
+
+**Part 2** (`stock-fetch-sequential-2.yml`):
+- **Trigger**: Auto (triggered by Part 1 completion)
+- **Process**: stocks_2.json → Commit → Auto-trigger Part 3
+
+**Part 3** (`stock-fetch-sequential-3.yml`):
+- **Trigger**: Auto (triggered by Part 2 completion)
+- **Process**: stocks_3.json → Commit → Auto-trigger Part 4
+
+**Part 4 (Final)** (`stock-fetch-sequential-4.yml`):
+- **Trigger**: Auto (triggered by Part 3 completion)
+- **Process**: stocks_4.json → Commit → Auto-trigger CSV Combine
+- **Special**: Completion summary and workflow chain trigger
+
+**Why Sequential?**
+- Avoids API rate limiting from yfinance
+- Prevents GitHub Actions timeout (max 6 hours total, 120 min per workflow)
+- Allows monitoring and intervention at each stage
+- Commits data incrementally for safety
+
+#### **Workflow 6: `csv-combine-export.yml` (CSV Combination)**
+- **Trigger**:
+  - Auto (triggered by Sequential Part 4 completion)
+  - Manual (workflow_dispatch)
+- **Purpose**: Combine all japanese_stocks_data_*.csv files into single dated file
+- **Input Parameters** (manual only):
+  - `custom_date` - Custom date for output filename (YYYYMMDD)
+  - `reason` - Reason for combination
 - **Process**:
-  1. Install dependencies and build React application
-  2. Generate optimized production bundle
-  3. Deploy to GitHub Pages with proper base path configuration
-- **Features**: Concurrent deployment protection, build artifact upload
-- **URL**: Accessible via GitHub Pages with repository path
+  1. Check existing CSV files in stock_list/Export/
+  2. Run `combine_latest_csv.py` with arguments
+  3. Commit combined file (YYYYMMDD_combined.csv)
+- **Output**: `YYYYMMDD_combined.csv` in stock_list/Export/
 
-### 4. Export Management (`stock_list/Export/`)
+#### **Workflow 7: `stock-list-update.yml` (Master List Update)**
+- **Trigger**: Manual (workflow_dispatch)
+- **Purpose**: Update master stock list from JPX
+- **Process**:
+  1. Run `get_jp_stocklist.py` to fetch latest JPX data
+  2. Generate `stocks_all.json` (~3795 companies)
+  3. Split using `split_stocks.py --input stocks_all.json --size 1000`
+  4. Validate all generated JSON files
+  5. Commit with Japanese date format
+- **Output**: Updated stocks_all.json and stocks_1-4.json
+- **Frequency**: Run when JPX publishes new stock listings (monthly/quarterly)
 
-**Automated File Organization:**
-- Time-stamped CSV files with standardized naming
-- Execution logs for debugging and monitoring
-- Direct export to `stock_list/Export/` directory
-- Git version control integration with descriptive commit messages
+### 5. CSV Data Flow Architecture
+
+**Two Deployment Contexts:**
+
+#### **A. Local Development**
+```
+Run python scripts locally → stock_list/Export/
+    ↓
+cd stock_search && npm run build
+    ↓
+prebuild: copy-csv-files.js
+    ↓
+Copy ../stock_list/Export/*_combined.csv → public/csv/
+    ↓
+Vite build → dist/csv/
+    ↓
+npm run preview → http://localhost:4173
+```
+
+#### **B. Docker Environment**
+```
+Python Container:
+  sumalize.py → /app/Export/japanese_stocks_data_*.csv
+  combine_latest_csv.py → /app/Export/YYYYMMDD_combined.csv
+    ↓
+  stock-data volume (/app/Export)
+    ↓
+Frontend Container:
+  nginx serves /usr/share/nginx/html (dist/ copied during build)
+  stock-data volume mounted at /usr/share/nginx/html/csv (read-only)
+    ↓
+  Browser: http://localhost:8080/csv/YYYYMMDD_combined.csv
+```
+
+**Key Insight**:
+- Local development includes CSV files directly in build via prebuild script
+- Docker deployment uses volume mounting for dynamic CSV access
+- Both approaches serve CSV files at `/csv/` path for consistency
 
 ## Data Architecture
 
@@ -187,16 +365,14 @@ python split_stocks.py
 
 **File Structure:**
 ```
-stocks_all.json      # Master list (all companies)
+stocks_all.json      # Master list (~3795 companies)
 ├── stocks_1.json    # Companies 1-1000
 ├── stocks_2.json    # Companies 1001-2000
 ├── stocks_3.json    # Companies 2001-3000
-└── stocks_4.json    # Companies 3001+
+└── stocks_4.json    # Companies 3001-3795
 ```
 
-### Industry Data Structure (serch/kogata/)
-
-The financial data follows a comprehensive structure supporting both historical research and real-time analysis:
+### Industry Data Structure (search/kogata/)
 
 **Core Financial Fields:**
 - **Basic Info**: 会社名 (Company Name), 銘柄コード (Stock Code), 業種 (Industry)
@@ -241,128 +417,189 @@ This repository serves as a comprehensive Japanese stock analysis platform with:
 - **Backend**: Python 3.11+ (data processing and API integration)
 - **Frontend**: React 18 + TypeScript + Vite (modern web interface)
 - **Data Processing**: yfinance, pandas, Papa Parse
-- **Deployment**: GitHub Actions + GitHub Pages
+- **Deployment**: GitHub Actions + Docker
 - **CSV Processing**: Robust handling of Japanese financial data formats
 - **Version Control**: Git-based data versioning and change tracking
+- **Containerization**: Docker + Docker Compose for local development and production
 
 ### Automation Strategy
-- **Continuous Integration**: Multiple workflows for different aspects
-- **Data Updates**: Automated stock list maintenance
-- **Web Deployment**: Automatic deployment on source changes
-- **Quality Assurance**: Build verification and error handling
-- **Monitoring**: Comprehensive logging and artifact retention
+- **Sequential Workflows**: Multi-part data collection to avoid timeouts and rate limits
+- **Workflow Orchestration**: Auto-triggered workflow chains for complete automation
+- **Data Pipeline**: Collection → Combination → Docker Deployment
+- **Quality Assurance**: Build verification, health checks, and error handling
+- **Monitoring**: Comprehensive logging and artifact retention (30 days)
 
 ## Common Operations
 
 ### Data Collection Operations
+
+**Full Sequential Collection (All 3795+ companies):**
 ```bash
-# Manual stock data collection (simplified workflow)
-# Navigate to GitHub Actions → "📊 Stock Data Fetch"
+# GitHub Actions (Recommended)
+# 1. Navigate to Actions → "📊 Sequential Stock Fetch - Part 1"
+# 2. Click "Run workflow"
+# 3. Wait for all 4 parts to complete (automatic chain)
+# 4. CSV combination happens automatically
+
+# Expected duration: 6-8 hours total for all parts
+```
+
+**Quick Single File Collection:**
+```bash
+# GitHub Actions
+# Navigate to Actions → "📊 Stock Data Fetch"
 # Select stock file (stocks_1.json - stocks_4.json)
-# Execute - files saved directly to stock_list/Export/
+# Click "Run workflow"
 
-# Update master stock list
-# Navigate to GitHub Actions → "📋 Stock List Update"
-# Optionally specify update reason
-# Execute to refresh stocks_all.json and split files
+# Expected duration: 1-2 hours per file
+```
 
-# Check available stock files
-ls stock_list/stocks_*.json
+**Local Development:**
+```bash
+cd stock_list
 
-# Check generated exports
-ls stock_list/Export/
+# Collect data for specific chunk
+python sumalize.py stocks_1.json
+
+# Combine latest CSV files
+python combine_latest_csv.py
+
+# Check exports
+ls -lh Export/*_combined.csv
 ```
 
 ### Web Application Development
-```bash
-# Start development server
-cd stock_search
-npm run dev
 
-# Build for production (matches GitHub Actions)
-npm run build
+**Local Development:**
+```bash
+cd stock_search
 
 # Install dependencies
 npm install
 
+# Start development server with hot reload
+npm run dev
+# Access: http://localhost:5173
+
+# Build for production
+npm run build
+# Output: dist/ directory with CSV files included
+
 # Preview production build
 npm run preview
+# Access: http://localhost:4173
+
+# Manually copy CSV files (normally done in prebuild)
+npm run copy-csv
 ```
 
-### Deployment Operations
+**Docker Development:**
+```bash
+# Build and start both services
+docker-compose up --build
 
-**Automatic Deployment:**
-- Push changes to `stock_search/` directory on main/master branch
-- GitHub Actions automatically builds and deploys to GitHub Pages
-- Monitor deployment status in repository Actions tab
+# Access frontend
+open http://localhost:8080
 
-**Manual Deployment:**
-- Navigate to repository's Actions tab
-- Select "🌐 Deploy to GitHub Pages" workflow
-- Click "Run workflow" for manual deployment
+# Check CSV files are accessible
+curl http://localhost:8080/csv/
 
-### Research Tasks
-- **Portfolio Analysis**: Compare holdings (current/) with market data (serch/)
-- **Sector Analysis**: Industry performance comparison using web interface
-- **Stock Screening**: Multi-criteria filtering using financial metrics
-- **Risk Assessment**: Balance sheet ratio analysis with automated calculations
-- **Export Management**: Automated data versioning and historical tracking
-- **Web-based Analysis**: Access deployed application for real-time data exploration
+# View logs
+docker-compose logs -f frontend-service
+
+# Stop services
+docker-compose down
+
+# Clean volumes and rebuild
+docker-compose down -v && docker-compose up --build
+```
+
+### CSV Combination Operations
+
+**Manual CSV Combination:**
+```bash
+# GitHub Actions
+# Navigate to Actions → "📋 CSV Combine & Export"
+# Click "Run workflow"
+# Combined CSV files available in stock_list/Export/
+```
+
+**Docker Deployment:**
+```bash
+# Build and deploy both services
+docker-compose up --build
+
+# Access application
+open http://localhost:8080
+
+# View logs
+docker-compose logs -f
+```
+
+### Stock List Update Operations
+
+```bash
+# GitHub Actions (when JPX publishes new listings)
+# Navigate to Actions → "📋 Stock List Update"
+# Optionally provide reason
+# Click "Run workflow"
+
+# Local development
+cd stock_list
+python get_jp_stocklist.py
+python split_stocks.py --input stocks_all.json --size 1000
+
+# Verify splits
+ls -lh stocks_*.json
+```
 
 ## GitHub Actions Workflows
 
 ### Workflow Management Strategy
 
-**Three-Tier Automation System:**
-1. **Data Collection** (`stock-data-fetch.yml`) - Manual execution for specific data processing
-2. **Data Maintenance** (`stock-list-update.yml`) - Manual execution for master list updates
-3. **Deployment** (`deploy-github-pages.yml`) - Automatic deployment on code changes
+**Two-Tier Automation System:**
+1. **Data Collection** (5 workflows)
+   - `stock-data-fetch.yml` - Manual single file
+   - `stock-fetch-sequential-1/2/3/4.yml` - Automated sequential chain
 
-### Workflow Execution Guide
+2. **Data Processing** (2 workflows)
+   - `csv-combine-export.yml` - CSV combination
+   - `stock-list-update.yml` - Master list updates
 
-#### 1. Stock Data Fetch Workflow
-**Purpose**: Process specific stock chunks for detailed financial data
-**Execution**: Manual via GitHub Actions interface
-**Parameters**:
-- `stock_file`: Choose from stocks_1.json - stocks_4.json or stocks_samples.json
-**Output Location**: `stock_list/Export/` directory with timestamped files
+### Workflow Execution Best Practices
 
-#### 2. Stock List Update Workflow
-**Purpose**: Refresh master stock list and regenerate split files
-**Execution**: Manual via GitHub Actions interface
-**Parameters**:
-- `reason`: Optional description for the update (defaults to "Manual stock list update")
-**Process Flow**:
-1. Download latest JPX data using `get_jp_stocklist.py`
-2. Generate updated `stocks_all.json`
-3. Split into chunks using improved logic
-4. Commit with Japanese date format
-**Output**: Updated stock list files in `stock_list/` directory
+**For Complete Data Update:**
+1. Start `stock-fetch-sequential-1.yml` manually
+2. Wait for automatic completion of all 4 parts (6-8 hours)
+3. Automatic CSV combination follows
+4. CSV files available in stock_list/Export/
+5. Deploy locally using Docker if needed
 
-#### 3. GitHub Pages Deployment Workflow
-**Purpose**: Build and deploy web application
-**Execution**: Automatic on `stock_search/` changes, or manual
-**Process Flow**:
-1. Build React application with production configuration
-2. Generate optimized bundle with vendor chunk separation
-3. Deploy to GitHub Pages with proper base path
-4. Update live site URL
-**Live URL**: `https://{username}.github.io/waga-toushijutsu/`
+**For Quick Testing:**
+1. Run `stock-data-fetch.yml` with `stocks_sample.json`
+2. Manually run `csv-combine-export.yml` if needed
+3. Test locally with Docker
+
+**For Stock List Updates:**
+1. Run `stock-list-update.yml` when JPX updates listings
+2. Manually verify stocks_all.json and split files
+3. Run sequential collection for new companies
 
 ### Error Handling and Monitoring
 
 **Built-in Error Handling:**
-- Timeout protection (30-60 minutes per workflow)
-- Dependency validation and installation verification
-- Build artifact verification before deployment
-- Git commit checks to prevent empty commits
-- Comprehensive logging with execution summaries
+- Timeout protection (60-120 minutes per workflow)
+- Dependency validation before execution
+- Build artifact verification
+- Git conflict resolution with rebase
+- Comprehensive error logging
 
 **Monitoring Features:**
-- Artifact retention (30 days) for debugging
-- Execution time tracking and performance metrics
-- Build size reporting and optimization recommendations
-- Deployment URL verification and accessibility checks
+- Real-time workflow status in Actions tab
+- Execution time tracking for performance metrics
+- Build artifact retention (30 days) for debugging
+- Commit messages with timestamps and completion status
+- Health checks for deployed services
 
 ## Technical Specifications
 
@@ -376,25 +613,33 @@ npm run preview
 ### Performance Considerations
 - **Data Volume**: 3795+ companies across 23+ industry sectors
 - **Processing Time**: ~3-5 seconds per company via yfinance API
+- **Sequential Processing**: 120 minutes timeout per workflow part
 - **Web Interface**: Optimized for large datasets with pagination and lazy loading
 - **Storage**: Efficient CSV compression and Git LFS considerations
-- **Caching**: Client-side data caching for improved UX
+- **Caching**:
+  - Client-side data caching for improved UX
+  - GitHub Actions npm/pip cache for faster builds
+  - nginx static asset caching with proper headers
 - **Bundle Optimization**: Vendor chunks separated for efficient loading
 
 ### Integration Points
 - **yfinance API**: Primary data source with rate limiting and retry logic
-- **GitHub Actions**: Automated workflows with comprehensive error handling
+- **JPX Official Data**: Stock list source with Excel → JSON conversion
+- **GitHub Actions**: 7 workflows with complex orchestration
 - **React Components**: Modular design for easy extension and maintenance
 - **TypeScript**: Type safety for Japanese financial data structures
 - **Tailwind CSS**: Responsive design system with DaisyUI components
-- **GitHub Pages**: Static site hosting with custom domain support
+- **Docker**: Production-ready containerization with multi-stage builds
+- **nginx**: High-performance static file serving with caching
 
 ### Security and Compliance
-- **API Rate Limiting**: Respectful usage of external APIs
+- **API Rate Limiting**: Respectful usage of external APIs (yfinance, JPX)
 - **Error Handling**: Graceful failure handling without data corruption
 - **Version Control**: Complete audit trail of all data changes
 - **Access Control**: GitHub repository permissions and workflow security
 - **Data Validation**: Input validation and sanitization throughout pipeline
+- **Docker Security**: Non-root users, minimal base images, proper permissions
+- **nginx Security**: Security headers, CORS policies, XSS protection
 
 ## Development Workflow
 
@@ -403,18 +648,31 @@ npm run preview
 2. **Data Development**: Work in `stock_list/` directory for data processing scripts
 3. **Web Development**: Work in `stock_search/` directory for React application
 4. **Testing**: Use provided test files and validation scripts
-5. **Deployment**: Push to main branch triggers automatic deployment
+5. **Docker Testing**: Use docker-compose for integration testing
+6. **Deployment**: Deploy using Docker Compose
 
 ### Production Deployment Process
-1. **Code Changes**: Modify files in `stock_search/` directory
-2. **Automatic Build**: GitHub Actions builds application automatically
-3. **Deployment**: Application deployed to GitHub Pages with optimized configuration
-4. **Verification**: Check live site and deployment logs for issues
+1. **Data Collection**: Run sequential workflows or manual collection
+2. **CSV Combination**: Automatic or manual CSV combination
+3. **Code Changes**: Modify files in `stock_search/` directory
+4. **Build**: Build application locally or via Docker
+5. **Deployment**: Deploy using Docker Compose
+6. **Verification**: Check application at http://localhost:8080
+
+### Docker Deployment Process
+1. **Configuration**: Set environment variables in `.env` file
+2. **Build**: `docker-compose up --build` builds both services
+3. **Data Collection**: Python service runs data collection pipeline
+4. **Frontend Serving**: nginx serves React application with CSV access
+5. **Monitoring**: Check logs with `docker-compose logs -f`
+6. **Updates**: Rebuild with `docker-compose up --build` after changes
 
 ### Data Update Process
-1. **Manual Trigger**: Execute "Stock List Update" workflow via GitHub Actions
-2. **Automatic Processing**: Latest data fetched and processed
-3. **File Generation**: Updated stock list files committed to repository
-4. **Integration**: New data available for subsequent processing workflows
+1. **Sequential Collection**: Start Part 1 workflow via GitHub Actions
+2. **Automatic Chain**: Parts 2-4 execute automatically
+3. **CSV Combination**: Automatic combination after Part 4
+4. **Local Access**: CSV files available in stock_list/Export/
+5. **Docker Deployment**: Deploy using Docker Compose if needed
+6. **Verification**: Check application at http://localhost:8080
 
-This comprehensive setup supports end-to-end Japanese stock market analysis from automated data collection through web-based visualization, with full CI/CD capabilities for continuous research workflows and real-time data exploration via GitHub Pages deployment.
+This comprehensive setup supports end-to-end Japanese stock market analysis from automated data collection through web-based visualization, with full CI/CD capabilities for continuous research workflows and production-ready Docker deployment for local hosting.

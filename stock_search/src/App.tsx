@@ -6,11 +6,8 @@ import { AboutPage, DataPage } from "./pages";
 import { NotFound } from "./pages/NotFound";
 
 function App() {
-  const basename =
-    import.meta.env.VITE_GITHUB_PAGES === "true" ? "/waga-toushijutsu" : "";
-
   return (
-    <Router basename={basename}>
+    <Router>
       <SEOManager />
       <div className="min-h-screen bg-base-100 flex flex-col">
         <Navigation />

@@ -29,9 +29,7 @@ export const useCSVParser = (file: CSVFile | null) => {
       setLoading(true);
       setError(null);
 
-      // base path for GitHub Pages
-      const basePath = import.meta.env.VITE_GITHUB_PAGES === 'true' ? '/waga-toushijutsu' : '';
-      const response = await fetch(`${basePath}${csvFile.url}`);
+      const response = await fetch(csvFile.url);
 
       if (!response.ok) {
         throw new Error(`CSVファイルの読み込みに失敗しました (${response.status})`);
