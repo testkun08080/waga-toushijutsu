@@ -191,7 +191,6 @@ Export/
 提案・改善・アイデアなどがあれば、**Issue または Pull Request** からぜひご連絡ください。
 
 ---
----
 
 ## 🧭 ライセンス
 - **yfinance:** Apache License 2.0

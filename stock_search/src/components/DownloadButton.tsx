@@ -65,7 +65,7 @@ export const DownloadButton: React.FC<DownloadButtonProps> = ({
       const remaining = COOLDOWN_DURATION - timeSinceLastDownload;
       setCooldownRemaining(remaining);
       setDownloadMessage(
-        `⏱️ ${Math.ceil(remaining / 1000)}秒後に再度お試しください`
+        `⏱️ ${Math.ceil(remaining / 1000)}秒後に再度お試しください`,
       );
       setTimeout(() => setDownloadMessage(null), remaining + 500);
       return;
@@ -82,7 +82,7 @@ export const DownloadButton: React.FC<DownloadButtonProps> = ({
       const downloadFileName = generateFileNameWithFilters(
         fileName,
         data.length,
-        totalCount || data.length
+        totalCount || data.length,
       );
 
       // ダウンロード実行
