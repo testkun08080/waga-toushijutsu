@@ -233,7 +233,7 @@ export const AboutPage = () => {
                 <p className="mb-2">
                   データの取得方法や使用方法については、{" "}
                   <a
-                    href="https://github.com/testkun08080/waga-toushijutsu"
+                    href="https://github.com/testkun08080/yfinance-jp-screener"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="link link-primary font-semibold"

@@ -233,7 +233,7 @@ export const DataPage = () => {
                 <div className="text-sm">
                   <div className="font-semibold">
                     <a
-                      href="https://github.com/testkun08080/waga-toushijutsu#readme"
+                      href="https://github.com/testkun08080/yfinance-jp-screener#readme"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="link link-primary mx-1"

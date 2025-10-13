@@ -68,8 +68,8 @@
 
 ```bash
 # 1. リポジトリをクローン
-git clone https://github.com/yourusername/waga-toushijutsu.git
-cd waga-toushijutsu
+git clone https://github.com/yourusername/yfinance-jp-screener.git
+cd yfinance-jp-screener
 
 # 2. 環境変数を設定（オプション）
 cp .env.example .env
@@ -89,8 +89,8 @@ cp .env.example .env
 
 ```bash
 # 1. リポジトリをクローン
-git clone https://github.com/yourusername/waga-toushijutsu.git
-cd waga-toushijutsu/stock_list
+git clone https://github.com/yourusername/yfinance-jp-screener.git
+cd yfinance-jp-screener/stock_list
 
 # 2. Python環境のセットアップ（uvを使用）
 uv venv -p 3.11
