@@ -5,7 +5,7 @@ export interface StockData {
   業種?: string;
   優先市場?: string;
   決算月?: string | null;
-  // 会計基準?: string | null;
+  // "会計基準"?: string | null;
   都道府県?: string | null;
   時価総額?: number | null;
   PBR?: number | null;
@@ -17,6 +17,14 @@ export interface StockData {
   ROE?: number | null;
   自己資本比率?: number | null;
   "PER(会予)"?: number | null;
+  // "PER"?: number | null;  // 情報的に不確かなためコメントアウト
+  "PER(過去12ヶ月)"?: number | null; // trailingPE（過去12ヶ月分）
+  "PER(前年度)"?: number | null; // 前年度のPER（前年度末の株価と前年度のEPSから計算）
+  配当方向性?: number | null; // payoutRatio（生データ、小数、例: 0.3 = 30%）
+  配当利回り?: number | null; // trailingAnnualDividendYield（生データ、小数、例: 0.03 = 3%）
+  "EPS(過去12ヶ月)"?: number | null; // trailingEps（生データ）
+  "EPS(予想)"?: number | null; // forwardEps（生データ）
+  "EPS(前年度)"?: number | null; // 前年度のEPS（前年度のNet IncomeとDiluted Average Sharesから計算）
   負債?: number | null;
   流動負債?: number | null;
   流動資産?: number | null;
@@ -60,6 +68,20 @@ export interface SearchFilters {
   equityRatioMax: number | null;
   forwardPEMin: number | null; // PER(会予)
   forwardPEMax: number | null;
+  trailingPEMin: number | null; // PER(過去12ヶ月)（trailingPE、過去12ヶ月分）
+  trailingPEMax: number | null;
+  previousYearPEMin: number | null; // PER(前年度)
+  previousYearPEMax: number | null;
+  dividendDirectionMin: number | null; // 配当方向性（%）
+  dividendDirectionMax: number | null;
+  dividendYieldMin: number | null; // 配当利回り
+  dividendYieldMax: number | null;
+  trailingEpsMin: number | null; // EPS(過去12ヶ月)
+  trailingEpsMax: number | null;
+  forwardEpsMin: number | null; // EPS(予想)
+  forwardEpsMax: number | null;
+  previousYearEpsMin: number | null; // EPS(前年度)
+  previousYearEpsMax: number | null;
   totalLiabilitiesMin: number | null; // 負債
   totalLiabilitiesMax: number | null;
   currentLiabilitiesMin: number | null; // 流動負債
