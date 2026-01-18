@@ -1,22 +1,22 @@
 # 📋 Stock List Update Report
 
-**Generated:** Tue Jan 13 07:45:41 UTC 2026
-**Reason:** Manual stock list update
+**Generated:** Tue Oct 14 07:24:25 UTC 2025
+**Reason:** リスト更新
 **Workflow:** 📋 Stock List Update
 
 ## 📊 Master Stock List
 - **File:** stocks_all.json
 - **Size:** 656K
-- **Total Companies:** 3783
+- **Total Companies:** 3782
 
 ## 📂 Split Files
 
 - **stocks_1.json** - Size: 175K, Companies: 1000
 - **stocks_2.json** - Size: 174K, Companies: 1000
 - **stocks_3.json** - Size: 172K, Companies: 1000
-- **stocks_4.json** - Size: 136K, Companies: 783
+- **stocks_4.json** - Size: 136K, Companies: 782
 
 ## 🤖 Automation Info
-- **GitHub Action:** [📋 Stock List Update](https://github.com/testkun08080/waga-toushijutsu/actions/runs/20948791728)
-- **Commit SHA:** f22295b1b8e60e4a627c75962c014de2f534517c
-- **Repository:** testkun08080/waga-toushijutsu
+- **GitHub Action:** [📋 Stock List Update](https://github.com/testkun08080/yfinance-jp-screener/actions/runs/18488805251)
+- **Commit SHA:** 4826eb287efcbfc42194dc7df7edbb1b24998114
+- **Repository:** testkun08080/yfinance-jp-screener
