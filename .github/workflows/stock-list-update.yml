@@ -24,7 +24,6 @@ on:
 jobs:
   update-stock-list:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
     env:
       SEC_USER_AGENT_CONTACT: ${{ secrets.SEC_USER_AGENT_CONTACT }}
 
