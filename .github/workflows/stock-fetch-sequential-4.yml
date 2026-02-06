@@ -7,6 +7,14 @@ permissions:
 on:
   workflow_dispatch:
     inputs:
+      market:
+        description: "市場 (日本株=JP / 米国株=US)"
+        required: true
+        default: "JP"
+        type: choice
+        options:
+          - "JP"
+          - "US"
       reason:
         description: "開始理由（オプション）"
         required: false
@@ -40,28 +48,31 @@ jobs:
 
       - name: 📋 Show process info
         run: |
-          echo "🚀 Sequential Stock Fetch - Part 4/4 (Final)"
-          echo "Processing file: stocks_4.json"
+          MARKET="${{ github.event.inputs.market }}"
+          if [ "$MARKET" = "US" ]; then FILE=us_stocks_4.json; else FILE=stocks_4.json; fi
+          echo "🚀 Sequential Stock Fetch - Part 4/4 (Final) (market=$MARKET)"
+          echo "Processing file: $FILE"
           echo "Reason: ${{ github.event.inputs.reason }}"
           echo "Timestamp: $(date)"
-          echo "Working directory: $(pwd)"
           ls -la stock_list/
 
-      - name: 🏃 Process stocks_4.json (Final)
+      - name: 🏃 Process Part 4 (Final)
         id: process
         working-directory: ./stock_list
         run: |
-          echo "🚀 Starting stock data collection for stocks_4.json (Final part)..."
+          MARKET="${{ github.event.inputs.market }}"
+          if [ "$MARKET" = "US" ]; then FILE=us_stocks_4.json; else FILE=stocks_4.json; fi
+          echo "🚀 Starting stock data collection for $FILE (Final part)..."
           echo "Timestamp: $(date)"
 
-          python sumalize.py "stocks_4.json"
+          python sumalize.py "$FILE"
 
           echo "✅ Part 4 (Final) completed successfully"
           echo "📄 Generated files in Export directory:"
           ls -la Export/ 2>/dev/null || echo "No files in Export directory"
           echo ""
-          echo "🎉 ALL SEQUENTIAL STOCK FETCH PARTS COMPLETED!"
-          echo "📊 All 4 parts (stocks_1.json - stocks_4.json) have been processed"
+          echo "🎉 ALL SEQUENTIAL STOCK FETCH PARTS COMPLETED! (market=$MARKET)"
+          echo "📊 All 4 parts have been processed"
 
       - name: Git config and pull
         run: |
@@ -86,40 +97,39 @@ jobs:
 
       - name: 📊 Generate completion summary
         run: |
-          echo "🎉 SEQUENTIAL STOCK FETCH COMPLETED SUCCESSFULLY!"
+          MARKET="${{ github.event.inputs.market }}"
+          echo "🎉 SEQUENTIAL STOCK FETCH COMPLETED SUCCESSFULLY! (market=$MARKET)"
           echo "================================================="
           echo "⏰ Completion time: $(date)"
           echo "📂 All data exported to: stock_list/Export/"
-          echo "📊 Processed files:"
-          echo "  ✅ Part 1: stocks_1.json"
-          echo "  ✅ Part 2: stocks_2.json"
-          echo "  ✅ Part 3: stocks_3.json"
-          echo "  ✅ Part 4: stocks_4.json"
+          if [ "$MARKET" = "US" ]; then
+            echo "  ✅ Part 1-4: us_stocks_1.json - us_stocks_4.json"
+          else
+            echo "  ✅ Part 1-4: stocks_1.json - stocks_4.json"
+          fi
           echo ""
-          echo "📄 Export directory contents:"
           ls -la stock_list/Export/ 2>/dev/null || echo "No files found"
-          echo ""
-          echo "🚀 Sequential workflow chain execution completed!"
+          echo "🚀 CSV Combine will be triggered (market_type=$MARKET)"
 
       - name: 🔗 Workflow Chain Info
         run: |
           echo "✅ Part 4 completed successfully"
-          echo "🔄 Next: CSV Combine will be triggered"
+          echo "🔄 Next: CSV Combine & Export (market_type=${{ github.event.inputs.market }})"
 
-      # 次のワークフローをトリガー
       - name: 🚀 Trigger CSV Combine & Export
         uses: actions/github-script@v7
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            // CSV Combine & Export をトリガー
+            const market = '${{ github.event.inputs.market }}' || 'JP';
             await github.rest.actions.createWorkflowDispatch({
               owner: context.repo.owner,
               repo: context.repo.repo,
               workflow_id: 'csv-combine-export.yml',
               ref: 'main',
               inputs: {
-                reason: 'Auto-triggered after Sequential Stock Fetch Part 4 completion'
+                reason: 'Auto-triggered after Sequential Stock Fetch Part 4 completion',
+                market_type: market
               }
             });
-            console.log('✅ Triggered: CSV Combine & Export');
+            console.log('✅ Triggered: CSV Combine & Export (market_type=' + market + ')');

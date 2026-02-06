@@ -7,6 +7,14 @@ permissions:
 on:
   workflow_dispatch:
     inputs:
+      market:
+        description: "市場 (日本株=JP / 米国株=US)"
+        required: true
+        default: "JP"
+        type: choice
+        options:
+          - "JP"
+          - "US"
       reason:
         description: "開始理由（オプション）"
         required: false
@@ -40,21 +48,24 @@ jobs:
 
       - name: 📋 Show process info
         run: |
-          echo "🚀 Sequential Stock Fetch - Part 2/4"
-          echo "Processing file: stocks_2.json"
+          MARKET="${{ github.event.inputs.market }}"
+          if [ "$MARKET" = "US" ]; then FILE=us_stocks_2.json; else FILE=stocks_2.json; fi
+          echo "🚀 Sequential Stock Fetch - Part 2/4 (market=$MARKET)"
+          echo "Processing file: $FILE"
           echo "Reason: ${{ github.event.inputs.reason }}"
           echo "Timestamp: $(date)"
-          echo "Working directory: $(pwd)"
           ls -la stock_list/
 
-      - name: 🏃 Process stocks_2.json
+      - name: 🏃 Process Part 2
         id: process
         working-directory: ./stock_list
         run: |
-          echo "🚀 Starting stock data collection for stocks_2.json..."
+          MARKET="${{ github.event.inputs.market }}"
+          if [ "$MARKET" = "US" ]; then FILE=us_stocks_2.json; else FILE=stocks_2.json; fi
+          echo "🚀 Starting stock data collection for $FILE..."
           echo "Timestamp: $(date)"
 
-          python sumalize.py "stocks_2.json"
+          python sumalize.py "$FILE"
 
           echo "✅ Part 2 completed successfully"
           echo "📄 Generated files in Export directory:"
@@ -86,15 +97,15 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const result = await github.rest.actions.createWorkflowDispatch({
+            const market = '${{ github.event.inputs.market }}' || 'JP';
+            await github.rest.actions.createWorkflowDispatch({
               owner: context.repo.owner,
               repo: context.repo.repo,
               workflow_id: 'stock-fetch-sequential-3.yml',
               ref: 'main',
               inputs: {
+                market: market,
                 reason: 'Auto-triggered by Part 2 completion'
               }
             });
-
-            console.log('✅ Part 3 triggered successfully');
-            console.log('Response status:', result.status);
+            console.log('✅ Part 3 triggered (market=' + market + ')');
