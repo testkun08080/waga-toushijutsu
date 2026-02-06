@@ -1,0 +1,7002 @@
+[
+  {
+    "コード": "BAND",
+    "銘柄名": "Bandwidth Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BANF",
+    "銘柄名": "BancFirst Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BANFP",
+    "銘柄名": "BFC Capital Trust II PFD TR 7.20%",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BANL",
+    "銘柄名": "CBL International Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BANR",
+    "銘柄名": "Banner Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BANX",
+    "銘柄名": "ArrowMark Financial Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BANXR",
+    "銘柄名": "ArrowMark Financial Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BAO",
+    "銘柄名": "BAO Holding Ltd",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BAOS",
+    "銘柄名": "Baosheng Media Group Holdings Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BAP",
+    "銘柄名": "Credicorp Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BAR",
+    "銘柄名": "GraniteShares Gold Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BARK",
+    "銘柄名": "BARK, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BARKW",
+    "銘柄名": "BARK, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BASA",
+    "銘柄名": "Basanite, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BATL",
+    "銘柄名": "Battalion Oil Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BATRA",
+    "銘柄名": "Atlanta Braves Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BATRB",
+    "銘柄名": "Atlanta Braves Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BATRK",
+    "銘柄名": "Atlanta Braves Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BAX",
+    "銘柄名": "Baxter International Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BAYA",
+    "銘柄名": "Bayview Acquisition Corp",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BAYAR",
+    "銘柄名": "Bayview Acquisition Corp",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BAYAU",
+    "銘柄名": "Bayview Acquisition Corp",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BB",
+    "銘柄名": "BlackBerry Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BBAAY",
+    "銘柄名": "BBAAY",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BBAI",
+    "銘柄名": "BigBear.ai Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BBAI-WT",
+    "銘柄名": "BigBear.ai Holdings, Inc. WT",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BBAR",
+    "銘柄名": "Banco BBVA Argentina S.A.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BBBMF",
+    "銘柄名": "Lux Metals Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BBBXF",
+    "銘柄名": "Brixton Metals Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BBBY",
+    "銘柄名": "Bed Bath & Beyond, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BBBY-WT",
+    "銘柄名": "Bed Bath & Beyond, Inc. WT",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BBCP",
+    "銘柄名": "Concrete Pumping Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BBCQ",
+    "銘柄名": "Bleichroeder Acquisition Corp. II",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BBCQU",
+    "銘柄名": "Bleichroeder Acquisition Corp. II",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BBCQW",
+    "銘柄名": "Bleichroeder Acquisition Corp. II",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BBD",
+    "銘柄名": "Banco Bradesco S.A.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BBDC",
+    "銘柄名": "Barings BDC, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BBDO",
+    "銘柄名": "Banco Bradesco S.A.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BBGI",
+    "銘柄名": "Beasley Broadcast Group, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BBIO",
+    "銘柄名": "BridgeBio Pharma, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BBLG",
+    "銘柄名": "Bone Biologics Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BBLGW",
+    "銘柄名": "Bone Biologics Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BBLR",
+    "銘柄名": "Bubblr Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BBN",
+    "銘柄名": "BlackRock Taxable Municipal Bond Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BBNX",
+    "銘柄名": "Beta Bionics, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BBOT",
+    "銘柄名": "BridgeBio Oncology Therapeutics, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BBSI",
+    "銘柄名": "Barrett Business Services, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BBT",
+    "銘柄名": "Beacon Financial Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BBU",
+    "銘柄名": "Brookfield Business Partners L.P.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BBUC",
+    "銘柄名": "Brookfield Business Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BBVA",
+    "銘柄名": "Banco Bilbao Vizcaya Argentaria, S.A.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BBVXF",
+    "銘柄名": "Banco Bilbao Vizcaya Argentaria, S.A.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BBW",
+    "銘柄名": "Build-A-Bear Workshop, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BBWI",
+    "銘柄名": "Bath & Body Works, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BBXIA",
+    "銘柄名": "BBX Capital, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BBXIB",
+    "銘柄名": "BBX Capital, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BBY",
+    "銘柄名": "Best Buy Co., Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BC",
+    "銘柄名": "Brunswick Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BC-PC",
+    "銘柄名": "NASDAQ MEA Basic Resources Larg",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BCAB",
+    "銘柄名": "BioAtla, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BCAC",
+    "銘柄名": "BCAC",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BCAEF",
+    "銘柄名": "BCAEF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BCAL",
+    "銘柄名": "California BanCorp",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BCAR",
+    "銘柄名": "D. Boral ARC Acquisition I Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BCARU",
+    "銘柄名": "D. Boral ARC Acquisition I Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BCARW",
+    "銘柄名": "D. Boral ARC Acquisition I Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BCAT",
+    "銘柄名": "BlackRock Capital Allocation Term Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BCAX",
+    "銘柄名": "Bicara Therapeutics Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BCBP",
+    "銘柄名": "BCB Bancorp, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BCC",
+    "銘柄名": "Boise Cascade Company",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BCDA",
+    "銘柄名": "BioCardia, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BCDRF",
+    "銘柄名": "Banco Santander, S.A.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BCE",
+    "銘柄名": "BCE Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BCEFF",
+    "銘柄名": "BCE Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BCENF",
+    "銘柄名": "BCENF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BCEPF",
+    "銘柄名": "BCE Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BCEXF",
+    "銘柄名": "BCE Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BCG",
+    "銘柄名": "Binah Capital Group, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BCGWW",
+    "銘柄名": "Binah Capital Group, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BCH",
+    "銘柄名": "Banco de Chile",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BCHG",
+    "銘柄名": "Grayscale Bitcoin Cash Trust (BCH)",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BCHT",
+    "銘柄名": "Birchtech Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BCHTD",
+    "銘柄名": "Birchtech Corp",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BCIC",
+    "銘柄名": "BCP Investment Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BCKIF",
+    "銘柄名": "Babcock International Group PLC",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BCLI",
+    "銘柄名": "Brainstorm Cell Therapeutics Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BCLYF",
+    "銘柄名": "Barclays PLC",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BCML",
+    "銘柄名": "BayCom Corp",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BCO",
+    "銘柄名": "The Brink's Company",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BCOW",
+    "銘柄名": "1895 Bancorp of Wisconsin, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BCPC",
+    "銘柄名": "Balchem Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BCPPF",
+    "銘柄名": "BCE Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BCRD",
+    "銘柄名": "BlueOne Card, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BCRX",
+    "銘柄名": "BioCryst Pharmaceuticals, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BCS",
+    "銘柄名": "Barclays PLC",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BCSF",
+    "銘柄名": "Bain Capital Specialty Finance, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BCSS",
+    "銘柄名": "Bain Capital GSS Investment Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BCSS-UN",
+    "銘柄名": "Bain Capital GSS Investment Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BCSS-WT",
+    "銘柄名": "Bain Capital GSS Investment Corp. WT",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BCTF",
+    "銘柄名": "Bancorp 34, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BCTX",
+    "銘柄名": "BriaCell Therapeutics Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BCTXL",
+    "銘柄名": "BriaCell Therapeutics Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BCTXW",
+    "銘柄名": "BriaCell Therapeutics Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BCTXZ",
+    "銘柄名": "BriaCell Therapeutics Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BCUCF",
+    "銘柄名": "Brunello Cucinelli S.p.A.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BCUFF",
+    "銘柄名": "Bell Copper Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BCV",
+    "銘柄名": "Bancroft Fund Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BCV-PA",
+    "銘柄名": "Bancroft Fund Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BCX",
+    "銘柄名": "Blackrock Resources & Commodities Strategy Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BCYC",
+    "銘柄名": "Bicycle Therapeutics plc",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BDC",
+    "銘柄名": "Belden Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BDCC",
+    "銘柄名": "Blackwell 3D Construction Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BDCI",
+    "銘柄名": "BTC Development Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BDCIU",
+    "銘柄名": "BTC Development Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BDCIW",
+    "銘柄名": "BTC Development Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BDCO",
+    "銘柄名": "Blue Dolphin Energy Company",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BDCTF",
+    "銘柄名": "BUILDDIRECT COM TECHNOLOGIES IN",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BDCX",
+    "銘柄名": "ETRACS Quarterly Pay 1.5X Leveraged Wells Fargo BDC Index ETN",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BDCZ",
+    "銘柄名": "UBS ETRACS Wells Fargo Business Development Company Index ETN",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BDJ",
+    "銘柄名": "BlackRock Enhanced Equity Dividend Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BDL",
+    "銘柄名": "Flanigan's Enterprises, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BDMD",
+    "銘柄名": "Baird Medical Investment Holdings Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BDMDW",
+    "銘柄名": "Baird Medical Investment Holdings Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BDN",
+    "銘柄名": "Brandywine Realty Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BDPT",
+    "銘柄名": "BioAdaptives, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BDRX",
+    "銘柄名": "Biodexa Pharmaceuticals Plc",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BDRY",
+    "銘柄名": "Breakwave Dry Bulk Shipping ETF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BDSX",
+    "銘柄名": "Biodesix, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BDTB",
+    "銘柄名": "BDTB",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BDTX",
+    "銘柄名": "Black Diamond Therapeutics, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BDX",
+    "銘柄名": "Becton, Dickinson and Company",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BE",
+    "銘柄名": "Bloom Energy Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BEAG",
+    "銘柄名": "Bold Eagle Acquisition Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BEAGR",
+    "銘柄名": "Bold Eagle Acquisition Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BEAGU",
+    "銘柄名": "Bold Eagle Acquisition Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BEAM",
+    "銘柄名": "Beam Therapeutics Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BEAT",
+    "銘柄名": "HeartBeam, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BEATW",
+    "銘柄名": "HeartBeam, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BEBE",
+    "銘柄名": "BEBE",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BEBE-UN",
+    "銘柄名": "TGE Value Creative Solutions Co",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BECEF",
+    "銘柄名": "BCE Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BEEM",
+    "銘柄名": "Beam Global",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BEEP",
+    "銘柄名": "Mobile Infrastructure Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BEIGF",
+    "銘柄名": "BeOne Medicines AG",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BEKE",
+    "銘柄名": "KE Holdings Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BELFA",
+    "銘柄名": "Bel Fuse Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BELFB",
+    "銘柄名": "Bel Fuse Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BEN",
+    "銘柄名": "Franklin Resources, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BENF",
+    "銘柄名": "Beneficient",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BENFW",
+    "銘柄名": "Beneficient",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BENN",
+    "銘柄名": "BENN",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BEOB",
+    "銘柄名": "BEO Bancorp",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BEP",
+    "銘柄名": "Brookfield Renewable Partners L.P.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Utilities",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BEP-PA",
+    "銘柄名": "Brookfield Renewable Partners L.P.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Utilities",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BEPC",
+    "銘柄名": "Brookfield Renewable Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Utilities",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BEPH",
+    "銘柄名": "Brookfield BRP Holdings (Canada",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BEPI",
+    "銘柄名": "Brookfield BRP Holdings (Canada",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BEPJ",
+    "銘柄名": "Brookfield BRP Holdings (Canada",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BERZ",
+    "銘柄名": "MicroSectors Solactive FANG & Innovation -3X Inverse Leveraged ETNs",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BESS",
+    "銘柄名": "Bimergen Energy Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Utilities",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BETA",
+    "銘柄名": "BETA Technologies, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BETR",
+    "銘柄名": "Better Home & Finance Holding Company",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BETRF",
+    "銘柄名": "BetterLife Pharma Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BETRW",
+    "銘柄名": "Better Home & Finance Holding Company",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BEWFF",
+    "銘柄名": "BeWhere Holdings Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BF-A",
+    "銘柄名": "Brown-Forman Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BF-B",
+    "銘柄名": "Brown-Forman Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BFAM",
+    "銘柄名": "Bright Horizons Family Solutions Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BFC",
+    "銘柄名": "Bank First Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BFGFF",
+    "銘柄名": "Giant Mining Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BFH",
+    "銘柄名": "Bread Financial Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BFH-PA",
+    "銘柄名": "Bread Financial Holdings Inc",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BFK",
+    "銘柄名": "BlackRock Municipal Income Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BFLY",
+    "銘柄名": "Butterfly Network, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BFLYW",
+    "銘柄名": "Butterfly Network, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BFNH",
+    "銘柄名": "BioForce Nanosciences Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BFRG",
+    "銘柄名": "Bullfrog AI Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BFRGW",
+    "銘柄名": "Bullfrog AI Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BFRI",
+    "銘柄名": "Biofrontera Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BFRIW",
+    "銘柄名": "Biofrontera Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BFS",
+    "銘柄名": "Saul Centers, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BFS-PD",
+    "銘柄名": "Saul Centers, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BFS-PE",
+    "銘柄名": "Saul Centers, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BFST",
+    "銘柄名": "Business First Bancshares, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BFZ",
+    "銘柄名": "BlackRock California Municipal Income Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BG",
+    "銘柄名": "Bunge Global SA",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BGAVF",
+    "銘柄名": "Bravada Gold Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BGB",
+    "銘柄名": "Blackstone Strategic Credit 2027 Term Fund",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BGC",
+    "銘柄名": "BGC Group, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BGFR",
+    "銘柄名": "BGFR",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BGH",
+    "銘柄名": "Barings Global Short Duration High Yield Fund",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BGHL",
+    "銘柄名": "BGHL",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BGI",
+    "銘柄名": "Birks Group Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BGIN",
+    "銘柄名": "Bgin Blockchain Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BGL",
+    "銘柄名": "Blue Gold Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BGLC",
+    "銘柄名": "BioNexus Gene Lab Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BGLWW",
+    "銘柄名": "Blue Gold Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BGM",
+    "銘柄名": "BGM Group Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BGMS",
+    "銘柄名": "Bio Green Med Solution, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BGMSP",
+    "銘柄名": "Bio Green Med Solution, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BGR",
+    "銘柄名": "BlackRock Energy and Resources Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BGS",
+    "銘柄名": "B&G Foods, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BGSF",
+    "銘柄名": "BGSF, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BGSI",
+    "銘柄名": "Boyd Group Services Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BGT",
+    "銘柄名": "BlackRock Floating Rate Income Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BGTCF",
+    "銘柄名": "BGTCF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BGX",
+    "銘柄名": "Blackstone Long-Short Credit Income Fund",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BGY",
+    "銘柄名": "BlackRock Enhanced International Dividend Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BH",
+    "銘柄名": "Biglari Holdings Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BH-A",
+    "銘柄名": "Biglari Holdings Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BHAT",
+    "銘柄名": "Blue Hat Interactive Entertainment Technology",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BHB",
+    "銘柄名": "Bar Harbor Bankshares",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BHC",
+    "銘柄名": "Bausch Health Companies Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BHE",
+    "銘柄名": "Benchmark Electronics, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BHF",
+    "銘柄名": "Brighthouse Financial, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BHFAL",
+    "銘柄名": "Brighthouse Financial, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BHFAM",
+    "銘柄名": "Brighthouse Financial, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BHFAN",
+    "銘柄名": "Brighthouse Financial, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BHFAO",
+    "銘柄名": "Brighthouse Financial, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BHFAP",
+    "銘柄名": "Brighthouse Financial, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BHIC",
+    "銘柄名": "BHIC",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BHK",
+    "銘柄名": "BlackRock Core Bond Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BHLL",
+    "銘柄名": "Bunker Hill Mining Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BHM",
+    "銘柄名": "Bluerock Homes Trust, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BHP",
+    "銘柄名": "BHP Group Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BHPLF",
+    "銘柄名": "BHP Group Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BHR",
+    "銘柄名": "Braemar Hotels & Resorts Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BHR-PB",
+    "銘柄名": "Braemar Hotels & Resorts Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BHR-PD",
+    "銘柄名": "Braemar Hotels & Resorts Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BHRB",
+    "銘柄名": "Burke & Herbert Financial Services Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BHSIF",
+    "銘柄名": "Bayhorse Silver Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BHST",
+    "銘柄名": "BioHarvest Sciences Inc. Common Stock",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BHV",
+    "銘柄名": "BlackRock Virginia Municipal Bond Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BHVN",
+    "銘柄名": "Biohaven Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BIAF",
+    "銘柄名": "bioAffinity Technologies, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BIAFW",
+    "銘柄名": "bioAffinity Technologies, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BICX",
+    "銘柄名": "BioCorRx Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BIDU",
+    "銘柄名": "Baidu, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BIIB",
+    "銘柄名": "Biogen Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BIII",
+    "銘柄名": "Black Spade Acquisition III Co",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BIII-UN",
+    "銘柄名": "Black Spade Acquisition III Co",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BILI",
+    "銘柄名": "Bilibili Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BILL",
+    "銘柄名": "BILL Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BINI",
+    "銘柄名": "Bollinger Innovations, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BIO",
+    "銘柄名": "Bio-Rad Laboratories, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BIO-B",
+    "銘柄名": "Bio-Rad Laboratories, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BIOA",
+    "銘柄名": "BioAge Labs, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BIOE",
+    "銘柄名": "Bio Essence Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BIOF",
+    "銘柄名": "Blue Biofuels, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BIOT",
+    "銘柄名": "BIOT",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BIOX",
+    "銘柄名": "Bioceres Crop Solutions Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BIP",
+    "銘柄名": "Brookfield Infrastructure Partners L.P.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Utilities",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BIP-PA",
+    "銘柄名": "Brookfield Infrastructure Partners L.P.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Utilities",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BIP-PB",
+    "銘柄名": "Brookfield Infrastructure Partners L.P.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Utilities",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BIPC",
+    "銘柄名": "Brookfield Infrastructure Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Utilities",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BIPH",
+    "銘柄名": "Safeplus International Holdings Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BIPI",
+    "銘柄名": "BIP Bermuda Holdings I Limited ",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BIPJ",
+    "銘柄名": "Brookfield Infrastructure Finance ULC",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BIRD",
+    "銘柄名": "Allbirds, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BIREF",
+    "銘柄名": "Birchcliff Energy Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BIREY",
+    "銘柄名": "BIREY",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BIRK",
+    "銘柄名": "Birkenstock Holding plc",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BIT",
+    "銘柄名": "BlackRock Multi-Sector Income Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BITB",
+    "銘柄名": "Bitwise Bitcoin ETF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BITF",
+    "銘柄名": "Bitfarms Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BITTF",
+    "銘柄名": "Bitterroot Resources Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BITW",
+    "銘柄名": "Bitwise 10 Crypto Index Fund",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BIVI",
+    "銘柄名": "BioVie Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BIVIW",
+    "銘柄名": "BioVie Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BIXI",
+    "銘柄名": "Bitcoin Infrastructure Acquisition Corp Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BIXIU",
+    "銘柄名": "Bitcoin Infrastructure Acquisition Corp Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BIXIW",
+    "銘柄名": "Bitcoin Infrastructure Acquisition Corp Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BIXT",
+    "銘柄名": "Bioxytran, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BIYA",
+    "銘柄名": "Baiya International Group Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BJ",
+    "銘柄名": "BJ's Wholesale Club Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BJDX",
+    "銘柄名": "Bluejay Diagnostics, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BJGPY",
+    "銘柄名": "BJGPY",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BJRI",
+    "銘柄名": "BJ's Restaurants, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BK",
+    "銘柄名": "The Bank of New York Mellon Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BK-PK",
+    "銘柄名": "The Bank of New York Mellon Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BKAMF",
+    "銘柄名": "Brookfield Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BKD",
+    "銘柄名": "Brookdale Senior Living Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BKE",
+    "銘柄名": "The Buckle, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BKFAF",
+    "銘柄名": "Brookfield Asset Management Inc",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BKFDF",
+    "銘柄名": "BKFDF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BKFOF",
+    "銘柄名": "BKFOF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BKFPF",
+    "銘柄名": "BKFPF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BKH",
+    "銘柄名": "Black Hills Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Utilities",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BKHA",
+    "銘柄名": "Black Hawk Acquisition Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BKHAR",
+    "銘柄名": "Black Hawk Acquisition Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BKHAU",
+    "銘柄名": "Black Hawk Acquisition Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BKKT",
+    "銘柄名": "Bakkt, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BKKT-WT",
+    "銘柄名": "Bakkt Holdings, Inc. WT",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BKLPF",
+    "銘柄名": "PT Bukalapak.com Tbk.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BKN",
+    "銘柄名": "BlackRock Investment Quality Municipal Trust Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BKNG",
+    "銘柄名": "Booking Holdings Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BKPA",
+    "銘柄名": "BKPA",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BKPKF",
+    "銘柄名": "Bank Polska Kasa Opieki S.A.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BKPOY",
+    "銘柄名": "BKPOY",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BKR",
+    "銘柄名": "Baker Hughes Company",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BKRRF",
+    "銘柄名": "Blackrock Silver Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BKSC",
+    "銘柄名": "Bank of South Carolina Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BKSY",
+    "銘柄名": "BlackSky Technology Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BKSY-WT",
+    "銘柄名": "BlackSky Technology Inc. WT",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BKT",
+    "銘柄名": "BlackRock Income Trust, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BKTH",
+    "銘柄名": "Breakthrough Chemistry, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BKTI",
+    "銘柄名": "BK Technologies Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BKU",
+    "銘柄名": "BankUnited, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BKUCF",
+    "銘柄名": "Blue Sky Uranium Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BKV",
+    "銘柄名": "BKV Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BKYI",
+    "銘柄名": "BIO-key International, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BL",
+    "銘柄名": "BlackLine, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BLBD",
+    "銘柄名": "Blue Bird Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BLBLF",
+    "銘柄名": "Bilibili Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BLBX",
+    "銘柄名": "Blackboxstocks Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BLCO",
+    "銘柄名": "Bausch + Lomb Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BLD",
+    "銘柄名": "TopBuild Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BLDC",
+    "銘柄名": "BLDC",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BLDP",
+    "銘柄名": "Ballard Power Systems Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BLDR",
+    "銘柄名": "Builders FirstSource, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BLE",
+    "銘柄名": "BlackRock Municipal Income Trust II",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BLFBY",
+    "銘柄名": "Balfour Beatty Plc",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BLFS",
+    "銘柄名": "BioLife Solutions, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BLFY",
+    "銘柄名": "Blue Foundry Bancorp",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BLGO",
+    "銘柄名": "BioLargo, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BLIN",
+    "銘柄名": "Bridgeline Digital, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BLIS",
+    "銘柄名": "NAPC Defense, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BLIV",
+    "銘柄名": "BeLive Holdings",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BLK",
+    "銘柄名": "BlackRock, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BLKB",
+    "銘柄名": "Blackbaud, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BLLN",
+    "銘柄名": "BillionToOne, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BLMH",
+    "銘柄名": "Blum Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BLMN",
+    "銘柄名": "Bloomin' Brands, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BLMZF",
+    "銘柄名": "Harrison Global Holdings Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BLNC",
+    "銘柄名": "Balance Labs, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BLND",
+    "銘柄名": "Blend Labs, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BLNE",
+    "銘柄名": "Beeline Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BLNH",
+    "銘柄名": "Blue Line Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BLNK",
+    "銘柄名": "Blink Charging Co.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BLPG",
+    "銘柄名": "Blue Line Protection Group, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BLRK",
+    "銘柄名": "Bluerock Acquisition Corp. Class A Ordinary Shares",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BLRKU",
+    "銘柄名": "Bluerock Acquisition Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BLRX",
+    "銘柄名": "BioLineRx Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BLSH",
+    "銘柄名": "Bullish",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BLTE",
+    "銘柄名": "Belite Bio, Inc",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BLTH",
+    "銘柄名": "American Battery Materials, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BLUW",
+    "銘柄名": "Blue Water Acquisition Corp. III",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BLUWU",
+    "銘柄名": "Blue Water Acquisition Corp. III",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BLUWW",
+    "銘柄名": "Blue Water Acquisition Corp. III",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BLW",
+    "銘柄名": "BlackRock Limited Duration Income Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BLX",
+    "銘柄名": "Banco Latinoamericano de Comercio Exterior, S. A.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BLZE",
+    "銘柄名": "Backblaze, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BLZR",
+    "銘柄名": "Trailblazer Acquisition Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BLZRU",
+    "銘柄名": "Trailblazer Acquisition Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BLZRW",
+    "銘柄名": "Trailblazer Acquisition Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BMA",
+    "銘柄名": "Banco Macro S.A.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BMBL",
+    "銘柄名": "Bumble Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BMBN",
+    "銘柄名": "Benchmark Bankshares, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BME",
+    "銘柄名": "BlackRock Health Sciences Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BMEA",
+    "銘柄名": "Biomea Fusion, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BMEZ",
+    "銘柄名": "BlackRock Health Sciences Term Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BMGL",
+    "銘柄名": "Basel Medical Group Ltd",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BMHL",
+    "銘柄名": "Bluemount Holdings Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BMI",
+    "銘柄名": "Badger Meter, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BML-PG",
+    "銘柄名": "Bank of America Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BML-PH",
+    "銘柄名": "Bank of America Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BML-PJ",
+    "銘柄名": "Bank of America Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BML-PL",
+    "銘柄名": "Bank of America Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BMM",
+    "銘柄名": "Blue Moon Metals Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BMN",
+    "銘柄名": "Blackrock 2037 Municipal Target Term Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BMNM",
+    "銘柄名": "Bimini Capital Management, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BMNR",
+    "銘柄名": "Bitmine Immersion Technologies, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BMO",
+    "銘柄名": "Bank of Montreal",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BMOK",
+    "銘柄名": "BMOK",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BMOOF",
+    "銘柄名": "Blue Moon Metals Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BMPA",
+    "銘柄名": "BMP AI Technologies, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BMR",
+    "銘柄名": "Beamr Imaging Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BMRA",
+    "銘柄名": "Biomerica, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BMRC",
+    "銘柄名": "Bank of Marin Bancorp",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BMRN",
+    "銘柄名": "BioMarin Pharmaceutical Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BMTM",
+    "銘柄名": "Bright Mountain Media, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BMWKY",
+    "銘柄名": "Bayerische Motoren Werke AG",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BMXI",
+    "銘柄名": "Brookmount Explorations Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BMY",
+    "銘柄名": "Bristol-Myers Squibb Company",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BMYMP",
+    "銘柄名": "Bristol-Myers Squibb Company PFD CONV 2",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BN",
+    "銘柄名": "Brookfield Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BNAI",
+    "銘柄名": "Brand Engagement Network, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BNAIW",
+    "銘柄名": "Brand Engagement Network, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BNBX",
+    "銘柄名": "BNB Plus Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BNC",
+    "銘柄名": "CEA Industries Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BNCWW",
+    "銘柄名": "CEA Industries Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BNED",
+    "銘柄名": "Barnes & Noble Education, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BNET",
+    "銘柄名": "Bion Environmental Technologies, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BNGO",
+    "銘柄名": "Bionano Genomics, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BNH",
+    "銘柄名": "NASDAQ DM Ex US Industrials Ind",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BNIGF",
+    "銘柄名": "Beroni Group Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BNJ",
+    "銘柄名": "Brookfield Finance Inc. 4.50% P",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BNKD",
+    "銘柄名": "MicroSectors™ U.S. Big Banks -3x Inverse Leveraged ETNs",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BNKK",
+    "銘柄名": "Bonk, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BNKU",
+    "銘柄名": "MicroSectors™ U.S. Big Banks 3x Leveraged ETNs",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BNL",
+    "銘柄名": "Broadstone Net Lease, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BNO",
+    "銘柄名": "United States Brent Oil Fund, LP",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BNR",
+    "銘柄名": "Burning Rock Biotech Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BNRG",
+    "銘柄名": "Brenmiller Energy Ltd",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Utilities",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BNS",
+    "銘柄名": "The Bank of Nova Scotia",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BNSOF",
+    "銘柄名": "Bonso Electronics International Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BNT",
+    "銘柄名": "Brookfield Wealth Solutions Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BNTC",
+    "銘柄名": "Benitec Biopharma Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BNTX",
+    "銘柄名": "BioNTech SE",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BNY",
+    "銘柄名": "BlackRock New York Municipal Income Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BNZI",
+    "銘柄名": "Banzai International, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BNZIW",
+    "銘柄名": "Banzai International, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BOBS",
+    "銘柄名": "Bob's Discount Furniture, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BOC",
+    "銘柄名": "Boston Omaha Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BODI",
+    "銘柄名": "The Beachbody Company, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BODYW",
+    "銘柄名": "The Beachbody Company, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BOE",
+    "銘柄名": "BlackRock Enhanced Global Dividend Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BOF",
+    "銘柄名": "BranchOut Food Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BOH",
+    "銘柄名": "Bank of Hawaii Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BOH-PA",
+    "銘柄名": "Bank of Hawaii Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BOH-PB",
+    "銘柄名": "Bank of Hawaii Corp",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BOIL",
+    "銘柄名": "ProShares Ultra Bloomberg Natural Gas",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BOKF",
+    "銘柄名": "BOK Financial Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BOLD",
+    "銘柄名": "Boundless Bio, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BOLT",
+    "銘柄名": "Bolt Biotherapeutics, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BON",
+    "銘柄名": "Bon Natural Life Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BONXF",
+    "銘柄名": "Bonterra Resources Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BOOM",
+    "銘柄名": "DMC Global Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BOOT",
+    "銘柄名": "Boot Barn Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BORAY",
+    "銘柄名": "BORAY",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BORMF",
+    "銘柄名": "BOREALIS MNG CO LTD",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BORR",
+    "銘柄名": "Borr Drilling Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BOSC",
+    "銘柄名": "B.O.S. Better Online Solutions Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BOTJ",
+    "銘柄名": "Bank of the James Financial Group, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BOTY",
+    "銘柄名": "Lingerie Fighting Championships, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BOW",
+    "銘柄名": "Bowhead Specialty Holdings Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BOX",
+    "銘柄名": "Box, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BOXL",
+    "銘柄名": "Boxlight Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BP",
+    "銘柄名": "BP p.l.c.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BPAC",
+    "銘柄名": "Blueport Acquisition Ltd",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BPACR",
+    "銘柄名": "Blueport Acquisition Ltd",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BPACU",
+    "銘柄名": "Blueport Acquisition Ltd",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BPAQF",
+    "銘柄名": "BP p.l.c.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BPOP",
+    "銘柄名": "Popular, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BPOPM",
+    "銘柄名": "Popular Capital Trust II PFD GTD 6.125%",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BPOPO",
+    "銘柄名": "Popular, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BPPFF",
+    "銘柄名": "BPPFF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BPPTU",
+    "銘柄名": "BP Prudhoe Bay Royalty Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BPRE",
+    "銘柄名": "Bluerock Private Real Estate Fund",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BPRN",
+    "銘柄名": "Princeton Bancorp, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BPTH",
+    "銘柄名": "Bio-Path Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BPYPM",
+    "銘柄名": "Brookfield Property Preferred L.P.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BPYPN",
+    "銘柄名": "Brookfield Property Partners L.P.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BPYPO",
+    "銘柄名": "Brookfield Property Partners L.P.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BPYPP",
+    "銘柄名": "Brookfield Property Partners L.P.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BQ",
+    "銘柄名": "Boqii Holding Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BQST",
+    "銘柄名": "BioQuest Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BR",
+    "銘柄名": "Broadridge Financial Solutions, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRAG",
+    "銘柄名": "Bragg Gaming Group Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRAI",
+    "銘柄名": "Braiin Ltd",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRBF",
+    "銘柄名": "BRBF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRBI",
+    "銘柄名": "BRBI BR Partners S.A.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRBR",
+    "銘柄名": "BellRing Brands, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRBS",
+    "銘柄名": "Blue Ridge Bankshares, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRC",
+    "銘柄名": "Brady Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRCB",
+    "銘柄名": "Black Rock Coffee Bar, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRCC",
+    "銘柄名": "BRC Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRCFF",
+    "銘柄名": "BRCFF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRCNF",
+    "銘柄名": "Burcon NutraScience Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRELY",
+    "銘柄名": "Brazilian Rare Earths Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRENF",
+    "銘柄名": "Brookfield Renewable Partners L.P.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Utilities",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRETF",
+    "銘柄名": "Brazilian Rare Earths Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BREZ",
+    "銘柄名": "BREZ",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRFCF",
+    "銘柄名": "BRFCF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRFH",
+    "銘柄名": "Barfresh Food Group, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRGC",
+    "銘柄名": "North America Lithium Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRGX",
+    "銘柄名": "BioRegenx, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRIA",
+    "銘柄名": "BrilliA Inc",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRID",
+    "銘柄名": "Bridgford Foods Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRIPF",
+    "銘柄名": "BRIPF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Utilities",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRK-A",
+    "銘柄名": "Berkshire Hathaway Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRK-B",
+    "銘柄名": "Berkshire Hathaway Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRKCF",
+    "銘柄名": "Barksdale Resources Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRKK",
+    "銘柄名": "BRKK",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRKR",
+    "銘柄名": "Bruker Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRKRP",
+    "銘柄名": "Bruker Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRLS",
+    "銘柄名": "Borealis Foods Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRLSW",
+    "銘柄名": "Borealis Foods Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRLT",
+    "銘柄名": "Brilliant Earth Group, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRN",
+    "銘柄名": "Barnwell Industries, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRNS",
+    "銘柄名": "Barinthus Biotherapeutics plc",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRO",
+    "銘柄名": "Brown & Brown, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BROS",
+    "銘柄名": "Dutch Bros Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BROXF",
+    "銘柄名": "Brookfield Asset Management Inc",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRPSF",
+    "銘柄名": "BRPSF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRQL",
+    "銘柄名": "Dynamic Aerospace Systems",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRQSF",
+    "銘柄名": "Borqs Technologies, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRR",
+    "銘柄名": "ProCap Financial, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRRN",
+    "銘柄名": "Born Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRRR",
+    "銘柄名": "CoinShares Bitcoin ETF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRRWW",
+    "銘柄名": "ProCap Financial, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRSL",
+    "銘柄名": "Brightstar Lottery",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRSP",
+    "銘柄名": "BrightSpire Capital, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRST",
+    "銘柄名": "Broad Street Realty, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRSYF",
+    "銘柄名": "BrainsWay Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRT",
+    "銘柄名": "BRT Apartments Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRTX",
+    "銘柄名": "BioRestorative Therapies, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRUN",
+    "銘柄名": "BRUN",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRVO",
+    "銘柄名": "Bravo Multinational Incorporated",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRW",
+    "銘柄名": "Saba Capital Income & Opportunities Fund",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRWC",
+    "銘柄名": "Birdie Win Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRX",
+    "銘柄名": "Brixmor Property Group Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRYGF",
+    "銘柄名": "Terra Rossa Gold Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BRZE",
+    "銘柄名": "Braze, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BSAA",
+    "銘柄名": "BEST SPAC I Acquisition Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BSAAR",
+    "銘柄名": "BEST SPAC I Acquisition Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BSAAU",
+    "銘柄名": "BEST SPAC I Acquisition Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BSAC",
+    "銘柄名": "Banco Santander-Chile",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BSAI",
+    "銘柄名": "BluSky AI, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BSBK",
+    "銘柄名": "Bogota Financial Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BSBR",
+    "銘柄名": "Banco Santander (Brasil) S.A.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BSEM",
+    "銘柄名": "BioStem Technologies, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BSET",
+    "銘柄名": "Bassett Furniture Industries, Incorporated",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BSFC",
+    "銘柄名": "Blue Star Foods Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BSL",
+    "銘柄名": "Blackstone Senior Floating Rate 2027 Term Fund",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BSLK",
+    "銘柄名": "Bolt Projects Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BSLKW",
+    "銘柄名": "Bolt Projects Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BSM",
+    "銘柄名": "Black Stone Minerals, L.P.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BSMLP",
+    "銘柄名": "BSMLP",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BSOL",
+    "銘柄名": "Bitwise Solana Staking ETF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BSPA",
+    "銘柄名": "Ballston Spa Bancorp, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BSPK",
+    "銘柄名": "Bespoke Extracts, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BSQKZ",
+    "銘柄名": "Block, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BSRR",
+    "銘柄名": "Sierra Bancorp",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BST",
+    "銘柄名": "BlackRock Science and Technology Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BSTT",
+    "銘柄名": "BSTT",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BSTZ",
+    "銘柄名": "BlackRock Science and Technology Term Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BSVN",
+    "銘柄名": "Bank7 Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BSX",
+    "銘柄名": "Boston Scientific Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BSY",
+    "銘柄名": "Bentley Systems, Incorporated",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BTA",
+    "銘柄名": "BlackRock Long-Term Municipal Advantage Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BTAB",
+    "銘柄名": "BTAB",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BTAFF",
+    "銘柄名": "British American Tobacco p.l.c.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BTAI",
+    "銘柄名": "BioXcel Therapeutics, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BTBD",
+    "銘柄名": "BT Brands, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BTBDW",
+    "銘柄名": "BT Brands, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BTBT",
+    "銘柄名": "Bit Digital, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BTC",
+    "銘柄名": "Grayscale Bitcoin Mini Trust ETF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BTCO",
+    "銘柄名": "Invesco Galaxy Bitcoin ETF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BTCS",
+    "銘柄名": "BTCS Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BTCT",
+    "銘柄名": "BTC Digital Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BTCW",
+    "銘柄名": "WisdomTree Bitcoin Fund",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BTCY",
+    "銘柄名": "Biotricity, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BTDPF",
+    "銘柄名": "Barratt Redrow plc",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BTDPY",
+    "銘柄名": "Barratt Redrow plc",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BTDR",
+    "銘柄名": "Bitdeer Technologies Group",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BTE",
+    "銘柄名": "Baytex Energy Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BTFT",
+    "銘柄名": "BTFT",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BTG",
+    "銘柄名": "B2Gold Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BTGO",
+    "銘柄名": "BitGo Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BTGRF",
+    "銘柄名": "BTS Group Holdings Public Company Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BTI",
+    "銘柄名": "British American Tobacco p.l.c.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BTLWF",
+    "銘柄名": "BTLWF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BTM",
+    "銘柄名": "Bitcoin Depot Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BTMD",
+    "銘柄名": "biote Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BTMWW",
+    "銘柄名": "Bitcoin Depot Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BTO",
+    "銘柄名": "John Hancock Financial Opportunities Fund",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BTOC",
+    "銘柄名": "Armlogi Holding Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BTOG",
+    "銘柄名": "Bit Origin Ltd",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BTQ",
+    "銘柄名": "BTQ Technologies Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BTSG",
+    "銘柄名": "BrightSpring Health Services, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BTSGU",
+    "銘柄名": "BrightSpring Health Services, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BTT",
+    "銘柄名": "Blackrock Municipal 2030 Target Term Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BTTC",
+    "銘柄名": "Black Titan Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BTU",
+    "銘柄名": "Peabody Energy Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BTX",
+    "銘柄名": "BlackRock Innovation and Growth Term Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BTZ",
+    "銘柄名": "BlackRock Credit Allocation Income Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BUD",
+    "銘柄名": "Anheuser-Busch InBev SA/NV",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BUDA",
+    "銘柄名": "Buda Juice, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BUDFF",
+    "銘柄名": "Anheuser-Busch InBev SA/NV",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BUDZ",
+    "銘柄名": "WEED, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BUGDF",
+    "銘柄名": "Bumrungrad Hospital Public Company Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BUHHF",
+    "銘柄名": "BUHHF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BUHPF",
+    "銘柄名": "Bumrungrad Hospital Public Company Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BUHPY",
+    "銘柄名": "Bumrungrad Hospital PCL",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BUI",
+    "銘柄名": "BlackRock Utilities, Infrastructure & Power Opportunities Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BUKS",
+    "銘柄名": "Butler National Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BULL",
+    "銘柄名": "Webull Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BULLW",
+    "銘柄名": "Webull Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BULZ",
+    "銘柄名": "MicroSectors Solactive FANG Innovation 3X Leveraged ETNs",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BUR",
+    "銘柄名": "Burford Capital Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BURL",
+    "銘柄名": "Burlington Stores, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BURU",
+    "銘柄名": "Nuburu, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BURUW",
+    "銘柄名": "BURUW",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BUSE",
+    "銘柄名": "First Busey Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BUSEP",
+    "銘柄名": "First Busey Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BUUU",
+    "銘柄名": "BUUU Group Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BV",
+    "銘柄名": "BrightView Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BVAXF",
+    "銘柄名": "BioVaxys Technology Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BVC",
+    "銘柄名": "BitVentures Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BVENY",
+    "銘柄名": "BVENY",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BVFL",
+    "銘柄名": "BV Financial, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BVN",
+    "銘柄名": "Compañía de Minas Buenaventura S.A.A.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BVS",
+    "銘柄名": "Bioventus Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BW",
+    "銘柄名": "Babcock & Wilcox Enterprises, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BW-PA",
+    "銘柄名": "Babcock & Wilcox Enterprises, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BWA",
+    "銘柄名": "BorgWarner Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BWAY",
+    "銘柄名": "BrainsWay Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BWB",
+    "銘柄名": "Bridgewater Bancshares, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BWBBP",
+    "銘柄名": "Bridgewater Bancshares, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BWEN",
+    "銘柄名": "Broadwind, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BWET",
+    "銘柄名": "Breakwave Tanker Shipping ETF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BWFG",
+    "銘柄名": "Bankwell Financial Group, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BWG",
+    "銘柄名": "Legg Mason BW Global Income Opportunities Fund Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BWGC",
+    "銘柄名": "BWGC",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BWIN",
+    "銘柄名": "The Baldwin Insurance Group, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BWIV",
+    "銘柄名": "BWIV",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BWLP",
+    "銘柄名": "BW LPG Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BWMG",
+    "銘柄名": "Brownie's Marine Group, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BWMN",
+    "銘柄名": "Bowman Consulting Group Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BWMX",
+    "銘柄名": "Betterware de México, S.A.P.I. de C.V.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BWNB",
+    "銘柄名": "Babcock & Wilcox Enterprises, I",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BWOW",
+    "銘柄名": "Bitwise Dogecoin ETF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BWVTF",
+    "銘柄名": "iPath CBOE S&P 500 BuyWrite Index(SM) ETN",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BWXT",
+    "銘柄名": "BWX Technologies, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BX",
+    "銘柄名": "Blackstone Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BXC",
+    "銘柄名": "BlueLinx Holdings Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BXDIF",
+    "銘柄名": "Brookfield Asset Management Inc",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BXMT",
+    "銘柄名": "Blackstone Mortgage Trust, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BXMX",
+    "銘柄名": "Nuveen S&P 500 Buy-Write Income Fund",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BXP",
+    "銘柄名": "BXP, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BXRLY",
+    "銘柄名": "BXRLY",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BXSL",
+    "銘柄名": "Blackstone Secured Lending Fund",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BXSY",
+    "銘柄名": "Bexil Investment Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BY",
+    "銘柄名": "Byline Bancorp, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BYAH",
+    "銘柄名": "Park Ha Biological Technology Co., Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BYCBF",
+    "銘柄名": "Barry Callebaut AG",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BYD",
+    "銘柄名": "Boyd Gaming Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BYDDF",
+    "銘柄名": "BYD Company Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BYDIF",
+    "銘柄名": "BYD Electronic (International) Company Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BYFC",
+    "銘柄名": "Broadway Financial Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BYM",
+    "銘柄名": "BlackRock Municipal Income Quality Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BYMOF",
+    "銘柄名": "Bayerische Motoren Werke Aktiengesellschaft",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BYND",
+    "銘柄名": "Beyond Meat, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BYNO",
+    "銘柄名": "byNordic Acquisition Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BYNOU",
+    "銘柄名": "byNordic Acquisition Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BYNOW",
+    "銘柄名": "byNordic Acquisition Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BYOC",
+    "銘柄名": "Beyond Commerce, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BYRN",
+    "銘柄名": "Byrna Technologies Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BYSI",
+    "銘柄名": "BeyondSpring Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BZ",
+    "銘柄名": "Kanzhun Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BZAI",
+    "銘柄名": "Blaize Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BZAIW",
+    "銘柄名": "Blaize Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BZDLF",
+    "銘柄名": "Kincora Copper Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BZFD",
+    "銘柄名": "BuzzFeed, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BZFDW",
+    "銘柄名": "BuzzFeed, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BZH",
+    "銘柄名": "Beazer Homes USA, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BZLFF",
+    "銘柄名": "Bunzl plc",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BZLFY",
+    "銘柄名": "Bunzl plc",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BZRD",
+    "銘柄名": "Blubuzzard, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BZUN",
+    "銘柄名": "Baozun Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "BZYR",
+    "銘柄名": "Burzynski Research Institute, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "C",
+    "銘柄名": "Citigroup Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "C-PN",
+    "銘柄名": "Citigroup Capital XIII TR PFD SECS",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CAAP",
+    "銘柄名": "Corporación América Airports S.A.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CAAS",
+    "銘柄名": "China Automotive Systems, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CABA",
+    "銘柄名": "Cabaletta Bio, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CABO",
+    "銘柄名": "Cable One, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CABR",
+    "銘柄名": "Caring Brands, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CAC",
+    "銘柄名": "Camden National Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CACC",
+    "銘柄名": "Credit Acceptance Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CACI",
+    "銘柄名": "CACI International Inc",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CADE",
+    "銘柄名": "Cadence Bank",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CADE-PA",
+    "銘柄名": "Cadence Bank",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CADL",
+    "銘柄名": "Candel Therapeutics, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CADV",
+    "銘柄名": "Club Versante Group Ltd",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CAE",
+    "銘柄名": "CAE Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CAEA",
+    "銘柄名": "CAEA",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CAEP",
+    "銘柄名": "Cantor Equity Partners III, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CAF",
+    "銘柄名": "Morgan Stanley China A Share Fund, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CAG",
+    "銘柄名": "Conagra Brands, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CAH",
+    "銘柄名": "Cardinal Health, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CAHO",
+    "銘柄名": "Caro Holdings Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CAHPF",
+    "銘柄名": "Evolution Mining Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CAI",
+    "銘柄名": "Caris Life Sciences, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CAJFF",
+    "銘柄名": "Canon Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CAJPY",
+    "銘柄名": "Canon Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CAKE",
+    "銘柄名": "The Cheesecake Factory Incorporated",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CAL",
+    "銘柄名": "Caleres, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CALC",
+    "銘柄名": "CalciMedica, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CALM",
+    "銘柄名": "Cal-Maine Foods, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CALX",
+    "銘柄名": "Calix, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CALY",
+    "銘柄名": "Callaway Golf Company",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CAMG",
+    "銘柄名": "CAM Group, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CAMP",
+    "銘柄名": "CAMP4 THERAPEUTICS CORPORATION",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CAMT",
+    "銘柄名": "Camtek Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CAN",
+    "銘柄名": "Canaan Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CANE",
+    "銘柄名": "Teucrium Sugar Fund",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CANF",
+    "銘柄名": "Can-Fite BioPharma Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CANG",
+    "銘柄名": "Cango Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CANN",
+    "銘柄名": "Trees Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CAPC",
+    "銘柄名": "Capstone Companies, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CAPL",
+    "銘柄名": "CrossAmerica Partners LP",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CAPN",
+    "銘柄名": "Cayson Acquisition Corp",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CAPNR",
+    "銘柄名": "Cayson Acquisition Corp",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CAPNU",
+    "銘柄名": "Cayson Acquisition Corp",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CAPR",
+    "銘柄名": "Capricor Therapeutics, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CAPS",
+    "銘柄名": "Capstone Holding Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CAPT",
+    "銘柄名": "Captivision Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CAPTW",
+    "銘柄名": "Captivision Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CAQ",
+    "銘柄名": "CAQ",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CAR",
+    "銘柄名": "Avis Budget Group, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CARD",
+    "銘柄名": "Max Auto Industry -3X Inverse Leveraged ETN",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CARE",
+    "銘柄名": "Carter Bankshares, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CARG",
+    "銘柄名": "CarGurus, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CARL",
+    "銘柄名": "Carlsmed, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CARM",
+    "銘柄名": "Carisma Therapeutics, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CARR",
+    "銘柄名": "Carrier Global Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CARS",
+    "銘柄名": "Cars.com Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CART",
+    "銘柄名": "Maplebear Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CARU",
+    "銘柄名": "Max Auto Industry 3X Leveraged ETN",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CARV",
+    "銘柄名": "Carver Bancorp, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CASH",
+    "銘柄名": "Pathward Financial, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CASI",
+    "銘柄名": "CASI Pharmaceuticals, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CASS",
+    "銘柄名": "Cass Information Systems, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CAST",
+    "銘柄名": "FreeCast Inc",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CASY",
+    "銘柄名": "Casey's General Stores, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CAT",
+    "銘柄名": "Caterpillar Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CATO",
+    "銘柄名": "The Cato Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CATX",
+    "銘柄名": "Perspective Therapeutics, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CATY",
+    "銘柄名": "Cathay General Bancorp",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CAVA",
+    "銘柄名": "CAVA Group, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CAZGF",
+    "銘柄名": "Catapult Sports Ltd",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CB",
+    "銘柄名": "Chubb Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CBAN",
+    "銘柄名": "Colony Bankcorp, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CBAT",
+    "銘柄名": "CBAK Energy Technology, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CBC",
+    "銘柄名": "Central Bancompany, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CBDL",
+    "銘柄名": "CBD Life Sciences Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CBDW",
+    "銘柄名": "1606 Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CBDY",
+    "銘柄名": "Target Group Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CBFV",
+    "銘柄名": "CB Financial Services, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CBGGF",
+    "銘柄名": "Chain Bridge I",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CBIH",
+    "銘柄名": "Cannabis Bioscience International Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CBIO",
+    "銘柄名": "Crescent Biopharma, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CBK",
+    "銘柄名": "Commercial Bancgroup, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CBKM",
+    "銘柄名": "Consumers Bancorp, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CBL",
+    "銘柄名": "CBL & Associates Properties, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CBLL",
+    "銘柄名": "CeriBell, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CBLO",
+    "銘柄名": "C2 Blockchain, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CBMJ",
+    "銘柄名": "Conservative Broadcast Media & Journalism Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CBNA",
+    "銘柄名": "Chain Bridge Bancorp, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CBNK",
+    "銘柄名": "Capital Bancorp, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CBOE",
+    "銘柄名": "Cboe Global Markets, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CBPHF",
+    "銘柄名": "CBPHF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CBRE",
+    "銘柄名": "CBRE Group, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CBRGF",
+    "銘柄名": "Chain Bridge I",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CBRL",
+    "銘柄名": "Cracker Barrel Old Country Store, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CBRRF",
+    "銘柄名": "Chain Bridge I",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CBSH",
+    "銘柄名": "Commerce Bancshares, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CBSTF",
+    "銘柄名": "The Cannabist Company Holdings Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CBT",
+    "銘柄名": "Cabot Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CBU",
+    "銘柄名": "Community Financial System, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CBUS",
+    "銘柄名": "Cibus, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CBZ",
+    "銘柄名": "CBIZ, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CC",
+    "銘柄名": "The Chemours Company",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CCAP",
+    "銘柄名": "Crescent Capital BDC, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CCB",
+    "銘柄名": "Coastal Financial Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CCBG",
+    "銘柄名": "Capital City Bank Group, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CCC",
+    "銘柄名": "CCC Intelligent Solutions Holdings Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CCCC",
+    "銘柄名": "C4 Therapeutics, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CCCP",
+    "銘柄名": "Crona Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CCCX",
+    "銘柄名": "Churchill Capital Corp X",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CCCXU",
+    "銘柄名": "Churchill Capital Corp X",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CCCXW",
+    "銘柄名": "Churchill Capital Corp X",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CCD",
+    "銘柄名": "Calamos Dynamic Convertible and Income Fund",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CCEC",
+    "銘柄名": "Capital Clean Energy Carriers Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CCEL",
+    "銘柄名": "Cryo-Cell International, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CCEP",
+    "銘柄名": "Coca-Cola Europacific Partners PLC",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CCFN",
+    "銘柄名": "Muncy Columbia Financial Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CCG",
+    "銘柄名": "Cheche Group Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CCGWW",
+    "銘柄名": "Cheche Group Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CCHH",
+    "銘柄名": "CCH Holdings Ltd",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CCI",
+    "銘柄名": "Crown Castle Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CCID",
+    "銘柄名": "Carlyle Credit Income Fund",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CCIF",
+    "銘柄名": "Carlyle Credit Income Fund",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CCII",
+    "銘柄名": "Cohen Circle Acquisition Corp. II",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CCIIU",
+    "銘柄名": "Cohen Circle Acquisition Corp. II",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CCIIW",
+    "銘柄名": "Cohen Circle Acquisition Corp. II",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CCIX",
+    "銘柄名": "Churchill Capital Corp IX",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CCIXU",
+    "銘柄名": "Churchill Capital Corp IX",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CCIXW",
+    "銘柄名": "Churchill Capital Corp IX",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CCJ",
+    "銘柄名": "Cameco Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CCK",
+    "銘柄名": "Crown Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CCL",
+    "銘柄名": "Carnival Corporation & plc",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CCLD",
+    "銘柄名": "CareCloud, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CCLDO",
+    "銘柄名": "CareCloud, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CCM",
+    "銘柄名": "Concord Medical Services Holdings Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CCNB",
+    "銘柄名": "Coastal Carolina Bancshares, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CCNE",
+    "銘柄名": "CNB Financial Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CCNEP",
+    "銘柄名": "CNB Financial Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CCO",
+    "銘柄名": "Clear Channel Outdoor Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CCOI",
+    "銘柄名": "Cogent Communications Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CCOOF",
+    "銘柄名": "Core Silver Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CCRN",
+    "銘柄名": "Cross Country Healthcare, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CCS",
+    "銘柄名": "Century Communities, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CCSI",
+    "銘柄名": "Consensus Cloud Solutions, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CCTC",
+    "銘柄名": "Catalyst Crew Technologies Corp",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CCTG",
+    "銘柄名": "CCSC Technology International Holdings Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CCTSF",
+    "銘柄名": "Cactus Acquisition Corp. 1 Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CCU",
+    "銘柄名": "Compañía Cervecerías Unidas S.A.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CCXI",
+    "銘柄名": "CCXI",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CCXIU",
+    "銘柄名": "Churchill Capital Corp XI",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CCZ",
+    "銘柄名": "Comcast Holdings Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CD",
+    "銘柄名": "Chaince Digital Holdings Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CDAQF",
+    "銘柄名": "Compass Digital Acquisition Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CDAUF",
+    "銘柄名": "Compass Digital Acquisition Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CDAWF",
+    "銘柄名": "CDAWF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CDE",
+    "銘柄名": "Coeur Mining, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CDGLF",
+    "銘柄名": "ComfortDelGro Corporation Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CDIO",
+    "銘柄名": "Cardio Diagnostics Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CDIOW",
+    "銘柄名": "Cardio Diagnostics Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CDIX",
+    "銘柄名": "Cardiff Lexington Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CDIXD",
+    "銘柄名": "Cardiff Lexington Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CDLR",
+    "銘柄名": "Cadeler A/S",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CDLX",
+    "銘柄名": "Cardlytics, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CDN",
+    "銘柄名": "Cloud Data Holdings Corp",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CDNA",
+    "銘柄名": "CareDx, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CDNL",
+    "銘柄名": "Cardinal Infrastructure Group Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CDNS",
+    "銘柄名": "Cadence Design Systems, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CDP",
+    "銘柄名": "COPT Defense Properties",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CDR-PB",
+    "銘柄名": "Cedar Realty Trust, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CDR-PC",
+    "銘柄名": "Cedar Realty Trust, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CDRE",
+    "銘柄名": "Cadre Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CDRO",
+    "銘柄名": "Codere Online Luxembourg, S.A.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CDROW",
+    "銘柄名": "Codere Online Luxembourg, S.A.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CDSG",
+    "銘柄名": "China Dongsheng International, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CDT",
+    "銘柄名": "CDT Equity Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CDTG",
+    "銘柄名": "CDT Environmental Technology Investment Holdings Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CDTHY",
+    "銘柄名": "CDTHY",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CDTTW",
+    "銘柄名": "CDT Equity Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CDW",
+    "銘柄名": "CDW Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CDXS",
+    "銘柄名": "Codexis, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CDZI",
+    "銘柄名": "Cadiz Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Utilities",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CDZIP",
+    "銘柄名": "Cadiz Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Utilities",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CE",
+    "銘柄名": "Celanese Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CECO",
+    "銘柄名": "CECO Environmental Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CEE",
+    "銘柄名": "The Central and Eastern Europe Fund, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CEF",
+    "銘柄名": "Sprott Physical Gold and Silver Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CEFD",
+    "銘柄名": "ETRACS Monthly Pay 1.5X Leveraged Closed-End Fund Index ETN",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CEFZ",
+    "銘柄名": "RiverNorth Active Income ETF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CEG",
+    "銘柄名": "Constellation Energy Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Utilities",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CEHCF",
+    "銘柄名": "Cosmo Energy Holdings Co., Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CEIN",
+    "銘柄名": "Camber Energy, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CELC",
+    "銘柄名": "Celcuity Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CELG-RI",
+    "銘柄名": "Bristol-Myers Squibb Company Ce",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CELH",
+    "銘柄名": "Celsius Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CELU",
+    "銘柄名": "Celularity Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CELUW",
+    "銘柄名": "Celularity Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CELZ",
+    "銘柄名": "Creative Medical Technology Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CENN",
+    "銘柄名": "Cenntro Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CENT",
+    "銘柄名": "Central Garden & Pet Company",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CENTA",
+    "銘柄名": "Central Garden & Pet Company",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CENX",
+    "銘柄名": "Century Aluminum Company",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CEPF",
+    "銘柄名": "Cantor Equity Partners IV, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CEPO",
+    "銘柄名": "Cantor Equity Partners I, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CEPS",
+    "銘柄名": "Cantor Equity Partners VI, Inc. Class A Ordinary Shares",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CEPT",
+    "銘柄名": "Cantor Equity Partners II, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CEPU",
+    "銘柄名": "Central Puerto S.A.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Utilities",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CEPV",
+    "銘柄名": "Cantor Equity Partners V, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CERO",
+    "銘柄名": "CERo Therapeutics Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CEROW",
+    "銘柄名": "CERo Therapeutics Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CERS",
+    "銘柄名": "Cerus Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CERT",
+    "銘柄名": "Certara, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CET",
+    "銘柄名": "Central Securities Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CETI",
+    "銘柄名": "Cyber Enviro-Tech, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Utilities",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CETX",
+    "銘柄名": "Cemtrex, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CETXP",
+    "銘柄名": "Cemtrex, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CETY",
+    "銘柄名": "Clean Energy Technologies, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CEV",
+    "銘柄名": "Eaton Vance California Municipal Income Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CEVA",
+    "銘柄名": "CEVA, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CF",
+    "銘柄名": "CF Industries Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CFAC",
+    "銘柄名": "CFAC",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CFBK",
+    "銘柄名": "CF Bankshares Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CFFI",
+    "銘柄名": "C&F Financial Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CFFN",
+    "銘柄名": "Capitol Federal Financial, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CFG",
+    "銘柄名": "Citizens Financial Group, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CFG-PE",
+    "銘柄名": "Citizens Financial Group, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CFG-PH",
+    "銘柄名": "Citizens Financial Group, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CFG-PI",
+    "銘柄名": "Citizens Financial Group Inc",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CFLT",
+    "銘柄名": "Confluent, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CFNB",
+    "銘柄名": "California First Leasing Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CFND",
+    "銘柄名": "C1 Fund Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CFOO",
+    "銘柄名": "China Foods Holdings Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CFR",
+    "銘柄名": "Cullen/Frost Bankers, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CFR-PB",
+    "銘柄名": "Cullen/Frost Bankers, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CFSU",
+    "銘柄名": "Complete Financial Solutions, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CG",
+    "銘柄名": "The Carlyle Group Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CGABL",
+    "銘柄名": "The Carlyle Group Inc. 4.625% Subordinated Notes due 2061",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CGAU",
+    "銘柄名": "Centerra Gold Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CGBD",
+    "銘柄名": "Carlyle Secured Lending, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CGBSF",
+    "銘柄名": "Crown LNG Holdings Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CGC",
+    "銘柄名": "Canopy Growth Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CGCT",
+    "銘柄名": "Cartesian Growth Corporation III",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CGCTU",
+    "銘柄名": "Cartesian Growth Corporation III",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CGCTW",
+    "銘柄名": "Cartesian Growth Corporation III",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CGEH",
+    "銘柄名": "Capstone Green Energy Holdings ",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CGEM",
+    "銘柄名": "Cullinan Therapeutics, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CGEN",
+    "銘柄名": "Compugen Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CGL",
+    "銘柄名": "CGL Logistics Holdings Ltd",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CGNT",
+    "銘柄名": "Cognyte Software Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CGNX",
+    "銘柄名": "Cognex Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CGO",
+    "銘柄名": "Calamos Global Total Return Fund",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CGON",
+    "銘柄名": "CG Oncology, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CGTL",
+    "銘柄名": "Creative Global Technology Holdings Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CGTX",
+    "銘柄名": "Cognition Therapeutics, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHA",
+    "銘柄名": "Chagee Holdings Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHAC",
+    "銘柄名": "Crane Harbor Acquisition Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHACR",
+    "銘柄名": "Crane Harbor Acquisition Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHACU",
+    "銘柄名": "Crane Harbor Acquisition Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHAI",
+    "銘柄名": "Core AI Holdings",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHAR",
+    "銘柄名": "Charlton Aria Acquisition Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHARR",
+    "銘柄名": "Charlton Aria Acquisition Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHARU",
+    "銘柄名": "Charlton Aria Acquisition Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHCI",
+    "銘柄名": "Comstock Holding Companies, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHCO",
+    "銘柄名": "City Holding Company",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHCT",
+    "銘柄名": "Community Healthcare Trust Incorporated",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHD",
+    "銘柄名": "Church & Dwight Co., Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHDN",
+    "銘柄名": "Churchill Downs Incorporated",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHE",
+    "銘柄名": "Chemed Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHEAF",
+    "銘柄名": "China Eastern Airlines Corporation Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHEC",
+    "銘柄名": "Chenghe Acquisition III Co.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHECU",
+    "銘柄名": "Chenghe Acquisition III Co.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHECW",
+    "銘柄名": "Chenghe Acquisition III Co.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHEF",
+    "銘柄名": "The Chefs' Warehouse, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHEV",
+    "銘柄名": "Charging Robotics Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHGG",
+    "銘柄名": "Chegg, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHH",
+    "銘柄名": "Choice Hotels International, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHI",
+    "銘柄名": "Calamos Convertible Opportunities and Income Fund",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHKIF",
+    "銘柄名": "China Southern Airlines Company Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHKP",
+    "銘柄名": "Check Point Software Technologies Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHKR",
+    "銘柄名": "Chesapeake Granite Wash Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHLSY",
+    "銘柄名": "Chocoladefabriken Lindt & Sprüngli AG",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHMG",
+    "銘柄名": "Chemung Financial Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHMI",
+    "銘柄名": "Cherry Hill Mortgage Investment Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHMI-PA",
+    "銘柄名": "Cherry Hill Mortgage Investment Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHMI-PB",
+    "銘柄名": "Cherry Hill Mortgage Investment Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHMX",
+    "銘柄名": "NEXT-ChemX Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHNEY",
+    "銘柄名": "CHINA EASTERN AIRLINES CORP",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHNR",
+    "銘柄名": "China Natural Resources, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHOW",
+    "銘柄名": "ChowChow Cloud International Holdings Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHPG",
+    "銘柄名": "ChampionsGate Acquisition Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHPGR",
+    "銘柄名": "ChampionsGate Acquisition Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHPGU",
+    "銘柄名": "ChampionsGate Acquisition Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHPT",
+    "銘柄名": "ChargePoint Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHR",
+    "銘柄名": "Cheer Holding, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHRD",
+    "銘柄名": "Chord Energy Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHRS",
+    "銘柄名": "Coherus Oncology, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHRW",
+    "銘柄名": "C.H. Robinson Worldwide, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHSCL",
+    "銘柄名": "CHS Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHSCM",
+    "銘柄名": "CHS Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHSCN",
+    "銘柄名": "CHS Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHSCO",
+    "銘柄名": "CHS Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHSCP",
+    "銘柄名": "CHS Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHSN",
+    "銘柄名": "Chanson International Holding",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHT",
+    "銘柄名": "Chunghwa Telecom Co., Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHTH",
+    "銘柄名": "CNL Healthcare Properties, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHTR",
+    "銘柄名": "Charter Communications, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHUC",
+    "銘柄名": "Charlie's Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHW",
+    "銘柄名": "Calamos Global Dynamic Income Fund",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHWRF",
+    "銘柄名": "China Tower Corporation Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHWY",
+    "銘柄名": "Chewy, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHY",
+    "銘柄名": "Calamos Convertible and High Income Fund",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CHYM",
+    "銘柄名": "Chime Financial, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CI",
+    "銘柄名": "The Cigna Group",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CIA",
+    "銘柄名": "Citizens, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CIB",
+    "銘柄名": "Grupo Cibest S.A.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CICB",
+    "銘柄名": "CION Investment Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CIEN",
+    "銘柄名": "Ciena Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CIF",
+    "銘柄名": "MFS Intermediate High Income Fund",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CIFR",
+    "銘柄名": "Cipher Mining Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CIG",
+    "銘柄名": "Companhia Energética de Minas Gerais - CEMIG",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Utilities",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CIG-C",
+    "銘柄名": "Companhia Energética de Minas Gerais - CEMIG",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Utilities",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CIGI",
+    "銘柄名": "Colliers International Group Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CIGL",
+    "銘柄名": "Concorde International Group Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CII",
+    "銘柄名": "BlackRock Enhanced Large Cap Core Fund, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CIIT",
+    "銘柄名": "Tianci International, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CIK",
+    "銘柄名": "Credit Suisse Asset Management Income Fund, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CILJF",
+    "銘柄名": "China Life Insurance Company Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CIM",
+    "銘柄名": "Chimera Investment Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CIM-PA",
+    "銘柄名": "Chimera Investment Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CIM-PB",
+    "銘柄名": "Chimera Investment Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CIM-PC",
+    "銘柄名": "Chimera Investment Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CIM-PD",
+    "銘柄名": "Chimera Investment Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CIMN",
+    "銘柄名": "Chimera Investment Corporation ",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CIMO",
+    "銘柄名": "Chimera Investment Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CIMP",
+    "銘柄名": "Chimera Investment Corporation ",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CINF",
+    "銘柄名": "Cincinnati Financial Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CING",
+    "銘柄名": "Cingulate Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CINGW",
+    "銘柄名": "Cingulate Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "CINT",
+    "銘柄名": "CI&T Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  }
+]
