@@ -39121,3 +39121,4099 @@
 ============================================================
 2026-02-07 06:58:28,702 - INFO - 処理完了
 2026-02-07 06:58:28,702 - INFO - ============================================================
+2026-02-07 06:59:12,787 - INFO - yfinance version: 1.1.0
+2026-02-07 06:59:12,787 - INFO - 処理対象ファイル: us_stocks_3.json
+2026-02-07 06:59:12,788 - INFO - ============================================================
+2026-02-07 06:59:12,788 - INFO - ================================================================================
+2026-02-07 06:59:12,788 - INFO - 株式財務データ取得プロセス開始 - 開始時刻: 2026-02-07 06:59:12
+2026-02-07 06:59:12,788 - INFO - 処理対象ファイル: us_stocks_3.json
+2026-02-07 06:59:12,788 - INFO - ================================================================================
+2026-02-07 06:59:12,790 - INFO - us_stocks_3.jsonから1000社の銘柄データを読み込みました
+2026-02-07 06:59:12,790 - INFO - ============================================================
+2026-02-07 06:59:12,790 - INFO - 株式財務データ取得開始
+2026-02-07 06:59:12,790 - INFO - ============================================================
+2026-02-07 06:59:12,790 - INFO - 
+[1/1000]
+2026-02-07 06:59:12,790 - INFO - 取得中: CION Investment Corporation (CION)
+2026-02-07 06:59:14,560 - INFO -   ✅ 取得完了: CION Investment Corporation
+2026-02-07 06:59:16,561 - INFO - 
+[2/1000]
+2026-02-07 06:59:16,561 - INFO - 取得中: CirTran Corporation (CIRX)
+2026-02-07 06:59:17,703 - INFO -   ✅ 取得完了: CirTran Corporation
+2026-02-07 06:59:19,703 - INFO - 
+[3/1000]
+2026-02-07 06:59:19,703 - INFO - 取得中: CISO Global Inc. (CISO)
+2026-02-07 06:59:20,915 - INFO -   ✅ 取得完了: CISO Global Inc.
+2026-02-07 06:59:22,915 - INFO - 
+[4/1000]
+2026-02-07 06:59:22,915 - INFO - 取得中: C3is Inc. (CISS)
+2026-02-07 06:59:24,059 - INFO -   ✅ 取得完了: C3is Inc.
+2026-02-07 06:59:26,059 - INFO - 
+[5/1000]
+2026-02-07 06:59:26,059 - INFO - 取得中: COSCO SHIPPING Development Co., Ltd. (CITAF)
+2026-02-07 06:59:27,307 - INFO -   ✅ 取得完了: COSCO SHIPPING Development Co., Ltd.
+2026-02-07 06:59:29,307 - INFO - 
+[6/1000]
+2026-02-07 06:59:29,308 - INFO - 取得中: CitroTech Inc. (CITR)
+2026-02-07 06:59:30,392 - INFO -   ✅ 取得完了: CitroTech Inc.
+2026-02-07 06:59:32,392 - INFO - 
+[7/1000]
+2026-02-07 06:59:32,392 - INFO - 取得中: Civista Bancshares, Inc. (CIVB)
+2026-02-07 06:59:33,753 - INFO -   ✅ 取得完了: Civista Bancshares, Inc.
+2026-02-07 06:59:35,754 - INFO - 
+[8/1000]
+2026-02-07 06:59:35,754 - INFO - 取得中: Civitas Resources, Inc. (CIVI)
+2026-02-07 06:59:36,907 - INFO -   ✅ 取得完了: Civitas Resources, Inc.
+2026-02-07 06:59:38,907 - INFO - 
+[9/1000]
+2026-02-07 06:59:38,907 - INFO - 取得中: CompX International Inc. (CIX)
+2026-02-07 06:59:40,238 - INFO -   ✅ 取得完了: CompX International Inc.
+2026-02-07 06:59:42,238 - INFO - 
+[10/1000]
+2026-02-07 06:59:42,238 - INFO - 取得中: CaixaBank, S.A. (CIXPF)
+2026-02-07 06:59:43,480 - INFO -   ✅ 取得完了: CaixaBank, S.A.
+2026-02-07 06:59:45,480 - INFO - 
+[11/1000]
+2026-02-07 06:59:45,480 - INFO - 取得中: Citizens Holding Company (CIZN)
+2026-02-07 06:59:46,744 - INFO -   ✅ 取得完了: Citizens Holding Company
+2026-02-07 06:59:48,745 - INFO - 
+[12/1000]
+2026-02-07 06:59:48,745 - INFO - 取得中: CoJax Oil and Gas Corporation (CJAX)
+2026-02-07 06:59:49,960 - INFO -   ✅ 取得完了: CoJax Oil and Gas Corporation
+2026-02-07 06:59:51,960 - INFO - 
+[13/1000]
+2026-02-07 06:59:51,960 - INFO - 取得中: Callan JMB Inc. (CJMB)
+2026-02-07 06:59:53,295 - ERROR - $CJMB: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 06:59:53,303 - INFO -   ✅ 取得完了: Callan JMB Inc.
+2026-02-07 06:59:55,303 - INFO - 
+[14/1000]
+2026-02-07 06:59:55,304 - INFO - 取得中: Opthea Limited (CKDXF)
+2026-02-07 06:59:56,473 - INFO -   ✅ 取得完了: Opthea Limited
+2026-02-07 06:59:58,473 - INFO - 
+[15/1000]
+2026-02-07 06:59:58,474 - INFO - 取得中: Capitec Bank Holdings Limited (CKHGF)
+2026-02-07 06:59:59,696 - INFO -   ✅ 取得完了: Capitec Bank Holdings Limited
+2026-02-07 07:00:01,696 - INFO - 
+[16/1000]
+2026-02-07 07:00:01,697 - INFO - 取得中: CKX Lands, Inc. (CKX)
+2026-02-07 07:00:02,904 - INFO -   ✅ 取得完了: CKX Lands, Inc.
+2026-02-07 07:00:04,904 - INFO - 
+[17/1000]
+2026-02-07 07:00:04,905 - INFO - 取得中: Colgate-Palmolive Company (CL)
+2026-02-07 07:00:06,285 - INFO -   ✅ 取得完了: Colgate-Palmolive Company
+2026-02-07 07:00:08,285 - INFO - 
+[18/1000]
+2026-02-07 07:00:08,285 - INFO - 取得中: Clarus Corporation (CLAR)
+2026-02-07 07:00:09,764 - INFO -   ✅ 取得完了: Clarus Corporation
+2026-02-07 07:00:11,765 - INFO - 
+[19/1000]
+2026-02-07 07:00:11,765 - INFO - 取得中: Core Laboratories Inc. (CLB)
+2026-02-07 07:00:13,000 - INFO -   ✅ 取得完了: Core Laboratories Inc.
+2026-02-07 07:00:15,000 - INFO - 
+[20/1000]
+2026-02-07 07:00:15,001 - INFO - 取得中: Columbia Financial, Inc. (CLBK)
+2026-02-07 07:00:16,235 - INFO -   ✅ 取得完了: Columbia Financial, Inc.
+2026-02-07 07:00:18,235 - INFO - 
+[21/1000]
+2026-02-07 07:00:18,235 - INFO - 取得中: Cellebrite DI Ltd. (CLBT)
+2026-02-07 07:00:19,379 - INFO -   ✅ 取得完了: Cellebrite DI Ltd.
+2026-02-07 07:00:21,379 - INFO - 
+[22/1000]
+2026-02-07 07:00:21,379 - INFO - 取得中: CLBZ (CLBZ)
+2026-02-07 07:00:22,347 - INFO -   ✅ 取得完了: CLBZ
+2026-02-07 07:00:24,348 - INFO - 
+[23/1000]
+2026-02-07 07:00:24,348 - INFO - 取得中: Cell Source, Inc. (CLCS)
+2026-02-07 07:00:25,659 - INFO -   ✅ 取得完了: Cell Source, Inc.
+2026-02-07 07:00:27,659 - INFO - 
+[24/1000]
+2026-02-07 07:00:27,659 - INFO - 取得中: Calidi Biotherapeutics, Inc. (CLDI)
+2026-02-07 07:00:28,905 - INFO -   ✅ 取得完了: Calidi Biotherapeutics, Inc.
+2026-02-07 07:00:30,905 - INFO - 
+[25/1000]
+2026-02-07 07:00:30,905 - INFO - 取得中: Chatham Lodging Trust (CLDT)
+2026-02-07 07:00:32,107 - INFO -   ✅ 取得完了: Chatham Lodging Trust
+2026-02-07 07:00:34,108 - INFO - 
+[26/1000]
+2026-02-07 07:00:34,108 - INFO - 取得中: Chatham Lodging Trust (CLDT-PA)
+2026-02-07 07:00:35,195 - INFO -   ✅ 取得完了: Chatham Lodging Trust
+2026-02-07 07:00:37,196 - INFO - 
+[27/1000]
+2026-02-07 07:00:37,196 - INFO - 取得中: Cloud3 Ventures Inc. (CLDVF)
+2026-02-07 07:00:38,390 - INFO -   ✅ 取得完了: Cloud3 Ventures Inc.
+2026-02-07 07:00:40,390 - INFO - 
+[28/1000]
+2026-02-07 07:00:40,390 - INFO - 取得中: Calidi Biotherapeutics, Inc. (CLDWW)
+2026-02-07 07:00:41,489 - INFO -   ✅ 取得完了: Calidi Biotherapeutics, Inc.
+2026-02-07 07:00:43,489 - INFO - 
+[29/1000]
+2026-02-07 07:00:43,490 - INFO - 取得中: Celldex Therapeutics, Inc. (CLDX)
+2026-02-07 07:00:44,622 - INFO -   ✅ 取得完了: Celldex Therapeutics, Inc.
+2026-02-07 07:00:46,623 - INFO - 
+[30/1000]
+2026-02-07 07:00:46,623 - INFO - 取得中: Concrete Leveling Systems, Inc. (CLEV)
+2026-02-07 07:00:47,872 - INFO -   ✅ 取得完了: Concrete Leveling Systems, Inc.
+2026-02-07 07:00:49,872 - INFO - 
+[31/1000]
+2026-02-07 07:00:49,872 - INFO - 取得中: Cleveland-Cliffs Inc. (CLF)
+2026-02-07 07:00:51,240 - INFO -   ✅ 取得完了: Cleveland-Cliffs Inc.
+2026-02-07 07:00:53,240 - INFO - 
+[32/1000]
+2026-02-07 07:00:53,240 - INFO - 取得中: Clearfield, Inc. (CLFD)
+2026-02-07 07:00:54,493 - INFO -   ✅ 取得完了: Clearfield, Inc.
+2026-02-07 07:00:56,493 - INFO - 
+[33/1000]
+2026-02-07 07:00:56,493 - INFO - 取得中: CollPlant Biotechnologies Ltd. (CLGN)
+2026-02-07 07:00:57,696 - INFO -   ✅ 取得完了: CollPlant Biotechnologies Ltd.
+2026-02-07 07:00:59,697 - INFO - 
+[34/1000]
+2026-02-07 07:00:59,697 - INFO - 取得中: Clean Harbors, Inc. (CLH)
+2026-02-07 07:01:00,902 - INFO -   ✅ 取得完了: Clean Harbors, Inc.
+2026-02-07 07:01:02,903 - INFO - 
+[35/1000]
+2026-02-07 07:01:02,903 - INFO - 取得中: Click Holdings Limited (CLIK)
+2026-02-07 07:01:03,969 - INFO -   ✅ 取得完了: Click Holdings Limited
+2026-02-07 07:01:05,969 - INFO - 
+[36/1000]
+2026-02-07 07:01:05,969 - INFO - 取得中: ClearSign Technologies Corporation (CLIR)
+2026-02-07 07:01:07,150 - INFO -   ✅ 取得完了: ClearSign Technologies Corporation
+2026-02-07 07:01:09,150 - INFO - 
+[37/1000]
+2026-02-07 07:01:09,151 - INFO - 取得中: Cellectis S.A. (CLLS)
+2026-02-07 07:01:10,327 - INFO -   ✅ 取得完了: Cellectis S.A.
+2026-02-07 07:01:12,328 - INFO - 
+[38/1000]
+2026-02-07 07:01:12,328 - INFO - 取得中: Cornerstone Strategic Investment Fund, Inc. (CLM)
+2026-02-07 07:01:13,660 - INFO -   ✅ 取得完了: Cornerstone Strategic Investment Fund, Inc.
+2026-02-07 07:01:15,661 - INFO - 
+[39/1000]
+2026-02-07 07:01:15,661 - INFO - 取得中: Climb Global Solutions, Inc. (CLMB)
+2026-02-07 07:01:16,896 - INFO -   ✅ 取得完了: Climb Global Solutions, Inc.
+2026-02-07 07:01:18,897 - INFO - 
+[40/1000]
+2026-02-07 07:01:18,897 - INFO - 取得中: Calumet, Inc. (CLMT)
+2026-02-07 07:01:20,227 - INFO -   ✅ 取得完了: Calumet, Inc.
+2026-02-07 07:01:22,227 - INFO - 
+[41/1000]
+2026-02-07 07:01:22,228 - INFO - 取得中: Clean Energy Fuels Corp. (CLNE)
+2026-02-07 07:01:23,485 - INFO -   ✅ 取得完了: Clean Energy Fuels Corp.
+2026-02-07 07:01:25,485 - INFO - 
+[42/1000]
+2026-02-07 07:01:25,485 - INFO - 取得中: Bitwise Chainlink ETF (CLNK)
+2026-02-07 07:01:26,451 - INFO -   ✅ 取得完了: Bitwise Chainlink ETF
+2026-02-07 07:01:28,451 - INFO - 
+[43/1000]
+2026-02-07 07:01:28,451 - INFO - 取得中: Clene Inc. (CLNN)
+2026-02-07 07:01:29,621 - INFO -   ✅ 取得完了: Clene Inc.
+2026-02-07 07:01:31,621 - INFO - 
+[44/1000]
+2026-02-07 07:01:31,621 - INFO - 取得中: Clean Vision Corporation (CLNV)
+2026-02-07 07:01:32,839 - INFO -   ✅ 取得完了: Clean Vision Corporation
+2026-02-07 07:01:34,840 - INFO - 
+[45/1000]
+2026-02-07 07:01:34,840 - INFO - 取得中: Cyberloq Technologies, Inc. (CLOQ)
+2026-02-07 07:01:36,073 - INFO -   ✅ 取得完了: Cyberloq Technologies, Inc.
+2026-02-07 07:01:38,073 - INFO - 
+[46/1000]
+2026-02-07 07:01:38,073 - INFO - 取得中: Clover Health Investments, Corp. (CLOV)
+2026-02-07 07:01:39,333 - INFO -   ✅ 取得完了: Clover Health Investments, Corp.
+2026-02-07 07:01:41,333 - INFO - 
+[47/1000]
+2026-02-07 07:01:41,333 - INFO - 取得中: Cloudweb, Inc. (CLOW)
+2026-02-07 07:01:42,608 - INFO -   ✅ 取得完了: Cloudweb, Inc.
+2026-02-07 07:01:44,609 - INFO - 
+[48/1000]
+2026-02-07 07:01:44,609 - INFO - 取得中: Clipper Realty Inc. (CLPR)
+2026-02-07 07:01:45,780 - INFO -   ✅ 取得完了: Clipper Realty Inc.
+2026-02-07 07:01:47,780 - INFO - 
+[49/1000]
+2026-02-07 07:01:47,780 - INFO - 取得中: CLPS Incorporation (CLPS)
+2026-02-07 07:01:49,002 - INFO -   ✅ 取得完了: CLPS Incorporation
+2026-02-07 07:01:51,002 - INFO - 
+[50/1000]
+2026-02-07 07:01:51,003 - INFO - 取得中: ClearPoint Neuro, Inc. (CLPT)
+2026-02-07 07:01:52,236 - INFO -   ✅ 取得完了: ClearPoint Neuro, Inc.
+2026-02-07 07:01:54,237 - INFO - 
+[51/1000]
+2026-02-07 07:01:54,237 - INFO - 取得中: Cellectar Biosciences, Inc. (CLRB)
+2026-02-07 07:01:55,488 - INFO -   ✅ 取得完了: Cellectar Biosciences, Inc.
+2026-02-07 07:01:57,489 - INFO - 
+[52/1000]
+2026-02-07 07:01:57,489 - INFO - 取得中: ClimateRock (CLRCF)
+2026-02-07 07:01:58,766 - INFO -   ✅ 取得完了: ClimateRock
+2026-02-07 07:02:00,766 - INFO - 
+[53/1000]
+2026-02-07 07:02:00,766 - INFO - 取得中: Cleartronic, Inc. (CLRI)
+2026-02-07 07:02:02,091 - INFO -   ✅ 取得完了: Cleartronic, Inc.
+2026-02-07 07:02:04,092 - INFO - 
+[54/1000]
+2026-02-07 07:02:04,092 - INFO - 取得中: CLRLY (CLRLY)
+2026-02-07 07:02:05,036 - INFO -   ✅ 取得完了: CLRLY
+2026-02-07 07:02:07,037 - INFO - 
+[55/1000]
+2026-02-07 07:02:07,037 - INFO - 取得中: ClearOne, Inc. (CLRO)
+2026-02-07 07:02:08,299 - INFO -   ✅ 取得完了: ClearOne, Inc.
+2026-02-07 07:02:10,299 - INFO - 
+[56/1000]
+2026-02-07 07:02:10,299 - INFO - 取得中: ClimateRock (CLRRF)
+2026-02-07 07:02:11,211 - INFO -   ✅ 取得完了: ClimateRock
+2026-02-07 07:02:13,211 - INFO - 
+[57/1000]
+2026-02-07 07:02:13,211 - INFO - 取得中: ClimateRock (CLRUF)
+2026-02-07 07:02:14,251 - INFO -   ✅ 取得完了: ClimateRock
+2026-02-07 07:02:16,251 - INFO - 
+[58/1000]
+2026-02-07 07:02:16,252 - INFO - 取得中: CLRWF (CLRWF)
+2026-02-07 07:02:17,152 - INFO -   ✅ 取得完了: CLRWF
+2026-02-07 07:02:19,153 - INFO - 
+[59/1000]
+2026-02-07 07:02:19,153 - INFO - 取得中: Celestica Inc. (CLS)
+2026-02-07 07:02:20,341 - INFO -   ✅ 取得完了: Celestica Inc.
+2026-02-07 07:02:22,341 - INFO - 
+[60/1000]
+2026-02-07 07:02:22,342 - INFO - 取得中: Clearside Biomedical, Inc. (CLSDQ)
+2026-02-07 07:02:23,583 - INFO -   ✅ 取得完了: Clearside Biomedical, Inc.
+2026-02-07 07:02:25,583 - INFO - 
+[61/1000]
+2026-02-07 07:02:25,584 - INFO - 取得中: CleanSpark, Inc. (CLSK)
+2026-02-07 07:02:26,882 - INFO -   ✅ 取得完了: CleanSpark, Inc.
+2026-02-07 07:02:28,883 - INFO - 
+[62/1000]
+2026-02-07 07:02:28,883 - INFO - 取得中: CleanSpark, Inc. (CLSKW)
+2026-02-07 07:02:29,974 - INFO -   ✅ 取得完了: CleanSpark, Inc.
+2026-02-07 07:02:31,974 - INFO - 
+[63/1000]
+2026-02-07 07:02:31,974 - INFO - 取得中: CLSO (CLSO)
+2026-02-07 07:02:32,159 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: CLSO"}}}
+2026-02-07 07:02:33,025 - INFO -   ✅ 取得完了: CLSO
+2026-02-07 07:02:35,025 - INFO - 
+[64/1000]
+2026-02-07 07:02:35,025 - INFO - 取得中: Catalyst Bancorp, Inc. (CLST)
+2026-02-07 07:02:36,255 - INFO -   ✅ 取得完了: Catalyst Bancorp, Inc.
+2026-02-07 07:02:38,256 - INFO - 
+[65/1000]
+2026-02-07 07:02:38,256 - INFO - 取得中: CLUS (CLUS)
+2026-02-07 07:02:39,262 - INFO -   ✅ 取得完了: CLUS
+2026-02-07 07:02:41,263 - INFO - 
+[66/1000]
+2026-02-07 07:02:41,263 - INFO - 取得中: Clarivate Plc (CLVT)
+2026-02-07 07:02:42,460 - INFO -   ✅ 取得完了: Clarivate Plc
+2026-02-07 07:02:44,461 - INFO - 
+[67/1000]
+2026-02-07 07:02:44,461 - INFO - 取得中: Clearwater Paper Corporation (CLW)
+2026-02-07 07:02:45,664 - INFO -   ✅ 取得完了: Clearwater Paper Corporation
+2026-02-07 07:02:47,665 - INFO - 
+[68/1000]
+2026-02-07 07:02:47,665 - INFO - 取得中: Euro Tech Holdings Company Limited (CLWT)
+2026-02-07 07:02:48,920 - INFO -   ✅ 取得完了: Euro Tech Holdings Company Limited
+2026-02-07 07:02:50,920 - INFO - 
+[69/1000]
+2026-02-07 07:02:50,920 - INFO - 取得中: The Clorox Company (CLX)
+2026-02-07 07:02:52,284 - INFO -   ✅ 取得完了: The Clorox Company
+2026-02-07 07:02:54,285 - INFO - 
+[70/1000]
+2026-02-07 07:02:54,285 - INFO - 取得中: Climb Bio, Inc. (CLYM)
+2026-02-07 07:02:55,460 - INFO -   ✅ 取得完了: Climb Bio, Inc.
+2026-02-07 07:02:57,460 - INFO - 
+[71/1000]
+2026-02-07 07:02:57,460 - INFO - 取得中: Canadian Imperial Bank of Commerce (CM)
+2026-02-07 07:02:58,721 - INFO -   ✅ 取得完了: Canadian Imperial Bank of Commerce
+2026-02-07 07:03:00,722 - INFO - 
+[72/1000]
+2026-02-07 07:03:00,722 - INFO - 取得中: Comerica Incorporated (CMA)
+2026-02-07 07:03:02,110 - INFO -   ✅ 取得完了: Comerica Incorporated
+2026-02-07 07:03:04,111 - INFO - 
+[73/1000]
+2026-02-07 07:03:04,111 - INFO - 取得中: Comerica Inc (CMA-PB)
+2026-02-07 07:03:05,164 - INFO -   ✅ 取得完了: Comerica Inc
+2026-02-07 07:03:07,164 - INFO - 
+[74/1000]
+2026-02-07 07:03:07,165 - INFO - 取得中: Cambium Networks Corporation (CMBM)
+2026-02-07 07:03:08,353 - INFO -   ✅ 取得完了: Cambium Networks Corporation
+2026-02-07 07:03:10,353 - INFO - 
+[75/1000]
+2026-02-07 07:03:10,353 - INFO - 取得中: Cmb.Tech NV (CMBT)
+2026-02-07 07:03:11,617 - INFO -   ✅ 取得完了: Cmb.Tech NV
+2026-02-07 07:03:13,618 - INFO - 
+[76/1000]
+2026-02-07 07:03:13,618 - INFO - 取得中: Commercial Metals Company (CMC)
+2026-02-07 07:03:14,967 - INFO -   ✅ 取得完了: Commercial Metals Company
+2026-02-07 07:03:16,967 - INFO - 
+[77/1000]
+2026-02-07 07:03:16,968 - INFO - 取得中: Caledonia Mining Corporation Plc (CMCL)
+2026-02-07 07:03:18,231 - INFO -   ✅ 取得完了: Caledonia Mining Corporation Plc
+2026-02-07 07:03:20,231 - INFO - 
+[78/1000]
+2026-02-07 07:03:20,231 - INFO - 取得中: Cheetah Mobile Inc. (CMCM)
+2026-02-07 07:03:21,433 - INFO -   ✅ 取得完了: Cheetah Mobile Inc.
+2026-02-07 07:03:23,433 - INFO - 
+[79/1000]
+2026-02-07 07:03:23,433 - INFO - 取得中: Columbus McKinnon Corporation (CMCO)
+2026-02-07 07:03:24,857 - INFO -   ✅ 取得完了: Columbus McKinnon Corporation
+2026-02-07 07:03:26,857 - INFO - 
+[80/1000]
+2026-02-07 07:03:26,857 - INFO - 取得中: Comcast Corporation (CMCSA)
+2026-02-07 07:03:28,128 - INFO -   ✅ 取得完了: Comcast Corporation
+2026-02-07 07:03:30,129 - INFO - 
+[81/1000]
+2026-02-07 07:03:30,129 - INFO - 取得中: Creative Media & Community Trust Corporation (CMCT)
+2026-02-07 07:03:31,351 - INFO -   ✅ 取得完了: Creative Media & Community Trust Corporation
+2026-02-07 07:03:33,351 - INFO - 
+[82/1000]
+2026-02-07 07:03:33,351 - INFO - 取得中: Costamare Bulkers Holdings Limited (CMDB)
+2026-02-07 07:03:34,796 - ERROR - $CMDB: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 07:03:34,805 - INFO -   ✅ 取得完了: Costamare Bulkers Holdings Limited
+2026-02-07 07:03:36,805 - INFO - 
+[83/1000]
+2026-02-07 07:03:36,806 - INFO - 取得中: CME Group Inc. (CME)
+2026-02-07 07:03:38,162 - INFO -   ✅ 取得完了: CME Group Inc.
+2026-02-07 07:03:40,162 - INFO - 
+[84/1000]
+2026-02-07 07:03:40,162 - INFO - 取得中: Chipotle Mexican Grill, Inc. (CMG)
+2026-02-07 07:03:41,421 - INFO -   ✅ 取得完了: Chipotle Mexican Grill, Inc.
+2026-02-07 07:03:43,421 - INFO - 
+[85/1000]
+2026-02-07 07:03:43,422 - INFO - 取得中: Chaoda Modern Agriculture (Holdings) Limited (CMGHF)
+2026-02-07 07:03:44,593 - INFO -   ✅ 取得完了: Chaoda Modern Agriculture (Holdings) Limited
+2026-02-07 07:03:46,593 - INFO - 
+[86/1000]
+2026-02-07 07:03:46,594 - INFO - 取得中: Chemring Group PLC (CMGMF)
+2026-02-07 07:03:48,020 - INFO -   ✅ 取得完了: Chemring Group PLC
+2026-02-07 07:03:50,020 - INFO - 
+[87/1000]
+2026-02-07 07:03:50,020 - INFO - 取得中: Comprehensive Healthcare Systems, Inc. (CMHSF)
+2026-02-07 07:03:51,238 - INFO -   ✅ 取得完了: Comprehensive Healthcare Systems, Inc.
+2026-02-07 07:03:53,238 - INFO - 
+[88/1000]
+2026-02-07 07:03:53,238 - INFO - 取得中: Cummins Inc. (CMI)
+2026-02-07 07:03:54,601 - INFO -   ✅ 取得完了: Cummins Inc.
+2026-02-07 07:03:56,601 - INFO - 
+[89/1000]
+2026-02-07 07:03:56,601 - INFO - 取得中: CMII (CMII)
+2026-02-07 07:03:57,653 - INFO -   ✅ 取得完了: CMII
+2026-02-07 07:03:59,654 - INFO - 
+[90/1000]
+2026-02-07 07:03:59,654 - INFO - 取得中: Cumulus Media Inc. (CMLS)
+2026-02-07 07:04:00,901 - INFO -   ✅ 取得完了: Cumulus Media Inc.
+2026-02-07 07:04:02,902 - INFO - 
+[91/1000]
+2026-02-07 07:04:02,902 - INFO - 取得中: Chemomab Therapeutics Ltd. (CMMB)
+2026-02-07 07:04:04,050 - INFO -   ✅ 取得完了: Chemomab Therapeutics Ltd.
+2026-02-07 07:04:06,051 - INFO - 
+[92/1000]
+2026-02-07 07:04:06,051 - INFO - 取得中: Clearmind Medicine Inc. (CMND)
+2026-02-07 07:04:07,340 - INFO -   ✅ 取得完了: Clearmind Medicine Inc.
+2026-02-07 07:04:09,340 - INFO - 
+[93/1000]
+2026-02-07 07:04:09,341 - INFO - 取得中: Compass Minerals International, Inc. (CMP)
+2026-02-07 07:04:10,659 - INFO -   ✅ 取得完了: Compass Minerals International, Inc.
+2026-02-07 07:04:12,659 - INFO - 
+[94/1000]
+2026-02-07 07:04:12,659 - INFO - 取得中: GPGI, Inc. (CMPO)
+2026-02-07 07:04:13,855 - INFO -   ✅ 取得完了: GPGI, Inc.
+2026-02-07 07:04:15,856 - INFO - 
+[95/1000]
+2026-02-07 07:04:15,856 - INFO - 取得中: Cimpress plc (CMPR)
+2026-02-07 07:04:17,246 - INFO -   ✅ 取得完了: Cimpress plc
+2026-02-07 07:04:19,246 - INFO - 
+[96/1000]
+2026-02-07 07:04:19,247 - INFO - 取得中: COMPASS Pathways plc (CMPS)
+2026-02-07 07:04:20,449 - INFO -   ✅ 取得完了: COMPASS Pathways plc
+2026-02-07 07:04:22,450 - INFO - 
+[97/1000]
+2026-02-07 07:04:22,450 - INFO - 取得中: Compass Therapeutics, Inc. (CMPX)
+2026-02-07 07:04:23,617 - INFO -   ✅ 取得完了: Compass Therapeutics, Inc.
+2026-02-07 07:04:25,617 - INFO - 
+[98/1000]
+2026-02-07 07:04:25,617 - INFO - 取得中: Commerce.com, Inc. (CMRC)
+2026-02-07 07:04:26,808 - INFO -   ✅ 取得完了: Commerce.com, Inc.
+2026-02-07 07:04:28,809 - INFO - 
+[99/1000]
+2026-02-07 07:04:28,809 - INFO - 取得中: Costamare Inc. (CMRE)
+2026-02-07 07:04:30,020 - INFO -   ✅ 取得完了: Costamare Inc.
+2026-02-07 07:04:32,020 - INFO - 
+[100/1000]
+2026-02-07 07:04:32,021 - INFO - 取得中: Costamare Inc. (CMRE-PB)
+2026-02-07 07:04:33,154 - INFO -   ✅ 取得完了: Costamare Inc.
+2026-02-07 07:04:35,154 - INFO - 
+[101/1000]
+2026-02-07 07:04:35,154 - INFO - 取得中: Costamare Inc. (CMRE-PC)
+2026-02-07 07:04:36,268 - INFO -   ✅ 取得完了: Costamare Inc.
+2026-02-07 07:04:38,268 - INFO - 
+[102/1000]
+2026-02-07 07:04:38,269 - INFO - 取得中: Costamare Inc. (CMRE-PD)
+2026-02-07 07:04:39,353 - INFO -   ✅ 取得完了: Costamare Inc.
+2026-02-07 07:04:41,353 - INFO - 
+[103/1000]
+2026-02-07 07:04:41,353 - INFO - 取得中: CIM Real Estate Finance Trust, Inc. (CMRF)
+2026-02-07 07:04:42,333 - INFO -   ✅ 取得完了: CIM Real Estate Finance Trust, Inc.
+2026-02-07 07:04:44,333 - INFO - 
+[104/1000]
+2026-02-07 07:04:44,334 - INFO - 取得中: CMS Energy Corporation (CMS)
+2026-02-07 07:04:45,728 - INFO -   ✅ 取得完了: CMS Energy Corporation
+2026-02-07 07:04:47,728 - INFO - 
+[105/1000]
+2026-02-07 07:04:47,728 - INFO - 取得中: Consumers Energy Company (CMS-PB)
+2026-02-07 07:04:48,738 - INFO -   ✅ 取得完了: Consumers Energy Company
+2026-02-07 07:04:50,738 - INFO - 
+[106/1000]
+2026-02-07 07:04:50,738 - INFO - 取得中: CMS Energy Corporation (CMS-PC)
+2026-02-07 07:04:51,750 - INFO -   ✅ 取得完了: CMS Energy Corporation
+2026-02-07 07:04:53,750 - INFO - 
+[107/1000]
+2026-02-07 07:04:53,750 - INFO - 取得中: CMS Energy Corporation 5.6% JRSUB NT 78 (CMSA)
+2026-02-07 07:04:54,688 - INFO -   ✅ 取得完了: CMS Energy Corporation 5.6% JRSUB NT 78
+2026-02-07 07:04:56,688 - INFO - 
+[108/1000]
+2026-02-07 07:04:56,689 - INFO - 取得中: CMS Energy Corporation 5.875% J (CMSC)
+2026-02-07 07:04:57,657 - INFO -   ✅ 取得完了: CMS Energy Corporation 5.875% J
+2026-02-07 07:04:59,657 - INFO - 
+[109/1000]
+2026-02-07 07:04:59,657 - INFO - 取得中: CMS Energy Corporation 5.875% J (CMSD)
+2026-02-07 07:05:00,574 - INFO -   ✅ 取得完了: CMS Energy Corporation 5.875% J
+2026-02-07 07:05:02,575 - INFO - 
+[110/1000]
+2026-02-07 07:05:02,575 - INFO - 取得中: Core Molding Technologies, Inc. (CMT)
+2026-02-07 07:05:03,821 - INFO -   ✅ 取得完了: Core Molding Technologies, Inc.
+2026-02-07 07:05:05,821 - INFO - 
+[111/1000]
+2026-02-07 07:05:05,821 - INFO - 取得中: Claros Mortgage Trust, Inc. (CMTG)
+2026-02-07 07:05:07,177 - INFO -   ✅ 取得完了: Claros Mortgage Trust, Inc.
+2026-02-07 07:05:09,178 - INFO - 
+[112/1000]
+2026-02-07 07:05:09,178 - INFO - 取得中: Comtech Telecommunications Corp. (CMTL)
+2026-02-07 07:05:10,487 - INFO -   ✅ 取得完了: Comtech Telecommunications Corp.
+2026-02-07 07:05:12,487 - INFO - 
+[113/1000]
+2026-02-07 07:05:12,488 - INFO - 取得中: Community Bancorp. Common Stock (CMTV)
+2026-02-07 07:05:13,659 - INFO -   ✅ 取得完了: Community Bancorp. Common Stock
+2026-02-07 07:05:15,660 - INFO - 
+[114/1000]
+2026-02-07 07:05:15,660 - INFO - 取得中: MFS High Yield Municipal Trust (CMU)
+2026-02-07 07:05:16,935 - INFO -   ✅ 取得完了: MFS High Yield Municipal Trust
+2026-02-07 07:05:18,935 - INFO - 
+[115/1000]
+2026-02-07 07:05:18,935 - INFO - 取得中: CSL Limited (CMXHF)
+2026-02-07 07:05:20,229 - INFO -   ✅ 取得完了: CSL Limited
+2026-02-07 07:05:22,229 - INFO - 
+[116/1000]
+2026-02-07 07:05:22,229 - INFO - 取得中: CNA Financial Corporation (CNA)
+2026-02-07 07:05:23,567 - INFO -   ✅ 取得完了: CNA Financial Corporation
+2026-02-07 07:05:25,568 - INFO - 
+[117/1000]
+2026-02-07 07:05:25,568 - INFO - 取得中: CNBX Pharmaceuticals Inc. (CNBX)
+2026-02-07 07:05:26,942 - INFO -   ✅ 取得完了: CNBX Pharmaceuticals Inc.
+2026-02-07 07:05:28,942 - INFO - 
+[118/1000]
+2026-02-07 07:05:28,943 - INFO - 取得中: Centene Corporation (CNC)
+2026-02-07 07:05:30,161 - INFO -   ✅ 取得完了: Centene Corporation
+2026-02-07 07:05:32,162 - INFO - 
+[119/1000]
+2026-02-07 07:05:32,162 - INFO - 取得中: Coincheck Group N.V. (CNCK)
+2026-02-07 07:05:33,406 - INFO -   ✅ 取得完了: Coincheck Group N.V.
+2026-02-07 07:05:35,406 - INFO - 
+[120/1000]
+2026-02-07 07:05:35,407 - INFO - 取得中: Coincheck Group N.V. (CNCKW)
+2026-02-07 07:05:36,472 - INFO -   ✅ 取得完了: Coincheck Group N.V.
+2026-02-07 07:05:38,473 - INFO - 
+[121/1000]
+2026-02-07 07:05:38,473 - INFO - 取得中: Concord Acquisition Corp II (CNDA)
+2026-02-07 07:05:39,589 - INFO -   ✅ 取得完了: Concord Acquisition Corp II
+2026-02-07 07:05:41,589 - INFO - 
+[122/1000]
+2026-02-07 07:05:41,589 - INFO - 取得中: Concord Acquisition Corp II (CNDAU)
+2026-02-07 07:05:42,738 - INFO -   ✅ 取得完了: Concord Acquisition Corp II
+2026-02-07 07:05:44,738 - INFO - 
+[123/1000]
+2026-02-07 07:05:44,738 - INFO - 取得中: Concord Acquisition Corp II (CNDAW)
+2026-02-07 07:05:45,766 - INFO -   ✅ 取得完了: Concord Acquisition Corp II
+2026-02-07 07:05:47,766 - INFO - 
+[124/1000]
+2026-02-07 07:05:47,767 - INFO - 取得中: Conduit Holdings Limited (CNDHF)
+2026-02-07 07:05:48,988 - INFO -   ✅ 取得完了: Conduit Holdings Limited
+2026-02-07 07:05:50,989 - INFO - 
+[125/1000]
+2026-02-07 07:05:50,989 - INFO - 取得中: CANADIAN COPPER INC. (CNDIF)
+2026-02-07 07:05:52,340 - ERROR - $CNDIF: possibly delisted; no price data found  (1d 2023-10-28 -> 2023-11-03) (Yahoo error = "Data doesn't exist for startDate = 1698465600, endDate = 1698984000")
+2026-02-07 07:05:52,348 - INFO -   ✅ 取得完了: CANADIAN COPPER INC.
+2026-02-07 07:05:54,348 - INFO - 
+[126/1000]
+2026-02-07 07:05:54,348 - INFO - 取得中: Conduent Incorporated (CNDT)
+2026-02-07 07:05:55,575 - INFO -   ✅ 取得完了: Conduent Incorporated
+2026-02-07 07:05:57,576 - INFO - 
+[127/1000]
+2026-02-07 07:05:57,576 - INFO - 取得中: ZW Data Action Technologies Inc. (CNET)
+2026-02-07 07:05:58,803 - INFO -   ✅ 取得完了: ZW Data Action Technologies Inc.
+2026-02-07 07:06:00,804 - INFO - 
+[128/1000]
+2026-02-07 07:06:00,804 - INFO - 取得中: CN Energy Group. Inc. (CNEY)
+2026-02-07 07:06:01,902 - INFO -   ✅ 取得完了: CN Energy Group. Inc.
+2026-02-07 07:06:03,902 - INFO - 
+[129/1000]
+2026-02-07 07:06:03,902 - INFO - 取得中: CNFinance Holdings Limited (CNF)
+2026-02-07 07:06:05,106 - INFO -   ✅ 取得完了: CNFinance Holdings Limited
+2026-02-07 07:06:07,106 - INFO - 
+[130/1000]
+2026-02-07 07:06:07,106 - INFO - 取得中: CFN Enterprises Inc. (CNFN)
+2026-02-07 07:06:08,256 - INFO -   ✅ 取得完了: CFN Enterprises Inc.
+2026-02-07 07:06:10,257 - INFO - 
+[131/1000]
+2026-02-07 07:06:10,257 - INFO - 取得中: CNH Industrial N.V. (CNH)
+2026-02-07 07:06:11,453 - INFO -   ✅ 取得完了: CNH Industrial N.V.
+2026-02-07 07:06:13,453 - INFO - 
+[132/1000]
+2026-02-07 07:06:13,454 - INFO - 取得中: Canadian National Railway Company (CNI)
+2026-02-07 07:06:14,764 - INFO -   ✅ 取得完了: Canadian National Railway Company
+2026-02-07 07:06:16,765 - INFO - 
+[133/1000]
+2026-02-07 07:06:16,765 - INFO - 取得中: Cinemark Holdings, Inc. (CNK)
+2026-02-07 07:06:18,039 - INFO -   ✅ 取得完了: Cinemark Holdings, Inc.
+2026-02-07 07:06:20,039 - INFO - 
+[134/1000]
+2026-02-07 07:06:20,039 - INFO - 取得中: Collective Mining Ltd. (CNL)
+2026-02-07 07:06:21,272 - INFO -   ✅ 取得完了: Collective Mining Ltd.
+2026-02-07 07:06:23,272 - INFO - 
+[135/1000]
+2026-02-07 07:06:23,272 - INFO - 取得中: The Connecticut Light and Power Company (CNLHN)
+2026-02-07 07:06:24,278 - INFO -   ✅ 取得完了: The Connecticut Light and Power Company
+2026-02-07 07:06:26,278 - INFO - 
+[136/1000]
+2026-02-07 07:06:26,278 - INFO - 取得中: The Connecticut Light and Power Company (CNLHO)
+2026-02-07 07:06:27,313 - INFO -   ✅ 取得完了: The Connecticut Light and Power Company
+2026-02-07 07:06:29,314 - INFO - 
+[137/1000]
+2026-02-07 07:06:29,314 - INFO - 取得中: The Connecticut Light and Power Company (CNLHP)
+2026-02-07 07:06:30,286 - INFO -   ✅ 取得完了: The Connecticut Light and Power Company
+2026-02-07 07:06:32,287 - INFO - 
+[138/1000]
+2026-02-07 07:06:32,287 - INFO - 取得中: The Connecticut Light and Power Company (CNLPL)
+2026-02-07 07:06:33,266 - INFO -   ✅ 取得完了: The Connecticut Light and Power Company
+2026-02-07 07:06:35,266 - INFO - 
+[139/1000]
+2026-02-07 07:06:35,266 - INFO - 取得中: The Connecticut Light and Power Company (CNLPM)
+2026-02-07 07:06:36,259 - INFO -   ✅ 取得完了: The Connecticut Light and Power Company
+2026-02-07 07:06:38,259 - INFO - 
+[140/1000]
+2026-02-07 07:06:38,259 - INFO - 取得中: The Connecticut Light and Power Company (CNLTL)
+2026-02-07 07:06:39,189 - INFO -   ✅ 取得完了: The Connecticut Light and Power Company
+2026-02-07 07:06:41,189 - INFO - 
+[141/1000]
+2026-02-07 07:06:41,189 - INFO - 取得中: The Connecticut Light and Power Company (CNLTN)
+2026-02-07 07:06:42,151 - INFO -   ✅ 取得完了: The Connecticut Light and Power Company
+2026-02-07 07:06:44,152 - INFO - 
+[142/1000]
+2026-02-07 07:06:44,152 - INFO - 取得中: The Connecticut Light and Power Company (CNLTP)
+2026-02-07 07:06:45,165 - INFO -   ✅ 取得完了: The Connecticut Light and Power Company
+2026-02-07 07:06:47,165 - INFO - 
+[143/1000]
+2026-02-07 07:06:47,165 - INFO - 取得中: Core & Main, Inc. (CNM)
+2026-02-07 07:06:48,414 - INFO -   ✅ 取得完了: Core & Main, Inc.
+2026-02-07 07:06:50,414 - INFO - 
+[144/1000]
+2026-02-07 07:06:50,415 - INFO - 取得中: CONMED Corporation (CNMD)
+2026-02-07 07:06:51,685 - INFO -   ✅ 取得完了: CONMED Corporation
+2026-02-07 07:06:53,685 - INFO - 
+[145/1000]
+2026-02-07 07:06:53,685 - INFO - 取得中: Cannae Holdings, Inc. (CNNE)
+2026-02-07 07:06:54,933 - INFO -   ✅ 取得完了: Cannae Holdings, Inc.
+2026-02-07 07:06:56,933 - INFO - 
+[146/1000]
+2026-02-07 07:06:56,933 - INFO - 取得中: CNO Financial Group, Inc. (CNO)
+2026-02-07 07:06:58,157 - INFO -   ✅ 取得完了: CNO Financial Group, Inc.
+2026-02-07 07:07:00,157 - INFO - 
+[147/1000]
+2026-02-07 07:07:00,157 - INFO - 取得中: CNO Financial Group, Inc. 5.125 (CNO-PA)
+2026-02-07 07:07:01,129 - INFO -   ✅ 取得完了: CNO Financial Group, Inc. 5.125
+2026-02-07 07:07:03,129 - INFO - 
+[148/1000]
+2026-02-07 07:07:03,130 - INFO - 取得中: ConnectOne Bancorp, Inc. (CNOB)
+2026-02-07 07:07:04,489 - INFO -   ✅ 取得完了: ConnectOne Bancorp, Inc.
+2026-02-07 07:07:06,489 - INFO - 
+[149/1000]
+2026-02-07 07:07:06,489 - INFO - 取得中: Rocky Shore Gold Ltd. (CNOBF)
+2026-02-07 07:07:07,674 - INFO -   ✅ 取得完了: Rocky Shore Gold Ltd.
+2026-02-07 07:07:09,675 - INFO - 
+[150/1000]
+2026-02-07 07:07:09,675 - INFO - 取得中: ConnectOne Bancorp, Inc. (CNOBP)
+2026-02-07 07:07:10,742 - INFO -   ✅ 取得完了: ConnectOne Bancorp, Inc.
+2026-02-07 07:07:12,742 - INFO - 
+[151/1000]
+2026-02-07 07:07:12,743 - INFO - 取得中: CenterPoint Energy, Inc. (CNP)
+2026-02-07 07:07:14,277 - INFO -   ✅ 取得完了: CenterPoint Energy, Inc.
+2026-02-07 07:07:16,278 - INFO - 
+[152/1000]
+2026-02-07 07:07:16,278 - INFO - 取得中: The Connecticut Light and Power Company (CNPWM)
+2026-02-07 07:07:17,340 - INFO -   ✅ 取得完了: The Connecticut Light and Power Company
+2026-02-07 07:07:19,340 - INFO - 
+[153/1000]
+2026-02-07 07:07:19,340 - INFO - 取得中: The Connecticut Light and Power Company (CNPWP)
+2026-02-07 07:07:20,341 - INFO -   ✅ 取得完了: The Connecticut Light and Power Company
+2026-02-07 07:07:22,342 - INFO - 
+[154/1000]
+2026-02-07 07:07:22,342 - INFO - 取得中: Canadian Natural Resources Limited (CNQ)
+2026-02-07 07:07:23,584 - INFO -   ✅ 取得完了: Canadian Natural Resources Limited
+2026-02-07 07:07:25,584 - INFO - 
+[155/1000]
+2026-02-07 07:07:25,585 - INFO - 取得中: Core Natural Resources, Inc. (CNR)
+2026-02-07 07:07:26,755 - INFO -   ✅ 取得完了: Core Natural Resources, Inc.
+2026-02-07 07:07:28,755 - INFO - 
+[156/1000]
+2026-02-07 07:07:28,755 - INFO - 取得中: CANTER RES CORP. (CNRCF)
+2026-02-07 07:07:30,030 - INFO -   ✅ 取得完了: CANTER RES CORP.
+2026-02-07 07:07:32,031 - INFO - 
+[157/1000]
+2026-02-07 07:07:32,031 - INFO - 取得中: Cohen & Steers, Inc. (CNS)
+2026-02-07 07:07:33,368 - INFO -   ✅ 取得完了: Cohen & Steers, Inc.
+2026-02-07 07:07:35,368 - INFO - 
+[158/1000]
+2026-02-07 07:07:35,368 - INFO - 取得中: CNS Pharmaceuticals, Inc. (CNSP)
+2026-02-07 07:07:36,546 - INFO -   ✅ 取得完了: CNS Pharmaceuticals, Inc.
+2026-02-07 07:07:38,547 - INFO - 
+[159/1000]
+2026-02-07 07:07:38,547 - INFO - 取得中: Centessa Pharmaceuticals plc (CNTA)
+2026-02-07 07:07:39,717 - INFO -   ✅ 取得完了: Centessa Pharmaceuticals plc
+2026-02-07 07:07:41,717 - INFO - 
+[160/1000]
+2026-02-07 07:07:41,717 - INFO - 取得中: Connect Biopharma Holdings Limited (CNTB)
+2026-02-07 07:07:42,876 - INFO -   ✅ 取得完了: Connect Biopharma Holdings Limited
+2026-02-07 07:07:44,877 - INFO - 
+[161/1000]
+2026-02-07 07:07:44,877 - INFO - 取得中: The Connecticut Light and Power Company (CNTHN)
+2026-02-07 07:07:45,913 - INFO -   ✅ 取得完了: The Connecticut Light and Power Company
+2026-02-07 07:07:47,913 - INFO - 
+[162/1000]
+2026-02-07 07:07:47,913 - INFO - 取得中: The Connecticut Light and Power Company (CNTHO)
+2026-02-07 07:07:48,980 - INFO -   ✅ 取得完了: The Connecticut Light and Power Company
+2026-02-07 07:07:50,980 - INFO - 
+[163/1000]
+2026-02-07 07:07:50,980 - INFO - 取得中: The Connecticut Light and Power Company (CNTHP)
+2026-02-07 07:07:52,028 - INFO -   ✅ 取得完了: The Connecticut Light and Power Company
+2026-02-07 07:07:54,028 - INFO - 
+[164/1000]
+2026-02-07 07:07:54,028 - INFO - 取得中: ConnectM Technology Solutions, Inc. (CNTM)
+2026-02-07 07:07:55,314 - INFO -   ✅ 取得完了: ConnectM Technology Solutions, Inc.
+2026-02-07 07:07:57,315 - INFO - 
+[165/1000]
+2026-02-07 07:07:57,315 - INFO - 取得中: FLUENT Corp. (CNTMF)
+2026-02-07 07:07:58,517 - INFO -   ✅ 取得完了: FLUENT Corp.
+2026-02-07 07:08:00,517 - INFO - 
+[166/1000]
+2026-02-07 07:08:00,517 - INFO - 取得中: Context Therapeutics Inc. (CNTX)
+2026-02-07 07:08:01,681 - INFO -   ✅ 取得完了: Context Therapeutics Inc.
+2026-02-07 07:08:03,681 - INFO - 
+[167/1000]
+2026-02-07 07:08:03,681 - INFO - 取得中: Century Casinos, Inc. (CNTY)
+2026-02-07 07:08:04,924 - INFO -   ✅ 取得完了: Century Casinos, Inc.
+2026-02-07 07:08:06,925 - INFO - 
+[168/1000]
+2026-02-07 07:08:06,925 - INFO - 取得中: CENOVUS ENERGY INC (CNVEF)
+2026-02-07 07:08:08,018 - INFO -   ✅ 取得完了: CENOVUS ENERGY INC
+2026-02-07 07:08:10,019 - INFO - 
+[169/1000]
+2026-02-07 07:08:10,019 - INFO - 取得中: Cineverse Corp. (CNVS)
+2026-02-07 07:08:11,259 - INFO -   ✅ 取得完了: Cineverse Corp.
+2026-02-07 07:08:13,259 - INFO - 
+[170/1000]
+2026-02-07 07:08:13,260 - INFO - 取得中: CNX Resources Corporation (CNX)
+2026-02-07 07:08:14,518 - INFO -   ✅ 取得完了: CNX Resources Corporation
+2026-02-07 07:08:16,518 - INFO - 
+[171/1000]
+2026-02-07 07:08:16,518 - INFO - 取得中: Concentrix Corporation (CNXC)
+2026-02-07 07:08:17,752 - INFO -   ✅ 取得完了: Concentrix Corporation
+2026-02-07 07:08:19,753 - INFO - 
+[172/1000]
+2026-02-07 07:08:19,753 - INFO - 取得中: PC Connection, Inc. (CNXN)
+2026-02-07 07:08:20,991 - INFO -   ✅ 取得完了: PC Connection, Inc.
+2026-02-07 07:08:22,991 - INFO - 
+[173/1000]
+2026-02-07 07:08:22,991 - INFO - 取得中: CHILEAN COBALT CORP. (COBA)
+2026-02-07 07:08:24,257 - ERROR - $COBA: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 07:08:24,264 - INFO -   ✅ 取得完了: CHILEAN COBALT CORP.
+2026-02-07 07:08:26,265 - INFO - 
+[174/1000]
+2026-02-07 07:08:26,265 - INFO - 取得中: Envoy Medical, Inc. (COCH)
+2026-02-07 07:08:27,488 - INFO -   ✅ 取得完了: Envoy Medical, Inc.
+2026-02-07 07:08:29,489 - INFO - 
+[175/1000]
+2026-02-07 07:08:29,489 - INFO - 取得中: Envoy Medical, Inc. (COCHW)
+2026-02-07 07:08:30,523 - INFO -   ✅ 取得完了: Envoy Medical, Inc.
+2026-02-07 07:08:32,524 - INFO - 
+[176/1000]
+2026-02-07 07:08:32,524 - INFO - 取得中: The Vita Coco Company, Inc. (COCO)
+2026-02-07 07:08:33,757 - INFO -   ✅ 取得完了: The Vita Coco Company, Inc.
+2026-02-07 07:08:35,757 - INFO - 
+[177/1000]
+2026-02-07 07:08:35,757 - INFO - 取得中: Cocrystal Pharma, Inc. (COCP)
+2026-02-07 07:08:36,980 - INFO -   ✅ 取得完了: Cocrystal Pharma, Inc.
+2026-02-07 07:08:38,980 - INFO - 
+[178/1000]
+2026-02-07 07:08:38,980 - INFO - 取得中: Coca-Cola FEMSA, S.A.B. de C.V. (COCSF)
+2026-02-07 07:08:40,254 - INFO -   ✅ 取得完了: Coca-Cola FEMSA, S.A.B. de C.V.
+2026-02-07 07:08:42,254 - INFO - 
+[179/1000]
+2026-02-07 07:08:42,254 - INFO - 取得中: Coda Octopus Group, Inc. (CODA)
+2026-02-07 07:08:43,625 - INFO -   ✅ 取得完了: Coda Octopus Group, Inc.
+2026-02-07 07:08:45,625 - INFO - 
+[180/1000]
+2026-02-07 07:08:45,625 - INFO - 取得中: Compagnie de Saint-Gobain S.A. (CODGF)
+2026-02-07 07:08:46,826 - INFO -   ✅ 取得完了: Compagnie de Saint-Gobain S.A.
+2026-02-07 07:08:48,826 - INFO - 
+[181/1000]
+2026-02-07 07:08:48,826 - INFO - 取得中: Compass Diversified (CODI)
+2026-02-07 07:08:50,274 - INFO -   ✅ 取得完了: Compass Diversified
+2026-02-07 07:08:52,275 - INFO - 
+[182/1000]
+2026-02-07 07:08:52,275 - INFO - 取得中: Compass Diversified (CODI-PA)
+2026-02-07 07:08:53,384 - INFO -   ✅ 取得完了: Compass Diversified
+2026-02-07 07:08:55,384 - INFO - 
+[183/1000]
+2026-02-07 07:08:55,384 - INFO - 取得中: Compass Diversified (CODI-PB)
+2026-02-07 07:08:56,485 - INFO -   ✅ 取得完了: Compass Diversified
+2026-02-07 07:08:58,485 - INFO - 
+[184/1000]
+2026-02-07 07:08:58,485 - INFO - 取得中: Compass Diversified (CODI-PC)
+2026-02-07 07:08:59,604 - INFO -   ✅ 取得完了: Compass Diversified
+2026-02-07 07:09:01,604 - INFO - 
+[185/1000]
+2026-02-07 07:09:01,604 - INFO - 取得中: Coronado Global Resources Inc. (CODQL)
+2026-02-07 07:09:02,832 - INFO -   ✅ 取得完了: Coronado Global Resources Inc.
+2026-02-07 07:09:04,832 - INFO - 
+[186/1000]
+2026-02-07 07:09:04,832 - INFO - 取得中: Co-Diagnostics, Inc. (CODX)
+2026-02-07 07:09:06,159 - INFO -   ✅ 取得完了: Co-Diagnostics, Inc.
+2026-02-07 07:09:08,160 - INFO - 
+[187/1000]
+2026-02-07 07:09:08,160 - INFO - 取得中: 51Talk Online Education Group (COE)
+2026-02-07 07:09:09,362 - INFO -   ✅ 取得完了: 51Talk Online Education Group
+2026-02-07 07:09:11,362 - INFO - 
+[188/1000]
+2026-02-07 07:09:11,363 - INFO - 取得中: Coeptis Therapeutics Holdings, Inc. (COEP)
+2026-02-07 07:09:12,701 - INFO -   ✅ 取得完了: Coeptis Therapeutics Holdings, Inc.
+2026-02-07 07:09:14,701 - INFO - 
+[189/1000]
+2026-02-07 07:09:14,701 - INFO - 取得中: Coeptis Therapeutics Holdings, Inc. (COEPW)
+2026-02-07 07:09:15,914 - INFO -   ✅ 取得完了: Coeptis Therapeutics Holdings, Inc.
+2026-02-07 07:09:17,914 - INFO - 
+[190/1000]
+2026-02-07 07:09:17,914 - INFO - 取得中: Capital One Financial Corporation (COF)
+2026-02-07 07:09:19,170 - INFO -   ✅ 取得完了: Capital One Financial Corporation
+2026-02-07 07:09:21,171 - INFO - 
+[191/1000]
+2026-02-07 07:09:21,171 - INFO - 取得中: Capital One Financial Corporation (COF-PI)
+2026-02-07 07:09:22,242 - INFO -   ✅ 取得完了: Capital One Financial Corporation
+2026-02-07 07:09:24,242 - INFO - 
+[192/1000]
+2026-02-07 07:09:24,242 - INFO - 取得中: Capital One Financial Corporation (COF-PJ)
+2026-02-07 07:09:25,325 - INFO -   ✅ 取得完了: Capital One Financial Corporation
+2026-02-07 07:09:27,325 - INFO - 
+[193/1000]
+2026-02-07 07:09:27,325 - INFO - 取得中: Capital One Financial Corporation (COF-PK)
+2026-02-07 07:09:28,436 - INFO -   ✅ 取得完了: Capital One Financial Corporation
+2026-02-07 07:09:30,436 - INFO - 
+[194/1000]
+2026-02-07 07:09:30,436 - INFO - 取得中: Capital One Financial Corporation (COF-PL)
+2026-02-07 07:09:31,508 - INFO -   ✅ 取得完了: Capital One Financial Corporation
+2026-02-07 07:09:33,508 - INFO - 
+[195/1000]
+2026-02-07 07:09:33,508 - INFO - 取得中: Capital One Financial Corporation (COF-PN)
+2026-02-07 07:09:34,590 - INFO -   ✅ 取得完了: Capital One Financial Corporation
+2026-02-07 07:09:36,590 - INFO - 
+[196/1000]
+2026-02-07 07:09:36,590 - INFO - 取得中: ChoiceOne Financial Services, Inc. (COFS)
+2026-02-07 07:09:37,819 - INFO -   ✅ 取得完了: ChoiceOne Financial Services, Inc.
+2026-02-07 07:09:39,819 - INFO - 
+[197/1000]
+2026-02-07 07:09:39,820 - INFO - 取得中: Cogent Biosciences, Inc. (COGT)
+2026-02-07 07:09:41,028 - INFO -   ✅ 取得完了: Cogent Biosciences, Inc.
+2026-02-07 07:09:43,029 - INFO - 
+[198/1000]
+2026-02-07 07:09:43,029 - INFO - 取得中: Cohen & Company Inc. (COHN)
+2026-02-07 07:09:44,301 - INFO -   ✅ 取得完了: Cohen & Company Inc.
+2026-02-07 07:09:46,302 - INFO - 
+[199/1000]
+2026-02-07 07:09:46,302 - INFO - 取得中: Coherent Corp. (COHR)
+2026-02-07 07:09:47,534 - INFO -   ✅ 取得完了: Coherent Corp.
+2026-02-07 07:09:49,535 - INFO - 
+[200/1000]
+2026-02-07 07:09:49,535 - INFO - 取得中: Cohu, Inc. (COHU)
+2026-02-07 07:09:50,881 - INFO -   ✅ 取得完了: Cohu, Inc.
+2026-02-07 07:09:52,882 - INFO - 
+[201/1000]
+2026-02-07 07:09:52,882 - INFO - 取得中: Coinbase Global, Inc. (COIN)
+2026-02-07 07:09:54,093 - INFO -   ✅ 取得完了: Coinbase Global, Inc.
+2026-02-07 07:09:56,093 - INFO - 
+[202/1000]
+2026-02-07 07:09:56,094 - INFO - 取得中: Coca-Cola Consolidated, Inc. (COKE)
+2026-02-07 07:09:57,460 - INFO -   ✅ 取得完了: Coca-Cola Consolidated, Inc.
+2026-02-07 07:09:59,460 - INFO - 
+[203/1000]
+2026-02-07 07:09:59,461 - INFO - 取得中: Columbus Acquisition Corp (COLA)
+2026-02-07 07:10:00,503 - INFO -   ✅ 取得完了: Columbus Acquisition Corp
+2026-02-07 07:10:02,503 - INFO - 
+[204/1000]
+2026-02-07 07:10:02,504 - INFO - 取得中: Columbus Acquisition Corp (COLAR)
+2026-02-07 07:10:03,428 - INFO -   ✅ 取得完了: Columbus Acquisition Corp
+2026-02-07 07:10:05,429 - INFO - 
+[205/1000]
+2026-02-07 07:10:05,429 - INFO - 取得中: Columbus Acquisition Corp (COLAU)
+2026-02-07 07:10:06,472 - INFO -   ✅ 取得完了: Columbus Acquisition Corp
+2026-02-07 07:10:08,472 - INFO - 
+[206/1000]
+2026-02-07 07:10:08,472 - INFO - 取得中: Columbia Banking System, Inc. (COLB)
+2026-02-07 07:10:09,760 - INFO -   ✅ 取得完了: Columbia Banking System, Inc.
+2026-02-07 07:10:11,760 - INFO - 
+[207/1000]
+2026-02-07 07:10:11,760 - INFO - 取得中: Americold Realty Trust, Inc. (COLD)
+2026-02-07 07:10:13,007 - INFO -   ✅ 取得完了: Americold Realty Trust, Inc.
+2026-02-07 07:10:15,008 - INFO - 
+[208/1000]
+2026-02-07 07:10:15,008 - INFO - 取得中: Collegium Pharmaceutical, Inc. (COLL)
+2026-02-07 07:10:16,242 - INFO -   ✅ 取得完了: Collegium Pharmaceutical, Inc.
+2026-02-07 07:10:18,242 - INFO - 
+[209/1000]
+2026-02-07 07:10:18,242 - INFO - 取得中: Columbia Sportswear Company (COLM)
+2026-02-07 07:10:19,484 - INFO -   ✅ 取得完了: Columbia Sportswear Company
+2026-02-07 07:10:21,485 - INFO - 
+[210/1000]
+2026-02-07 07:10:21,485 - INFO - 取得中: Compass, Inc. (COMP)
+2026-02-07 07:10:22,688 - INFO -   ✅ 取得完了: Compass, Inc.
+2026-02-07 07:10:24,688 - INFO - 
+[211/1000]
+2026-02-07 07:10:24,689 - INFO - 取得中: Concentra Group Holdings Parent, Inc. (CON)
+2026-02-07 07:10:25,967 - ERROR - $CON: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 07:10:25,976 - INFO -   ✅ 取得完了: Concentra Group Holdings Parent, Inc.
+2026-02-07 07:10:27,976 - INFO - 
+[212/1000]
+2026-02-07 07:10:27,976 - INFO - 取得中: ConectiSys Corporation (CONC)
+2026-02-07 07:10:29,110 - INFO -   ✅ 取得完了: ConectiSys Corporation
+2026-02-07 07:10:31,110 - INFO - 
+[213/1000]
+2026-02-07 07:10:31,110 - INFO - 取得中: The Cooper Companies, Inc. (COO)
+2026-02-07 07:10:32,533 - INFO -   ✅ 取得完了: The Cooper Companies, Inc.
+2026-02-07 07:10:34,533 - INFO - 
+[214/1000]
+2026-02-07 07:10:34,533 - INFO - 取得中: Traeger, Inc. (COOK)
+2026-02-07 07:10:35,742 - INFO -   ✅ 取得完了: Traeger, Inc.
+2026-02-07 07:10:37,743 - INFO - 
+[215/1000]
+2026-02-07 07:10:37,743 - INFO - 取得中: Australian Oilseeds Holdings Limited (COOT)
+2026-02-07 07:10:38,903 - INFO -   ✅ 取得完了: Australian Oilseeds Holdings Limited
+2026-02-07 07:10:40,903 - INFO - 
+[216/1000]
+2026-02-07 07:10:40,903 - INFO - 取得中: Australian Oilseeds Holdings Limited (COOTW)
+2026-02-07 07:10:42,034 - INFO -   ✅ 取得完了: Australian Oilseeds Holdings Limited
+2026-02-07 07:10:44,035 - INFO - 
+[217/1000]
+2026-02-07 07:10:44,035 - INFO - 取得中: ConocoPhillips (COP)
+2026-02-07 07:10:45,427 - INFO -   ✅ 取得完了: ConocoPhillips
+2026-02-07 07:10:47,427 - INFO - 
+[218/1000]
+2026-02-07 07:10:47,428 - INFO - 取得中: CopAur Minerals Inc. (COPAF)
+2026-02-07 07:10:48,698 - INFO -   ✅ 取得完了: CopAur Minerals Inc.
+2026-02-07 07:10:50,698 - INFO - 
+[219/1000]
+2026-02-07 07:10:50,698 - INFO - 取得中: Copley Acquisition Corp (COPL)
+2026-02-07 07:10:51,695 - INFO -   ✅ 取得完了: Copley Acquisition Corp
+2026-02-07 07:10:53,695 - INFO - 
+[220/1000]
+2026-02-07 07:10:53,695 - INFO - 取得中: Copley Acquisition Corp (COPL-UN)
+2026-02-07 07:10:54,848 - INFO -   ✅ 取得完了: Copley Acquisition Corp
+2026-02-07 07:10:56,848 - INFO - 
+[221/1000]
+2026-02-07 07:10:56,849 - INFO - 取得中: Copley Acquisition Corp WT (COPL-WT)
+2026-02-07 07:10:57,778 - INFO -   ✅ 取得完了: Copley Acquisition Corp WT
+2026-02-07 07:10:59,778 - INFO - 
+[222/1000]
+2026-02-07 07:10:59,778 - INFO - 取得中: Idaho Copper Corporation (COPR)
+2026-02-07 07:11:01,040 - INFO -   ✅ 取得完了: Idaho Copper Corporation
+2026-02-07 07:11:03,040 - INFO - 
+[223/1000]
+2026-02-07 07:11:03,040 - INFO - 取得中: Cencora, Inc. (COR)
+2026-02-07 07:11:04,343 - INFO -   ✅ 取得完了: Cencora, Inc.
+2026-02-07 07:11:06,344 - INFO - 
+[224/1000]
+2026-02-07 07:11:06,344 - INFO - 取得中: Teucrium Corn Fund (CORN)
+2026-02-07 07:11:07,294 - INFO -   ✅ 取得完了: Teucrium Corn Fund
+2026-02-07 07:11:09,294 - INFO - 
+[225/1000]
+2026-02-07 07:11:09,295 - INFO - 取得中: Corcept Therapeutics Incorporated (CORT)
+2026-02-07 07:11:10,661 - INFO -   ✅ 取得完了: Corcept Therapeutics Incorporated
+2026-02-07 07:11:12,662 - INFO - 
+[226/1000]
+2026-02-07 07:11:12,662 - INFO - 取得中: Core Scientific, Inc. (CORZ)
+2026-02-07 07:11:13,953 - ERROR - $CORZ: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 07:11:13,962 - INFO -   ✅ 取得完了: Core Scientific, Inc.
+2026-02-07 07:11:15,963 - INFO - 
+[227/1000]
+2026-02-07 07:11:15,963 - INFO - 取得中: Core Scientific Inc New (CORZR)
+2026-02-07 07:11:16,912 - INFO -   ✅ 取得完了: Core Scientific Inc New
+2026-02-07 07:11:18,913 - INFO - 
+[228/1000]
+2026-02-07 07:11:18,913 - INFO - 取得中: Core Scientific, Inc. (CORZW)
+2026-02-07 07:11:19,974 - INFO -   ✅ 取得完了: Core Scientific, Inc.
+2026-02-07 07:11:21,975 - INFO - 
+[229/1000]
+2026-02-07 07:11:21,975 - INFO - 取得中: Core Scientific, Inc. (CORZZ)
+2026-02-07 07:11:23,142 - INFO -   ✅ 取得完了: Core Scientific, Inc.
+2026-02-07 07:11:25,142 - INFO - 
+[230/1000]
+2026-02-07 07:11:25,142 - INFO - 取得中: Cosmos Health Inc. (COSM)
+2026-02-07 07:11:26,318 - INFO -   ✅ 取得完了: Cosmos Health Inc.
+2026-02-07 07:11:28,318 - INFO - 
+[231/1000]
+2026-02-07 07:11:28,318 - INFO - 取得中: CoastalSouth Bancshares, Inc. (COSO)
+2026-02-07 07:11:29,713 - ERROR - $COSO: possibly delisted; no price data found  (1d 2022-12-28 -> 2023-01-03) (Yahoo error = "Data doesn't exist for startDate = 1672203600, endDate = 1672722000")
+2026-02-07 07:11:29,720 - INFO -   ✅ 取得完了: CoastalSouth Bancshares, Inc.
+2026-02-07 07:11:31,721 - INFO - 
+[232/1000]
+2026-02-07 07:11:31,721 - INFO - 取得中: Costco Wholesale Corporation (COST)
+2026-02-07 07:11:33,058 - INFO -   ✅ 取得完了: Costco Wholesale Corporation
+2026-02-07 07:11:35,058 - INFO - 
+[233/1000]
+2026-02-07 07:11:35,058 - INFO - 取得中: Coty Inc. (COTY)
+2026-02-07 07:11:36,296 - INFO -   ✅ 取得完了: Coty Inc.
+2026-02-07 07:11:38,297 - INFO - 
+[234/1000]
+2026-02-07 07:11:38,297 - INFO - 取得中: Coursera, Inc. (COUR)
+2026-02-07 07:11:39,462 - INFO -   ✅ 取得完了: Coursera, Inc.
+2026-02-07 07:11:41,462 - INFO - 
+[235/1000]
+2026-02-07 07:11:41,462 - INFO - 取得中: Coya Therapeutics, Inc. (COYA)
+2026-02-07 07:11:42,641 - INFO -   ✅ 取得完了: Coya Therapeutics, Inc.
+2026-02-07 07:11:44,641 - INFO - 
+[236/1000]
+2026-02-07 07:11:44,642 - INFO - 取得中: Canadian Pacific Kansas City Limited (CP)
+2026-02-07 07:11:46,000 - INFO -   ✅ 取得完了: Canadian Pacific Kansas City Limited
+2026-02-07 07:11:48,001 - INFO - 
+[237/1000]
+2026-02-07 07:11:48,001 - INFO - 取得中: Copa Holdings, S.A. (CPA)
+2026-02-07 07:11:49,193 - INFO -   ✅ 取得完了: Copa Holdings, S.A.
+2026-02-07 07:11:51,193 - INFO - 
+[238/1000]
+2026-02-07 07:11:51,194 - INFO - 取得中: Cementos Pacasmayo S.A.A. (CPAC)
+2026-02-07 07:11:52,501 - INFO -   ✅ 取得完了: Cementos Pacasmayo S.A.A.
+2026-02-07 07:11:54,501 - INFO - 
+[239/1000]
+2026-02-07 07:11:54,501 - INFO - 取得中: Corpay, Inc. (CPAY)
+2026-02-07 07:11:55,783 - INFO -   ✅ 取得完了: Corpay, Inc.
+2026-02-07 07:11:57,783 - INFO - 
+[240/1000]
+2026-02-07 07:11:57,783 - INFO - 取得中: The Campbell's Company (CPB)
+2026-02-07 07:11:59,162 - INFO -   ✅ 取得完了: The Campbell's Company
+2026-02-07 07:12:01,162 - INFO - 
+[241/1000]
+2026-02-07 07:12:01,162 - INFO - 取得中: Central Plains Bancshares, Inc. (CPBI)
+2026-02-07 07:12:02,452 - INFO -   ✅ 取得完了: Central Plains Bancshares, Inc.
+2026-02-07 07:12:04,452 - INFO - 
+[242/1000]
+2026-02-07 07:12:04,452 - INFO - 取得中: CopperCorp Resources Inc. (CPCPF)
+2026-02-07 07:12:05,593 - INFO -   ✅ 取得完了: CopperCorp Resources Inc.
+2026-02-07 07:12:07,594 - INFO - 
+[243/1000]
+2026-02-07 07:12:07,594 - INFO - 取得中: United States Copper Index Fund, LP (CPER)
+2026-02-07 07:12:08,548 - INFO -   ✅ 取得完了: United States Copper Index Fund, LP
+2026-02-07 07:12:10,549 - INFO - 
+[244/1000]
+2026-02-07 07:12:10,549 - INFO - 取得中: Central Pacific Financial Corp. (CPF)
+2026-02-07 07:12:11,843 - INFO -   ✅ 取得完了: Central Pacific Financial Corp.
+2026-02-07 07:12:13,843 - INFO - 
+[245/1000]
+2026-02-07 07:12:13,844 - INFO - 取得中: Canterbury Park Holding Corporation (CPHC)
+2026-02-07 07:12:15,188 - INFO -   ✅ 取得完了: Canterbury Park Holding Corporation
+2026-02-07 07:12:17,188 - INFO - 
+[246/1000]
+2026-02-07 07:12:17,188 - INFO - 取得中: China Pharma Holdings, Inc. (CPHI)
+2026-02-07 07:12:18,326 - INFO -   ✅ 取得完了: China Pharma Holdings, Inc.
+2026-02-07 07:12:20,326 - INFO - 
+[247/1000]
+2026-02-07 07:12:20,327 - INFO - 取得中: Captiva Verde Wellness Corp. (CPIVF)
+2026-02-07 07:12:21,558 - INFO -   ✅ 取得完了: Captiva Verde Wellness Corp.
+2026-02-07 07:12:23,559 - INFO - 
+[248/1000]
+2026-02-07 07:12:23,559 - INFO - 取得中: Cumberland Pharmaceuticals Inc. (CPIX)
+2026-02-07 07:12:24,766 - INFO -   ✅ 取得完了: Cumberland Pharmaceuticals Inc.
+2026-02-07 07:12:26,767 - INFO - 
+[249/1000]
+2026-02-07 07:12:26,767 - INFO - 取得中: Chesapeake Utilities Corporation (CPK)
+2026-02-07 07:12:28,031 - INFO -   ✅ 取得完了: Chesapeake Utilities Corporation
+2026-02-07 07:12:30,031 - INFO - 
+[250/1000]
+2026-02-07 07:12:30,032 - INFO - 取得中: Chesapeake Financial Shares, Inc. (CPKF)
+2026-02-07 07:12:31,315 - INFO -   ✅ 取得完了: Chesapeake Financial Shares, Inc.
+2026-02-07 07:12:33,315 - INFO - 
+[251/1000]
+2026-02-07 07:12:33,315 - INFO - 取得中: CannaPharmaRX, Inc. (CPMD)
+2026-02-07 07:12:34,484 - INFO -   ✅ 取得完了: CannaPharmaRX, Inc.
+2026-02-07 07:12:36,484 - INFO - 
+[252/1000]
+2026-02-07 07:12:36,484 - INFO - 取得中: Mosaic ImmunoEngineering, Inc. (CPMV)
+2026-02-07 07:12:37,720 - INFO -   ✅ 取得完了: Mosaic ImmunoEngineering, Inc.
+2026-02-07 07:12:39,721 - INFO - 
+[253/1000]
+2026-02-07 07:12:39,721 - INFO - 取得中: Coupang, Inc. (CPNG)
+2026-02-07 07:12:40,865 - INFO -   ✅ 取得完了: Coupang, Inc.
+2026-02-07 07:12:42,865 - INFO - 
+[254/1000]
+2026-02-07 07:12:42,865 - INFO - 取得中: Central Pattana Public Company Limited (CPNNF)
+2026-02-07 07:12:44,038 - INFO -   ✅ 取得完了: Central Pattana Public Company Limited
+2026-02-07 07:12:46,039 - INFO - 
+[255/1000]
+2026-02-07 07:12:46,039 - INFO - 取得中: Pop Culture Group Co., Ltd (CPOP)
+2026-02-07 07:12:47,211 - INFO -   ✅ 取得完了: Pop Culture Group Co., Ltd
+2026-02-07 07:12:49,212 - INFO - 
+[256/1000]
+2026-02-07 07:12:49,212 - INFO - 取得中: CPPBY (CPPBY)
+2026-02-07 07:12:50,498 - INFO -   ✅ 取得完了: CPPBY
+2026-02-07 07:12:52,498 - INFO - 
+[257/1000]
+2026-02-07 07:12:52,498 - INFO - 取得中: Coppernico Metals Inc (CPPMF)
+2026-02-07 07:12:53,661 - INFO -   ✅ 取得完了: Coppernico Metals Inc
+2026-02-07 07:12:55,662 - INFO - 
+[258/1000]
+2026-02-07 07:12:55,662 - INFO - 取得中: Copper Property CTL Pass Through Trust (CPPTL)
+2026-02-07 07:12:56,653 - INFO -   ✅ 取得完了: Copper Property CTL Pass Through Trust
+2026-02-07 07:12:58,653 - INFO - 
+[259/1000]
+2026-02-07 07:12:58,653 - INFO - 取得中: Capital Power Corp (CPRHF)
+2026-02-07 07:12:59,747 - INFO -   ✅ 取得完了: Capital Power Corp
+2026-02-07 07:13:01,747 - INFO - 
+[260/1000]
+2026-02-07 07:13:01,747 - INFO - 取得中: Capri Holdings Limited (CPRI)
+2026-02-07 07:13:02,992 - INFO -   ✅ 取得完了: Capri Holdings Limited
+2026-02-07 07:13:04,992 - INFO - 
+[261/1000]
+2026-02-07 07:13:04,993 - INFO - 取得中: Copart, Inc. (CPRT)
+2026-02-07 07:13:06,234 - INFO -   ✅ 取得完了: Copart, Inc.
+2026-02-07 07:13:08,235 - INFO - 
+[262/1000]
+2026-02-07 07:13:08,235 - INFO - 取得中: Catalyst Pharmaceuticals, Inc. (CPRX)
+2026-02-07 07:13:09,425 - INFO -   ✅ 取得完了: Catalyst Pharmaceuticals, Inc.
+2026-02-07 07:13:11,425 - INFO - 
+[263/1000]
+2026-02-07 07:13:11,425 - INFO - 取得中: Cooper-Standard Holdings Inc. (CPS)
+2026-02-07 07:13:12,568 - INFO -   ✅ 取得完了: Cooper-Standard Holdings Inc.
+2026-02-07 07:13:14,568 - INFO - 
+[264/1000]
+2026-02-07 07:13:14,568 - INFO - 取得中: CPS Technologies Corporation (CPSH)
+2026-02-07 07:13:15,781 - INFO -   ✅ 取得完了: CPS Technologies Corporation
+2026-02-07 07:13:17,782 - INFO - 
+[265/1000]
+2026-02-07 07:13:17,782 - INFO - 取得中: Consumer Portfolio Services, Inc. (CPSS)
+2026-02-07 07:13:19,030 - INFO -   ✅ 取得完了: Consumer Portfolio Services, Inc.
+2026-02-07 07:13:21,031 - INFO - 
+[266/1000]
+2026-02-07 07:13:21,031 - INFO - 取得中: Camden Property Trust (CPT)
+2026-02-07 07:13:22,307 - INFO -   ✅ 取得完了: Camden Property Trust
+2026-02-07 07:13:24,307 - INFO - 
+[267/1000]
+2026-02-07 07:13:24,308 - INFO - 取得中: CPTKW (CPTKW)
+2026-02-07 07:13:25,224 - INFO -   ✅ 取得完了: CPTKW
+2026-02-07 07:13:27,224 - INFO - 
+[268/1000]
+2026-02-07 07:13:27,224 - INFO - 取得中: Capital Properties, Inc. (CPTP)
+2026-02-07 07:13:28,575 - INFO -   ✅ 取得完了: Capital Properties, Inc.
+2026-02-07 07:13:30,576 - INFO - 
+[269/1000]
+2026-02-07 07:13:30,576 - INFO - 取得中: Capital Power Corp (CPWPF)
+2026-02-07 07:13:31,655 - INFO -   ✅ 取得完了: Capital Power Corp
+2026-02-07 07:13:33,655 - INFO - 
+[270/1000]
+2026-02-07 07:13:33,655 - INFO - 取得中: Ocean Thermal Energy Corporation (CPWR)
+2026-02-07 07:13:34,691 - INFO -   ✅ 取得完了: Ocean Thermal Energy Corporation
+2026-02-07 07:13:36,691 - INFO - 
+[271/1000]
+2026-02-07 07:13:36,691 - INFO - 取得中: Capital Power Corporation (CPXWF)
+2026-02-07 07:13:37,933 - INFO -   ✅ 取得完了: Capital Power Corporation
+2026-02-07 07:13:39,933 - INFO - 
+[272/1000]
+2026-02-07 07:13:39,934 - INFO - 取得中: CPXXY (CPXXY)
+2026-02-07 07:13:40,913 - INFO -   ✅ 取得完了: CPXXY
+2026-02-07 07:13:42,914 - INFO - 
+[273/1000]
+2026-02-07 07:13:42,914 - INFO - 取得中: Calamos Long/Short Equity & Dynamic Income Term Trust (CPZ)
+2026-02-07 07:13:44,147 - INFO -   ✅ 取得完了: Calamos Long/Short Equity & Dynamic Income Term Trust
+2026-02-07 07:13:46,147 - INFO - 
+[274/1000]
+2026-02-07 07:13:46,147 - INFO - 取得中: Cheniere Energy Partners, L.P. (CQP)
+2026-02-07 07:13:47,415 - INFO -   ✅ 取得完了: Cheniere Energy Partners, L.P.
+2026-02-07 07:13:49,415 - INFO - 
+[275/1000]
+2026-02-07 07:13:49,415 - INFO - 取得中: Crane Company (CR)
+2026-02-07 07:13:50,644 - INFO -   ✅ 取得完了: Crane Company
+2026-02-07 07:13:52,645 - INFO - 
+[276/1000]
+2026-02-07 07:13:52,645 - INFO - 取得中: Crown Reserve Acquisition Corp. I (CRAC)
+2026-02-07 07:13:53,692 - INFO -   ✅ 取得完了: Crown Reserve Acquisition Corp. I
+2026-02-07 07:13:55,693 - INFO - 
+[277/1000]
+2026-02-07 07:13:55,693 - INFO - 取得中: Crown Reserve Acquisition Corp. I (CRACR)
+2026-02-07 07:13:56,794 - INFO -   ✅ 取得完了: Crown Reserve Acquisition Corp. I
+2026-02-07 07:13:58,794 - INFO - 
+[278/1000]
+2026-02-07 07:13:58,794 - INFO - 取得中: Crown Reserve Acquisition Corp. I (CRACU)
+2026-02-07 07:13:59,813 - INFO -   ✅ 取得完了: Crown Reserve Acquisition Corp. I
+2026-02-07 07:14:01,813 - INFO - 
+[279/1000]
+2026-02-07 07:14:01,813 - INFO - 取得中: Crown Reserve Acquisition Corp. I (CRACW)
+2026-02-07 07:14:02,794 - INFO -   ✅ 取得完了: Crown Reserve Acquisition Corp. I
+2026-02-07 07:14:04,794 - INFO - 
+[280/1000]
+2026-02-07 07:14:04,795 - INFO - 取得中: CRA International, Inc. (CRAI)
+2026-02-07 07:14:06,075 - INFO -   ✅ 取得完了: CRA International, Inc.
+2026-02-07 07:14:08,075 - INFO - 
+[281/1000]
+2026-02-07 07:14:08,075 - INFO - 取得中: Crane Harbor Acquisition Corp. II (CRAN)
+2026-02-07 07:14:09,213 - INFO -   ✅ 取得完了: Crane Harbor Acquisition Corp. II
+2026-02-07 07:14:11,213 - INFO - 
+[282/1000]
+2026-02-07 07:14:11,214 - INFO - 取得中: Crane Harbor Acquisition Corp. II (CRANR)
+2026-02-07 07:14:12,248 - INFO -   ✅ 取得完了: Crane Harbor Acquisition Corp. II
+2026-02-07 07:14:14,249 - INFO - 
+[283/1000]
+2026-02-07 07:14:14,249 - INFO - 取得中: Crane Harbor Acquisition Corp. II (CRANU)
+2026-02-07 07:14:15,342 - INFO -   ✅ 取得完了: Crane Harbor Acquisition Corp. II
+2026-02-07 07:14:17,342 - INFO - 
+[284/1000]
+2026-02-07 07:14:17,342 - INFO - 取得中: Cal Redwood Acquisition Corp. (CRAQ)
+2026-02-07 07:14:18,443 - INFO -   ✅ 取得完了: Cal Redwood Acquisition Corp.
+2026-02-07 07:14:20,444 - INFO - 
+[285/1000]
+2026-02-07 07:14:20,444 - INFO - 取得中: Cal Redwood Acquisition Corp. (CRAQR)
+2026-02-07 07:14:21,485 - INFO -   ✅ 取得完了: Cal Redwood Acquisition Corp.
+2026-02-07 07:14:23,485 - INFO - 
+[286/1000]
+2026-02-07 07:14:23,486 - INFO - 取得中: Cal Redwood Acquisition Corp. (CRAQU)
+2026-02-07 07:14:24,714 - INFO -   ✅ 取得完了: Cal Redwood Acquisition Corp.
+2026-02-07 07:14:26,715 - INFO - 
+[287/1000]
+2026-02-07 07:14:26,715 - INFO - 取得中: Crédit Agricole S.A. (CRARF)
+2026-02-07 07:14:28,067 - INFO -   ✅ 取得完了: Crédit Agricole S.A.
+2026-02-07 07:14:30,067 - INFO - 
+[288/1000]
+2026-02-07 07:14:30,067 - INFO - 取得中: CRAUY (CRAUY)
+2026-02-07 07:14:31,090 - INFO -   ✅ 取得完了: CRAUY
+2026-02-07 07:14:33,091 - INFO - 
+[289/1000]
+2026-02-07 07:14:33,091 - INFO - 取得中: Crawford United Corporation (CRAWA)
+2026-02-07 07:14:34,458 - INFO -   ✅ 取得完了: Crawford United Corporation
+2026-02-07 07:14:36,458 - INFO - 
+[290/1000]
+2026-02-07 07:14:36,458 - INFO - 取得中: Corebridge Financial Inc. 6.375 (CRBD)
+2026-02-07 07:14:37,410 - INFO -   ✅ 取得完了: Corebridge Financial Inc. 6.375
+2026-02-07 07:14:39,410 - INFO - 
+[291/1000]
+2026-02-07 07:14:39,411 - INFO - 取得中: Corebridge Financial, Inc. (CRBG)
+2026-02-07 07:14:40,927 - INFO -   ✅ 取得完了: Corebridge Financial, Inc.
+2026-02-07 07:14:42,927 - INFO - 
+[292/1000]
+2026-02-07 07:14:42,928 - INFO - 取得中: Corbus Pharmaceuticals Holdings, Inc. (CRBP)
+2026-02-07 07:14:44,290 - INFO -   ✅ 取得完了: Corbus Pharmaceuticals Holdings, Inc.
+2026-02-07 07:14:46,290 - INFO - 
+[293/1000]
+2026-02-07 07:14:46,291 - INFO - 取得中: Caribou Biosciences, Inc. (CRBU)
+2026-02-07 07:14:47,794 - INFO -   ✅ 取得完了: Caribou Biosciences, Inc.
+2026-02-07 07:14:49,795 - INFO - 
+[294/1000]
+2026-02-07 07:14:49,795 - INFO - 取得中: California Resources Corporation (CRC)
+2026-02-07 07:14:51,226 - INFO -   ✅ 取得完了: California Resources Corporation
+2026-02-07 07:14:53,226 - INFO - 
+[295/1000]
+2026-02-07 07:14:53,227 - INFO - 取得中: Circle Energy, Inc. (CRCE)
+2026-02-07 07:14:54,571 - INFO -   ✅ 取得完了: Circle Energy, Inc.
+2026-02-07 07:14:56,571 - INFO - 
+[296/1000]
+2026-02-07 07:14:56,571 - INFO - 取得中: Circle Internet Group (CRCL)
+2026-02-07 07:14:58,363 - ERROR - $CRCL: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 07:14:58,373 - INFO -   ✅ 取得完了: Circle Internet Group
+2026-02-07 07:15:00,374 - INFO - 
+[297/1000]
+2026-02-07 07:15:00,374 - INFO - 取得中: Cricut, Inc. (CRCT)
+2026-02-07 07:15:01,749 - INFO -   ✅ 取得完了: Cricut, Inc.
+2026-02-07 07:15:03,749 - INFO - 
+[298/1000]
+2026-02-07 07:15:03,749 - INFO - 取得中: Canagold Resources Ltd. (CRCUF)
+2026-02-07 07:15:05,099 - INFO -   ✅ 取得完了: Canagold Resources Ltd.
+2026-02-07 07:15:07,099 - INFO - 
+[299/1000]
+2026-02-07 07:15:07,100 - INFO - 取得中: The Crypto Company (CRCW)
+2026-02-07 07:15:08,469 - INFO -   ✅ 取得完了: The Crypto Company
+2026-02-07 07:15:10,469 - INFO - 
+[300/1000]
+2026-02-07 07:15:10,470 - INFO - 取得中: Crawford & Company (CRD-A)
+2026-02-07 07:15:11,941 - INFO -   ✅ 取得完了: Crawford & Company
+2026-02-07 07:15:13,942 - INFO - 
+[301/1000]
+2026-02-07 07:15:13,942 - INFO - 取得中: Crawford & Company (CRD-B)
+2026-02-07 07:15:15,341 - INFO -   ✅ 取得完了: Crawford & Company
+2026-02-07 07:15:17,341 - INFO - 
+[302/1000]
+2026-02-07 07:15:17,341 - INFO - 取得中: Cardiff Oncology, Inc. (CRDF)
+2026-02-07 07:15:18,683 - INFO -   ✅ 取得完了: Cardiff Oncology, Inc.
+2026-02-07 07:15:20,684 - INFO - 
+[303/1000]
+2026-02-07 07:15:20,684 - INFO - 取得中: Cardiol Therapeutics Inc. (CRDL)
+2026-02-07 07:15:22,019 - INFO -   ✅ 取得完了: Cardiol Therapeutics Inc.
+2026-02-07 07:15:24,019 - INFO - 
+[304/1000]
+2026-02-07 07:15:24,019 - INFO - 取得中: Credo Technology Group Holding Ltd (CRDO)
+2026-02-07 07:15:25,318 - INFO -   ✅ 取得完了: Credo Technology Group Holding Ltd
+2026-02-07 07:15:27,319 - INFO - 
+[305/1000]
+2026-02-07 07:15:27,319 - INFO - 取得中: Community Redevelopment Inc. (CRDV)
+2026-02-07 07:15:28,703 - INFO -   ✅ 取得完了: Community Redevelopment Inc.
+2026-02-07 07:15:30,703 - INFO - 
+[306/1000]
+2026-02-07 07:15:30,704 - INFO - 取得中: Cre8 Enterprise Limited (CRE)
+2026-02-07 07:15:32,216 - ERROR - $CRE: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 07:15:32,225 - INFO -   ✅ 取得完了: Cre8 Enterprise Limited
+2026-02-07 07:15:34,226 - INFO - 
+[307/1000]
+2026-02-07 07:15:34,226 - INFO - 取得中: Smart Powerr Corp. (CREG)
+2026-02-07 07:15:35,543 - INFO -   ✅ 取得完了: Smart Powerr Corp.
+2026-02-07 07:15:37,543 - INFO - 
+[308/1000]
+2026-02-07 07:15:37,543 - INFO - 取得中: Carrefour SA (CRERF)
+2026-02-07 07:15:38,943 - INFO -   ✅ 取得完了: Carrefour SA
+2026-02-07 07:15:40,943 - INFO - 
+[309/1000]
+2026-02-07 07:15:40,943 - INFO - 取得中: Cresud Sociedad Anónima, Comercial, Inmobiliaria, Financiera y Agropecuaria (CRESW)
+2026-02-07 07:15:42,072 - INFO -   ✅ 取得完了: Cresud Sociedad Anónima, Comercial, Inmobiliaria, Financiera y Agropecuaria
+2026-02-07 07:15:44,072 - INFO - 
+[310/1000]
+2026-02-07 07:15:44,072 - INFO - 取得中: Cresud Sociedad Anónima, Comercial, Inmobiliaria, Financiera y Agropecuaria (CRESY)
+2026-02-07 07:15:45,547 - INFO -   ✅ 取得完了: Cresud Sociedad Anónima, Comercial, Inmobiliaria, Financiera y Agropecuaria
+2026-02-07 07:15:47,547 - INFO - 
+[311/1000]
+2026-02-07 07:15:47,547 - INFO - 取得中: Carbon Revolution Public Limited Company (CREV)
+2026-02-07 07:15:49,302 - ERROR - $CREV: possibly delisted; no price data found  (1d 2023-06-27 -> 2023-07-03) (Yahoo error = "Data doesn't exist for startDate = 1687838400, endDate = 1688356800")
+2026-02-07 07:15:49,311 - INFO -   ✅ 取得完了: Carbon Revolution Public Limited Company
+2026-02-07 07:15:51,311 - INFO - 
+[312/1000]
+2026-02-07 07:15:51,311 - INFO - 取得中: Carbon Revolution Public Limited Company (CREVW)
+2026-02-07 07:15:52,518 - INFO -   ✅ 取得完了: Carbon Revolution Public Limited Company
+2026-02-07 07:15:54,519 - INFO - 
+[313/1000]
+2026-02-07 07:15:54,519 - INFO - 取得中: Creative Realities, Inc. (CREX)
+2026-02-07 07:16:05,060 - INFO -   ✅ 取得完了: Creative Realities, Inc.
+2026-02-07 07:16:07,061 - INFO - 
+[314/1000]
+2026-02-07 07:16:07,061 - INFO - 取得中: Cornerstone Total Return Fund, Inc. (CRF)
+2026-02-07 07:16:09,178 - INFO -   ✅ 取得完了: Cornerstone Total Return Fund, Inc.
+2026-02-07 07:16:11,178 - INFO - 
+[315/1000]
+2026-02-07 07:16:11,178 - INFO - 取得中: Freightos Limited (CRGO)
+2026-02-07 07:16:12,472 - INFO -   ✅ 取得完了: Freightos Limited
+2026-02-07 07:16:14,473 - INFO - 
+[316/1000]
+2026-02-07 07:16:14,473 - INFO - 取得中: Freightos Limited (CRGOW)
+2026-02-07 07:16:15,660 - INFO -   ✅ 取得完了: Freightos Limited
+2026-02-07 07:16:17,660 - INFO - 
+[317/1000]
+2026-02-07 07:16:17,660 - INFO - 取得中: CRGT (CRGT)
+2026-02-07 07:16:18,734 - INFO -   ✅ 取得完了: CRGT
+2026-02-07 07:16:20,735 - INFO - 
+[318/1000]
+2026-02-07 07:16:20,735 - INFO - 取得中: Crescent Energy Company (CRGY)
+2026-02-07 07:16:22,129 - INFO -   ✅ 取得完了: Crescent Energy Company
+2026-02-07 07:16:24,129 - INFO - 
+[319/1000]
+2026-02-07 07:16:24,129 - INFO - 取得中: CRH plc (CRH)
+2026-02-07 07:16:25,780 - INFO -   ✅ 取得完了: CRH plc
+2026-02-07 07:16:27,781 - INFO - 
+[320/1000]
+2026-02-07 07:16:27,781 - INFO - 取得中: Carter's, Inc. (CRI)
+2026-02-07 07:16:29,291 - INFO -   ✅ 取得完了: Carter's, Inc.
+2026-02-07 07:16:31,291 - INFO - 
+[321/1000]
+2026-02-07 07:16:31,292 - INFO - 取得中: Curis, Inc. (CRIS)
+2026-02-07 07:16:32,639 - INFO -   ✅ 取得完了: Curis, Inc.
+2026-02-07 07:16:34,639 - INFO - 
+[322/1000]
+2026-02-07 07:16:34,639 - INFO - 取得中: Comstock Resources, Inc. (CRK)
+2026-02-07 07:16:36,130 - INFO -   ✅ 取得完了: Comstock Resources, Inc.
+2026-02-07 07:16:38,130 - INFO - 
+[323/1000]
+2026-02-07 07:16:38,130 - INFO - 取得中: Crown Electrokinetics Corp. (CRKN)
+2026-02-07 07:16:39,436 - INFO -   ✅ 取得完了: Crown Electrokinetics Corp.
+2026-02-07 07:16:41,436 - INFO - 
+[324/1000]
+2026-02-07 07:16:41,436 - INFO - 取得中: Charles River Laboratories International, Inc. (CRL)
+2026-02-07 07:16:42,773 - INFO -   ✅ 取得完了: Charles River Laboratories International, Inc.
+2026-02-07 07:16:44,773 - INFO - 
+[325/1000]
+2026-02-07 07:16:44,773 - INFO - 取得中: Cresco Labs Inc. (CRLBF)
+2026-02-07 07:16:46,178 - INFO -   ✅ 取得完了: Cresco Labs Inc.
+2026-02-07 07:16:48,178 - INFO - 
+[326/1000]
+2026-02-07 07:16:48,179 - INFO - 取得中: Salesforce, Inc. (CRM)
+2026-02-07 07:16:49,481 - INFO -   ✅ 取得完了: Salesforce, Inc.
+2026-02-07 07:16:51,481 - INFO - 
+[327/1000]
+2026-02-07 07:16:51,481 - INFO - 取得中: CorMedix Inc. (CRMD)
+2026-02-07 07:16:52,911 - INFO -   ✅ 取得完了: CorMedix Inc.
+2026-02-07 07:16:54,911 - INFO - 
+[328/1000]
+2026-02-07 07:16:54,911 - INFO - 取得中: Critical Metals Corp. (CRML)
+2026-02-07 07:16:56,333 - INFO -   ✅ 取得完了: Critical Metals Corp.
+2026-02-07 07:16:58,334 - INFO - 
+[329/1000]
+2026-02-07 07:16:58,334 - INFO - 取得中: Critical Metals Corp. (CRMLW)
+2026-02-07 07:16:59,633 - INFO -   ✅ 取得完了: Critical Metals Corp.
+2026-02-07 07:17:01,633 - INFO - 
+[330/1000]
+2026-02-07 07:17:01,633 - INFO - 取得中: America's Car-Mart, Inc. (CRMT)
+2026-02-07 07:17:02,956 - INFO -   ✅ 取得完了: America's Car-Mart, Inc.
+2026-02-07 07:17:04,956 - INFO - 
+[331/1000]
+2026-02-07 07:17:04,956 - INFO - 取得中: CreditRiskMonitor.com, Inc. (CRMZ)
+2026-02-07 07:17:06,307 - INFO -   ✅ 取得完了: CreditRiskMonitor.com, Inc.
+2026-02-07 07:17:08,307 - INFO - 
+[332/1000]
+2026-02-07 07:17:08,307 - INFO - 取得中: Cerence Inc. (CRNC)
+2026-02-07 07:17:09,692 - INFO -   ✅ 取得完了: Cerence Inc.
+2026-02-07 07:17:11,693 - INFO - 
+[333/1000]
+2026-02-07 07:17:11,693 - INFO - 取得中: Ceragon Networks Ltd. (CRNT)
+2026-02-07 07:17:13,082 - INFO -   ✅ 取得完了: Ceragon Networks Ltd.
+2026-02-07 07:17:15,083 - INFO - 
+[334/1000]
+2026-02-07 07:17:15,083 - INFO - 取得中: Crinetics Pharmaceuticals, Inc. (CRNX)
+2026-02-07 07:17:16,588 - INFO -   ✅ 取得完了: Crinetics Pharmaceuticals, Inc.
+2026-02-07 07:17:18,589 - INFO - 
+[335/1000]
+2026-02-07 07:17:18,589 - INFO - 取得中: Cronos Group Inc. (CRON)
+2026-02-07 07:17:20,126 - INFO -   ✅ 取得完了: Cronos Group Inc.
+2026-02-07 07:17:22,126 - INFO - 
+[336/1000]
+2026-02-07 07:17:22,127 - INFO - 取得中: Crocs, Inc. (CROX)
+2026-02-07 07:17:23,528 - INFO -   ✅ 取得完了: Crocs, Inc.
+2026-02-07 07:17:25,528 - INFO - 
+[337/1000]
+2026-02-07 07:17:25,529 - INFO - 取得中: Carrefour SA (CRRFY)
+2026-02-07 07:17:26,982 - INFO -   ✅ 取得完了: Carrefour SA
+2026-02-07 07:17:28,983 - INFO - 
+[338/1000]
+2026-02-07 07:17:28,983 - INFO - 取得中: Carpenter Technology Corporation (CRS)
+2026-02-07 07:17:30,414 - INFO -   ✅ 取得完了: Carpenter Technology Corporation
+2026-02-07 07:17:32,414 - INFO - 
+[339/1000]
+2026-02-07 07:17:32,414 - INFO - 取得中: Crisp Momentum Inc. (CRSF)
+2026-02-07 07:17:33,807 - INFO -   ✅ 取得完了: Crisp Momentum Inc.
+2026-02-07 07:17:35,807 - INFO - 
+[340/1000]
+2026-02-07 07:17:35,808 - INFO - 取得中: CRISPR Therapeutics AG (CRSP)
+2026-02-07 07:17:37,122 - INFO -   ✅ 取得完了: CRISPR Therapeutics AG
+2026-02-07 07:17:39,122 - INFO - 
+[341/1000]
+2026-02-07 07:17:39,122 - INFO - 取得中: Corsair Gaming, Inc. (CRSR)
+2026-02-07 07:17:40,678 - INFO -   ✅ 取得完了: Corsair Gaming, Inc.
+2026-02-07 07:17:42,679 - INFO - 
+[342/1000]
+2026-02-07 07:17:42,679 - INFO - 取得中: Cross Timbers Royalty Trust (CRT)
+2026-02-07 07:17:44,333 - INFO -   ✅ 取得完了: Cross Timbers Royalty Trust
+2026-02-07 07:17:46,333 - INFO - 
+[343/1000]
+2026-02-07 07:17:46,334 - INFO - 取得中: Cartica Acquisition Corp (CRTAF)
+2026-02-07 07:17:47,640 - INFO -   ✅ 取得完了: Cartica Acquisition Corp
+2026-02-07 07:17:49,641 - INFO - 
+[344/1000]
+2026-02-07 07:17:49,641 - INFO - 取得中: CREATD INC. (CRTD)
+2026-02-07 07:17:51,058 - INFO -   ✅ 取得完了: CREATD INC.
+2026-02-07 07:17:53,058 - INFO - 
+[345/1000]
+2026-02-07 07:17:53,058 - INFO - 取得中: CRTMF (CRTMF)
+2026-02-07 07:17:54,445 - INFO -   ✅ 取得完了: CRTMF
+2026-02-07 07:17:56,445 - INFO - 
+[346/1000]
+2026-02-07 07:17:56,445 - INFO - 取得中: Criteo S.A. (CRTO)
+2026-02-07 07:17:57,889 - INFO -   ✅ 取得完了: Criteo S.A.
+2026-02-07 07:17:59,890 - INFO - 
+[347/1000]
+2026-02-07 07:17:59,890 - INFO - 取得中: CRTUF (CRTUF)
+2026-02-07 07:18:01,153 - INFO -   ✅ 取得完了: CRTUF
+2026-02-07 07:18:03,153 - INFO - 
+[348/1000]
+2026-02-07 07:18:03,154 - INFO - 取得中: CRTWF (CRTWF)
+2026-02-07 07:18:04,281 - INFO -   ✅ 取得完了: CRTWF
+2026-02-07 07:18:06,282 - INFO - 
+[349/1000]
+2026-02-07 07:18:06,282 - INFO - 取得中: Colibri Resource Corporation (CRUCF)
+2026-02-07 07:18:07,702 - INFO -   ✅ 取得完了: Colibri Resource Corporation
+2026-02-07 07:18:09,702 - INFO - 
+[350/1000]
+2026-02-07 07:18:09,702 - INFO - 取得中: Cirrus Logic, Inc. (CRUS)
+2026-02-07 07:18:11,096 - INFO -   ✅ 取得完了: Cirrus Logic, Inc.
+2026-02-07 07:18:13,096 - INFO - 
+[351/1000]
+2026-02-07 07:18:13,096 - INFO - 取得中: CorVel Corporation (CRVL)
+2026-02-07 07:18:14,433 - INFO -   ✅ 取得完了: CorVel Corporation
+2026-02-07 07:18:16,433 - INFO - 
+[352/1000]
+2026-02-07 07:18:16,433 - INFO - 取得中: CervoMed Inc. (CRVO)
+2026-02-07 07:18:17,803 - INFO -   ✅ 取得完了: CervoMed Inc.
+2026-02-07 07:18:19,804 - INFO - 
+[353/1000]
+2026-02-07 07:18:19,804 - INFO - 取得中: Corvus Pharmaceuticals, Inc. (CRVS)
+2026-02-07 07:18:21,166 - INFO -   ✅ 取得完了: Corvus Pharmaceuticals, Inc.
+2026-02-07 07:18:23,167 - INFO - 
+[354/1000]
+2026-02-07 07:18:23,167 - INFO - 取得中: CareView Communications, Inc. (CRVW)
+2026-02-07 07:18:24,646 - INFO -   ✅ 取得完了: CareView Communications, Inc.
+2026-02-07 07:18:26,646 - INFO - 
+[355/1000]
+2026-02-07 07:18:26,646 - INFO - 取得中: CrowdStrike Holdings, Inc. (CRWD)
+2026-02-07 07:18:28,017 - INFO -   ✅ 取得完了: CrowdStrike Holdings, Inc.
+2026-02-07 07:18:30,018 - INFO - 
+[356/1000]
+2026-02-07 07:18:30,018 - INFO - 取得中: Crown Equity Holdings Inc. (CRWE)
+2026-02-07 07:18:31,482 - INFO -   ✅ 取得完了: Crown Equity Holdings Inc.
+2026-02-07 07:18:33,483 - INFO - 
+[357/1000]
+2026-02-07 07:18:33,483 - INFO - 取得中: Crown Crafts, Inc. (CRWS)
+2026-02-07 07:18:35,006 - INFO -   ✅ 取得完了: Crown Crafts, Inc.
+2026-02-07 07:18:37,007 - INFO - 
+[358/1000]
+2026-02-07 07:18:37,007 - INFO - 取得中: CoreWeave, Inc. (CRWV)
+2026-02-07 07:18:38,717 - ERROR - $CRWV: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 07:18:38,726 - INFO -   ✅ 取得完了: CoreWeave, Inc.
+2026-02-07 07:18:40,727 - INFO - 
+[359/1000]
+2026-02-07 07:18:40,727 - INFO - 取得中: Cloudastructure Inc. (CSAI)
+2026-02-07 07:18:42,263 - ERROR - $CSAI: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 07:18:42,270 - INFO -   ✅ 取得完了: Cloudastructure Inc.
+2026-02-07 07:18:44,270 - INFO - 
+[360/1000]
+2026-02-07 07:18:44,271 - INFO - 取得中: Cosan S.A. (CSAN)
+2026-02-07 07:18:45,856 - INFO -   ✅ 取得完了: Cosan S.A.
+2026-02-07 07:18:47,857 - INFO - 
+[361/1000]
+2026-02-07 07:18:47,857 - INFO - 取得中: CSB Bancorp, Inc. (CSBB)
+2026-02-07 07:18:49,196 - INFO -   ✅ 取得完了: CSB Bancorp, Inc.
+2026-02-07 07:18:51,196 - INFO - 
+[362/1000]
+2026-02-07 07:18:51,197 - INFO - 取得中: Champions Oncology, Inc. (CSBR)
+2026-02-07 07:18:52,641 - INFO -   ✅ 取得完了: Champions Oncology, Inc.
+2026-02-07 07:18:54,641 - INFO - 
+[363/1000]
+2026-02-07 07:18:54,641 - INFO - 取得中: CSC Collective Holdings Ltd (CSC)
+2026-02-07 07:18:55,754 - INFO -   ✅ 取得完了: CSC Collective Holdings Ltd
+2026-02-07 07:18:57,754 - INFO - 
+[364/1000]
+2026-02-07 07:18:57,754 - INFO - 取得中: Capstone Copper Corp. (CSCCF)
+2026-02-07 07:18:59,162 - INFO -   ✅ 取得完了: Capstone Copper Corp.
+2026-02-07 07:19:01,162 - INFO - 
+[365/1000]
+2026-02-07 07:19:01,163 - INFO - 取得中: CSCCY (CSCCY)
+2026-02-07 07:19:02,236 - INFO -   ✅ 取得完了: CSCCY
+2026-02-07 07:19:04,236 - INFO - 
+[366/1000]
+2026-02-07 07:19:04,236 - INFO - 取得中: COSCIENS Biopharma Inc. (CSCIF)
+2026-02-07 07:19:05,777 - INFO -   ✅ 取得完了: COSCIENS Biopharma Inc.
+2026-02-07 07:19:07,777 - INFO - 
+[367/1000]
+2026-02-07 07:19:07,777 - INFO - 取得中: Cisco Systems, Inc. (CSCO)
+2026-02-07 07:19:09,284 - INFO -   ✅ 取得完了: Cisco Systems, Inc.
+2026-02-07 07:19:11,284 - INFO - 
+[368/1000]
+2026-02-07 07:19:11,285 - INFO - 取得中: CS Diagnostics Corp. (CSDX)
+2026-02-07 07:19:12,421 - INFO -   ✅ 取得完了: CS Diagnostics Corp.
+2026-02-07 07:19:14,421 - INFO - 
+[369/1000]
+2026-02-07 07:19:14,421 - INFO - 取得中: CoStar Group, Inc. (CSGP)
+2026-02-07 07:19:15,795 - INFO -   ✅ 取得完了: CoStar Group, Inc.
+2026-02-07 07:19:17,796 - INFO - 
+[370/1000]
+2026-02-07 07:19:17,796 - INFO - 取得中: CSG Systems International, Inc. (CSGS)
+2026-02-07 07:19:19,201 - INFO -   ✅ 取得完了: CSG Systems International, Inc.
+2026-02-07 07:19:21,202 - INFO - 
+[371/1000]
+2026-02-07 07:19:21,202 - INFO - 取得中: CSIG (CSIG)
+2026-02-07 07:19:22,360 - INFO -   ✅ 取得完了: CSIG
+2026-02-07 07:19:24,360 - INFO - 
+[372/1000]
+2026-02-07 07:19:24,360 - INFO - 取得中: Canadian Solar Inc. (CSIQ)
+2026-02-07 07:19:25,780 - INFO -   ✅ 取得完了: Canadian Solar Inc.
+2026-02-07 07:19:27,781 - INFO - 
+[373/1000]
+2026-02-07 07:19:27,781 - INFO - 取得中: Carlisle Companies Incorporated (CSL)
+2026-02-07 07:19:29,331 - INFO -   ✅ 取得完了: Carlisle Companies Incorporated
+2026-02-07 07:19:31,331 - INFO - 
+[374/1000]
+2026-02-07 07:19:31,331 - INFO - 取得中: CSL Limited (CSLLY)
+2026-02-07 07:19:32,802 - INFO -   ✅ 取得完了: CSL Limited
+2026-02-07 07:19:34,802 - INFO - 
+[375/1000]
+2026-02-07 07:19:34,802 - INFO - 取得中: CSP Inc. (CSPI)
+2026-02-07 07:19:36,330 - INFO -   ✅ 取得完了: CSP Inc.
+2026-02-07 07:19:38,330 - INFO - 
+[376/1000]
+2026-02-07 07:19:38,331 - INFO - 取得中: Calamos Strategic Total Return Fund (CSQ)
+2026-02-07 07:19:39,928 - INFO -   ✅ 取得完了: Calamos Strategic Total Return Fund
+2026-02-07 07:19:41,928 - INFO - 
+[377/1000]
+2026-02-07 07:19:41,929 - INFO - 取得中: Centerspace (CSR)
+2026-02-07 07:19:43,537 - INFO -   ✅ 取得完了: Centerspace
+2026-02-07 07:19:45,538 - INFO - 
+[378/1000]
+2026-02-07 07:19:45,538 - INFO - 取得中: COPPER STD RES INC. (CSRIF)
+2026-02-07 07:19:47,117 - ERROR - $CSRIF: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 07:19:47,123 - INFO -   ✅ 取得完了: COPPER STD RES INC.
+2026-02-07 07:19:49,124 - INFO - 
+[379/1000]
+2026-02-07 07:19:49,124 - INFO - 取得中: Constellation Acquisition Corp  (CSTAF)
+2026-02-07 07:19:50,576 - INFO -   ✅ 取得完了: Constellation Acquisition Corp 
+2026-02-07 07:19:52,577 - INFO - 
+[380/1000]
+2026-02-07 07:19:52,577 - INFO - 取得中: Caesarstone Ltd. (CSTE)
+2026-02-07 07:19:54,059 - INFO -   ✅ 取得完了: Caesarstone Ltd.
+2026-02-07 07:19:56,060 - INFO - 
+[381/1000]
+2026-02-07 07:19:56,060 - INFO - 取得中: Castle Biosciences, Inc. (CSTL)
+2026-02-07 07:19:57,497 - INFO -   ✅ 取得完了: Castle Biosciences, Inc.
+2026-02-07 07:19:59,498 - INFO - 
+[382/1000]
+2026-02-07 07:19:59,498 - INFO - 取得中: Constellium SE (CSTM)
+2026-02-07 07:20:00,956 - INFO -   ✅ 取得完了: Constellium SE
+2026-02-07 07:20:02,957 - INFO - 
+[383/1000]
+2026-02-07 07:20:02,957 - INFO - 取得中: Constellation Acquisition Corp I (CSTUF)
+2026-02-07 07:20:04,207 - INFO -   ✅ 取得完了: Constellation Acquisition Corp I
+2026-02-07 07:20:06,208 - INFO - 
+[384/1000]
+2026-02-07 07:20:06,208 - INFO - 取得中: CSTWF (CSTWF)
+2026-02-07 07:20:07,339 - INFO -   ✅ 取得完了: CSTWF
+2026-02-07 07:20:09,340 - INFO - 
+[385/1000]
+2026-02-07 07:20:09,340 - INFO - 取得中: Cannabis Suisse Corp. (CSUI)
+2026-02-07 07:20:10,725 - INFO -   ✅ 取得完了: Cannabis Suisse Corp.
+2026-02-07 07:20:12,725 - INFO - 
+[386/1000]
+2026-02-07 07:20:12,726 - INFO - 取得中: Carriage Services, Inc. (CSV)
+2026-02-07 07:20:14,148 - INFO -   ✅ 取得完了: Carriage Services, Inc.
+2026-02-07 07:20:16,148 - INFO - 
+[387/1000]
+2026-02-07 07:20:16,148 - INFO - 取得中: CSW Industrials, Inc. (CSW)
+2026-02-07 07:20:17,562 - INFO -   ✅ 取得完了: CSW Industrials, Inc.
+2026-02-07 07:20:19,562 - INFO - 
+[388/1000]
+2026-02-07 07:20:19,562 - INFO - 取得中: Capital Southwest Corporation (CSWC)
+2026-02-07 07:20:21,142 - INFO -   ✅ 取得完了: Capital Southwest Corporation
+2026-02-07 07:20:23,142 - INFO - 
+[389/1000]
+2026-02-07 07:20:23,142 - INFO - 取得中: CSX Corporation (CSX)
+2026-02-07 07:20:24,646 - INFO -   ✅ 取得完了: CSX Corporation
+2026-02-07 07:20:26,646 - INFO - 
+[390/1000]
+2026-02-07 07:20:26,646 - INFO - 取得中: EIDP, Inc. (CTA-PA)
+2026-02-07 07:20:28,062 - INFO -   ✅ 取得完了: EIDP, Inc.
+2026-02-07 07:20:30,062 - INFO - 
+[391/1000]
+2026-02-07 07:20:30,062 - INFO - 取得中: EIDP, Inc. (CTA-PB)
+2026-02-07 07:20:31,270 - INFO -   ✅ 取得完了: EIDP, Inc.
+2026-02-07 07:20:33,270 - INFO - 
+[392/1000]
+2026-02-07 07:20:33,270 - INFO - 取得中: CTAA (CTAA)
+2026-02-07 07:20:33,612 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: CTAA"}}}
+2026-02-07 07:20:34,628 - INFO -   ✅ 取得完了: CTAA
+2026-02-07 07:20:36,629 - INFO - 
+[393/1000]
+2026-02-07 07:20:36,629 - INFO - 取得中: Cintas Corporation (CTAS)
+2026-02-07 07:20:38,260 - INFO -   ✅ 取得完了: Cintas Corporation
+2026-02-07 07:20:40,261 - INFO - 
+[394/1000]
+2026-02-07 07:20:40,261 - INFO - 取得中: CONTEMPORARY AMPEREX TECHNOLOGY (CTATF)
+2026-02-07 07:20:41,320 - INFO -   ✅ 取得完了: CONTEMPORARY AMPEREX TECHNOLOGY
+2026-02-07 07:20:43,320 - INFO - 
+[395/1000]
+2026-02-07 07:20:43,320 - INFO - 取得中: Qwest Corp. NT (CTBB)
+2026-02-07 07:20:44,408 - INFO -   ✅ 取得完了: Qwest Corp. NT
+2026-02-07 07:20:46,408 - INFO - 
+[396/1000]
+2026-02-07 07:20:46,409 - INFO - 取得中: Community Trust Bancorp, Inc. (CTBI)
+2026-02-07 07:20:47,902 - INFO -   ✅ 取得完了: Community Trust Bancorp, Inc.
+2026-02-07 07:20:49,902 - INFO - 
+[397/1000]
+2026-02-07 07:20:49,903 - INFO - 取得中: Qwest Corp. 6.75% NT 57 (CTDD)
+2026-02-07 07:20:50,986 - INFO -   ✅ 取得完了: Qwest Corp. 6.75% NT 57
+2026-02-07 07:20:52,986 - INFO - 
+[398/1000]
+2026-02-07 07:20:52,986 - INFO - 取得中: Claritev Corporation (CTEV)
+2026-02-07 07:20:54,406 - INFO -   ✅ 取得完了: Claritev Corporation
+2026-02-07 07:20:56,407 - INFO - 
+[399/1000]
+2026-02-07 07:20:56,407 - INFO - 取得中: SkyTech Orion Global Corp. (CTGL)
+2026-02-07 07:20:57,844 - INFO -   ✅ 取得完了: SkyTech Orion Global Corp.
+2026-02-07 07:20:59,844 - INFO - 
+[400/1000]
+2026-02-07 07:20:59,844 - INFO - 取得中: Contango Ore, Inc. (CTGO)
+2026-02-07 07:21:01,466 - INFO -   ✅ 取得完了: Contango Ore, Inc.
+2026-02-07 07:21:03,466 - INFO - 
+[401/1000]
+2026-02-07 07:21:03,467 - INFO - 取得中: Charles & Colvard, Ltd. (CTHR)
+2026-02-07 07:21:04,855 - INFO -   ✅ 取得完了: Charles & Colvard, Ltd.
+2026-02-07 07:21:06,855 - INFO - 
+[402/1000]
+2026-02-07 07:21:06,855 - INFO - 取得中: Cytek Biosciences, Inc. (CTKB)
+2026-02-07 07:21:08,200 - INFO -   ✅ 取得完了: Cytek Biosciences, Inc.
+2026-02-07 07:21:10,200 - INFO - 
+[403/1000]
+2026-02-07 07:21:10,200 - INFO - 取得中: Cantaloupe, Inc. (CTLP)
+2026-02-07 07:21:11,723 - INFO -   ✅ 取得完了: Cantaloupe, Inc.
+2026-02-07 07:21:13,723 - INFO - 
+[404/1000]
+2026-02-07 07:21:13,723 - INFO - 取得中: Cantaloupe, Inc. (CTLPP)
+2026-02-07 07:21:14,917 - INFO -   ✅ 取得完了: Cantaloupe, Inc.
+2026-02-07 07:21:16,918 - INFO - 
+[405/1000]
+2026-02-07 07:21:16,918 - INFO - 取得中: Castellum, Inc. (CTM)
+2026-02-07 07:21:18,467 - INFO -   ✅ 取得完了: Castellum, Inc.
+2026-02-07 07:21:20,467 - INFO - 
+[406/1000]
+2026-02-07 07:21:20,467 - INFO - 取得中: CytomX Therapeutics, Inc. (CTMX)
+2026-02-07 07:21:21,877 - INFO -   ✅ 取得完了: CytomX Therapeutics, Inc.
+2026-02-07 07:21:23,878 - INFO - 
+[407/1000]
+2026-02-07 07:21:23,878 - INFO - 取得中: Contineum Therapeutics, Inc. (CTNM)
+2026-02-07 07:21:25,557 - ERROR - $CTNM: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 07:21:25,565 - INFO -   ✅ 取得完了: Contineum Therapeutics, Inc.
+2026-02-07 07:21:27,565 - INFO - 
+[408/1000]
+2026-02-07 07:21:27,566 - INFO - 取得中: Cheetah Net Supply Chain Service Inc. (CTNT)
+2026-02-07 07:21:28,994 - INFO -   ✅ 取得完了: Cheetah Net Supply Chain Service Inc.
+2026-02-07 07:21:30,994 - INFO - 
+[409/1000]
+2026-02-07 07:21:30,994 - INFO - 取得中: CTO Realty Growth, Inc. (CTO)
+2026-02-07 07:21:32,481 - INFO -   ✅ 取得完了: CTO Realty Growth, Inc.
+2026-02-07 07:21:34,481 - INFO - 
+[410/1000]
+2026-02-07 07:21:34,481 - INFO - 取得中: CTO Realty Growth, Inc. (CTO-PA)
+2026-02-07 07:21:35,727 - INFO -   ✅ 取得完了: CTO Realty Growth, Inc.
+2026-02-07 07:21:37,728 - INFO - 
+[411/1000]
+2026-02-07 07:21:37,728 - INFO - 取得中: Citius Oncology, Inc. (CTOR)
+2026-02-07 07:21:39,257 - INFO -   ✅ 取得完了: Citius Oncology, Inc.
+2026-02-07 07:21:41,257 - INFO - 
+[412/1000]
+2026-02-07 07:21:41,258 - INFO - 取得中: Custom Truck One Source, Inc. (CTOS)
+2026-02-07 07:21:42,756 - INFO -   ✅ 取得完了: Custom Truck One Source, Inc.
+2026-02-07 07:21:44,756 - INFO - 
+[413/1000]
+2026-02-07 07:21:44,756 - INFO - 取得中: CTPUF (CTPUF)
+2026-02-07 07:21:45,097 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: CTPUF"}}}
+2026-02-07 07:21:46,054 - INFO -   ✅ 取得完了: CTPUF
+2026-02-07 07:21:48,054 - INFO - 
+[414/1000]
+2026-02-07 07:21:48,054 - INFO - 取得中: Coterra Energy Inc. (CTRA)
+2026-02-07 07:21:49,499 - INFO -   ✅ 取得完了: Coterra Energy Inc.
+2026-02-07 07:21:51,500 - INFO - 
+[415/1000]
+2026-02-07 07:21:51,500 - INFO - 取得中: CareTrust REIT, Inc. (CTRE)
+2026-02-07 07:21:52,969 - INFO -   ✅ 取得完了: CareTrust REIT, Inc.
+2026-02-07 07:21:54,970 - INFO - 
+[416/1000]
+2026-02-07 07:21:54,970 - INFO - 取得中: Centuri Holdings, Inc. (CTRI)
+2026-02-07 07:21:56,622 - ERROR - $CTRI: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 07:21:56,631 - INFO -   ✅ 取得完了: Centuri Holdings, Inc.
+2026-02-07 07:21:58,631 - INFO - 
+[417/1000]
+2026-02-07 07:21:58,632 - INFO - 取得中: Castor Maritime Inc. (CTRM)
+2026-02-07 07:22:00,014 - INFO -   ✅ 取得完了: Castor Maritime Inc.
+2026-02-07 07:22:02,014 - INFO - 
+[418/1000]
+2026-02-07 07:22:02,014 - INFO - 取得中: Citi Trends, Inc. (CTRN)
+2026-02-07 07:22:03,400 - INFO -   ✅ 取得完了: Citi Trends, Inc.
+2026-02-07 07:22:05,400 - INFO - 
+[419/1000]
+2026-02-07 07:22:05,400 - INFO - 取得中: Hepion Pharmaceuticals, Inc. (CTRVP)
+2026-02-07 07:22:06,886 - INFO -   ✅ 取得完了: Hepion Pharmaceuticals, Inc.
+2026-02-07 07:22:08,887 - INFO - 
+[420/1000]
+2026-02-07 07:22:08,887 - INFO - 取得中: CTS Corporation (CTS)
+2026-02-07 07:22:10,547 - INFO -   ✅ 取得完了: CTS Corporation
+2026-02-07 07:22:12,548 - INFO - 
+[421/1000]
+2026-02-07 07:22:12,548 - INFO - 取得中: Cognizant Technology Solutions Corporation (CTSH)
+2026-02-07 07:22:14,039 - INFO -   ✅ 取得完了: Cognizant Technology Solutions Corporation
+2026-02-07 07:22:16,040 - INFO - 
+[422/1000]
+2026-02-07 07:22:16,040 - INFO - 取得中: Cytosorbents Corporation (CTSO)
+2026-02-07 07:22:17,429 - INFO -   ✅ 取得完了: Cytosorbents Corporation
+2026-02-07 07:22:19,430 - INFO - 
+[423/1000]
+2026-02-07 07:22:19,430 - INFO - 取得中: CTSUF (CTSUF)
+2026-02-07 07:22:20,584 - INFO -   ✅ 取得完了: CTSUF
+2026-02-07 07:22:22,584 - INFO - 
+[424/1000]
+2026-02-07 07:22:22,584 - INFO - 取得中: CTSWF (CTSWF)
+2026-02-07 07:22:23,682 - INFO -   ✅ 取得完了: CTSWF
+2026-02-07 07:22:25,682 - INFO - 
+[425/1000]
+2026-02-07 07:22:25,682 - INFO - 取得中: CTT Pharmaceutical Holdings, Inc. (CTTH)
+2026-02-07 07:22:26,903 - INFO -   ✅ 取得完了: CTT Pharmaceutical Holdings, Inc.
+2026-02-07 07:22:28,903 - INFO - 
+[426/1000]
+2026-02-07 07:22:28,903 - INFO - 取得中: CTTRF (CTTRF)
+2026-02-07 07:22:30,289 - INFO -   ✅ 取得完了: CTTRF
+2026-02-07 07:22:32,289 - INFO - 
+[427/1000]
+2026-02-07 07:22:32,289 - INFO - 取得中: Corteva, Inc. (CTVA)
+2026-02-07 07:22:33,932 - INFO -   ✅ 取得完了: Corteva, Inc.
+2026-02-07 07:22:35,932 - INFO - 
+[428/1000]
+2026-02-07 07:22:35,932 - INFO - 取得中: CTW Cayman (CTW)
+2026-02-07 07:22:37,582 - ERROR - $CTW: possibly delisted; no price data found  (1d 2024-07-28 -> 2024-08-03) (Yahoo error = "Data doesn't exist for startDate = 1722139200, endDate = 1722657600")
+2026-02-07 07:22:37,591 - INFO -   ✅ 取得完了: CTW Cayman
+2026-02-07 07:22:39,591 - INFO - 
+[429/1000]
+2026-02-07 07:22:39,592 - INFO - 取得中: COtwo Advisors Physical European Carbon Allowance Trust (CTWO)
+2026-02-07 07:22:40,681 - INFO -   ✅ 取得完了: COtwo Advisors Physical European Carbon Allowance Trust
+2026-02-07 07:22:42,681 - INFO - 
+[430/1000]
+2026-02-07 07:22:42,682 - INFO - 取得中: 1692817 (CTX)
+2026-02-07 07:22:43,721 - INFO -   ✅ 取得完了: 1692817
+2026-02-07 07:22:45,721 - INFO - 
+[431/1000]
+2026-02-07 07:22:45,721 - INFO - 取得中: Citius Pharmaceuticals, Inc. (CTXR)
+2026-02-07 07:22:47,371 - INFO -   ✅ 取得完了: Citius Pharmaceuticals, Inc.
+2026-02-07 07:22:49,372 - INFO - 
+[432/1000]
+2026-02-07 07:22:49,372 - INFO - 取得中: C3 Metals Inc. (CUAUF)
+2026-02-07 07:22:50,783 - INFO -   ✅ 取得完了: C3 Metals Inc.
+2026-02-07 07:22:52,783 - INFO - 
+[433/1000]
+2026-02-07 07:22:52,783 - INFO - 取得中: Lionheart Holdings (CUB)
+2026-02-07 07:22:54,064 - INFO -   ✅ 取得完了: Lionheart Holdings
+2026-02-07 07:22:56,064 - INFO - 
+[434/1000]
+2026-02-07 07:22:56,064 - INFO - 取得中: Customers Bancorp, Inc 5.375% S (CUBB)
+2026-02-07 07:22:57,116 - INFO -   ✅ 取得完了: Customers Bancorp, Inc 5.375% S
+2026-02-07 07:22:59,117 - INFO - 
+[435/1000]
+2026-02-07 07:22:59,117 - INFO - 取得中: CubeSmart (CUBE)
+2026-02-07 07:23:00,678 - INFO -   ✅ 取得完了: CubeSmart
+2026-02-07 07:23:02,678 - INFO - 
+[436/1000]
+2026-02-07 07:23:02,678 - INFO - 取得中: Customers Bancorp, Inc. (CUBI)
+2026-02-07 07:23:04,066 - INFO -   ✅ 取得完了: Customers Bancorp, Inc.
+2026-02-07 07:23:06,066 - INFO - 
+[437/1000]
+2026-02-07 07:23:06,067 - INFO - 取得中: Curative Biotechnology, Inc. (CUBT)
+2026-02-07 07:23:07,524 - INFO -   ✅ 取得完了: Curative Biotechnology, Inc.
+2026-02-07 07:23:09,524 - INFO - 
+[438/1000]
+2026-02-07 07:23:09,525 - INFO - 取得中: Lionheart Holdings (CUBWU)
+2026-02-07 07:23:10,645 - INFO -   ✅ 取得完了: Lionheart Holdings
+2026-02-07 07:23:12,645 - INFO - 
+[439/1000]
+2026-02-07 07:23:12,645 - INFO - 取得中: Lionheart Holdings (CUBWW)
+2026-02-07 07:23:13,837 - INFO -   ✅ 取得完了: Lionheart Holdings
+2026-02-07 07:23:15,837 - INFO - 
+[440/1000]
+2026-02-07 07:23:15,838 - INFO - 取得中: Cue Biopharma, Inc. (CUE)
+2026-02-07 07:23:17,243 - INFO -   ✅ 取得完了: Cue Biopharma, Inc.
+2026-02-07 07:23:19,243 - INFO - 
+[441/1000]
+2026-02-07 07:23:19,243 - INFO - 取得中: Cuentas Inc. (CUEN)
+2026-02-07 07:23:20,625 - INFO -   ✅ 取得完了: Cuentas Inc.
+2026-02-07 07:23:22,625 - INFO - 
+[442/1000]
+2026-02-07 07:23:22,625 - INFO - 取得中: Cuentas, Inc. (CUENW)
+2026-02-07 07:23:23,800 - INFO -   ✅ 取得完了: Cuentas, Inc.
+2026-02-07 07:23:25,801 - INFO - 
+[443/1000]
+2026-02-07 07:23:25,801 - INFO - 取得中: Carnival Corporation & plc (CUK)
+2026-02-07 07:23:27,243 - INFO -   ✅ 取得完了: Carnival Corporation & plc
+2026-02-07 07:23:29,243 - INFO - 
+[444/1000]
+2026-02-07 07:23:29,243 - INFO - 取得中: Carnival Corporation & plc (CUKPF)
+2026-02-07 07:23:30,680 - INFO -   ✅ 取得完了: Carnival Corporation & plc
+2026-02-07 07:23:32,681 - INFO - 
+[445/1000]
+2026-02-07 07:23:32,681 - INFO - 取得中: Cullman Bancorp, Inc. (CULL)
+2026-02-07 07:23:34,208 - INFO -   ✅ 取得完了: Cullman Bancorp, Inc.
+2026-02-07 07:23:36,208 - INFO - 
+[446/1000]
+2026-02-07 07:23:36,208 - INFO - 取得中: Culp, Inc. (CULP)
+2026-02-07 07:23:37,779 - INFO -   ✅ 取得完了: Culp, Inc.
+2026-02-07 07:23:39,780 - INFO - 
+[447/1000]
+2026-02-07 07:23:39,780 - INFO - 取得中: Super Copper Corp. (CUPPF)
+2026-02-07 07:23:40,843 - INFO -   ✅ 取得完了: Super Copper Corp.
+2026-02-07 07:23:42,844 - INFO - 
+[448/1000]
+2026-02-07 07:23:42,844 - INFO - 取得中: Cuprina Holdings (Cayman) Limited (CUPR)
+2026-02-07 07:23:44,584 - ERROR - $CUPR: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 07:23:44,593 - INFO -   ✅ 取得完了: Cuprina Holdings (Cayman) Limited
+2026-02-07 07:23:46,593 - INFO - 
+[449/1000]
+2026-02-07 07:23:46,593 - INFO - 取得中: Curbline Properties Corp. (CURB)
+2026-02-07 07:23:48,356 - ERROR - $CURB: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 07:23:48,364 - INFO -   ✅ 取得完了: Curbline Properties Corp.
+2026-02-07 07:23:50,365 - INFO - 
+[450/1000]
+2026-02-07 07:23:50,365 - INFO - 取得中: CuriosityStream Inc. (CURI)
+2026-02-07 07:23:51,903 - INFO -   ✅ 取得完了: CuriosityStream Inc.
+2026-02-07 07:23:53,903 - INFO - 
+[451/1000]
+2026-02-07 07:23:53,904 - INFO - 取得中: Curaleaf Holdings, Inc. (CURLF)
+2026-02-07 07:23:55,463 - INFO -   ✅ 取得完了: Curaleaf Holdings, Inc.
+2026-02-07 07:23:57,464 - INFO - 
+[452/1000]
+2026-02-07 07:23:57,464 - INFO - 取得中: CURRENC Group Inc. (CURR)
+2026-02-07 07:23:59,046 - ERROR - $CURR: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 07:23:59,055 - INFO -   ✅ 取得完了: CURRENC Group Inc.
+2026-02-07 07:24:01,056 - INFO - 
+[453/1000]
+2026-02-07 07:24:01,056 - INFO - 取得中: Torrid Holdings Inc. (CURV)
+2026-02-07 07:24:02,415 - INFO -   ✅ 取得完了: Torrid Holdings Inc.
+2026-02-07 07:24:04,415 - INFO - 
+[454/1000]
+2026-02-07 07:24:04,415 - INFO - 取得中: Curanex Pharmaceuticals Inc (CURX)
+2026-02-07 07:24:06,230 - ERROR - $CURX: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 07:24:06,237 - INFO -   ✅ 取得完了: Curanex Pharmaceuticals Inc
+2026-02-07 07:24:08,238 - INFO - 
+[455/1000]
+2026-02-07 07:24:08,238 - INFO - 取得中: Cousins Properties Incorporated (CUZ)
+2026-02-07 07:24:09,727 - INFO -   ✅ 取得完了: Cousins Properties Incorporated
+2026-02-07 07:24:11,727 - INFO - 
+[456/1000]
+2026-02-07 07:24:11,728 - INFO - 取得中: CapsoVision, Inc. (CV)
+2026-02-07 07:24:13,540 - ERROR - $CV: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 07:24:13,548 - INFO -   ✅ 取得完了: CapsoVision, Inc.
+2026-02-07 07:24:15,548 - INFO - 
+[457/1000]
+2026-02-07 07:24:15,548 - INFO - 取得中: Cavitation Technologies, Inc. (CVAT)
+2026-02-07 07:24:16,912 - INFO -   ✅ 取得完了: Cavitation Technologies, Inc.
+2026-02-07 07:24:18,913 - INFO - 
+[458/1000]
+2026-02-07 07:24:18,913 - INFO - 取得中: CVB Financial Corp. (CVBF)
+2026-02-07 07:24:20,432 - INFO -   ✅ 取得完了: CVB Financial Corp.
+2026-02-07 07:24:22,432 - INFO - 
+[459/1000]
+2026-02-07 07:24:22,433 - INFO - 取得中: Cavco Industries, Inc. (CVCO)
+2026-02-07 07:24:23,997 - INFO -   ✅ 取得完了: Cavco Industries, Inc.
+2026-02-07 07:24:25,998 - INFO - 
+[460/1000]
+2026-02-07 07:24:25,998 - INFO - 取得中: Cenovus Energy Inc. (CVE)
+2026-02-07 07:24:27,556 - INFO -   ✅ 取得完了: Cenovus Energy Inc.
+2026-02-07 07:24:29,556 - INFO - 
+[461/1000]
+2026-02-07 07:24:29,556 - INFO - 取得中: Civeo Corporation (CVEO)
+2026-02-07 07:24:30,949 - INFO -   ✅ 取得完了: Civeo Corporation
+2026-02-07 07:24:32,950 - INFO - 
+[462/1000]
+2026-02-07 07:24:32,950 - INFO - 取得中: Commercial Vehicle Group, Inc. (CVGI)
+2026-02-07 07:24:34,361 - INFO -   ✅ 取得完了: Commercial Vehicle Group, Inc.
+2026-02-07 07:24:36,361 - INFO - 
+[463/1000]
+2026-02-07 07:24:36,361 - INFO - 取得中: Calavo Growers, Inc. (CVGW)
+2026-02-07 07:24:37,906 - INFO -   ✅ 取得完了: Calavo Growers, Inc.
+2026-02-07 07:24:39,907 - INFO - 
+[464/1000]
+2026-02-07 07:24:39,907 - INFO - 取得中: CVR Energy, Inc. (CVI)
+2026-02-07 07:24:41,491 - INFO -   ✅ 取得完了: CVR Energy, Inc.
+2026-02-07 07:24:43,492 - INFO - 
+[465/1000]
+2026-02-07 07:24:43,492 - INFO - 取得中: Cadrenal Therapeutics, Inc. (CVKD)
+2026-02-07 07:24:44,892 - INFO -   ✅ 取得完了: Cadrenal Therapeutics, Inc.
+2026-02-07 07:24:46,893 - INFO - 
+[466/1000]
+2026-02-07 07:24:46,893 - INFO - 取得中: Covenant Logistics Group, Inc. (CVLG)
+2026-02-07 07:24:48,455 - INFO -   ✅ 取得完了: Covenant Logistics Group, Inc.
+2026-02-07 07:24:50,455 - INFO - 
+[467/1000]
+2026-02-07 07:24:50,455 - INFO - 取得中: Commvault Systems, Inc. (CVLT)
+2026-02-07 07:24:51,835 - INFO -   ✅ 取得完了: Commvault Systems, Inc.
+2026-02-07 07:24:53,835 - INFO - 
+[468/1000]
+2026-02-07 07:24:53,835 - INFO - 取得中: CEL-SCI Corporation (CVM)
+2026-02-07 07:24:55,211 - INFO -   ✅ 取得完了: CEL-SCI Corporation
+2026-02-07 07:24:57,211 - INFO - 
+[469/1000]
+2026-02-07 07:24:57,211 - INFO - 取得中: Carvana Co. (CVNA)
+2026-02-07 07:24:58,576 - INFO -   ✅ 取得完了: Carvana Co.
+2026-02-07 07:25:00,577 - INFO - 
+[470/1000]
+2026-02-07 07:25:00,577 - INFO - 取得中: Chicago Rivet & Machine Co. (CVR)
+2026-02-07 07:25:02,277 - INFO -   ✅ 取得完了: Chicago Rivet & Machine Co.
+2026-02-07 07:25:04,278 - INFO - 
+[471/1000]
+2026-02-07 07:25:04,278 - INFO - 取得中: CVRx, Inc. (CVRX)
+2026-02-07 07:25:05,616 - INFO -   ✅ 取得完了: CVRx, Inc.
+2026-02-07 07:25:07,617 - INFO - 
+[472/1000]
+2026-02-07 07:25:07,617 - INFO - 取得中: CVS Health Corporation (CVS)
+2026-02-07 07:25:09,065 - INFO -   ✅ 取得完了: CVS Health Corporation
+2026-02-07 07:25:11,065 - INFO - 
+[473/1000]
+2026-02-07 07:25:11,066 - INFO - 取得中: CV Sciences, Inc. (CVSI)
+2026-02-07 07:25:12,479 - INFO -   ✅ 取得完了: CV Sciences, Inc.
+2026-02-07 07:25:14,479 - INFO - 
+[474/1000]
+2026-02-07 07:25:14,479 - INFO - 取得中: CPI Aerostructures, Inc. (CVU)
+2026-02-07 07:25:15,896 - INFO -   ✅ 取得完了: CPI Aerostructures, Inc.
+2026-02-07 07:25:17,896 - INFO - 
+[475/1000]
+2026-02-07 07:25:17,897 - INFO - 取得中: CVD Equipment Corporation (CVV)
+2026-02-07 07:25:19,281 - INFO -   ✅ 取得完了: CVD Equipment Corporation
+2026-02-07 07:25:21,281 - INFO - 
+[476/1000]
+2026-02-07 07:25:21,282 - INFO - 取得中: CanAlaska Uranium Ltd. (CVVUF)
+2026-02-07 07:25:22,860 - INFO -   ✅ 取得完了: CanAlaska Uranium Ltd.
+2026-02-07 07:25:24,860 - INFO - 
+[477/1000]
+2026-02-07 07:25:24,861 - INFO - 取得中: Chevron Corporation (CVX)
+2026-02-07 07:25:26,402 - INFO -   ✅ 取得完了: Chevron Corporation
+2026-02-07 07:25:28,402 - INFO - 
+[478/1000]
+2026-02-07 07:25:28,403 - INFO - 取得中: Curtiss-Wright Corporation (CW)
+2026-02-07 07:25:30,066 - INFO -   ✅ 取得完了: Curtiss-Wright Corporation
+2026-02-07 07:25:32,067 - INFO - 
+[479/1000]
+2026-02-07 07:25:32,067 - INFO - 取得中: Clearwater Analytics Holdings, Inc. (CWAN)
+2026-02-07 07:25:33,428 - INFO -   ✅ 取得完了: Clearwater Analytics Holdings, Inc.
+2026-02-07 07:25:35,428 - INFO - 
+[480/1000]
+2026-02-07 07:25:35,429 - INFO - 取得中: Community West Bancshares (CWBC)
+2026-02-07 07:25:36,852 - INFO -   ✅ 取得完了: Community West Bancshares
+2026-02-07 07:25:38,853 - INFO - 
+[481/1000]
+2026-02-07 07:25:38,853 - INFO - 取得中: Charlotte's Web Holdings, Inc. (CWBHF)
+2026-02-07 07:25:40,376 - INFO -   ✅ 取得完了: Charlotte's Web Holdings, Inc.
+2026-02-07 07:25:42,377 - INFO - 
+[482/1000]
+2026-02-07 07:25:42,377 - INFO - 取得中: Consolidated Water Co. Ltd. (CWCO)
+2026-02-07 07:25:43,822 - INFO -   ✅ 取得完了: Consolidated Water Co. Ltd.
+2026-02-07 07:25:45,822 - INFO - 
+[483/1000]
+2026-02-07 07:25:45,822 - INFO - 取得中: CaliberCos Inc. (CWD)
+2026-02-07 07:25:47,155 - INFO -   ✅ 取得完了: CaliberCos Inc.
+2026-02-07 07:25:49,155 - INFO - 
+[484/1000]
+2026-02-07 07:25:49,155 - INFO - 取得中: Clearway Energy, Inc. (CWEN)
+2026-02-07 07:25:50,540 - INFO -   ✅ 取得完了: Clearway Energy, Inc.
+2026-02-07 07:25:52,540 - INFO - 
+[485/1000]
+2026-02-07 07:25:52,541 - INFO - 取得中: Clearway Energy, Inc. (CWEN-A)
+2026-02-07 07:25:54,116 - INFO -   ✅ 取得完了: Clearway Energy, Inc.
+2026-02-07 07:25:56,117 - INFO - 
+[486/1000]
+2026-02-07 07:25:56,117 - INFO - 取得中: Crimson Wine Group, Ltd. (CWGL)
+2026-02-07 07:25:57,479 - INFO -   ✅ 取得完了: Crimson Wine Group, Ltd.
+2026-02-07 07:25:59,480 - INFO - 
+[487/1000]
+2026-02-07 07:25:59,480 - INFO - 取得中: Camping World Holdings, Inc. (CWH)
+2026-02-07 07:26:01,075 - INFO -   ✅ 取得完了: Camping World Holdings, Inc.
+2026-02-07 07:26:03,076 - INFO - 
+[488/1000]
+2026-02-07 07:26:03,076 - INFO - 取得中: Cushman & Wakefield Limited (CWK)
+2026-02-07 07:26:04,436 - INFO -   ✅ 取得完了: Cushman & Wakefield Limited
+2026-02-07 07:26:06,437 - INFO - 
+[489/1000]
+2026-02-07 07:26:06,437 - INFO - 取得中: CWLXF (CWLXF)
+2026-02-07 07:26:07,518 - INFO -   ✅ 取得完了: CWLXF
+2026-02-07 07:26:09,519 - INFO - 
+[490/1000]
+2026-02-07 07:26:09,519 - INFO - 取得中: ChineseWorldNet.Com Inc. (CWNOF)
+2026-02-07 07:26:10,973 - INFO -   ✅ 取得完了: ChineseWorldNet.Com Inc.
+2026-02-07 07:26:12,973 - INFO - 
+[491/1000]
+2026-02-07 07:26:12,973 - INFO - 取得中: CW Petroleum Corp (CWPE)
+2026-02-07 07:26:14,177 - INFO -   ✅ 取得完了: CW Petroleum Corp
+2026-02-07 07:26:16,177 - INFO - 
+[492/1000]
+2026-02-07 07:26:16,178 - INFO - 取得中: Casella Waste Systems, Inc. (CWST)
+2026-02-07 07:26:17,530 - INFO -   ✅ 取得完了: Casella Waste Systems, Inc.
+2026-02-07 07:26:19,530 - INFO - 
+[493/1000]
+2026-02-07 07:26:19,530 - INFO - 取得中: California Water Service Group (CWT)
+2026-02-07 07:26:21,035 - INFO -   ✅ 取得完了: California Water Service Group
+2026-02-07 07:26:23,035 - INFO - 
+[494/1000]
+2026-02-07 07:26:23,035 - INFO - 取得中: CEMEX, S.A.B. de C.V. (CX)
+2026-02-07 07:26:24,521 - INFO -   ✅ 取得完了: CEMEX, S.A.B. de C.V.
+2026-02-07 07:26:26,521 - INFO - 
+[495/1000]
+2026-02-07 07:26:26,521 - INFO - 取得中: CXApp Inc. (CXAI)
+2026-02-07 07:26:28,028 - INFO -   ✅ 取得完了: CXApp Inc.
+2026-02-07 07:26:30,028 - INFO - 
+[496/1000]
+2026-02-07 07:26:30,029 - INFO - 取得中: CXApp Inc. (CXAIW)
+2026-02-07 07:26:31,342 - INFO -   ✅ 取得完了: CXApp Inc.
+2026-02-07 07:26:33,342 - INFO - 
+[497/1000]
+2026-02-07 07:26:33,342 - INFO - 取得中: Crexendo, Inc. (CXDO)
+2026-02-07 07:26:34,696 - INFO -   ✅ 取得完了: Crexendo, Inc.
+2026-02-07 07:26:36,697 - INFO - 
+[498/1000]
+2026-02-07 07:26:36,697 - INFO - 取得中: MFS High Income Municipal Trust (CXE)
+2026-02-07 07:26:38,183 - INFO -   ✅ 取得完了: MFS High Income Municipal Trust
+2026-02-07 07:26:40,183 - INFO - 
+[499/1000]
+2026-02-07 07:26:40,183 - INFO - 取得中: MFS Investment Grade Municipal Trust (CXH)
+2026-02-07 07:26:41,747 - INFO -   ✅ 取得完了: MFS Investment Grade Municipal Trust
+2026-02-07 07:26:43,747 - INFO - 
+[500/1000]
+2026-02-07 07:26:43,748 - INFO - 取得中: Sprinklr, Inc. (CXM)
+2026-02-07 07:26:45,214 - INFO -   ✅ 取得完了: Sprinklr, Inc.
+2026-02-07 07:26:47,214 - INFO - 
+[501/1000]
+2026-02-07 07:26:47,214 - INFO - 取得中: CEMEX, S.A.B. de C.V. (CXMSF)
+2026-02-07 07:26:48,684 - INFO -   ✅ 取得完了: CEMEX, S.A.B. de C.V.
+2026-02-07 07:26:50,685 - INFO - 
+[502/1000]
+2026-02-07 07:26:50,685 - INFO - 取得中: Crane NXT, Co. (CXT)
+2026-02-07 07:26:52,194 - INFO -   ✅ 取得完了: Crane NXT, Co.
+2026-02-07 07:26:54,195 - INFO - 
+[503/1000]
+2026-02-07 07:26:54,195 - INFO - 取得中: CoreCivic, Inc. (CXW)
+2026-02-07 07:26:55,660 - INFO -   ✅ 取得完了: CoreCivic, Inc.
+2026-02-07 07:26:57,660 - INFO - 
+[504/1000]
+2026-02-07 07:26:57,660 - INFO - 取得中: C21 Investments Inc. (CXXIF)
+2026-02-07 07:26:59,060 - INFO -   ✅ 取得完了: C21 Investments Inc.
+2026-02-07 07:27:01,060 - INFO - 
+[505/1000]
+2026-02-07 07:27:01,060 - INFO - 取得中: Cyanotech Corporation (CYAN)
+2026-02-07 07:27:02,418 - INFO -   ✅ 取得完了: Cyanotech Corporation
+2026-02-07 07:27:04,418 - INFO - 
+[506/1000]
+2026-02-07 07:27:04,418 - INFO - 取得中: CONTEMPORARY AMPEREX TECHNOLOGY (CYATY)
+2026-02-07 07:27:06,114 - ERROR - $CYATY: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 07:27:06,123 - INFO -   ✅ 取得完了: CONTEMPORARY AMPEREX TECHNOLOGY
+2026-02-07 07:27:08,124 - INFO - 
+[507/1000]
+2026-02-07 07:27:08,124 - INFO - 取得中: CyberArk Software Ltd. (CYBR)
+2026-02-07 07:27:09,627 - INFO -   ✅ 取得完了: CyberArk Software Ltd.
+2026-02-07 07:27:11,627 - INFO - 
+[508/1000]
+2026-02-07 07:27:11,627 - INFO - 取得中: Cytta Corp. (CYCA)
+2026-02-07 07:27:12,999 - INFO -   ✅ 取得完了: Cytta Corp.
+2026-02-07 07:27:15,000 - INFO - 
+[509/1000]
+2026-02-07 07:27:15,000 - INFO - 取得中: Cyclerion Therapeutics, Inc. (CYCN)
+2026-02-07 07:27:16,414 - INFO -   ✅ 取得完了: Cyclerion Therapeutics, Inc.
+2026-02-07 07:27:18,414 - INFO - 
+[510/1000]
+2026-02-07 07:27:18,414 - INFO - 取得中: Cycurion, Inc. (CYCU)
+2026-02-07 07:27:20,008 - ERROR - $CYCU: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 07:27:20,016 - INFO -   ✅ 取得完了: Cycurion, Inc.
+2026-02-07 07:27:22,016 - INFO - 
+[511/1000]
+2026-02-07 07:27:22,016 - INFO - 取得中: Cycurion, Inc. (CYCUW)
+2026-02-07 07:27:23,165 - INFO -   ✅ 取得完了: Cycurion, Inc.
+2026-02-07 07:27:25,165 - INFO - 
+[512/1000]
+2026-02-07 07:27:25,166 - INFO - 取得中: China Yuchai International Limited (CYD)
+2026-02-07 07:27:26,708 - INFO -   ✅ 取得完了: China Yuchai International Limited
+2026-02-07 07:27:28,708 - INFO - 
+[513/1000]
+2026-02-07 07:27:28,708 - INFO - 取得中: CytoDyn Inc. (CYDY)
+2026-02-07 07:27:30,245 - INFO -   ✅ 取得完了: CytoDyn Inc.
+2026-02-07 07:27:32,246 - INFO - 
+[514/1000]
+2026-02-07 07:27:32,246 - INFO - 取得中: Community Health Systems, Inc. (CYH)
+2026-02-07 07:27:33,740 - INFO -   ✅ 取得完了: Community Health Systems, Inc.
+2026-02-07 07:27:35,740 - INFO - 
+[515/1000]
+2026-02-07 07:27:35,741 - INFO - 取得中: Hiab Oyj (CYJBF)
+2026-02-07 07:27:37,400 - INFO -   ✅ 取得完了: Hiab Oyj
+2026-02-07 07:27:39,401 - INFO - 
+[516/1000]
+2026-02-07 07:27:39,401 - INFO - 取得中: Cyngn Inc. (CYN)
+2026-02-07 07:27:40,979 - INFO -   ✅ 取得完了: Cyngn Inc.
+2026-02-07 07:27:42,979 - INFO - 
+[517/1000]
+2026-02-07 07:27:42,979 - INFO - 取得中: Cypherpunk Technologies Inc. (CYPH)
+2026-02-07 07:27:44,514 - INFO -   ✅ 取得完了: Cypherpunk Technologies Inc.
+2026-02-07 07:27:46,515 - INFO - 
+[518/1000]
+2026-02-07 07:27:46,515 - INFO - 取得中: Cryoport, Inc. (CYRX)
+2026-02-07 07:27:47,974 - INFO -   ✅ 取得完了: Cryoport, Inc.
+2026-02-07 07:27:49,974 - INFO - 
+[519/1000]
+2026-02-07 07:27:49,975 - INFO - 取得中: Cytokinetics, Incorporated (CYTK)
+2026-02-07 07:27:51,415 - INFO -   ✅ 取得完了: Cytokinetics, Incorporated
+2026-02-07 07:27:53,415 - INFO - 
+[520/1000]
+2026-02-07 07:27:53,415 - INFO - 取得中: Altamira Therapeutics Ltd. (CYTOF)
+2026-02-07 07:27:54,757 - INFO -   ✅ 取得完了: Altamira Therapeutics Ltd.
+2026-02-07 07:27:56,758 - INFO - 
+[521/1000]
+2026-02-07 07:27:56,758 - INFO - 取得中: Citizens Financial Services, Inc. (CZFS)
+2026-02-07 07:27:58,220 - INFO -   ✅ 取得完了: Citizens Financial Services, Inc.
+2026-02-07 07:28:00,220 - INFO - 
+[522/1000]
+2026-02-07 07:28:00,220 - INFO - 取得中: Citizens & Northern Corporation (CZNC)
+2026-02-07 07:28:01,684 - INFO -   ✅ 取得完了: Citizens & Northern Corporation
+2026-02-07 07:28:03,685 - INFO - 
+[523/1000]
+2026-02-07 07:28:03,685 - INFO - 取得中: Caesars Entertainment, Inc. (CZR)
+2026-02-07 07:28:05,170 - INFO -   ✅ 取得完了: Caesars Entertainment, Inc.
+2026-02-07 07:28:07,170 - INFO - 
+[524/1000]
+2026-02-07 07:28:07,171 - INFO - 取得中: Citizens Community Bancorp, Inc. (CZWI)
+2026-02-07 07:28:08,588 - INFO -   ✅ 取得完了: Citizens Community Bancorp, Inc.
+2026-02-07 07:28:10,588 - INFO - 
+[525/1000]
+2026-02-07 07:28:10,588 - INFO - 取得中: Dominion Energy, Inc. (D)
+2026-02-07 07:28:12,140 - INFO -   ✅ 取得完了: Dominion Energy, Inc.
+2026-02-07 07:28:14,140 - INFO - 
+[526/1000]
+2026-02-07 07:28:14,140 - INFO - 取得中: Digital Asset Acquisition Corp. (DAAQ)
+2026-02-07 07:28:15,330 - INFO -   ✅ 取得完了: Digital Asset Acquisition Corp.
+2026-02-07 07:28:17,331 - INFO - 
+[527/1000]
+2026-02-07 07:28:17,331 - INFO - 取得中: Digital Asset Acquisition Corp. (DAAQU)
+2026-02-07 07:28:18,513 - INFO -   ✅ 取得完了: Digital Asset Acquisition Corp.
+2026-02-07 07:28:20,513 - INFO - 
+[528/1000]
+2026-02-07 07:28:20,514 - INFO - 取得中: Digital Asset Acquisition Corp. (DAAQW)
+2026-02-07 07:28:21,684 - INFO -   ✅ 取得完了: Digital Asset Acquisition Corp.
+2026-02-07 07:28:23,684 - INFO - 
+[529/1000]
+2026-02-07 07:28:23,684 - INFO - 取得中: Danaos Corporation (DAC)
+2026-02-07 07:28:25,251 - INFO -   ✅ 取得完了: Danaos Corporation
+2026-02-07 07:28:27,251 - INFO - 
+[530/1000]
+2026-02-07 07:28:27,251 - INFO - 取得中: CID HoldCo, Inc. (DAIC)
+2026-02-07 07:28:28,795 - ERROR - $DAIC: possibly delisted; no price data found  (1d 2022-12-28 -> 2023-01-03) (Yahoo error = "Data doesn't exist for startDate = 1672203600, endDate = 1672722000")
+2026-02-07 07:28:28,801 - INFO -   ✅ 取得完了: CID HoldCo, Inc.
+2026-02-07 07:28:30,802 - INFO - 
+[531/1000]
+2026-02-07 07:28:30,802 - INFO - 取得中: CID HoldCo, Inc. (DAICW)
+2026-02-07 07:28:32,085 - INFO -   ✅ 取得完了: CID HoldCo, Inc.
+2026-02-07 07:28:34,085 - INFO - 
+[532/1000]
+2026-02-07 07:28:34,085 - INFO - 取得中: Data I/O Corporation (DAIO)
+2026-02-07 07:28:35,477 - INFO -   ✅ 取得完了: Data I/O Corporation
+2026-02-07 07:28:37,477 - INFO - 
+[533/1000]
+2026-02-07 07:28:37,477 - INFO - 取得中: Daktronics, Inc. (DAKT)
+2026-02-07 07:28:38,914 - INFO -   ✅ 取得完了: Daktronics, Inc.
+2026-02-07 07:28:40,915 - INFO - 
+[534/1000]
+2026-02-07 07:28:40,915 - INFO - 取得中: Delta Air Lines, Inc. (DAL)
+2026-02-07 07:28:42,405 - INFO -   ✅ 取得完了: Delta Air Lines, Inc.
+2026-02-07 07:28:44,405 - INFO - 
+[535/1000]
+2026-02-07 07:28:44,405 - INFO - 取得中: Dana Incorporated (DAN)
+2026-02-07 07:28:45,981 - INFO -   ✅ 取得完了: Dana Incorporated
+2026-02-07 07:28:47,981 - INFO - 
+[536/1000]
+2026-02-07 07:28:47,982 - INFO - 取得中: Youdao, Inc. (DAO)
+2026-02-07 07:28:49,365 - INFO -   ✅ 取得完了: Youdao, Inc.
+2026-02-07 07:28:51,365 - INFO - 
+[537/1000]
+2026-02-07 07:28:51,365 - INFO - 取得中: Darling Ingredients Inc. (DAR)
+2026-02-07 07:28:52,799 - INFO -   ✅ 取得完了: Darling Ingredients Inc.
+2026-02-07 07:28:54,799 - INFO - 
+[538/1000]
+2026-02-07 07:28:54,799 - INFO - 取得中: Daré Bioscience, Inc. (DARE)
+2026-02-07 07:28:56,233 - INFO -   ✅ 取得完了: Daré Bioscience, Inc.
+2026-02-07 07:28:58,234 - INFO - 
+[539/1000]
+2026-02-07 07:28:58,234 - INFO - 取得中: DoorDash, Inc. (DASH)
+2026-02-07 07:28:59,625 - INFO -   ✅ 取得完了: DoorDash, Inc.
+2026-02-07 07:29:01,626 - INFO - 
+[540/1000]
+2026-02-07 07:29:01,626 - INFO - 取得中: Endava plc (DAVA)
+2026-02-07 07:29:03,063 - INFO -   ✅ 取得完了: Endava plc
+2026-02-07 07:29:05,063 - INFO - 
+[541/1000]
+2026-02-07 07:29:05,063 - INFO - 取得中: Dave Inc. (DAVE)
+2026-02-07 07:29:06,493 - INFO -   ✅ 取得完了: Dave Inc.
+2026-02-07 07:29:08,494 - INFO - 
+[542/1000]
+2026-02-07 07:29:08,494 - INFO - 取得中: Dave Inc. (DAVEW)
+2026-02-07 07:29:09,824 - INFO -   ✅ 取得完了: Dave Inc.
+2026-02-07 07:29:11,824 - INFO - 
+[543/1000]
+2026-02-07 07:29:11,825 - INFO - 取得中: DAVI (DAVI)
+2026-02-07 07:29:12,885 - INFO -   ✅ 取得完了: DAVI
+2026-02-07 07:29:14,886 - INFO - 
+[544/1000]
+2026-02-07 07:29:14,886 - INFO - 取得中: Day One Biopharmaceuticals, Inc. (DAWN)
+2026-02-07 07:29:16,361 - INFO -   ✅ 取得完了: Day One Biopharmaceuticals, Inc.
+2026-02-07 07:29:18,361 - INFO - 
+[545/1000]
+2026-02-07 07:29:18,361 - INFO - 取得中: Dayforce, Inc. (DAY)
+2026-02-07 07:29:19,685 - INFO -   ✅ 取得完了: Dayforce, Inc.
+2026-02-07 07:29:21,685 - INFO - 
+[546/1000]
+2026-02-07 07:29:21,685 - INFO - 取得中: Da Ai Zhi Shui International Holding Group Ltd (DAZSF)
+2026-02-07 07:29:23,487 - ERROR - $DAZSF: possibly delisted; no price data found  (1d 2022-05-28 -> 2022-06-03) (Yahoo error = "Data doesn't exist for startDate = 1653710400, endDate = 1654228800")
+2026-02-07 07:29:23,494 - INFO -   ✅ 取得完了: Da Ai Zhi Shui International Holding Group Ltd
+2026-02-07 07:29:25,495 - INFO - 
+[547/1000]
+2026-02-07 07:29:25,495 - INFO - 取得中: Deutsche Bank Aktiengesellschaft (DB)
+2026-02-07 07:29:26,942 - INFO -   ✅ 取得完了: Deutsche Bank Aktiengesellschaft
+2026-02-07 07:29:28,942 - INFO - 
+[548/1000]
+2026-02-07 07:29:28,942 - INFO - 取得中: Invesco DB Agriculture Fund (DBA)
+2026-02-07 07:29:30,129 - INFO -   ✅ 取得完了: Invesco DB Agriculture Fund
+2026-02-07 07:29:32,129 - INFO - 
+[549/1000]
+2026-02-07 07:29:32,129 - INFO - 取得中: Invesco DB Base Metals Fund (DBB)
+2026-02-07 07:29:33,177 - INFO -   ✅ 取得完了: Invesco DB Base Metals Fund
+2026-02-07 07:29:35,177 - INFO - 
+[550/1000]
+2026-02-07 07:29:35,177 - INFO - 取得中: Invesco DB Commodity Index Tracking Fund (DBC)
+2026-02-07 07:29:36,367 - INFO -   ✅ 取得完了: Invesco DB Commodity Index Tracking Fund
+2026-02-07 07:29:38,368 - INFO - 
+[551/1000]
+2026-02-07 07:29:38,368 - INFO - 取得中: DBCA (DBCA)
+2026-02-07 07:29:38,710 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DBCA"}}}
+2026-02-07 07:29:39,651 - INFO -   ✅ 取得完了: DBCA
+2026-02-07 07:29:41,652 - INFO - 
+[552/1000]
+2026-02-07 07:29:41,652 - INFO - 取得中: Diebold Nixdorf, Incorporated (DBD)
+2026-02-07 07:29:42,887 - INFO -   ✅ 取得完了: Diebold Nixdorf, Incorporated
+2026-02-07 07:29:44,887 - INFO - 
+[553/1000]
+2026-02-07 07:29:44,887 - INFO - 取得中: Invesco DB Energy Fund (DBE)
+2026-02-07 07:29:45,985 - INFO -   ✅ 取得完了: Invesco DB Energy Fund
+2026-02-07 07:29:47,985 - INFO - 
+[554/1000]
+2026-02-07 07:29:47,985 - INFO - 取得中: Digital Brands Group, Inc. (DBGI)
+2026-02-07 07:29:49,367 - INFO -   ✅ 取得完了: Digital Brands Group, Inc.
+2026-02-07 07:29:51,367 - INFO - 
+[555/1000]
+2026-02-07 07:29:51,368 - INFO - 取得中: Designer Brands Inc. (DBI)
+2026-02-07 07:29:52,853 - INFO -   ✅ 取得完了: Designer Brands Inc.
+2026-02-07 07:29:54,853 - INFO - 
+[556/1000]
+2026-02-07 07:29:54,853 - INFO - 取得中: DBIM (DBIM)
+2026-02-07 07:29:55,907 - INFO -   ✅ 取得完了: DBIM
+2026-02-07 07:29:57,907 - INFO - 
+[557/1000]
+2026-02-07 07:29:57,907 - INFO - 取得中: DoubleLine Opportunistic Credit Fund (DBL)
+2026-02-07 07:29:59,329 - INFO -   ✅ 取得完了: DoubleLine Opportunistic Credit Fund
+2026-02-07 07:30:01,329 - INFO - 
+[558/1000]
+2026-02-07 07:30:01,329 - INFO - 取得中: Digital Brand Media & Marketing Group, Inc. (DBMM)
+2026-02-07 07:30:02,786 - INFO -   ✅ 取得完了: Digital Brand Media & Marketing Group, Inc.
+2026-02-07 07:30:04,786 - INFO - 
+[559/1000]
+2026-02-07 07:30:04,786 - INFO - 取得中: Invesco DB Oil Fund (DBO)
+2026-02-07 07:30:05,990 - INFO -   ✅ 取得完了: Invesco DB Oil Fund
+2026-02-07 07:30:07,990 - INFO - 
+[560/1000]
+2026-02-07 07:30:07,990 - INFO - 取得中: Invesco DB Precious Metals Fund (DBP)
+2026-02-07 07:30:09,098 - INFO -   ✅ 取得完了: Invesco DB Precious Metals Fund
+2026-02-07 07:30:11,098 - INFO - 
+[561/1000]
+2026-02-07 07:30:11,098 - INFO - 取得中: DigitalBridge Group, Inc. (DBRG)
+2026-02-07 07:30:12,492 - INFO -   ✅ 取得完了: DigitalBridge Group, Inc.
+2026-02-07 07:30:14,492 - INFO - 
+[562/1000]
+2026-02-07 07:30:14,492 - INFO - 取得中: DigitalBridge Group, Inc. (DBRG-PH)
+2026-02-07 07:30:15,707 - INFO -   ✅ 取得完了: DigitalBridge Group, Inc.
+2026-02-07 07:30:17,708 - INFO - 
+[563/1000]
+2026-02-07 07:30:17,708 - INFO - 取得中: DigitalBridge Group, Inc. (DBRG-PI)
+2026-02-07 07:30:18,924 - INFO -   ✅ 取得完了: DigitalBridge Group, Inc.
+2026-02-07 07:30:20,925 - INFO - 
+[564/1000]
+2026-02-07 07:30:20,925 - INFO - 取得中: DigitalBridge Group, Inc. (DBRG-PJ)
+2026-02-07 07:30:22,079 - INFO -   ✅ 取得完了: DigitalBridge Group, Inc.
+2026-02-07 07:30:24,079 - INFO - 
+[565/1000]
+2026-02-07 07:30:24,079 - INFO - 取得中: DBV Technologies S.A. (DBVT)
+2026-02-07 07:30:25,476 - INFO -   ✅ 取得完了: DBV Technologies S.A.
+2026-02-07 07:30:27,476 - INFO - 
+[566/1000]
+2026-02-07 07:30:27,476 - INFO - 取得中: DBV TECHNOLOGIES (DBVTF)
+2026-02-07 07:30:28,857 - ERROR - $DBVTF: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03)
+2026-02-07 07:30:28,866 - INFO -   ✅ 取得完了: DBV TECHNOLOGIES
+2026-02-07 07:30:30,866 - INFO - 
+[567/1000]
+2026-02-07 07:30:30,866 - INFO - 取得中: Dropbox, Inc. (DBX)
+2026-02-07 07:30:32,401 - INFO -   ✅ 取得完了: Dropbox, Inc.
+2026-02-07 07:30:34,402 - INFO - 
+[568/1000]
+2026-02-07 07:30:34,402 - INFO - 取得中: Dakota Gold Corp. (DC)
+2026-02-07 07:30:35,805 - INFO -   ✅ 取得完了: Dakota Gold Corp.
+2026-02-07 07:30:37,805 - INFO - 
+[569/1000]
+2026-02-07 07:30:37,806 - INFO - 取得中: Dakota Gold Corp. (DC-WT)
+2026-02-07 07:30:38,884 - INFO -   ✅ 取得完了: Dakota Gold Corp.
+2026-02-07 07:30:40,884 - INFO - 
+[570/1000]
+2026-02-07 07:30:40,884 - INFO - 取得中: Docebo Inc. (DCBO)
+2026-02-07 07:30:42,328 - INFO -   ✅ 取得完了: Docebo Inc.
+2026-02-07 07:30:44,329 - INFO - 
+[571/1000]
+2026-02-07 07:30:44,329 - INFO - 取得中: DCFBS (DCFBS)
+2026-02-07 07:30:45,396 - INFO -   ✅ 取得完了: DCFBS
+2026-02-07 07:30:47,396 - INFO - 
+[572/1000]
+2026-02-07 07:30:47,396 - INFO - 取得中: DocGo Inc. (DCGO)
+2026-02-07 07:30:48,824 - INFO -   ✅ 取得完了: DocGo Inc.
+2026-02-07 07:30:50,825 - INFO - 
+[573/1000]
+2026-02-07 07:30:50,825 - INFO - 取得中: Dauch Corporation (DCH)
+2026-02-07 07:30:52,236 - INFO -   ✅ 取得完了: Dauch Corporation
+2026-02-07 07:30:54,237 - INFO - 
+[574/1000]
+2026-02-07 07:30:54,237 - INFO - 取得中: Donaldson Company, Inc. (DCI)
+2026-02-07 07:30:55,786 - INFO -   ✅ 取得完了: Donaldson Company, Inc.
+2026-02-07 07:30:57,786 - INFO - 
+[575/1000]
+2026-02-07 07:30:57,786 - INFO - 取得中: Ducommun Incorporated (DCO)
+2026-02-07 07:30:59,478 - INFO -   ✅ 取得完了: Ducommun Incorporated
+2026-02-07 07:31:01,478 - INFO - 
+[576/1000]
+2026-02-07 07:31:01,478 - INFO - 取得中: Dime Community Bancshares, Inc. (DCOM)
+2026-02-07 07:31:02,920 - INFO -   ✅ 取得完了: Dime Community Bancshares, Inc.
+2026-02-07 07:31:04,921 - INFO - 
+[577/1000]
+2026-02-07 07:31:04,921 - INFO - 取得中: Dime Community Bancshares, Inc. (DCOMG)
+2026-02-07 07:31:06,005 - INFO -   ✅ 取得完了: Dime Community Bancshares, Inc.
+2026-02-07 07:31:08,005 - INFO - 
+[578/1000]
+2026-02-07 07:31:08,005 - INFO - 取得中: Dime Community Bancshares, Inc. (DCOMP)
+2026-02-07 07:31:09,225 - INFO -   ✅ 取得完了: Dime Community Bancshares, Inc.
+2026-02-07 07:31:11,225 - INFO - 
+[579/1000]
+2026-02-07 07:31:11,225 - INFO - 取得中: Decoy Therapeutics Inc. (DCOY)
+2026-02-07 07:31:12,587 - INFO -   ✅ 取得完了: Decoy Therapeutics Inc.
+2026-02-07 07:31:14,587 - INFO - 
+[580/1000]
+2026-02-07 07:31:14,587 - INFO - 取得中: Delcath Systems, Inc. (DCTH)
+2026-02-07 07:31:16,013 - INFO -   ✅ 取得完了: Delcath Systems, Inc.
+2026-02-07 07:31:18,013 - INFO - 
+[581/1000]
+2026-02-07 07:31:18,013 - INFO - 取得中: Digital Currency X Technology Inc. (DCX)
+2026-02-07 07:31:19,648 - INFO -   ✅ 取得完了: Digital Currency X Technology Inc.
+2026-02-07 07:31:21,649 - INFO - 
+[582/1000]
+2026-02-07 07:31:21,649 - INFO - 取得中: DuPont de Nemours, Inc. (DD)
+2026-02-07 07:31:23,371 - INFO -   ✅ 取得完了: DuPont de Nemours, Inc.
+2026-02-07 07:31:25,371 - INFO - 
+[583/1000]
+2026-02-07 07:31:25,371 - INFO - 取得中: DDC Enterprise Limited (DDC)
+2026-02-07 07:31:26,828 - INFO -   ✅ 取得完了: DDC Enterprise Limited
+2026-02-07 07:31:28,829 - INFO - 
+[584/1000]
+2026-02-07 07:31:28,829 - INFO - 取得中: 3D Systems Corporation (DDD)
+2026-02-07 07:31:30,177 - INFO -   ✅ 取得完了: 3D Systems Corporation
+2026-02-07 07:31:32,177 - INFO - 
+[585/1000]
+2026-02-07 07:31:32,177 - INFO - 取得中: DDHLY (DDHLY)
+2026-02-07 07:31:33,383 - INFO -   ✅ 取得完了: DDHLY
+2026-02-07 07:31:35,383 - INFO - 
+[586/1000]
+2026-02-07 07:31:35,383 - INFO - 取得中: DoubleDown Interactive Co., Ltd. (DDI)
+2026-02-07 07:31:36,785 - INFO -   ✅ 取得完了: DoubleDown Interactive Co., Ltd.
+2026-02-07 07:31:38,785 - INFO - 
+[587/1000]
+2026-02-07 07:31:38,785 - INFO - 取得中: Dingdong (Cayman) Limited (DDL)
+2026-02-07 07:31:40,215 - INFO -   ✅ 取得完了: Dingdong (Cayman) Limited
+2026-02-07 07:31:42,216 - INFO - 
+[588/1000]
+2026-02-07 07:31:42,216 - INFO - 取得中: Datadog, Inc. (DDOG)
+2026-02-07 07:31:43,631 - INFO -   ✅ 取得完了: Datadog, Inc.
+2026-02-07 07:31:45,632 - INFO - 
+[589/1000]
+2026-02-07 07:31:45,632 - INFO - 取得中: Dillard's, Inc. (DDS)
+2026-02-07 07:31:47,197 - INFO -   ✅ 取得完了: Dillard's, Inc.
+2026-02-07 07:31:49,198 - INFO - 
+[590/1000]
+2026-02-07 07:31:49,198 - INFO - 取得中: Dillards Capital Trust I CAP SECS 7.5% (DDT)
+2026-02-07 07:31:50,292 - INFO -   ✅ 取得完了: Dillards Capital Trust I CAP SECS 7.5%
+2026-02-07 07:31:52,292 - INFO - 
+[591/1000]
+2026-02-07 07:31:52,292 - INFO - 取得中: Deere & Company (DE)
+2026-02-07 07:31:54,052 - INFO -   ✅ 取得完了: Deere & Company
+2026-02-07 07:31:56,052 - INFO - 
+[592/1000]
+2026-02-07 07:31:56,052 - INFO - 取得中: Easterly Government Properties, Inc. (DEA)
+2026-02-07 07:31:57,501 - INFO -   ✅ 取得完了: Easterly Government Properties, Inc.
+2026-02-07 07:31:59,501 - INFO - 
+[593/1000]
+2026-02-07 07:31:59,501 - INFO - 取得中: Diversified Energy Company (DEC)
+2026-02-07 07:32:01,016 - INFO -   ✅ 取得完了: Diversified Energy Company
+2026-02-07 07:32:03,017 - INFO - 
+[594/1000]
+2026-02-07 07:32:03,017 - INFO - 取得中: Deckers Outdoor Corporation (DECK)
+2026-02-07 07:32:04,562 - INFO -   ✅ 取得完了: Deckers Outdoor Corporation
+2026-02-07 07:32:06,562 - INFO - 
+[595/1000]
+2026-02-07 07:32:06,562 - INFO - 取得中: DEENF (DEENF)
+2026-02-07 07:32:07,638 - INFO -   ✅ 取得完了: DEENF
+2026-02-07 07:32:09,639 - INFO - 
+[596/1000]
+2026-02-07 07:32:09,639 - INFO - 取得中: Grayscale Decentralized Finance (DeFi) Fund LLC (DEFG)
+2026-02-07 07:32:10,980 - INFO -   ✅ 取得完了: Grayscale Decentralized Finance (DeFi) Fund LLC
+2026-02-07 07:32:12,980 - INFO - 
+[597/1000]
+2026-02-07 07:32:12,980 - INFO - 取得中: Hashdex Bitcoin ETF (DEFI)
+2026-02-07 07:32:14,176 - INFO -   ✅ 取得完了: Hashdex Bitcoin ETF
+2026-02-07 07:32:16,176 - INFO - 
+[598/1000]
+2026-02-07 07:32:16,177 - INFO - 取得中: DeFi Technologies Inc. (DEFT)
+2026-02-07 07:32:18,097 - ERROR - $DEFT: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 07:32:18,106 - INFO -   ✅ 取得完了: DeFi Technologies Inc.
+2026-02-07 07:32:20,107 - INFO - 
+[599/1000]
+2026-02-07 07:32:20,107 - INFO - 取得中: Douglas Emmett, Inc. (DEI)
+2026-02-07 07:32:21,662 - INFO -   ✅ 取得完了: Douglas Emmett, Inc.
+2026-02-07 07:32:23,662 - INFO - 
+[600/1000]
+2026-02-07 07:32:23,662 - INFO - 取得中: Dell Technologies Inc. (DELL)
+2026-02-07 07:32:25,028 - INFO -   ✅ 取得完了: Dell Technologies Inc.
+2026-02-07 07:32:27,028 - INFO - 
+[601/1000]
+2026-02-07 07:32:27,028 - INFO - 取得中: Denny's Corporation (DENN)
+2026-02-07 07:32:28,390 - INFO -   ✅ 取得完了: Denny's Corporation
+2026-02-07 07:32:30,390 - INFO - 
+[602/1000]
+2026-02-07 07:32:30,390 - INFO - 取得中: Diageo plc (DEO)
+2026-02-07 07:32:31,927 - INFO -   ✅ 取得完了: Diageo plc
+2026-02-07 07:32:33,927 - INFO - 
+[603/1000]
+2026-02-07 07:32:33,927 - INFO - 取得中: Journey Medical Corporation (DERM)
+2026-02-07 07:32:35,374 - INFO -   ✅ 取得完了: Journey Medical Corporation
+2026-02-07 07:32:37,375 - INFO - 
+[604/1000]
+2026-02-07 07:32:37,375 - INFO - 取得中: DevvStream Corp. (DEVS)
+2026-02-07 07:32:38,956 - ERROR - $DEVS: possibly delisted; no price data found  (1d 2024-07-28 -> 2024-08-03) (Yahoo error = "Data doesn't exist for startDate = 1722139200, endDate = 1722657600")
+2026-02-07 07:32:38,965 - INFO -   ✅ 取得完了: DevvStream Corp.
+2026-02-07 07:32:40,965 - INFO - 
+[605/1000]
+2026-02-07 07:32:40,965 - INFO - 取得中: DeFi Development Corp. (DFDV)
+2026-02-07 07:32:42,309 - INFO -   ✅ 取得完了: DeFi Development Corp.
+2026-02-07 07:32:44,309 - INFO - 
+[606/1000]
+2026-02-07 07:32:44,309 - INFO - 取得中: DeFi Development Corp. (DFDVW)
+2026-02-07 07:32:45,535 - INFO -   ✅ 取得完了: DeFi Development Corp.
+2026-02-07 07:32:47,535 - INFO - 
+[607/1000]
+2026-02-07 07:32:47,535 - INFO - 取得中: Dream Finders Homes, Inc. (DFH)
+2026-02-07 07:32:48,893 - INFO -   ✅ 取得完了: Dream Finders Homes, Inc.
+2026-02-07 07:32:50,893 - INFO - 
+[608/1000]
+2026-02-07 07:32:50,894 - INFO - 取得中: Donnelley Financial Solutions, Inc. (DFIN)
+2026-02-07 07:32:52,412 - INFO -   ✅ 取得完了: Donnelley Financial Solutions, Inc.
+2026-02-07 07:32:54,412 - INFO - 
+[609/1000]
+2026-02-07 07:32:54,413 - INFO - 取得中: Dragonfly Energy Holdings Corp. (DFLI)
+2026-02-07 07:32:55,907 - INFO -   ✅ 取得完了: Dragonfly Energy Holdings Corp.
+2026-02-07 07:32:57,907 - INFO - 
+[610/1000]
+2026-02-07 07:32:57,907 - INFO - 取得中: Dragonfly Energy Holdings Corp. (DFLIW)
+2026-02-07 07:32:59,069 - INFO -   ✅ 取得完了: Dragonfly Energy Holdings Corp.
+2026-02-07 07:33:01,069 - INFO - 
+[611/1000]
+2026-02-07 07:33:01,069 - INFO - 取得中: Flaherty & Crumrine Dynamic Preferred and Income Fund Inc. (DFP)
+2026-02-07 07:33:02,445 - INFO -   ✅ 取得完了: Flaherty & Crumrine Dynamic Preferred and Income Fund Inc.
+2026-02-07 07:33:04,446 - INFO - 
+[612/1000]
+2026-02-07 07:33:04,446 - INFO - 取得中: DFP Healthcare Acquisitions Cor (DFPH)
+2026-02-07 07:33:06,072 - ERROR - $DFPH: possibly delisted; no price data found  (1d 2024-09-27 -> 2024-10-03) (Yahoo error = "Data doesn't exist for startDate = 1727409600, endDate = 1727928000")
+2026-02-07 07:33:06,080 - INFO -   ✅ 取得完了: DFP Healthcare Acquisitions Cor
+2026-02-07 07:33:08,080 - INFO - 
+[613/1000]
+2026-02-07 07:33:08,080 - INFO - 取得中: DEFSEC Technologies Inc. (DFSC)
+2026-02-07 07:33:09,606 - INFO -   ✅ 取得完了: DEFSEC Technologies Inc.
+2026-02-07 07:33:11,606 - INFO - 
+[614/1000]
+2026-02-07 07:33:11,606 - INFO - 取得中: DEFSEC Technologies Inc. (DFSCW)
+2026-02-07 07:33:12,987 - INFO -   ✅ 取得完了: DEFSEC Technologies Inc.
+2026-02-07 07:33:14,987 - INFO - 
+[615/1000]
+2026-02-07 07:33:14,987 - INFO - 取得中: Definium Therapeutics, Inc. (DFTX)
+2026-02-07 07:33:16,406 - INFO -   ✅ 取得完了: Definium Therapeutics, Inc.
+2026-02-07 07:33:18,407 - INFO - 
+[616/1000]
+2026-02-07 07:33:18,407 - INFO - 取得中: Dollar General Corporation (DG)
+2026-02-07 07:33:19,948 - INFO -   ✅ 取得完了: Dollar General Corporation
+2026-02-07 07:33:21,948 - INFO - 
+[617/1000]
+2026-02-07 07:33:21,948 - INFO - 取得中: Diageo plc (DGEAF)
+2026-02-07 07:33:23,426 - INFO -   ✅ 取得完了: Diageo plc
+2026-02-07 07:33:25,426 - INFO - 
+[618/1000]
+2026-02-07 07:33:25,426 - INFO - 取得中: Donegal Group Inc. (DGICA)
+2026-02-07 07:33:26,895 - INFO -   ✅ 取得完了: Donegal Group Inc.
+2026-02-07 07:33:28,896 - INFO - 
+[619/1000]
+2026-02-07 07:33:28,896 - INFO - 取得中: Donegal Group Inc. (DGICB)
+2026-02-07 07:33:30,409 - INFO -   ✅ 取得完了: Donegal Group Inc.
+2026-02-07 07:33:32,410 - INFO - 
+[620/1000]
+2026-02-07 07:33:32,410 - INFO - 取得中: Digi International Inc. (DGII)
+2026-02-07 07:33:33,847 - INFO -   ✅ 取得完了: Digi International Inc.
+2026-02-07 07:33:35,848 - INFO - 
+[621/1000]
+2026-02-07 07:33:35,848 - INFO - 取得中: Digital Domain Holdings Limited (DGMDF)
+2026-02-07 07:33:37,458 - INFO -   ✅ 取得完了: Digital Domain Holdings Limited
+2026-02-07 07:33:39,458 - INFO - 
+[622/1000]
+2026-02-07 07:33:39,458 - INFO - 取得中: Diginex Limited (DGNX)
+2026-02-07 07:33:41,233 - ERROR - $DGNX: possibly delisted; no price data found  (1d 2024-03-28 -> 2024-04-03) (Yahoo error = "Data doesn't exist for startDate = 1711598400, endDate = 1712116800")
+2026-02-07 07:33:41,242 - INFO -   ✅ 取得完了: Diginex Limited
+2026-02-07 07:33:43,242 - INFO - 
+[623/1000]
+2026-02-07 07:33:43,243 - INFO - 取得中: DB Gold Double Long ETN (DGP)
+2026-02-07 07:33:44,321 - INFO -   ✅ 取得完了: DB Gold Double Long ETN
+2026-02-07 07:33:46,321 - INFO - 
+[624/1000]
+2026-02-07 07:33:46,321 - INFO - 取得中: DIGITAL ASSET TECHNOLOGIES INC. (DGTEF)
+2026-02-07 07:33:47,740 - INFO -   ✅ 取得完了: DIGITAL ASSET TECHNOLOGIES INC.
+2026-02-07 07:33:49,740 - INFO - 
+[625/1000]
+2026-02-07 07:33:49,740 - INFO - 取得中: Quest Diagnostics Incorporated (DGX)
+2026-02-07 07:33:51,246 - INFO -   ✅ 取得完了: Quest Diagnostics Incorporated
+2026-02-07 07:33:53,246 - INFO - 
+[626/1000]
+2026-02-07 07:33:53,246 - INFO - 取得中: Digi Power X Inc. (DGXX)
+2026-02-07 07:33:54,867 - INFO -   ✅ 取得完了: Digi Power X Inc.
+2026-02-07 07:33:56,868 - INFO - 
+[627/1000]
+2026-02-07 07:33:56,868 - INFO - 取得中: DB Gold Short ETN (DGZ)
+2026-02-07 07:33:58,087 - INFO -   ✅ 取得完了: DB Gold Short ETN
+2026-02-07 07:34:00,088 - INFO - 
+[628/1000]
+2026-02-07 07:34:00,088 - INFO - 取得中: Definitive Healthcare Corp. (DH)
+2026-02-07 07:34:01,519 - INFO -   ✅ 取得完了: Definitive Healthcare Corp.
+2026-02-07 07:34:03,520 - INFO - 
+[629/1000]
+2026-02-07 07:34:03,520 - INFO - 取得中: Diversified Healthcare Trust (DHC)
+2026-02-07 07:34:05,148 - INFO -   ✅ 取得完了: Diversified Healthcare Trust
+2026-02-07 07:34:07,148 - INFO - 
+[630/1000]
+2026-02-07 07:34:07,148 - INFO - 取得中: Diversified Healthcare Trust  - (DHCNI)
+2026-02-07 07:34:08,213 - INFO -   ✅ 取得完了: Diversified Healthcare Trust  -
+2026-02-07 07:34:10,214 - INFO - 
+[631/1000]
+2026-02-07 07:34:10,214 - INFO - 取得中: Diversified Healthcare Trust (DHCNL)
+2026-02-07 07:34:11,260 - INFO -   ✅ 取得完了: Diversified Healthcare Trust
+2026-02-07 07:34:13,260 - INFO - 
+[632/1000]
+2026-02-07 07:34:13,261 - INFO - 取得中: BNY Mellon High Yield Strategies Fund (DHF)
+2026-02-07 07:34:14,766 - INFO -   ✅ 取得完了: BNY Mellon High Yield Strategies Fund
+2026-02-07 07:34:16,767 - INFO - 
+[633/1000]
+2026-02-07 07:34:16,767 - INFO - 取得中: D.R. Horton, Inc. (DHI)
+2026-02-07 07:34:18,273 - INFO -   ✅ 取得完了: D.R. Horton, Inc.
+2026-02-07 07:34:20,274 - INFO - 
+[634/1000]
+2026-02-07 07:34:20,274 - INFO - 取得中: Diamond Hill Investment Group, Inc. (DHIL)
+2026-02-07 07:34:21,849 - INFO -   ✅ 取得完了: Diamond Hill Investment Group, Inc.
+2026-02-07 07:34:23,849 - INFO - 
+[635/1000]
+2026-02-07 07:34:23,849 - INFO - 取得中: Danaher Corporation (DHR)
+2026-02-07 07:34:25,302 - INFO -   ✅ 取得完了: Danaher Corporation
+2026-02-07 07:34:27,302 - INFO - 
+[636/1000]
+2026-02-07 07:34:27,302 - INFO - 取得中: DHT Holdings, Inc. (DHT)
+2026-02-07 07:34:28,889 - INFO -   ✅ 取得完了: DHT Holdings, Inc.
+2026-02-07 07:34:30,889 - INFO - 
+[637/1000]
+2026-02-07 07:34:30,889 - INFO - 取得中: Dalrada Technology Group Inc. (DHTI)
+2026-02-07 07:34:32,438 - INFO -   ✅ 取得完了: Dalrada Technology Group Inc.
+2026-02-07 07:34:34,439 - INFO - 
+[638/1000]
+2026-02-07 07:34:34,439 - INFO - 取得中: DHI Group, Inc. (DHX)
+2026-02-07 07:34:35,882 - INFO -   ✅ 取得完了: DHI Group, Inc.
+2026-02-07 07:34:37,882 - INFO - 
+[639/1000]
+2026-02-07 07:34:37,882 - INFO - 取得中: Credit Suisse High Yield Credit Fund (DHY)
+2026-02-07 07:34:39,569 - INFO -   ✅ 取得完了: Credit Suisse High Yield Credit Fund
+2026-02-07 07:34:41,569 - INFO - 
+[640/1000]
+2026-02-07 07:34:41,569 - INFO - 取得中: SPDR Dow Jones Industrial Average ETF Trust (DIA)
+2026-02-07 07:34:42,659 - INFO -   ✅ 取得完了: SPDR Dow Jones Industrial Average ETF Trust
+2026-02-07 07:34:44,660 - INFO - 
+[641/1000]
+2026-02-07 07:34:44,660 - INFO - 取得中: Nuveen Dow 30 Dynamic Overwrite Fund (DIAX)
+2026-02-07 07:34:46,032 - INFO -   ✅ 取得完了: Nuveen Dow 30 Dynamic Overwrite Fund
+2026-02-07 07:34:48,033 - INFO - 
+[642/1000]
+2026-02-07 07:34:48,033 - INFO - 取得中: 1stdibs.Com, Inc. (DIBS)
+2026-02-07 07:34:49,454 - INFO -   ✅ 取得完了: 1stdibs.Com, Inc.
+2026-02-07 07:34:51,454 - INFO - 
+[643/1000]
+2026-02-07 07:34:51,454 - INFO - 取得中: DiDi Global Inc. (DIDIY)
+2026-02-07 07:34:52,863 - INFO -   ✅ 取得完了: DiDi Global Inc.
+2026-02-07 07:34:54,863 - INFO - 
+[644/1000]
+2026-02-07 07:34:54,864 - INFO - 取得中: Dine Brands Global, Inc. (DIN)
+2026-02-07 07:34:56,408 - INFO -   ✅ 取得完了: Dine Brands Global, Inc.
+2026-02-07 07:34:58,408 - INFO - 
+[645/1000]
+2026-02-07 07:34:58,408 - INFO - 取得中: HF Sinclair Corporation (DINO)
+2026-02-07 07:35:00,037 - INFO -   ✅ 取得完了: HF Sinclair Corporation
+2026-02-07 07:35:02,037 - INFO - 
+[646/1000]
+2026-02-07 07:35:02,037 - INFO - 取得中: SCREEN Holdings Co., Ltd. (DINRF)
+2026-02-07 07:35:03,525 - INFO -   ✅ 取得完了: SCREEN Holdings Co., Ltd.
+2026-02-07 07:35:05,525 - INFO - 
+[647/1000]
+2026-02-07 07:35:05,525 - INFO - 取得中: Diodes Incorporated (DIOD)
+2026-02-07 07:35:06,879 - INFO -   ✅ 取得完了: Diodes Incorporated
+2026-02-07 07:35:08,880 - INFO - 
+[648/1000]
+2026-02-07 07:35:08,880 - INFO - 取得中: The Walt Disney Company (DIS)
+2026-02-07 07:35:10,631 - INFO -   ✅ 取得完了: The Walt Disney Company
+2026-02-07 07:35:12,631 - INFO - 
+[649/1000]
+2026-02-07 07:35:12,632 - INFO - 取得中: AMCON Distributing Company (DIT)
+2026-02-07 07:35:14,232 - INFO -   ✅ 取得完了: AMCON Distributing Company
+2026-02-07 07:35:16,232 - INFO - 
+[650/1000]
+2026-02-07 07:35:16,233 - INFO - 取得中: Daily Journal Corporation (DJCO)
+2026-02-07 07:35:17,658 - INFO -   ✅ 取得完了: Daily Journal Corporation
+2026-02-07 07:35:19,659 - INFO - 
+[651/1000]
+2026-02-07 07:35:19,659 - INFO - 取得中: iPath Bloomberg Commodity Index Total Return(SM) ETN (DJP)
+2026-02-07 07:35:20,862 - INFO -   ✅ 取得完了: iPath Bloomberg Commodity Index Total Return(SM) ETN
+2026-02-07 07:35:22,862 - INFO - 
+[652/1000]
+2026-02-07 07:35:22,862 - INFO - 取得中: Trump Media & Technology Group Corp. (DJT)
+2026-02-07 07:35:24,250 - INFO -   ✅ 取得完了: Trump Media & Technology Group Corp.
+2026-02-07 07:35:26,250 - INFO - 
+[653/1000]
+2026-02-07 07:35:26,250 - INFO - 取得中: Trump Media & Technology Group Corp. (DJTWW)
+2026-02-07 07:35:27,850 - ERROR - $DJTWW: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 07:35:27,858 - INFO -   ✅ 取得完了: Trump Media & Technology Group Corp.
+2026-02-07 07:35:29,859 - INFO - 
+[654/1000]
+2026-02-07 07:35:29,859 - INFO - 取得中: Delek US Holdings, Inc. (DK)
+2026-02-07 07:35:31,295 - INFO -   ✅ 取得完了: Delek US Holdings, Inc.
+2026-02-07 07:35:33,295 - INFO - 
+[655/1000]
+2026-02-07 07:35:33,295 - INFO - 取得中: Darkiris Inc. (DKI)
+2026-02-07 07:35:35,171 - ERROR - $DKI: possibly delisted; no price data found  (1d 2024-09-27 -> 2024-10-03) (Yahoo error = "Data doesn't exist for startDate = 1727409600, endDate = 1727928000")
+2026-02-07 07:35:35,179 - INFO -   ✅ 取得完了: Darkiris Inc.
+2026-02-07 07:35:37,179 - INFO - 
+[656/1000]
+2026-02-07 07:35:37,179 - INFO - 取得中: Daikin Industries,Ltd. (DKILF)
+2026-02-07 07:35:38,566 - INFO -   ✅ 取得完了: Daikin Industries,Ltd.
+2026-02-07 07:35:40,566 - INFO - 
+[657/1000]
+2026-02-07 07:35:40,566 - INFO - 取得中: Delek Logistics Partners, LP (DKL)
+2026-02-07 07:35:42,102 - INFO -   ✅ 取得完了: Delek Logistics Partners, LP
+2026-02-07 07:35:44,102 - INFO - 
+[658/1000]
+2026-02-07 07:35:44,103 - INFO - 取得中: DraftKings Inc. (DKNG)
+2026-02-07 07:35:45,591 - INFO -   ✅ 取得完了: DraftKings Inc.
+2026-02-07 07:35:47,591 - INFO - 
+[659/1000]
+2026-02-07 07:35:47,591 - INFO - 取得中: DICK'S Sporting Goods, Inc. (DKS)
+2026-02-07 07:35:49,008 - INFO -   ✅ 取得完了: DICK'S Sporting Goods, Inc.
+2026-02-07 07:35:51,009 - INFO - 
+[660/1000]
+2026-02-07 07:35:51,009 - INFO - 取得中: Deutsche Lufthansa AG (DLAKF)
+2026-02-07 07:35:52,420 - INFO -   ✅ 取得完了: Deutsche Lufthansa AG
+2026-02-07 07:35:54,420 - INFO - 
+[661/1000]
+2026-02-07 07:35:54,420 - INFO - 取得中: Deutsche Lufthansa AG (DLAKY)
+2026-02-07 07:35:55,859 - INFO -   ✅ 取得完了: Deutsche Lufthansa AG
+2026-02-07 07:35:57,859 - INFO - 
+[662/1000]
+2026-02-07 07:35:57,859 - INFO - 取得中: Dolby Laboratories, Inc. (DLB)
+2026-02-07 07:35:59,348 - INFO -   ✅ 取得完了: Dolby Laboratories, Inc.
+2026-02-07 07:36:01,349 - INFO - 
+[663/1000]
+2026-02-07 07:36:01,349 - INFO - 取得中: DLH Holdings Corp. (DLHC)
+2026-02-07 07:36:02,751 - INFO -   ✅ 取得完了: DLH Holdings Corp.
+2026-02-07 07:36:04,751 - INFO - 
+[664/1000]
+2026-02-07 07:36:04,751 - INFO - 取得中: Dollarama Inc. (DLMAF)
+2026-02-07 07:36:06,128 - INFO -   ✅ 取得完了: Dollarama Inc.
+2026-02-07 07:36:08,128 - INFO - 
+[665/1000]
+2026-02-07 07:36:08,129 - INFO - 取得中: Dollarama, Inc. (DLMAY)
+2026-02-07 07:36:09,707 - ERROR - $DLMAY: possibly delisted; no price data found  (1d 2024-01-28 -> 2024-02-03) (Yahoo error = "Data doesn't exist for startDate = 1706418000, endDate = 1706936400")
+2026-02-07 07:36:09,716 - INFO -   ✅ 取得完了: Dollarama, Inc.
+2026-02-07 07:36:11,716 - INFO - 
+[666/1000]
+2026-02-07 07:36:11,716 - INFO - 取得中: Dynagas LNG Partners LP (DLNG)
+2026-02-07 07:36:13,154 - INFO -   ✅ 取得完了: Dynagas LNG Partners LP
+2026-02-07 07:36:15,154 - INFO - 
+[667/1000]
+2026-02-07 07:36:15,154 - INFO - 取得中: Dynagas LNG Partners LP (DLNG-PA)
+2026-02-07 07:36:16,360 - INFO -   ✅ 取得完了: Dynagas LNG Partners LP
+2026-02-07 07:36:18,361 - INFO - 
+[668/1000]
+2026-02-07 07:36:18,361 - INFO - 取得中: DLocal Limited (DLO)
+2026-02-07 07:36:19,866 - INFO -   ✅ 取得完了: DLocal Limited
+2026-02-07 07:36:21,866 - INFO - 
+[669/1000]
+2026-02-07 07:36:21,866 - INFO - 取得中: Dolphin Entertainment, Inc. (DLPN)
+2026-02-07 07:36:23,201 - INFO -   ✅ 取得完了: Dolphin Entertainment, Inc.
+2026-02-07 07:36:25,202 - INFO - 
+[670/1000]
+2026-02-07 07:36:25,202 - INFO - 取得中: Digital Realty Trust, Inc. (DLR)
+2026-02-07 07:36:26,741 - INFO -   ✅ 取得完了: Digital Realty Trust, Inc.
+2026-02-07 07:36:28,742 - INFO - 
+[671/1000]
+2026-02-07 07:36:28,742 - INFO - 取得中: Digital Realty Trust, Inc. (DLR-PJ)
+2026-02-07 07:36:29,924 - INFO -   ✅ 取得完了: Digital Realty Trust, Inc.
+2026-02-07 07:36:31,925 - INFO - 
+[672/1000]
+2026-02-07 07:36:31,925 - INFO - 取得中: Digital Realty Trust, Inc. (DLR-PK)
+2026-02-07 07:36:33,157 - INFO -   ✅ 取得完了: Digital Realty Trust, Inc.
+2026-02-07 07:36:35,157 - INFO - 
+[673/1000]
+2026-02-07 07:36:35,157 - INFO - 取得中: Digital Realty Trust, Inc. (DLR-PL)
+2026-02-07 07:36:36,366 - INFO -   ✅ 取得完了: Digital Realty Trust, Inc.
+2026-02-07 07:36:38,367 - INFO - 
+[674/1000]
+2026-02-07 07:36:38,367 - INFO - 取得中: Duluth Holdings Inc. (DLTH)
+2026-02-07 07:36:39,954 - INFO -   ✅ 取得完了: Duluth Holdings Inc.
+2026-02-07 07:36:41,954 - INFO - 
+[675/1000]
+2026-02-07 07:36:41,954 - INFO - 取得中: Dollar Tree, Inc. (DLTR)
+2026-02-07 07:36:43,312 - INFO -   ✅ 取得完了: Dollar Tree, Inc.
+2026-02-07 07:36:45,313 - INFO - 
+[676/1000]
+2026-02-07 07:36:45,313 - INFO - 取得中: Deluxe Corporation (DLX)
+2026-02-07 07:36:46,829 - INFO -   ✅ 取得完了: Deluxe Corporation
+2026-02-07 07:36:48,829 - INFO - 
+[677/1000]
+2026-02-07 07:36:48,829 - INFO - 取得中: Delixy Holdings Limited (DLXY)
+2026-02-07 07:36:50,542 - ERROR - $DLXY: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 07:36:50,551 - INFO -   ✅ 取得完了: Delixy Holdings Limited
+2026-02-07 07:36:52,551 - INFO - 
+[678/1000]
+2026-02-07 07:36:52,551 - INFO - 取得中: DoubleLine Yield Opportunities Fund (DLY)
+2026-02-07 07:36:53,970 - INFO -   ✅ 取得完了: DoubleLine Yield Opportunities Fund
+2026-02-07 07:36:55,970 - INFO - 
+[679/1000]
+2026-02-07 07:36:55,970 - INFO - 取得中: Destra Multi-Alternative Fund (DMA)
+2026-02-07 07:36:57,429 - INFO -   ✅ 取得完了: Destra Multi-Alternative Fund
+2026-02-07 07:36:59,430 - INFO - 
+[680/1000]
+2026-02-07 07:36:59,430 - INFO - 取得中: Drugs Made In America Acquisition Corp. (DMAA)
+2026-02-07 07:37:00,611 - INFO -   ✅ 取得完了: Drugs Made In America Acquisition Corp.
+2026-02-07 07:37:02,611 - INFO - 
+[681/1000]
+2026-02-07 07:37:02,611 - INFO - 取得中: Drugs Made In America Acquisition Corp. (DMAAR)
+2026-02-07 07:37:03,839 - INFO -   ✅ 取得完了: Drugs Made In America Acquisition Corp.
+2026-02-07 07:37:05,839 - INFO - 
+[682/1000]
+2026-02-07 07:37:05,839 - INFO - 取得中: Drugs Made In America Acquisition Corp. (DMAAU)
+2026-02-07 07:37:07,412 - INFO -   ✅ 取得完了: Drugs Made In America Acquisition Corp.
+2026-02-07 07:37:09,412 - INFO - 
+[683/1000]
+2026-02-07 07:37:09,412 - INFO - 取得中: DiaMedica Therapeutics Inc. (DMAC)
+2026-02-07 07:37:10,972 - INFO -   ✅ 取得完了: DiaMedica Therapeutics Inc.
+2026-02-07 07:37:12,972 - INFO - 
+[684/1000]
+2026-02-07 07:37:12,972 - INFO - 取得中: BNY Mellon Municipal Bond Infrastructure Fund, Inc. (DMB)
+2026-02-07 07:37:14,453 - INFO -   ✅ 取得完了: BNY Mellon Municipal Bond Infrastructure Fund, Inc.
+2026-02-07 07:37:16,453 - INFO - 
+[685/1000]
+2026-02-07 07:37:16,453 - INFO - 取得中: Drugs Made In America Acquisition II Corp. (DMII)
+2026-02-07 07:37:17,561 - INFO -   ✅ 取得完了: Drugs Made In America Acquisition II Corp.
+2026-02-07 07:37:19,561 - INFO - 
+[686/1000]
+2026-02-07 07:37:19,561 - INFO - 取得中: Drugs Made In America Acquisition II Corp. (DMIIR)
+2026-02-07 07:37:20,642 - INFO -   ✅ 取得完了: Drugs Made In America Acquisition II Corp.
+2026-02-07 07:37:22,643 - INFO - 
+[687/1000]
+2026-02-07 07:37:22,643 - INFO - 取得中: Drugs Made In America Acquisition II Corp. (DMIIU)
+2026-02-07 07:37:23,873 - INFO -   ✅ 取得完了: Drugs Made In America Acquisition II Corp.
+2026-02-07 07:37:25,874 - INFO - 
+[688/1000]
+2026-02-07 07:37:25,874 - INFO - 取得中: Dorchester Minerals, L.P. (DMLP)
+2026-02-07 07:37:27,248 - INFO -   ✅ 取得完了: Dorchester Minerals, L.P.
+2026-02-07 07:37:29,248 - INFO - 
+[689/1000]
+2026-02-07 07:37:29,248 - INFO - 取得中: Damon Inc. (DMNIF)
+2026-02-07 07:37:30,874 - ERROR - $DMNIF: possibly delisted; no price data found  (1d 2024-06-27 -> 2024-07-03) (Yahoo error = "Data doesn't exist for startDate = 1719460800, endDate = 1719979200")
+2026-02-07 07:37:30,884 - INFO -   ✅ 取得完了: Damon Inc.
+2026-02-07 07:37:32,884 - INFO - 
+[690/1000]
+2026-02-07 07:37:32,884 - INFO - 取得中: DMNT (DMNT)
+2026-02-07 07:37:33,974 - INFO -   ✅ 取得完了: DMNT
+2026-02-07 07:37:35,975 - INFO - 
+[691/1000]
+2026-02-07 07:37:35,975 - INFO - 取得中: Western Asset Mortgage Opportunity Fund Inc. (DMO)
+2026-02-07 07:37:37,407 - INFO -   ✅ 取得完了: Western Asset Mortgage Opportunity Fund Inc.
+2026-02-07 07:37:39,408 - INFO - 
+[692/1000]
+2026-02-07 07:37:39,408 - INFO - 取得中: Digimarc Corporation (DMRC)
+2026-02-07 07:37:40,787 - INFO -   ✅ 取得完了: Digimarc Corporation
+2026-02-07 07:37:42,787 - INFO - 
+[693/1000]
+2026-02-07 07:37:42,787 - INFO - 取得中: District Metals Corp. (DMXCF)
+2026-02-07 07:37:44,141 - INFO -   ✅ 取得完了: District Metals Corp.
+2026-02-07 07:37:46,142 - INFO - 
+[694/1000]
+2026-02-07 07:37:46,142 - INFO - 取得中: dMY Squared Technology Group, Inc. (DMYY)
+2026-02-07 07:37:47,462 - INFO -   ✅ 取得完了: dMY Squared Technology Group, Inc.
+2026-02-07 07:37:49,463 - INFO - 
+[695/1000]
+2026-02-07 07:37:49,463 - INFO - 取得中: DMYYU (DMYYU)
+2026-02-07 07:37:50,602 - INFO -   ✅ 取得完了: DMYYU
+2026-02-07 07:37:52,602 - INFO - 
+[696/1000]
+2026-02-07 07:37:52,602 - INFO - 取得中: dMY Squared Technology Group, Inc. (DMYYW)
+2026-02-07 07:37:53,880 - INFO -   ✅ 取得完了: dMY Squared Technology Group, Inc.
+2026-02-07 07:37:55,881 - INFO - 
+[697/1000]
+2026-02-07 07:37:55,881 - INFO - 取得中: Ginkgo Bioworks Holdings, Inc. (DNA)
+2026-02-07 07:37:57,312 - INFO -   ✅ 取得完了: Ginkgo Bioworks Holdings, Inc.
+2026-02-07 07:37:59,313 - INFO - 
+[698/1000]
+2026-02-07 07:37:59,313 - INFO - 取得中: Ginkgo Bioworks Holdings, Inc. (DNABW)
+2026-02-07 07:38:00,686 - INFO -   ✅ 取得完了: Ginkgo Bioworks Holdings, Inc.
+2026-02-07 07:38:02,686 - INFO - 
+[699/1000]
+2026-02-07 07:38:02,686 - INFO - 取得中: DeNA Co., Ltd. (DNACF)
+2026-02-07 07:38:04,219 - INFO -   ✅ 取得完了: DeNA Co., Ltd.
+2026-02-07 07:38:06,220 - INFO - 
+[700/1000]
+2026-02-07 07:38:06,220 - INFO - 取得中: DNCLY (DNCLY)
+2026-02-07 07:38:07,278 - INFO -   ✅ 取得完了: DNCLY
+2026-02-07 07:38:09,278 - INFO - 
+[701/1000]
+2026-02-07 07:38:09,278 - INFO - 取得中: DNJF (DNJF)
+2026-02-07 07:38:10,320 - INFO -   ✅ 取得完了: DNJF
+2026-02-07 07:38:12,320 - INFO - 
+[702/1000]
+2026-02-07 07:38:12,320 - INFO - 取得中: Denali Therapeutics Inc. (DNLI)
+2026-02-07 07:38:13,695 - INFO -   ✅ 取得完了: Denali Therapeutics Inc.
+2026-02-07 07:38:15,695 - INFO - 
+[703/1000]
+2026-02-07 07:38:15,695 - INFO - 取得中: Dynamix Corporation III (DNMX)
+2026-02-07 07:38:16,882 - INFO -   ✅ 取得完了: Dynamix Corporation III
+2026-02-07 07:38:18,882 - INFO - 
+[704/1000]
+2026-02-07 07:38:18,882 - INFO - 取得中: Dynamix Corporation III (DNMXU)
+2026-02-07 07:38:20,101 - INFO -   ✅ 取得完了: Dynamix Corporation III
+2026-02-07 07:38:22,101 - INFO - 
+[705/1000]
+2026-02-07 07:38:22,101 - INFO - 取得中: Dynamix Corporation III (DNMXW)
+2026-02-07 07:38:23,386 - INFO -   ✅ 取得完了: Dynamix Corporation III
+2026-02-07 07:38:25,387 - INFO - 
+[706/1000]
+2026-02-07 07:38:25,387 - INFO - 取得中: Denison Mines Corp. (DNN)
+2026-02-07 07:38:26,835 - INFO -   ✅ 取得完了: Denison Mines Corp.
+2026-02-07 07:38:28,835 - INFO - 
+[707/1000]
+2026-02-07 07:38:28,835 - INFO - 取得中: Dino Polska S.A. (DNOPF)
+2026-02-07 07:38:30,288 - INFO -   ✅ 取得完了: Dino Polska S.A.
+2026-02-07 07:38:32,288 - INFO - 
+[708/1000]
+2026-02-07 07:38:32,288 - INFO - 取得中: DNOW Inc. (DNOW)
+2026-02-07 07:38:33,678 - INFO -   ✅ 取得完了: DNOW Inc.
+2026-02-07 07:38:35,678 - INFO - 
+[709/1000]
+2026-02-07 07:38:35,679 - INFO - 取得中: DNP Select Income Fund Inc. (DNP)
+2026-02-07 07:38:37,283 - INFO -   ✅ 取得完了: DNP Select Income Fund Inc.
+2026-02-07 07:38:39,283 - INFO - 
+[710/1000]
+2026-02-07 07:38:39,283 - INFO - 取得中: Dianthus Therapeutics, Inc. (DNTH)
+2026-02-07 07:38:40,680 - INFO -   ✅ 取得完了: Dianthus Therapeutics, Inc.
+2026-02-07 07:38:42,680 - INFO - 
+[711/1000]
+2026-02-07 07:38:42,680 - INFO - 取得中: Krispy Kreme, Inc. (DNUT)
+2026-02-07 07:38:44,259 - INFO -   ✅ 取得完了: Krispy Kreme, Inc.
+2026-02-07 07:38:46,259 - INFO - 
+[712/1000]
+2026-02-07 07:38:46,259 - INFO - 取得中: Healthpeak Properties, Inc. (DOC)
+2026-02-07 07:38:47,891 - INFO -   ✅ 取得完了: Healthpeak Properties, Inc.
+2026-02-07 07:38:49,892 - INFO - 
+[713/1000]
+2026-02-07 07:38:49,892 - INFO - 取得中: DigitalOcean Holdings, Inc. (DOCN)
+2026-02-07 07:38:51,301 - INFO -   ✅ 取得完了: DigitalOcean Holdings, Inc.
+2026-02-07 07:38:53,302 - INFO - 
+[714/1000]
+2026-02-07 07:38:53,302 - INFO - 取得中: Doximity, Inc. (DOCS)
+2026-02-07 07:38:54,810 - INFO -   ✅ 取得完了: Doximity, Inc.
+2026-02-07 07:38:56,810 - INFO - 
+[715/1000]
+2026-02-07 07:38:56,810 - INFO - 取得中: DocuSign, Inc. (DOCU)
+2026-02-07 07:38:58,153 - INFO -   ✅ 取得完了: DocuSign, Inc.
+2026-02-07 07:39:00,153 - INFO - 
+[716/1000]
+2026-02-07 07:39:00,153 - INFO - 取得中: Dogecoin Cash, Inc. (DOGP)
+2026-02-07 07:39:01,670 - INFO -   ✅ 取得完了: Dogecoin Cash, Inc.
+2026-02-07 07:39:03,671 - INFO - 
+[717/1000]
+2026-02-07 07:39:03,671 - INFO - 取得中: Dogness (International) Corporation (DOGZ)
+2026-02-07 07:39:05,156 - INFO -   ✅ 取得完了: Dogness (International) Corporation
+2026-02-07 07:39:07,156 - INFO - 
+[718/1000]
+2026-02-07 07:39:07,156 - INFO - 取得中: Dole plc (DOLE)
+2026-02-07 07:39:08,600 - INFO -   ✅ 取得完了: Dole plc
+2026-02-07 07:39:10,600 - INFO - 
+[719/1000]
+2026-02-07 07:39:10,600 - INFO - 取得中: Dominari Holdings Inc. (DOMH)
+2026-02-07 07:39:11,969 - INFO -   ✅ 取得完了: Dominari Holdings Inc.
+2026-02-07 07:39:13,970 - INFO - 
+[720/1000]
+2026-02-07 07:39:13,970 - INFO - 取得中: Domo, Inc. (DOMO)
+2026-02-07 07:39:15,360 - INFO -   ✅ 取得完了: Domo, Inc.
+2026-02-07 07:39:17,360 - INFO - 
+[721/1000]
+2026-02-07 07:39:17,360 - INFO - 取得中: BRP Inc. (DOO)
+2026-02-07 07:39:18,747 - INFO -   ✅ 取得完了: BRP Inc.
+2026-02-07 07:39:20,747 - INFO - 
+[722/1000]
+2026-02-07 07:39:20,747 - INFO - 取得中: Dorman Products, Inc. (DORM)
+2026-02-07 07:39:22,101 - INFO -   ✅ 取得完了: Dorman Products, Inc.
+2026-02-07 07:39:24,101 - INFO - 
+[723/1000]
+2026-02-07 07:39:24,102 - INFO - 取得中: DOT (DOT)
+2026-02-07 07:39:25,202 - INFO -   ✅ 取得完了: DOT
+2026-02-07 07:39:27,202 - INFO - 
+[724/1000]
+2026-02-07 07:39:27,202 - INFO - 取得中: Douglas Elliman Inc. (DOUG)
+2026-02-07 07:39:28,650 - INFO -   ✅ 取得完了: Douglas Elliman Inc.
+2026-02-07 07:39:30,650 - INFO - 
+[725/1000]
+2026-02-07 07:39:30,650 - INFO - 取得中: Dover Corporation (DOV)
+2026-02-07 07:39:32,135 - INFO -   ✅ 取得完了: Dover Corporation
+2026-02-07 07:39:34,136 - INFO - 
+[726/1000]
+2026-02-07 07:39:34,136 - INFO - 取得中: Dow Inc. (DOW)
+2026-02-07 07:39:35,676 - INFO -   ✅ 取得完了: Dow Inc.
+2026-02-07 07:39:37,677 - INFO - 
+[727/1000]
+2026-02-07 07:39:37,677 - INFO - 取得中: DOWWAY HOLDINGS LIMITED (DOWAY)
+2026-02-07 07:39:39,399 - ERROR - $DOWAY: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 07:39:39,407 - INFO -   ✅ 取得完了: DOWWAY HOLDINGS LIMITED
+2026-02-07 07:39:41,408 - INFO - 
+[728/1000]
+2026-02-07 07:39:41,408 - INFO - 取得中: Amdocs Limited (DOX)
+2026-02-07 07:39:42,812 - INFO -   ✅ 取得完了: Amdocs Limited
+2026-02-07 07:39:44,812 - INFO - 
+[729/1000]
+2026-02-07 07:39:44,812 - INFO - 取得中: DouYu International Holdings Limited (DOYU)
+2026-02-07 07:39:46,234 - INFO -   ✅ 取得完了: DouYu International Holdings Limited
+2026-02-07 07:39:48,235 - INFO - 
+[730/1000]
+2026-02-07 07:39:48,235 - INFO - 取得中: DPC DASH LTD (DPCDF)
+2026-02-07 07:39:49,585 - INFO -   ✅ 取得完了: DPC DASH LTD
+2026-02-07 07:39:51,585 - INFO - 
+[731/1000]
+2026-02-07 07:39:51,586 - INFO - 取得中: DPDSY (DPDSY)
+2026-02-07 07:39:52,690 - INFO -   ✅ 取得完了: DPDSY
+2026-02-07 07:39:54,690 - INFO - 
+[732/1000]
+2026-02-07 07:39:54,690 - INFO - 取得中: Duff & Phelps Utility and Infrastructure Fund Inc. (DPG)
+2026-02-07 07:39:56,201 - INFO -   ✅ 取得完了: Duff & Phelps Utility and Infrastructure Fund Inc.
+2026-02-07 07:39:58,201 - INFO - 
+[733/1000]
+2026-02-07 07:39:58,201 - INFO - 取得中: Diploma PLC (DPLMF)
+2026-02-07 07:39:59,694 - INFO -   ✅ 取得完了: Diploma PLC
+2026-02-07 07:40:01,694 - INFO - 
+[734/1000]
+2026-02-07 07:40:01,694 - INFO - 取得中: DarkPulse, Inc. (DPLS)
+2026-02-07 07:40:03,096 - INFO -   ✅ 取得完了: DarkPulse, Inc.
+2026-02-07 07:40:05,096 - INFO - 
+[735/1000]
+2026-02-07 07:40:05,097 - INFO - 取得中: Draganfly Inc. (DPRO)
+2026-02-07 07:40:06,589 - INFO -   ✅ 取得完了: Draganfly Inc.
+2026-02-07 07:40:08,590 - INFO - 
+[736/1000]
+2026-02-07 07:40:08,590 - INFO - 取得中: Discount Print USA, Inc. (DPUI)
+2026-02-07 07:40:09,717 - INFO -   ✅ 取得完了: Discount Print USA, Inc.
+2026-02-07 07:40:11,717 - INFO - 
+[737/1000]
+2026-02-07 07:40:11,717 - INFO - 取得中: Domino's Pizza, Inc. (DPZ)
+2026-02-07 07:40:13,227 - INFO -   ✅ 取得完了: Domino's Pizza, Inc.
+2026-02-07 07:40:15,228 - INFO - 
+[738/1000]
+2026-02-07 07:40:15,228 - INFO - 取得中: Daqo New Energy Corp. (DQ)
+2026-02-07 07:40:16,635 - INFO -   ✅ 取得完了: Daqo New Energy Corp.
+2026-02-07 07:40:18,635 - INFO - 
+[739/1000]
+2026-02-07 07:40:18,635 - INFO - 取得中: Pan Pacific International Holdings Corporation (DQJCF)
+2026-02-07 07:40:20,189 - INFO -   ✅ 取得完了: Pan Pacific International Holdings Corporation
+2026-02-07 07:40:22,189 - INFO - 
+[740/1000]
+2026-02-07 07:40:22,189 - INFO - 取得中: DSwiss, Inc. (DQWS)
+2026-02-07 07:40:23,590 - INFO -   ✅ 取得完了: DSwiss, Inc.
+2026-02-07 07:40:25,591 - INFO - 
+[741/1000]
+2026-02-07 07:40:25,591 - INFO - 取得中: Direct Digital Holdings, Inc. (DRCT)
+2026-02-07 07:40:27,014 - INFO -   ✅ 取得完了: Direct Digital Holdings, Inc.
+2026-02-07 07:40:29,015 - INFO - 
+[742/1000]
+2026-02-07 07:40:29,015 - INFO - 取得中: DRDGOLD Limited (DRD)
+2026-02-07 07:40:30,481 - INFO -   ✅ 取得完了: DRDGOLD Limited
+2026-02-07 07:40:32,481 - INFO - 
+[743/1000]
+2026-02-07 07:40:32,481 - INFO - 取得中: Roman DBDR Acquisition Corp. II (DRDB)
+2026-02-07 07:40:33,569 - INFO -   ✅ 取得完了: Roman DBDR Acquisition Corp. II
+2026-02-07 07:40:35,569 - INFO - 
+[744/1000]
+2026-02-07 07:40:35,569 - INFO - 取得中: Roman DBDR Acquisition Corp. II (DRDBU)
+2026-02-07 07:40:36,744 - INFO -   ✅ 取得完了: Roman DBDR Acquisition Corp. II
+2026-02-07 07:40:38,744 - INFO - 
+[745/1000]
+2026-02-07 07:40:38,745 - INFO - 取得中: Roman DBDR Acquisition Corp. II (DRDBW)
+2026-02-07 07:40:40,000 - INFO -   ✅ 取得完了: Roman DBDR Acquisition Corp. II
+2026-02-07 07:40:42,000 - INFO - 
+[746/1000]
+2026-02-07 07:40:42,000 - INFO - 取得中: DRDGOLD Limited (DRDGF)
+2026-02-07 07:40:43,389 - INFO -   ✅ 取得完了: DRDGOLD Limited
+2026-02-07 07:40:45,390 - INFO - 
+[747/1000]
+2026-02-07 07:40:45,390 - INFO - 取得中: Dream Homes & Development Corporation (DREM)
+2026-02-07 07:40:46,901 - INFO -   ✅ 取得完了: Dream Homes & Development Corporation
+2026-02-07 07:40:48,901 - INFO - 
+[748/1000]
+2026-02-07 07:40:48,902 - INFO - 取得中: DiamondRock Hospitality Company (DRH)
+2026-02-07 07:40:50,508 - INFO -   ✅ 取得完了: DiamondRock Hospitality Company
+2026-02-07 07:40:52,508 - INFO - 
+[749/1000]
+2026-02-07 07:40:52,508 - INFO - 取得中: Darden Restaurants, Inc. (DRI)
+2026-02-07 07:40:54,004 - INFO -   ✅ 取得完了: Darden Restaurants, Inc.
+2026-02-07 07:40:56,005 - INFO - 
+[750/1000]
+2026-02-07 07:40:56,005 - INFO - 取得中: DarioHealth Corp. (DRIO)
+2026-02-07 07:40:57,354 - INFO -   ✅ 取得完了: DarioHealth Corp.
+2026-02-07 07:40:59,354 - INFO - 
+[751/1000]
+2026-02-07 07:40:59,354 - INFO - 取得中: Dermata Therapeutics, Inc. (DRMA)
+2026-02-07 07:41:00,704 - INFO -   ✅ 取得完了: Dermata Therapeutics, Inc.
+2026-02-07 07:41:02,705 - INFO - 
+[752/1000]
+2026-02-07 07:41:02,705 - INFO - 取得中: Dermata Therapeutics, Inc. (DRMAW)
+2026-02-07 07:41:03,910 - INFO -   ✅ 取得完了: Dermata Therapeutics, Inc.
+2026-02-07 07:41:05,910 - INFO - 
+[753/1000]
+2026-02-07 07:41:05,910 - INFO - 取得中: Dror Ortho-Design, Inc. (DROR)
+2026-02-07 07:41:07,404 - INFO -   ✅ 取得完了: Dror Ortho-Design, Inc.
+2026-02-07 07:41:09,404 - INFO - 
+[754/1000]
+2026-02-07 07:41:09,404 - INFO - 取得中: dormakaba Holding AG (DRRKF)
+2026-02-07 07:41:10,989 - INFO -   ✅ 取得完了: dormakaba Holding AG
+2026-02-07 07:41:12,990 - INFO - 
+[755/1000]
+2026-02-07 07:41:12,990 - INFO - 取得中: Leonardo DRS, Inc. (DRS)
+2026-02-07 07:41:14,372 - INFO -   ✅ 取得完了: Leonardo DRS, Inc.
+2026-02-07 07:41:16,372 - INFO - 
+[756/1000]
+2026-02-07 07:41:16,372 - INFO - 取得中: DroneShield Limited (DRSHF)
+2026-02-07 07:41:17,841 - INFO -   ✅ 取得完了: DroneShield Limited
+2026-02-07 07:41:19,841 - INFO - 
+[757/1000]
+2026-02-07 07:41:19,841 - INFO - 取得中: Alpha Tau Medical Ltd. (DRTS)
+2026-02-07 07:41:21,386 - INFO -   ✅ 取得完了: Alpha Tau Medical Ltd.
+2026-02-07 07:41:23,387 - INFO - 
+[758/1000]
+2026-02-07 07:41:23,387 - INFO - 取得中: Alpha Tau Medical Ltd. (DRTSW)
+2026-02-07 07:41:24,555 - INFO -   ✅ 取得完了: Alpha Tau Medical Ltd.
+2026-02-07 07:41:26,555 - INFO - 
+[759/1000]
+2026-02-07 07:41:26,556 - INFO - 取得中: DIRTT Environmental Solutions Ltd. (DRTTF)
+2026-02-07 07:41:27,968 - INFO -   ✅ 取得完了: DIRTT Environmental Solutions Ltd.
+2026-02-07 07:41:29,968 - INFO - 
+[760/1000]
+2026-02-07 07:41:29,968 - INFO - 取得中: Bright Minds Biosciences Inc. (DRUG)
+2026-02-07 07:41:31,335 - INFO -   ✅ 取得完了: Bright Minds Biosciences Inc.
+2026-02-07 07:41:33,335 - INFO - 
+[761/1000]
+2026-02-07 07:41:33,335 - INFO - 取得中: Driven Brands Holdings Inc. (DRVN)
+2026-02-07 07:41:34,808 - INFO -   ✅ 取得完了: Driven Brands Holdings Inc.
+2026-02-07 07:41:36,809 - INFO - 
+[762/1000]
+2026-02-07 07:41:36,809 - INFO - 取得中: DRYDEN GOLD CORP. (DRYGF)
+2026-02-07 07:41:38,480 - ERROR - $DRYGF: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 07:41:38,487 - INFO -   ✅ 取得完了: DRYDEN GOLD CORP.
+2026-02-07 07:41:40,488 - INFO - 
+[763/1000]
+2026-02-07 07:41:40,488 - INFO - 取得中: Daedalus Special Acquisition Corp. (DSAC)
+2026-02-07 07:41:41,792 - INFO -   ✅ 取得完了: Daedalus Special Acquisition Corp.
+2026-02-07 07:41:43,792 - INFO - 
+[764/1000]
+2026-02-07 07:41:43,792 - INFO - 取得中: Daedalus Special Acquisition Corp. (DSACU)
+2026-02-07 07:41:44,920 - INFO -   ✅ 取得完了: Daedalus Special Acquisition Corp.
+2026-02-07 07:41:46,920 - INFO - 
+[765/1000]
+2026-02-07 07:41:46,920 - INFO - 取得中: Daiwa Securities Group Inc. (DSECF)
+2026-02-07 07:41:48,264 - INFO -   ✅ 取得完了: Daiwa Securities Group Inc.
+2026-02-07 07:41:50,265 - INFO - 
+[766/1000]
+2026-02-07 07:41:50,265 - INFO - 取得中: Daiwa Securities Group Inc. (DSEEY)
+2026-02-07 07:41:51,634 - INFO -   ✅ 取得完了: Daiwa Securities Group Inc.
+2026-02-07 07:41:53,634 - INFO - 
+[767/1000]
+2026-02-07 07:41:53,634 - INFO - 取得中: Design Therapeutics, Inc. (DSGN)
+2026-02-07 07:41:54,944 - INFO -   ✅ 取得完了: Design Therapeutics, Inc.
+2026-02-07 07:41:56,944 - INFO - 
+[768/1000]
+2026-02-07 07:41:56,944 - INFO - 取得中: Distribution Solutions Group, Inc. (DSGR)
+2026-02-07 07:41:58,448 - INFO -   ✅ 取得完了: Distribution Solutions Group, Inc.
+2026-02-07 07:42:00,448 - INFO - 
+[769/1000]
+2026-02-07 07:42:00,448 - INFO - 取得中: DSG Global Inc. (DSGT)
+2026-02-07 07:42:01,815 - INFO -   ✅ 取得完了: DSG Global Inc.
+2026-02-07 07:42:03,816 - INFO - 
+[770/1000]
+2026-02-07 07:42:03,816 - INFO - 取得中: The Descartes Systems Group Inc. (DSGX)
+2026-02-07 07:42:05,354 - INFO -   ✅ 取得完了: The Descartes Systems Group Inc.
+2026-02-07 07:42:07,355 - INFO - 
+[771/1000]
+2026-02-07 07:42:07,355 - INFO - 取得中: DoubleLine Income Solutions Fund (DSL)
+2026-02-07 07:42:08,685 - INFO -   ✅ 取得完了: DoubleLine Income Solutions Fund
+2026-02-07 07:42:10,685 - INFO - 
+[772/1000]
+2026-02-07 07:42:10,686 - INFO - 取得中: BNY Mellon Strategic Municipal Bond Fund, Inc. (DSM)
+2026-02-07 07:42:12,205 - INFO -   ✅ 取得完了: BNY Mellon Strategic Municipal Bond Fund, Inc.
+2026-02-07 07:42:14,205 - INFO - 
+[773/1000]
+2026-02-07 07:42:14,206 - INFO - 取得中: Destiny Media Technologies Inc. (DSNY)
+2026-02-07 07:42:15,645 - INFO -   ✅ 取得完了: Destiny Media Technologies Inc.
+2026-02-07 07:42:17,645 - INFO - 
+[774/1000]
+2026-02-07 07:42:17,645 - INFO - 取得中: Viant Technology Inc. (DSP)
+2026-02-07 07:42:19,212 - INFO -   ✅ 取得完了: Viant Technology Inc.
+2026-02-07 07:42:21,213 - INFO - 
+[775/1000]
+2026-02-07 07:42:21,213 - INFO - 取得中: DSRNY (DSRNY)
+2026-02-07 07:42:22,544 - INFO -   ✅ 取得完了: DSRNY
+2026-02-07 07:42:24,545 - INFO - 
+[776/1000]
+2026-02-07 07:42:24,545 - INFO - 取得中: DSS, Inc. (DSS)
+2026-02-07 07:42:25,952 - INFO -   ✅ 取得完了: DSS, Inc.
+2026-02-07 07:42:27,953 - INFO - 
+[777/1000]
+2026-02-07 07:42:27,953 - INFO - 取得中: BlackRock Debt Strategies Fund, Inc. (DSU)
+2026-02-07 07:42:29,420 - INFO -   ✅ 取得完了: BlackRock Debt Strategies Fund, Inc.
+2026-02-07 07:42:31,421 - INFO - 
+[778/1000]
+2026-02-07 07:42:31,421 - INFO - 取得中: Deswell Industries, Inc. (DSWL)
+2026-02-07 07:42:33,002 - INFO -   ✅ 取得完了: Deswell Industries, Inc.
+2026-02-07 07:42:35,003 - INFO - 
+[779/1000]
+2026-02-07 07:42:35,003 - INFO - 取得中: Diana Shipping Inc. (DSX)
+2026-02-07 07:42:36,429 - INFO -   ✅ 取得完了: Diana Shipping Inc.
+2026-02-07 07:42:38,429 - INFO - 
+[780/1000]
+2026-02-07 07:42:38,429 - INFO - 取得中: Diana Shipping Inc. (DSX-PB)
+2026-02-07 07:42:39,608 - INFO -   ✅ 取得完了: Diana Shipping Inc.
+2026-02-07 07:42:41,608 - INFO - 
+[781/1000]
+2026-02-07 07:42:41,608 - INFO - 取得中: Diana Shipping Inc. WT (DSX-WT)
+2026-02-07 07:42:42,786 - INFO -   ✅ 取得完了: Diana Shipping Inc. WT
+2026-02-07 07:42:44,787 - INFO - 
+[782/1000]
+2026-02-07 07:42:44,787 - INFO - 取得中: Big Tree Cloud Holdings Limited (DSY)
+2026-02-07 07:42:46,199 - INFO -   ✅ 取得完了: Big Tree Cloud Holdings Limited
+2026-02-07 07:42:48,200 - INFO - 
+[783/1000]
+2026-02-07 07:42:48,200 - INFO - 取得中: Big Tree Cloud Holdings Limited (DSYWW)
+2026-02-07 07:42:49,337 - INFO -   ✅ 取得完了: Big Tree Cloud Holdings Limited
+2026-02-07 07:42:51,338 - INFO - 
+[784/1000]
+2026-02-07 07:42:51,338 - INFO - 取得中: Dynatrace, Inc. (DT)
+2026-02-07 07:42:52,816 - INFO -   ✅ 取得完了: Dynatrace, Inc.
+2026-02-07 07:42:54,816 - INFO - 
+[785/1000]
+2026-02-07 07:42:54,816 - INFO - 取得中: DTE Energy Company 2020 Series  (DTB)
+2026-02-07 07:42:55,881 - INFO -   ✅ 取得完了: DTE Energy Company 2020 Series 
+2026-02-07 07:42:57,881 - INFO - 
+[786/1000]
+2026-02-07 07:42:57,881 - INFO - 取得中: Davis Commodities Limited (DTCK)
+2026-02-07 07:42:59,266 - INFO -   ✅ 取得完了: Davis Commodities Limited
+2026-02-07 07:43:01,266 - INFO - 
+[787/1000]
+2026-02-07 07:43:01,266 - INFO - 取得中: Datacentrex, Inc. (DTCX)
+2026-02-07 07:43:02,382 - INFO -   ✅ 取得完了: Datacentrex, Inc.
+2026-02-07 07:43:04,382 - INFO - 
+[788/1000]
+2026-02-07 07:43:04,382 - INFO - 取得中: DTDT (DTDT)
+2026-02-07 07:43:05,422 - INFO -   ✅ 取得完了: DTDT
+2026-02-07 07:43:07,422 - INFO - 
+[789/1000]
+2026-02-07 07:43:07,423 - INFO - 取得中: DTE Energy Company (DTE)
+2026-02-07 07:43:08,987 - INFO -   ✅ 取得完了: DTE Energy Company
+2026-02-07 07:43:10,987 - INFO - 
+[790/1000]
+2026-02-07 07:43:10,988 - INFO - 取得中: Deutsche Telekom AG (DTEGF)
+2026-02-07 07:43:12,355 - INFO -   ✅ 取得完了: Deutsche Telekom AG
+2026-02-07 07:43:14,356 - INFO - 
+[791/1000]
+2026-02-07 07:43:14,356 - INFO - 取得中: Deutsche Telekom AG (DTEGY)
+2026-02-07 07:43:15,896 - INFO -   ✅ 取得完了: Deutsche Telekom AG
+2026-02-07 07:43:17,897 - INFO - 
+[792/1000]
+2026-02-07 07:43:17,897 - INFO - 取得中: DTF Tax-Free Income 2028 Term Fund Inc. (DTF)
+2026-02-07 07:43:19,351 - INFO -   ✅ 取得完了: DTF Tax-Free Income 2028 Term Fund Inc.
+2026-02-07 07:43:21,351 - INFO - 
+[793/1000]
+2026-02-07 07:43:21,351 - INFO - 取得中: DTE Energy Company 2021 Series  (DTG)
+2026-02-07 07:43:22,416 - INFO -   ✅ 取得完了: DTE Energy Company 2021 Series 
+2026-02-07 07:43:24,416 - INFO - 
+[794/1000]
+2026-02-07 07:43:24,416 - INFO - 取得中: Digerati Technologies, Inc. (DTGI)
+2026-02-07 07:43:25,824 - INFO -   ✅ 取得完了: Digerati Technologies, Inc.
+2026-02-07 07:43:27,825 - INFO - 
+[795/1000]
+2026-02-07 07:43:27,825 - INFO - 取得中: Drilling Tools International Corporation (DTI)
+2026-02-07 07:43:29,428 - INFO -   ✅ 取得完了: Drilling Tools International Corporation
+2026-02-07 07:43:31,428 - INFO - 
+[796/1000]
+2026-02-07 07:43:31,429 - INFO - 取得中: Defense Technologies International Corp. (DTII)
+2026-02-07 07:43:33,004 - INFO -   ✅ 取得完了: Defense Technologies International Corp.
+2026-02-07 07:43:35,005 - INFO - 
+[797/1000]
+2026-02-07 07:43:35,005 - INFO - 取得中: Precision BioSciences, Inc. (DTIL)
+2026-02-07 07:43:36,477 - INFO -   ✅ 取得完了: Precision BioSciences, Inc.
+2026-02-07 07:43:38,477 - INFO - 
+[798/1000]
+2026-02-07 07:43:38,477 - INFO - 取得中: DTE Energy Company 2025 Series  (DTK)
+2026-02-07 07:43:39,714 - INFO -   ✅ 取得完了: DTE Energy Company 2025 Series 
+2026-02-07 07:43:41,714 - INFO - 
+[799/1000]
+2026-02-07 07:43:41,714 - INFO - 取得中: Brookfield DTLA Fund Office Trust Investor Inc. (DTLAP)
+2026-02-07 07:43:42,853 - INFO -   ✅ 取得完了: Brookfield DTLA Fund Office Trust Investor Inc.
+2026-02-07 07:43:44,854 - INFO - 
+[800/1000]
+2026-02-07 07:43:44,854 - INFO - 取得中: DT Midstream, Inc. (DTM)
+2026-02-07 07:43:46,213 - INFO -   ✅ 取得完了: DT Midstream, Inc.
+2026-02-07 07:43:48,213 - INFO - 
+[801/1000]
+2026-02-07 07:43:48,213 - INFO - 取得中: DT Cloud Star Acquisition Corporation (DTSQ)
+2026-02-07 07:43:49,987 - ERROR - $DTSQ: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 07:43:49,994 - INFO -   ✅ 取得完了: DT Cloud Star Acquisition Corporation
+2026-02-07 07:43:51,994 - INFO - 
+[802/1000]
+2026-02-07 07:43:51,994 - INFO - 取得中: DT Cloud Star Acquisition Corporation (DTSQR)
+2026-02-07 07:43:53,017 - INFO -   ✅ 取得完了: DT Cloud Star Acquisition Corporation
+2026-02-07 07:43:55,017 - INFO - 
+[803/1000]
+2026-02-07 07:43:55,017 - INFO - 取得中: DT Cloud Star Acquisition Corporation (DTSQU)
+2026-02-07 07:43:56,153 - INFO -   ✅ 取得完了: DT Cloud Star Acquisition Corporation
+2026-02-07 07:43:58,153 - INFO - 
+[804/1000]
+2026-02-07 07:43:58,154 - INFO - 取得中: Datasea Inc. (DTSS)
+2026-02-07 07:43:59,526 - INFO -   ✅ 取得完了: Datasea Inc.
+2026-02-07 07:44:01,526 - INFO - 
+[805/1000]
+2026-02-07 07:44:01,527 - INFO - 取得中: Data Storage Corporation (DTST)
+2026-02-07 07:44:02,871 - INFO -   ✅ 取得完了: Data Storage Corporation
+2026-02-07 07:44:04,871 - INFO - 
+[806/1000]
+2026-02-07 07:44:04,872 - INFO - 取得中: Data Storage Corporation (DTSTW)
+2026-02-07 07:44:06,036 - INFO -   ✅ 取得完了: Data Storage Corporation
+2026-02-07 07:44:08,036 - INFO - 
+[807/1000]
+2026-02-07 07:44:08,036 - INFO - 取得中: DTE Energy Company JR SUB DB 2017 E (DTW)
+2026-02-07 07:44:09,069 - INFO -   ✅ 取得完了: DTE Energy Company JR SUB DB 2017 E
+2026-02-07 07:44:11,069 - INFO - 
+[808/1000]
+2026-02-07 07:44:11,069 - INFO - 取得中: Dotz Nano Ltd. (DTZNY)
+2026-02-07 07:44:12,108 - INFO -   ✅ 取得完了: Dotz Nano Ltd.
+2026-02-07 07:44:14,108 - INFO - 
+[809/1000]
+2026-02-07 07:44:14,108 - INFO - 取得中: Dotz Nano Limited (DTZZF)
+2026-02-07 07:44:15,471 - INFO -   ✅ 取得完了: Dotz Nano Limited
+2026-02-07 07:44:17,472 - INFO - 
+[810/1000]
+2026-02-07 07:44:17,472 - INFO - 取得中: Duke Energy Corporation (DUK)
+2026-02-07 07:44:18,947 - INFO -   ✅ 取得完了: Duke Energy Corporation
+2026-02-07 07:44:20,947 - INFO - 
+[811/1000]
+2026-02-07 07:44:20,948 - INFO - 取得中: Duke Energy Corporation (DUK-PA)
+2026-02-07 07:44:22,237 - INFO -   ✅ 取得完了: Duke Energy Corporation
+2026-02-07 07:44:24,237 - INFO - 
+[812/1000]
+2026-02-07 07:44:24,237 - INFO - 取得中: Duke Energy Corporation 5.625%  (DUKB)
+2026-02-07 07:44:25,282 - INFO -   ✅ 取得完了: Duke Energy Corporation 5.625% 
+2026-02-07 07:44:27,282 - INFO - 
+[813/1000]
+2026-02-07 07:44:27,283 - INFO - 取得中: DUKE Robotics Corp. (DUKR)
+2026-02-07 07:44:28,672 - INFO -   ✅ 取得完了: DUKE Robotics Corp.
+2026-02-07 07:44:30,672 - INFO - 
+[814/1000]
+2026-02-07 07:44:30,672 - INFO - 取得中: MicroSectors Gold -3X Inverse Leveraged ETN (DULL)
+2026-02-07 07:44:31,730 - INFO -   ✅ 取得完了: MicroSectors Gold -3X Inverse Leveraged ETN
+2026-02-07 07:44:33,730 - INFO - 
+[815/1000]
+2026-02-07 07:44:33,730 - INFO - 取得中: Fangdd Network Group Ltd. (DUO)
+2026-02-07 07:44:35,141 - INFO -   ✅ 取得完了: Fangdd Network Group Ltd.
+2026-02-07 07:44:37,142 - INFO - 
+[816/1000]
+2026-02-07 07:44:37,142 - INFO - 取得中: Duolingo, Inc. (DUOL)
+2026-02-07 07:44:38,527 - INFO -   ✅ 取得完了: Duolingo, Inc.
+2026-02-07 07:44:40,528 - INFO - 
+[817/1000]
+2026-02-07 07:44:40,528 - INFO - 取得中: Duos Technologies Group, Inc. (DUOT)
+2026-02-07 07:44:41,907 - INFO -   ✅ 取得完了: Duos Technologies Group, Inc.
+2026-02-07 07:44:43,907 - INFO - 
+[818/1000]
+2026-02-07 07:44:43,908 - INFO - 取得中: DUTBF (DUTBF)
+2026-02-07 07:44:44,992 - INFO -   ✅ 取得完了: DUTBF
+2026-02-07 07:44:46,992 - INFO - 
+[819/1000]
+2026-02-07 07:44:46,992 - INFO - 取得中: DoubleVerify Holdings, Inc. (DV)
+2026-02-07 07:44:48,341 - INFO -   ✅ 取得完了: DoubleVerify Holdings, Inc.
+2026-02-07 07:44:50,341 - INFO - 
+[820/1000]
+2026-02-07 07:44:50,341 - INFO - 取得中: DaVita Inc. (DVA)
+2026-02-07 07:44:51,774 - INFO -   ✅ 取得完了: DaVita Inc.
+2026-02-07 07:44:53,775 - INFO - 
+[821/1000]
+2026-02-07 07:44:53,775 - INFO - 取得中: Dynavax Technologies Corporation (DVAX)
+2026-02-07 07:44:55,328 - INFO -   ✅ 取得完了: Dynavax Technologies Corporation
+2026-02-07 07:44:57,328 - INFO - 
+[822/1000]
+2026-02-07 07:44:57,329 - INFO - 取得中: Datavault AI Inc. (DVLT)
+2026-02-07 07:44:58,681 - INFO -   ✅ 取得完了: Datavault AI Inc.
+2026-02-07 07:45:00,681 - INFO - 
+[823/1000]
+2026-02-07 07:45:00,682 - INFO - 取得中: Devon Energy Corporation (DVN)
+2026-02-07 07:45:02,146 - INFO -   ✅ 取得完了: Devon Energy Corporation
+2026-02-07 07:45:04,147 - INFO - 
+[824/1000]
+2026-02-07 07:45:04,147 - INFO - 取得中: Dolly Varden Silver Corporation (DVS)
+2026-02-07 07:45:05,647 - INFO -   ✅ 取得完了: Dolly Varden Silver Corporation
+2026-02-07 07:45:07,648 - INFO - 
+[825/1000]
+2026-02-07 07:45:07,648 - INFO - 取得中: DriveItAway Holdings, Inc. (DWAY)
+2026-02-07 07:45:09,014 - INFO -   ✅ 取得完了: DriveItAway Holdings, Inc.
+2026-02-07 07:45:11,014 - INFO - 
+[826/1000]
+2026-02-07 07:45:11,014 - INFO - 取得中: Delhi Bank Corp. (DWNX)
+2026-02-07 07:45:12,482 - INFO -   ✅ 取得完了: Delhi Bank Corp.
+2026-02-07 07:45:14,483 - INFO - 
+[827/1000]
+2026-02-07 07:45:14,483 - INFO - 取得中: Dawson Geophysical Company (DWSN)
+2026-02-07 07:45:15,919 - INFO -   ✅ 取得完了: Dawson Geophysical Company
+2026-02-07 07:45:17,919 - INFO - 
+[828/1000]
+2026-02-07 07:45:17,919 - INFO - 取得中: Dogwood Therapeutics, Inc. (DWTX)
+2026-02-07 07:45:19,321 - INFO -   ✅ 取得完了: Dogwood Therapeutics, Inc.
+2026-02-07 07:45:21,321 - INFO - 
+[829/1000]
+2026-02-07 07:45:21,321 - INFO - 取得中: DWWYF (DWWYF)
+2026-02-07 07:45:22,390 - INFO -   ✅ 取得完了: DWWYF
+2026-02-07 07:45:24,390 - INFO - 
+[830/1000]
+2026-02-07 07:45:24,390 - INFO - 取得中: Dynex Capital, Inc. (DX)
+2026-02-07 07:45:25,855 - INFO -   ✅ 取得完了: Dynex Capital, Inc.
+2026-02-07 07:45:27,855 - INFO - 
+[831/1000]
+2026-02-07 07:45:27,855 - INFO - 取得中: Dynex Capital, Inc. (DX-PC)
+2026-02-07 07:45:29,033 - INFO -   ✅ 取得完了: Dynex Capital, Inc.
+2026-02-07 07:45:31,034 - INFO - 
+[832/1000]
+2026-02-07 07:45:31,034 - INFO - 取得中: DXC Technology Company (DXC)
+2026-02-07 07:45:32,663 - INFO -   ✅ 取得完了: DXC Technology Company
+2026-02-07 07:45:34,664 - INFO - 
+[833/1000]
+2026-02-07 07:45:34,664 - INFO - 取得中: DexCom, Inc. (DXCM)
+2026-02-07 07:45:36,098 - INFO -   ✅ 取得完了: DexCom, Inc.
+2026-02-07 07:45:38,098 - INFO - 
+[834/1000]
+2026-02-07 07:45:38,098 - INFO - 取得中: Eason Technology Limited (DXF)
+2026-02-07 07:45:39,657 - ERROR - $DXF: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 07:45:39,664 - INFO -   ✅ 取得完了: Eason Technology Limited
+2026-02-07 07:45:41,664 - INFO - 
+[835/1000]
+2026-02-07 07:45:41,664 - INFO - 取得中: Destination XL Group, Inc. (DXLG)
+2026-02-07 07:45:43,037 - INFO -   ✅ 取得完了: Destination XL Group, Inc.
+2026-02-07 07:45:45,038 - INFO - 
+[836/1000]
+2026-02-07 07:45:45,038 - INFO - 取得中: DXP Enterprises, Inc. (DXPE)
+2026-02-07 07:45:46,403 - INFO -   ✅ 取得完了: DXP Enterprises, Inc.
+2026-02-07 07:45:48,403 - INFO - 
+[837/1000]
+2026-02-07 07:45:48,403 - INFO - 取得中: Daxor Corporation (DXR)
+2026-02-07 07:45:49,843 - INFO -   ✅ 取得完了: Daxor Corporation
+2026-02-07 07:45:51,843 - INFO - 
+[838/1000]
+2026-02-07 07:45:51,843 - INFO - 取得中: Decent Holding Inc. (DXST)
+2026-02-07 07:45:53,411 - ERROR - $DXST: possibly delisted; no price data found  (1d 2023-10-28 -> 2023-11-03) (Yahoo error = "Data doesn't exist for startDate = 1698465600, endDate = 1698984000")
+2026-02-07 07:45:53,420 - INFO -   ✅ 取得完了: Decent Holding Inc.
+2026-02-07 07:45:55,420 - INFO - 
+[839/1000]
+2026-02-07 07:45:55,420 - INFO - 取得中: The Dixie Group, Inc. (DXYN)
+2026-02-07 07:45:56,789 - INFO -   ✅ 取得完了: The Dixie Group, Inc.
+2026-02-07 07:45:58,789 - INFO - 
+[840/1000]
+2026-02-07 07:45:58,789 - INFO - 取得中: Destiny Tech100 Inc. (DXYZ)
+2026-02-07 07:46:00,336 - ERROR - $DXYZ: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 07:46:00,342 - INFO -   ✅ 取得完了: Destiny Tech100 Inc.
+2026-02-07 07:46:02,342 - INFO - 
+[841/1000]
+2026-02-07 07:46:02,342 - INFO - 取得中: Dycom Industries, Inc. (DY)
+2026-02-07 07:46:03,899 - INFO -   ✅ 取得完了: Dycom Industries, Inc.
+2026-02-07 07:46:05,899 - INFO - 
+[842/1000]
+2026-02-07 07:46:05,899 - INFO - 取得中: Dyadic International, Inc. (DYAI)
+2026-02-07 07:46:07,320 - INFO -   ✅ 取得完了: Dyadic International, Inc.
+2026-02-07 07:46:09,321 - INFO - 
+[843/1000]
+2026-02-07 07:46:09,321 - INFO - 取得中: DYBTY (DYBTY)
+2026-02-07 07:46:10,768 - INFO -   ✅ 取得完了: DYBTY
+2026-02-07 07:46:12,769 - INFO - 
+[844/1000]
+2026-02-07 07:46:12,769 - INFO - 取得中: Dyne Therapeutics, Inc. (DYN)
+2026-02-07 07:46:14,215 - INFO -   ✅ 取得完了: Dyne Therapeutics, Inc.
+2026-02-07 07:46:16,216 - INFO - 
+[845/1000]
+2026-02-07 07:46:16,216 - INFO - 取得中: DynaResource, Inc. (DYNR)
+2026-02-07 07:46:17,625 - INFO -   ✅ 取得完了: DynaResource, Inc.
+2026-02-07 07:46:19,625 - INFO - 
+[846/1000]
+2026-02-07 07:46:19,626 - INFO - 取得中: Dynatronics Corporation (DYNTQ)
+2026-02-07 07:46:20,740 - INFO -   ✅ 取得完了: Dynatronics Corporation
+2026-02-07 07:46:22,740 - INFO - 
+[847/1000]
+2026-02-07 07:46:22,740 - INFO - 取得中: Insight Digital Partners II (DYOR)
+2026-02-07 07:46:23,908 - INFO -   ✅ 取得完了: Insight Digital Partners II
+2026-02-07 07:46:25,909 - INFO - 
+[848/1000]
+2026-02-07 07:46:25,909 - INFO - 取得中: Insight Digital Partners II (DYORU)
+2026-02-07 07:46:27,161 - INFO -   ✅ 取得完了: Insight Digital Partners II
+2026-02-07 07:46:29,161 - INFO - 
+[849/1000]
+2026-02-07 07:46:29,161 - INFO - 取得中: Insight Digital Partners II (DYORW)
+2026-02-07 07:46:30,293 - INFO -   ✅ 取得完了: Insight Digital Partners II
+2026-02-07 07:46:32,293 - INFO - 
+[850/1000]
+2026-02-07 07:46:32,293 - INFO - 取得中: DB Gold Double Short ETN (DZZ)
+2026-02-07 07:46:33,344 - INFO -   ✅ 取得完了: DB Gold Double Short ETN
+2026-02-07 07:46:35,344 - INFO - 
+[851/1000]
+2026-02-07 07:46:35,345 - INFO - 取得中: Eni S.p.A. (E)
+2026-02-07 07:46:36,981 - INFO -   ✅ 取得完了: Eni S.p.A.
+2026-02-07 07:46:38,981 - INFO - 
+[852/1000]
+2026-02-07 07:46:38,982 - INFO - 取得中: Electronic Arts Inc. (EA)
+2026-02-07 07:46:40,450 - INFO -   ✅ 取得完了: Electronic Arts Inc.
+2026-02-07 07:46:42,450 - INFO - 
+[853/1000]
+2026-02-07 07:46:42,450 - INFO - 取得中: EACO Corporation (EACO)
+2026-02-07 07:46:43,901 - INFO -   ✅ 取得完了: EACO Corporation
+2026-02-07 07:46:45,902 - INFO - 
+[854/1000]
+2026-02-07 07:46:45,902 - INFO - 取得中: Wells Fargo Advantage Funds - Allspring Income Opportunities Fund (EAD)
+2026-02-07 07:46:47,396 - INFO -   ✅ 取得完了: Wells Fargo Advantage Funds - Allspring Income Opportunities Fund
+2026-02-07 07:46:49,396 - INFO - 
+[855/1000]
+2026-02-07 07:46:49,396 - INFO - 取得中: Airbus SE (EADSF)
+2026-02-07 07:46:50,822 - INFO -   ✅ 取得完了: Airbus SE
+2026-02-07 07:46:52,822 - INFO - 
+[856/1000]
+2026-02-07 07:46:52,822 - INFO - 取得中: GrafTech International Ltd. (EAF)
+2026-02-07 07:46:54,200 - INFO -   ✅ 取得完了: GrafTech International Ltd.
+2026-02-07 07:46:56,201 - INFO - 
+[857/1000]
+2026-02-07 07:46:56,201 - INFO - 取得中: Entergy Arkansas, Inc. 1M BD 4.875%66 (EAI)
+2026-02-07 07:46:57,256 - INFO -   ✅ 取得完了: Entergy Arkansas, Inc. 1M BD 4.875%66
+2026-02-07 07:46:59,256 - INFO - 
+[858/1000]
+2026-02-07 07:46:59,256 - INFO - 取得中: Ellington Credit Company (EARN)
+2026-02-07 07:47:00,817 - INFO -   ✅ 取得完了: Ellington Credit Company
+2026-02-07 07:47:02,818 - INFO - 
+[859/1000]
+2026-02-07 07:47:02,818 - INFO - 取得中: Brinker International, Inc. (EAT)
+2026-02-07 07:47:04,254 - INFO -   ✅ 取得完了: Brinker International, Inc.
+2026-02-07 07:47:06,255 - INFO - 
+[860/1000]
+2026-02-07 07:47:06,255 - INFO - 取得中: Ealixir, Inc. (EAXR)
+2026-02-07 07:47:07,457 - INFO -   ✅ 取得完了: Ealixir, Inc.
+2026-02-07 07:47:09,457 - INFO - 
+[861/1000]
+2026-02-07 07:47:09,457 - INFO - 取得中: Eventbrite, Inc. (EB)
+2026-02-07 07:47:10,832 - INFO -   ✅ 取得完了: Eventbrite, Inc.
+2026-02-07 07:47:12,833 - INFO - 
+[862/1000]
+2026-02-07 07:47:12,833 - INFO - 取得中: eBay Inc. (EBAY)
+2026-02-07 07:47:14,416 - INFO -   ✅ 取得完了: eBay Inc.
+2026-02-07 07:47:16,417 - INFO - 
+[863/1000]
+2026-02-07 07:47:16,417 - INFO - 取得中: Enbridge Inc. (EBBGF)
+2026-02-07 07:47:17,685 - INFO -   ✅ 取得完了: Enbridge Inc.
+2026-02-07 07:47:19,685 - INFO - 
+[864/1000]
+2026-02-07 07:47:19,685 - INFO - 取得中: Enbridge Inc. (EBBNF)
+2026-02-07 07:47:20,887 - INFO -   ✅ 取得完了: Enbridge Inc.
+2026-02-07 07:47:22,887 - INFO - 
+[865/1000]
+2026-02-07 07:47:22,887 - INFO - 取得中: Eastern Bankshares, Inc. (EBC)
+2026-02-07 07:47:24,280 - INFO -   ✅ 取得完了: Eastern Bankshares, Inc.
+2026-02-07 07:47:26,280 - INFO - 
+[866/1000]
+2026-02-07 07:47:26,280 - INFO - 取得中: Embracer Group AB (EBCRY)
+2026-02-07 07:47:27,692 - INFO -   ✅ 取得完了: Embracer Group AB
+2026-02-07 07:47:29,693 - INFO - 
+[867/1000]
+2026-02-07 07:47:29,693 - INFO - 取得中: Ennis, Inc. (EBF)
+2026-02-07 07:47:31,214 - INFO -   ✅ 取得完了: Ennis, Inc.
+2026-02-07 07:47:33,214 - INFO - 
+[868/1000]
+2026-02-07 07:47:33,214 - INFO - 取得中: Enbridge Inc. (EBGEF)
+2026-02-07 07:47:34,582 - INFO -   ✅ 取得完了: Enbridge Inc.
+2026-02-07 07:47:36,582 - INFO - 
+[869/1000]
+2026-02-07 07:47:36,582 - INFO - 取得中: Eagle Bancorp Montana, Inc. (EBMT)
+2026-02-07 07:47:38,096 - INFO -   ✅ 取得完了: Eagle Bancorp Montana, Inc.
+2026-02-07 07:47:40,096 - INFO - 
+[870/1000]
+2026-02-07 07:47:40,097 - INFO - 取得中: Ebang International Holdings Inc. (EBON)
+2026-02-07 07:47:41,555 - INFO -   ✅ 取得完了: Ebang International Holdings Inc.
+2026-02-07 07:47:43,556 - INFO - 
+[871/1000]
+2026-02-07 07:47:43,556 - INFO - 取得中: EBOS Group Limited (EBOSF)
+2026-02-07 07:47:45,054 - INFO -   ✅ 取得完了: EBOS Group Limited
+2026-02-07 07:47:47,054 - INFO - 
+[872/1000]
+2026-02-07 07:47:47,054 - INFO - 取得中: EBOS Group Limited (EBOSY)
+2026-02-07 07:47:48,513 - INFO -   ✅ 取得完了: EBOS Group Limited
+2026-02-07 07:47:50,513 - INFO - 
+[873/1000]
+2026-02-07 07:47:50,514 - INFO - 取得中: EBR SYS INC. (EBRCZ)
+2026-02-07 07:47:51,852 - INFO -   ✅ 取得完了: EBR SYS INC.
+2026-02-07 07:47:53,853 - INFO - 
+[874/1000]
+2026-02-07 07:47:53,853 - INFO - 取得中: Enbridge Inc. CUM RED PREF Series B (EBRGF)
+2026-02-07 07:47:55,159 - INFO -   ✅ 取得完了: Enbridge Inc. CUM RED PREF Series B
+2026-02-07 07:47:57,160 - INFO - 
+[875/1000]
+2026-02-07 07:47:57,160 - INFO - 取得中: Enbridge Inc. (EBRZF)
+2026-02-07 07:47:58,383 - INFO -   ✅ 取得完了: Enbridge Inc.
+2026-02-07 07:48:00,383 - INFO - 
+[876/1000]
+2026-02-07 07:48:00,384 - INFO - 取得中: Emergent BioSolutions Inc. (EBS)
+2026-02-07 07:48:01,876 - INFO -   ✅ 取得完了: Emergent BioSolutions Inc.
+2026-02-07 07:48:03,877 - INFO - 
+[877/1000]
+2026-02-07 07:48:03,877 - INFO - 取得中: Everything Blockchain, Inc. (EBZT)
+2026-02-07 07:48:05,427 - INFO -   ✅ 取得完了: Everything Blockchain, Inc.
+2026-02-07 07:48:07,427 - INFO - 
+[878/1000]
+2026-02-07 07:48:07,427 - INFO - 取得中: Ecopetrol S.A. (EC)
+2026-02-07 07:48:08,947 - INFO -   ✅ 取得完了: Ecopetrol S.A.
+2026-02-07 07:48:10,948 - INFO - 
+[879/1000]
+2026-02-07 07:48:10,948 - INFO - 取得中: BlackRock ESG Capital Allocation Term Trust (ECAT)
+2026-02-07 07:48:12,344 - INFO -   ✅ 取得完了: BlackRock ESG Capital Allocation Term Trust
+2026-02-07 07:48:14,345 - INFO - 
+[880/1000]
+2026-02-07 07:48:14,345 - INFO - 取得中: ECB Bancorp, Inc. (ECBK)
+2026-02-07 07:48:15,824 - INFO -   ✅ 取得完了: ECB Bancorp, Inc.
+2026-02-07 07:48:17,824 - INFO - 
+[881/1000]
+2026-02-07 07:48:17,824 - INFO - 取得中: Eagle Point Credit Company Inc. (ECC)
+2026-02-07 07:48:19,229 - INFO -   ✅ 取得完了: Eagle Point Credit Company Inc.
+2026-02-07 07:48:21,229 - INFO - 
+[882/1000]
+2026-02-07 07:48:21,229 - INFO - 取得中: Eagle Point Credit Company Inc. (ECC-PD)
+2026-02-07 07:48:22,492 - INFO -   ✅ 取得完了: Eagle Point Credit Company Inc.
+2026-02-07 07:48:24,493 - INFO - 
+[883/1000]
+2026-02-07 07:48:24,493 - INFO - 取得中: Eagle Point Credit Company Inc. (ECCC)
+2026-02-07 07:48:25,690 - INFO -   ✅ 取得完了: Eagle Point Credit Company Inc.
+2026-02-07 07:48:27,690 - INFO - 
+[884/1000]
+2026-02-07 07:48:27,691 - INFO - 取得中: Eagle Point Credit Co Inc (ECCF)
+2026-02-07 07:48:28,961 - INFO -   ✅ 取得完了: Eagle Point Credit Co Inc
+2026-02-07 07:48:30,962 - INFO - 
+[885/1000]
+2026-02-07 07:48:30,962 - INFO - 取得中: Eagle Point Credit Company Inc. (ECCU)
+2026-02-07 07:48:32,142 - INFO -   ✅ 取得完了: Eagle Point Credit Company Inc.
+2026-02-07 07:48:34,142 - INFO - 
+[886/1000]
+2026-02-07 07:48:34,142 - INFO - 取得中: Eagle Point Credit Company Inc. (ECCV)
+2026-02-07 07:48:35,200 - INFO -   ✅ 取得完了: Eagle Point Credit Company Inc.
+2026-02-07 07:48:37,201 - INFO - 
+[887/1000]
+2026-02-07 07:48:37,201 - INFO - 取得中: Eagle Point Credit Company Inc. (ECCW)
+2026-02-07 07:48:38,292 - INFO -   ✅ 取得完了: Eagle Point Credit Company Inc.
+2026-02-07 07:48:40,292 - INFO - 
+[888/1000]
+2026-02-07 07:48:40,292 - INFO - 取得中: Eagle Point Credit Company Inc. 6.6875% NT 28 (ECCX)
+2026-02-07 07:48:41,339 - INFO -   ✅ 取得完了: Eagle Point Credit Company Inc. 6.6875% NT 28
+2026-02-07 07:48:43,340 - INFO - 
+[889/1000]
+2026-02-07 07:48:43,340 - INFO - 取得中: ECD Automotive Design, Inc. (ECDA)
+2026-02-07 07:48:44,922 - INFO -   ✅ 取得完了: ECD Automotive Design, Inc.
+2026-02-07 07:48:46,923 - INFO - 
+[890/1000]
+2026-02-07 07:48:46,923 - INFO - 取得中: ECD Automotive Design, Inc. (ECDAW)
+2026-02-07 07:48:48,203 - INFO -   ✅ 取得完了: ECD Automotive Design, Inc.
+2026-02-07 07:48:50,203 - INFO - 
+[891/1000]
+2026-02-07 07:48:50,203 - INFO - 取得中: Ellsworth Growth and Income Fund Ltd. (ECF)
+2026-02-07 07:48:51,717 - INFO -   ✅ 取得完了: Ellsworth Growth and Income Fund Ltd.
+2026-02-07 07:48:53,717 - INFO - 
+[892/1000]
+2026-02-07 07:48:53,717 - INFO - 取得中: Ellsworth Growth and Income Fund Ltd. (ECF-PA)
+2026-02-07 07:48:55,023 - INFO -   ✅ 取得完了: Ellsworth Growth and Income Fund Ltd.
+2026-02-07 07:48:57,023 - INFO - 
+[893/1000]
+2026-02-07 07:48:57,023 - INFO - 取得中: Everus Construction Group, Inc. (ECG)
+2026-02-07 07:48:58,975 - ERROR - $ECG: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 07:48:58,983 - INFO -   ✅ 取得完了: Everus Construction Group, Inc.
+2026-02-07 07:49:00,984 - INFO - 
+[894/1000]
+2026-02-07 07:49:00,984 - INFO - 取得中: Encision Inc. (ECIA)
+2026-02-07 07:49:02,424 - INFO -   ✅ 取得完了: Encision Inc.
+2026-02-07 07:49:04,424 - INFO - 
+[895/1000]
+2026-02-07 07:49:04,424 - INFO - 取得中: Ecolab Inc. (ECL)
+2026-02-07 07:49:05,941 - INFO -   ✅ 取得完了: Ecolab Inc.
+2026-02-07 07:49:07,942 - INFO - 
+[896/1000]
+2026-02-07 07:49:07,942 - INFO - 取得中: Okeanis Eco Tankers Corp. (ECO)
+2026-02-07 07:49:09,306 - INFO -   ✅ 取得完了: Okeanis Eco Tankers Corp.
+2026-02-07 07:49:11,307 - INFO - 
+[897/1000]
+2026-02-07 07:49:11,307 - INFO - 取得中: electroCore, Inc. (ECOR)
+2026-02-07 07:49:12,725 - INFO -   ✅ 取得完了: electroCore, Inc.
+2026-02-07 07:49:14,725 - INFO - 
+[898/1000]
+2026-02-07 07:49:14,725 - INFO - 取得中: Encore Capital Group, Inc. (ECPG)
+2026-02-07 07:49:16,352 - INFO -   ✅ 取得完了: Encore Capital Group, Inc.
+2026-02-07 07:49:18,352 - INFO - 
+[899/1000]
+2026-02-07 07:49:18,352 - INFO - 取得中: EcoPlus, Inc. (ECPL)
+2026-02-07 07:49:19,542 - INFO -   ✅ 取得完了: EcoPlus, Inc.
+2026-02-07 07:49:21,542 - INFO - 
+[900/1000]
+2026-02-07 07:49:21,542 - INFO - 取得中: ECC Capital Corporation (ECRO)
+2026-02-07 07:49:22,701 - INFO -   ✅ 取得完了: ECC Capital Corporation
+2026-02-07 07:49:24,701 - INFO - 
+[901/1000]
+2026-02-07 07:49:24,701 - INFO - 取得中: ECST Holdings Ltd (ECST)
+2026-02-07 07:49:26,104 - ERROR - $ECST: possibly delisted; no price data found  (1d 2023-09-27 -> 2023-10-03)
+2026-02-07 07:49:26,112 - INFO -   ✅ 取得完了: ECST Holdings Ltd
+2026-02-07 07:49:28,112 - INFO - 
+[902/1000]
+2026-02-07 07:49:28,112 - INFO - 取得中: ECA Marcellus Trust I (ECTM)
+2026-02-07 07:49:29,506 - INFO -   ✅ 取得完了: ECA Marcellus Trust I
+2026-02-07 07:49:31,506 - INFO - 
+[903/1000]
+2026-02-07 07:49:31,506 - INFO - 取得中: Ecovyst Inc. (ECVT)
+2026-02-07 07:49:32,978 - INFO -   ✅ 取得完了: Ecovyst Inc.
+2026-02-07 07:49:34,979 - INFO - 
+[904/1000]
+2026-02-07 07:49:34,979 - INFO - 取得中: ECARX Holdings Inc. (ECX)
+2026-02-07 07:49:36,428 - INFO -   ✅ 取得完了: ECARX Holdings Inc.
+2026-02-07 07:49:38,429 - INFO - 
+[905/1000]
+2026-02-07 07:49:38,429 - INFO - 取得中: CXJ Group Co., Limited (ECXJ)
+2026-02-07 07:49:39,571 - INFO -   ✅ 取得完了: CXJ Group Co., Limited
+2026-02-07 07:49:41,571 - INFO - 
+[906/1000]
+2026-02-07 07:49:41,572 - INFO - 取得中: ECARX Holdings Inc. (ECXWW)
+2026-02-07 07:49:42,831 - INFO -   ✅ 取得完了: ECARX Holdings Inc.
+2026-02-07 07:49:44,832 - INFO - 
+[907/1000]
+2026-02-07 07:49:44,832 - INFO - 取得中: Consolidated Edison, Inc. (ED)
+2026-02-07 07:49:46,505 - INFO -   ✅ 取得完了: Consolidated Edison, Inc.
+2026-02-07 07:49:48,505 - INFO - 
+[908/1000]
+2026-02-07 07:49:48,505 - INFO - 取得中: EDAP TMS S.A. (EDAP)
+2026-02-07 07:49:49,914 - INFO -   ✅ 取得完了: EDAP TMS S.A.
+2026-02-07 07:49:51,914 - INFO - 
+[909/1000]
+2026-02-07 07:49:51,914 - INFO - 取得中: Edible Garden AG Incorporated (EDBL)
+2026-02-07 07:49:53,376 - INFO -   ✅ 取得完了: Edible Garden AG Incorporated
+2026-02-07 07:49:55,377 - INFO - 
+[910/1000]
+2026-02-07 07:49:55,377 - INFO - 取得中: Edible Garden AG Incorporated (EDBLW)
+2026-02-07 07:49:56,569 - INFO -   ✅ 取得完了: Edible Garden AG Incorporated
+2026-02-07 07:49:58,569 - INFO - 
+[911/1000]
+2026-02-07 07:49:58,569 - INFO - 取得中: Morgan Stanley Emerging Markets Domestic Debt Fund, Inc. (EDD)
+2026-02-07 07:50:00,045 - INFO -   ✅ 取得完了: Morgan Stanley Emerging Markets Domestic Debt Fund, Inc.
+2026-02-07 07:50:02,046 - INFO - 
+[912/1000]
+2026-02-07 07:50:02,046 - INFO - 取得中: Virtus Stone Harbor Emerging Markets Income Fund (EDF)
+2026-02-07 07:50:03,462 - INFO -   ✅ 取得完了: Virtus Stone Harbor Emerging Markets Income Fund
+2026-02-07 07:50:05,462 - INFO - 
+[913/1000]
+2026-02-07 07:50:05,462 - INFO - 取得中: EdgeMode, Inc. (EDGM)
+2026-02-07 07:50:06,947 - INFO -   ✅ 取得完了: EdgeMode, Inc.
+2026-02-07 07:50:08,947 - INFO - 
+[914/1000]
+2026-02-07 07:50:08,948 - INFO - 取得中: Everbright Digital Holding Limited (EDHL)
+2026-02-07 07:50:10,667 - ERROR - $EDHL: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 07:50:10,675 - INFO -   ✅ 取得完了: Everbright Digital Holding Limited
+2026-02-07 07:50:12,675 - INFO - 
+[915/1000]
+2026-02-07 07:50:12,676 - INFO - 取得中: Editas Medicine, Inc. (EDIT)
+2026-02-07 07:50:14,157 - INFO -   ✅ 取得完了: Editas Medicine, Inc.
+2026-02-07 07:50:16,157 - INFO - 
+[916/1000]
+2026-02-07 07:50:16,157 - INFO - 取得中: Empresa Distribuidora y Comercializadora Norte Sociedad Anónima (EDN)
+2026-02-07 07:50:17,571 - INFO -   ✅ 取得完了: Empresa Distribuidora y Comercializadora Norte Sociedad Anónima
+2026-02-07 07:50:19,571 - INFO - 
+[917/1000]
+2026-02-07 07:50:19,571 - INFO - 取得中: EDP, S.A. (EDPFY)
+2026-02-07 07:50:20,985 - INFO -   ✅ 取得完了: EDP, S.A.
+2026-02-07 07:50:22,986 - INFO - 
+[918/1000]
+2026-02-07 07:50:22,986 - INFO - 取得中: EuroDry Ltd. (EDRY)
+2026-02-07 07:50:24,371 - INFO -   ✅ 取得完了: EuroDry Ltd.
+2026-02-07 07:50:26,371 - INFO - 
+[919/1000]
+2026-02-07 07:50:26,371 - INFO - 取得中: Edesa Biotech, Inc. (EDSA)
+2026-02-07 07:50:27,777 - INFO -   ✅ 取得完了: Edesa Biotech, Inc.
+2026-02-07 07:50:29,777 - INFO - 
+[920/1000]
+2026-02-07 07:50:29,777 - INFO - 取得中: Skillful Craftsman Education Technology Limited (EDTK)
+2026-02-07 07:50:31,203 - INFO -   ✅ 取得完了: Skillful Craftsman Education Technology Limited
+2026-02-07 07:50:33,203 - INFO - 
+[921/1000]
+2026-02-07 07:50:33,204 - INFO - 取得中: New Oriental Education & Technology Group Inc. (EDU)
+2026-02-07 07:50:34,631 - INFO -   ✅ 取得完了: New Oriental Education & Technology Group Inc.
+2026-02-07 07:50:36,632 - INFO - 
+[922/1000]
+2026-02-07 07:50:36,632 - INFO - 取得中: Educational Development Corporation (EDUC)
+2026-02-07 07:50:38,107 - INFO -   ✅ 取得完了: Educational Development Corporation
+2026-02-07 07:50:40,107 - INFO - 
+[923/1000]
+2026-02-07 07:50:40,107 - INFO - 取得中: Endeavour Group Limited (EDVGF)
+2026-02-07 07:50:41,562 - INFO -   ✅ 取得完了: Endeavour Group Limited
+2026-02-07 07:50:43,562 - INFO - 
+[924/1000]
+2026-02-07 07:50:43,562 - INFO - 取得中: EDVLY (EDVLY)
+2026-02-07 07:50:44,744 - INFO -   ✅ 取得完了: EDVLY
+2026-02-07 07:50:46,745 - INFO - 
+[925/1000]
+2026-02-07 07:50:46,745 - INFO - 取得中: Endeavor Bancorp (EDVR)
+2026-02-07 07:50:48,238 - INFO -   ✅ 取得完了: Endeavor Bancorp
+2026-02-07 07:50:50,238 - INFO - 
+[926/1000]
+2026-02-07 07:50:50,239 - INFO - 取得中: Endexx Corporation (EDXC)
+2026-02-07 07:50:51,608 - INFO -   ✅ 取得完了: Endexx Corporation
+2026-02-07 07:50:53,609 - INFO - 
+[927/1000]
+2026-02-07 07:50:53,609 - INFO - 取得中: Excelerate Energy, Inc. (EE)
+2026-02-07 07:50:55,009 - INFO -   ✅ 取得完了: Excelerate Energy, Inc.
+2026-02-07 07:50:57,010 - INFO - 
+[928/1000]
+2026-02-07 07:50:57,010 - INFO - 取得中: The European Equity Fund, Inc. (EEA)
+2026-02-07 07:50:58,412 - INFO -   ✅ 取得完了: The European Equity Fund, Inc.
+2026-02-07 07:51:00,412 - INFO - 
+[929/1000]
+2026-02-07 07:51:00,412 - INFO - 取得中: Euronet Worldwide, Inc. (EEFT)
+2026-02-07 07:51:01,760 - INFO -   ✅ 取得完了: Euronet Worldwide, Inc.
+2026-02-07 07:51:03,760 - INFO - 
+[930/1000]
+2026-02-07 07:51:03,761 - INFO - 取得中: Eline Entertainment Group, Inc. (EEGI)
+2026-02-07 07:51:05,131 - INFO -   ✅ 取得完了: Eline Entertainment Group, Inc.
+2026-02-07 07:51:07,132 - INFO - 
+[931/1000]
+2026-02-07 07:51:07,132 - INFO - 取得中: EpicQuest Education Group International Limited (EEIQ)
+2026-02-07 07:51:08,630 - INFO -   ✅ 取得完了: EpicQuest Education Group International Limited
+2026-02-07 07:51:10,631 - INFO - 
+[932/1000]
+2026-02-07 07:51:10,631 - INFO - 取得中: EESTech, Inc. (EESH)
+2026-02-07 07:51:11,978 - INFO -   ✅ 取得完了: EESTech, Inc.
+2026-02-07 07:51:13,978 - INFO - 
+[933/1000]
+2026-02-07 07:51:13,979 - INFO - 取得中: Emerald Holding, Inc. (EEX)
+2026-02-07 07:51:15,359 - INFO -   ✅ 取得完了: Emerald Holding, Inc.
+2026-02-07 07:51:17,359 - INFO - 
+[934/1000]
+2026-02-07 07:51:17,359 - INFO - 取得中: Ellington Financial Inc. (EFC)
+2026-02-07 07:51:18,730 - INFO -   ✅ 取得完了: Ellington Financial Inc.
+2026-02-07 07:51:20,730 - INFO - 
+[935/1000]
+2026-02-07 07:51:20,730 - INFO - 取得中: Ellington Financial Inc. (EFC-PA)
+2026-02-07 07:51:21,893 - INFO -   ✅ 取得完了: Ellington Financial Inc.
+2026-02-07 07:51:23,893 - INFO - 
+[936/1000]
+2026-02-07 07:51:23,893 - INFO - 取得中: Ellington Financial Inc. (EFC-PB)
+2026-02-07 07:51:25,053 - INFO -   ✅ 取得完了: Ellington Financial Inc.
+2026-02-07 07:51:27,054 - INFO - 
+[937/1000]
+2026-02-07 07:51:27,054 - INFO - 取得中: Ellington Financial Inc. (EFC-PC)
+2026-02-07 07:51:28,166 - INFO -   ✅ 取得完了: Ellington Financial Inc.
+2026-02-07 07:51:30,166 - INFO - 
+[938/1000]
+2026-02-07 07:51:30,167 - INFO - 取得中: Ellington Financial Inc. (EFC-PD)
+2026-02-07 07:51:31,318 - INFO -   ✅ 取得完了: Ellington Financial Inc.
+2026-02-07 07:51:33,319 - INFO - 
+[939/1000]
+2026-02-07 07:51:33,319 - INFO - 取得中: Energy Focus, Inc. (EFOI)
+2026-02-07 07:51:34,722 - INFO -   ✅ 取得完了: Energy Focus, Inc.
+2026-02-07 07:51:36,722 - INFO - 
+[940/1000]
+2026-02-07 07:51:36,722 - INFO - 取得中: Eaton Vance Senior Floating-Rate Trust (EFR)
+2026-02-07 07:51:38,299 - INFO -   ✅ 取得完了: Eaton Vance Senior Floating-Rate Trust
+2026-02-07 07:51:40,300 - INFO - 
+[941/1000]
+2026-02-07 07:51:40,300 - INFO - 取得中: Enterprise Financial Services Corp (EFSC)
+2026-02-07 07:51:41,783 - INFO -   ✅ 取得完了: Enterprise Financial Services Corp
+2026-02-07 07:51:43,783 - INFO - 
+[942/1000]
+2026-02-07 07:51:43,784 - INFO - 取得中: Enterprise Financial Services Corp (EFSCP)
+2026-02-07 07:51:45,048 - INFO -   ✅ 取得完了: Enterprise Financial Services Corp
+2026-02-07 07:51:47,049 - INFO - 
+[943/1000]
+2026-02-07 07:51:47,049 - INFO - 取得中: Eagle Financial Services, Inc. (EFSI)
+2026-02-07 07:51:48,452 - INFO -   ✅ 取得完了: Eagle Financial Services, Inc.
+2026-02-07 07:51:50,453 - INFO - 
+[944/1000]
+2026-02-07 07:51:50,453 - INFO - 取得中: Eaton Vance Floating-Rate Income Trust (EFT)
+2026-02-07 07:51:51,874 - INFO -   ✅ 取得完了: Eaton Vance Floating-Rate Income Trust
+2026-02-07 07:51:53,875 - INFO - 
+[945/1000]
+2026-02-07 07:51:53,875 - INFO - 取得中: Etoiles Capital Group Co., Ltd (EFTY)
+2026-02-07 07:51:55,779 - ERROR - $EFTY: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 07:51:55,787 - INFO -   ✅ 取得完了: Etoiles Capital Group Co., Ltd
+2026-02-07 07:51:57,787 - INFO - 
+[946/1000]
+2026-02-07 07:51:57,787 - INFO - 取得中: Equifax Inc. (EFX)
+2026-02-07 07:51:59,296 - INFO -   ✅ 取得完了: Equifax Inc.
+2026-02-07 07:52:01,296 - INFO - 
+[947/1000]
+2026-02-07 07:52:01,296 - INFO - 取得中: Enerflex Ltd. (EFXT)
+2026-02-07 07:52:02,740 - INFO -   ✅ 取得完了: Enerflex Ltd.
+2026-02-07 07:52:04,741 - INFO - 
+[948/1000]
+2026-02-07 07:52:04,741 - INFO - 取得中: Everest Group, Ltd. (EG)
+2026-02-07 07:52:06,179 - INFO -   ✅ 取得完了: Everest Group, Ltd.
+2026-02-07 07:52:08,180 - INFO - 
+[949/1000]
+2026-02-07 07:52:08,180 - INFO - 取得中: eGain Corporation (EGAN)
+2026-02-07 07:52:09,745 - INFO -   ✅ 取得完了: eGain Corporation
+2026-02-07 07:52:11,745 - INFO - 
+[950/1000]
+2026-02-07 07:52:11,745 - INFO - 取得中: Eagle Bancorp, Inc. (EGBN)
+2026-02-07 07:52:13,229 - INFO -   ✅ 取得完了: Eagle Bancorp, Inc.
+2026-02-07 07:52:15,230 - INFO - 
+[951/1000]
+2026-02-07 07:52:15,230 - INFO - 取得中: Enigmatig Limited (EGG)
+2026-02-07 07:52:16,840 - ERROR - $EGG: possibly delisted; no price data found  (1d 2023-09-27 -> 2023-10-03) (Yahoo error = "Data doesn't exist for startDate = 1695787200, endDate = 1696305600")
+2026-02-07 07:52:16,848 - INFO -   ✅ 取得完了: Enigmatig Limited
+2026-02-07 07:52:18,849 - INFO - 
+[952/1000]
+2026-02-07 07:52:18,849 - INFO - 取得中: EGH Acquisition Corp. (EGHA)
+2026-02-07 07:52:20,118 - INFO -   ✅ 取得完了: EGH Acquisition Corp.
+2026-02-07 07:52:22,118 - INFO - 
+[953/1000]
+2026-02-07 07:52:22,119 - INFO - 取得中: EGH Acquisition Corp. (EGHAR)
+2026-02-07 07:52:23,165 - INFO -   ✅ 取得完了: EGH Acquisition Corp.
+2026-02-07 07:52:25,165 - INFO - 
+[954/1000]
+2026-02-07 07:52:25,165 - INFO - 取得中: EGH Acquisition Corp. (EGHAU)
+2026-02-07 07:52:26,445 - INFO -   ✅ 取得完了: EGH Acquisition Corp.
+2026-02-07 07:52:28,445 - INFO - 
+[955/1000]
+2026-02-07 07:52:28,445 - INFO - 取得中: 8x8, Inc. (EGHT)
+2026-02-07 07:52:29,960 - INFO -   ✅ 取得完了: 8x8, Inc.
+2026-02-07 07:52:31,961 - INFO - 
+[956/1000]
+2026-02-07 07:52:31,961 - INFO - 取得中: Enthusiast Gaming Holdings Inc. (EGLXF)
+2026-02-07 07:52:33,316 - INFO -   ✅ 取得完了: Enthusiast Gaming Holdings Inc.
+2026-02-07 07:52:35,316 - INFO - 
+[957/1000]
+2026-02-07 07:52:35,317 - INFO - 取得中: Emergent Metals Corp. (EGMCF)
+2026-02-07 07:52:36,706 - INFO -   ✅ 取得完了: Emergent Metals Corp.
+2026-02-07 07:52:38,706 - INFO - 
+[958/1000]
+2026-02-07 07:52:38,706 - INFO - 取得中: Eldorado Gold Corporation (EGO)
+2026-02-07 07:52:40,067 - INFO -   ✅ 取得完了: Eldorado Gold Corporation
+2026-02-07 07:52:42,068 - INFO - 
+[959/1000]
+2026-02-07 07:52:42,068 - INFO - 取得中: EastGroup Properties, Inc. (EGP)
+2026-02-07 07:52:43,614 - INFO -   ✅ 取得完了: EastGroup Properties, Inc.
+2026-02-07 07:52:45,614 - INFO - 
+[960/1000]
+2026-02-07 07:52:45,614 - INFO - 取得中: Eagle Pharmaceuticals, Inc. (EGRX)
+2026-02-07 07:52:46,950 - INFO -   ✅ 取得完了: Eagle Pharmaceuticals, Inc.
+2026-02-07 07:52:48,950 - INFO - 
+[961/1000]
+2026-02-07 07:52:48,950 - INFO - 取得中: Eguana Technologies Inc. (EGTYF)
+2026-02-07 07:52:50,651 - ERROR - $EGTYF: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 07:52:50,660 - INFO -   ✅ 取得完了: Eguana Technologies Inc.
+2026-02-07 07:52:52,660 - INFO - 
+[962/1000]
+2026-02-07 07:52:52,661 - INFO - 取得中: VAALCO Energy, Inc. (EGY)
+2026-02-07 07:52:54,147 - INFO -   ✅ 取得完了: VAALCO Energy, Inc.
+2026-02-07 07:52:56,148 - INFO - 
+[963/1000]
+2026-02-07 07:52:56,148 - INFO - 取得中: EHang Holdings Limited (EH)
+2026-02-07 07:52:57,489 - INFO -   ✅ 取得完了: EHang Holdings Limited
+2026-02-07 07:52:59,489 - INFO - 
+[964/1000]
+2026-02-07 07:52:59,489 - INFO - 取得中: Enhabit, Inc. (EHAB)
+2026-02-07 07:53:00,919 - INFO -   ✅ 取得完了: Enhabit, Inc.
+2026-02-07 07:53:02,919 - INFO - 
+[965/1000]
+2026-02-07 07:53:02,919 - INFO - 取得中: Encompass Health Corporation (EHC)
+2026-02-07 07:53:04,491 - INFO -   ✅ 取得完了: Encompass Health Corporation
+2026-02-07 07:53:06,492 - INFO - 
+[966/1000]
+2026-02-07 07:53:06,492 - INFO - 取得中: Eshallgo Inc. (EHGO)
+2026-02-07 07:53:08,253 - ERROR - $EHGO: possibly delisted; no price data found  (1d 2024-03-28 -> 2024-04-03) (Yahoo error = "Data doesn't exist for startDate = 1711598400, endDate = 1712116800")
+2026-02-07 07:53:08,263 - INFO -   ✅ 取得完了: Eshallgo Inc.
+2026-02-07 07:53:10,264 - INFO - 
+[967/1000]
+2026-02-07 07:53:10,264 - INFO - 取得中: Western Asset Global High Income Fund Inc. (EHI)
+2026-02-07 07:53:11,787 - INFO -   ✅ 取得完了: Western Asset Global High Income Fund Inc.
+2026-02-07 07:53:13,787 - INFO - 
+[968/1000]
+2026-02-07 07:53:13,787 - INFO - 取得中: Euroholdings Ltd. (EHLD)
+2026-02-07 07:53:15,570 - ERROR - $EHLD: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 07:53:15,577 - INFO -   ✅ 取得完了: Euroholdings Ltd.
+2026-02-07 07:53:17,577 - INFO - 
+[969/1000]
+2026-02-07 07:53:17,577 - INFO - 取得中: Elite Health Systems Inc. (EHSI)
+2026-02-07 07:53:19,108 - INFO -   ✅ 取得完了: Elite Health Systems Inc.
+2026-02-07 07:53:21,109 - INFO - 
+[970/1000]
+2026-02-07 07:53:21,109 - INFO - 取得中: eHealth, Inc. (EHTH)
+2026-02-07 07:53:22,519 - INFO -   ✅ 取得完了: eHealth, Inc.
+2026-02-07 07:53:24,519 - INFO - 
+[971/1000]
+2026-02-07 07:53:24,519 - INFO - 取得中: EHAVE, Inc. (EHVVF)
+2026-02-07 07:53:26,064 - INFO -   ✅ 取得完了: EHAVE, Inc.
+2026-02-07 07:53:28,064 - INFO - 
+[972/1000]
+2026-02-07 07:53:28,064 - INFO - 取得中: Eagle Point Income Company Inc. (EIC)
+2026-02-07 07:53:29,569 - INFO -   ✅ 取得完了: Eagle Point Income Company Inc.
+2026-02-07 07:53:31,569 - INFO - 
+[973/1000]
+2026-02-07 07:53:31,569 - INFO - 取得中: Eagle Point Income Company Inc. (EICA)
+2026-02-07 07:53:32,790 - INFO -   ✅ 取得完了: Eagle Point Income Company Inc.
+2026-02-07 07:53:34,790 - INFO - 
+[974/1000]
+2026-02-07 07:53:34,790 - INFO - 取得中: Eagle Point Income Company Inc. (EICC)
+2026-02-07 07:53:36,215 - INFO -   ✅ 取得完了: Eagle Point Income Company Inc.
+2026-02-07 07:53:38,216 - INFO - 
+[975/1000]
+2026-02-07 07:53:38,216 - INFO - 取得中: Employers Holdings, Inc. (EIG)
+2026-02-07 07:53:39,729 - INFO -   ✅ 取得完了: Employers Holdings, Inc.
+2026-02-07 07:53:41,729 - INFO - 
+[976/1000]
+2026-02-07 07:53:41,730 - INFO - 取得中: Eagle Point Institutional Income Fund (EIIA)
+2026-02-07 07:53:42,890 - INFO -   ✅ 取得完了: Eagle Point Institutional Income Fund
+2026-02-07 07:53:44,891 - INFO - 
+[977/1000]
+2026-02-07 07:53:44,891 - INFO - 取得中: Eikon Therapeutics, Inc. (EIKN)
+2026-02-07 07:53:46,564 - ERROR - $EIKN: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 07:53:46,572 - INFO -   ✅ 取得完了: Eikon Therapeutics, Inc.
+2026-02-07 07:53:48,572 - INFO - 
+[978/1000]
+2026-02-07 07:53:48,572 - INFO - 取得中: Eaton Vance Municipal Bond Fund (EIM)
+2026-02-07 07:53:50,130 - INFO -   ✅ 取得完了: Eaton Vance Municipal Bond Fund
+2026-02-07 07:53:52,131 - INFO - 
+[979/1000]
+2026-02-07 07:53:52,131 - INFO - 取得中: Eni S.p.A. (EIPAF)
+2026-02-07 07:53:53,523 - INFO -   ✅ 取得完了: Eni S.p.A.
+2026-02-07 07:53:55,523 - INFO - 
+[980/1000]
+2026-02-07 07:53:55,523 - INFO - 取得中: Edison International (EIX)
+2026-02-07 07:53:57,049 - INFO -   ✅ 取得完了: Edison International
+2026-02-07 07:53:59,049 - INFO - 
+[981/1000]
+2026-02-07 07:53:59,050 - INFO - 取得中: E-Home Household Service Holdings Limited (EJH)
+2026-02-07 07:54:00,491 - INFO -   ✅ 取得完了: E-Home Household Service Holdings Limited
+2026-02-07 07:54:02,491 - INFO - 
+[982/1000]
+2026-02-07 07:54:02,491 - INFO - 取得中: East Japan Railway Company (EJPRF)
+2026-02-07 07:54:04,131 - INFO -   ✅ 取得完了: East Japan Railway Company
+2026-02-07 07:54:06,131 - INFO - 
+[983/1000]
+2026-02-07 07:54:06,132 - INFO - 取得中: Ekso Bionics Holdings, Inc. (EKSO)
+2026-02-07 07:54:07,550 - INFO -   ✅ 取得完了: Ekso Bionics Holdings, Inc.
+2026-02-07 07:54:09,550 - INFO - 
+[984/1000]
+2026-02-07 07:54:09,551 - INFO - 取得中: The Estée Lauder Companies Inc. (EL)
+2026-02-07 07:54:11,063 - INFO -   ✅ 取得完了: The Estée Lauder Companies Inc.
+2026-02-07 07:54:13,064 - INFO - 
+[985/1000]
+2026-02-07 07:54:13,064 - INFO - 取得中: Envela Corporation (ELA)
+2026-02-07 07:54:14,524 - INFO -   ✅ 取得完了: Envela Corporation
+2026-02-07 07:54:16,525 - INFO - 
+[986/1000]
+2026-02-07 07:54:16,525 - INFO - 取得中: PMGC Holdings Inc. (ELAB)
+2026-02-07 07:54:17,947 - INFO -   ✅ 取得完了: PMGC Holdings Inc.
+2026-02-07 07:54:19,947 - INFO - 
+[987/1000]
+2026-02-07 07:54:19,948 - INFO - 取得中: Elanco Animal Health Incorporated (ELAN)
+2026-02-07 07:54:21,356 - INFO -   ✅ 取得完了: Elanco Animal Health Incorporated
+2026-02-07 07:54:23,356 - INFO - 
+[988/1000]
+2026-02-07 07:54:23,357 - INFO - 取得中: Electra Battery Materials Corporation (ELBM)
+2026-02-07 07:54:24,769 - INFO -   ✅ 取得完了: Electra Battery Materials Corporation
+2026-02-07 07:54:26,769 - INFO - 
+[989/1000]
+2026-02-07 07:54:26,769 - INFO - 取得中: Entergy Louisiana, LLC COLLATERAL TR MT (ELC)
+2026-02-07 07:54:27,855 - INFO -   ✅ 取得完了: Entergy Louisiana, LLC COLLATERAL TR MT
+2026-02-07 07:54:29,855 - INFO - 
+[990/1000]
+2026-02-07 07:54:29,855 - INFO - 取得中: ELCG (ELCG)
+2026-02-07 07:54:30,959 - INFO -   ✅ 取得完了: ELCG
+2026-02-07 07:54:32,960 - INFO - 
+[991/1000]
+2026-02-07 07:54:32,960 - INFO - 取得中: EDP, S.A. (ELCPF)
+2026-02-07 07:54:34,515 - INFO -   ✅ 取得完了: EDP, S.A.
+2026-02-07 07:54:36,515 - INFO - 
+[992/1000]
+2026-02-07 07:54:36,516 - INFO - 取得中: ELECTRUM DISCOVERY CORP. (ELDCF)
+2026-02-07 07:54:38,111 - ERROR - $ELDCF: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 07:54:38,119 - INFO -   ✅ 取得完了: ELECTRUM DISCOVERY CORP.
+2026-02-07 07:54:40,119 - INFO - 
+[993/1000]
+2026-02-07 07:54:40,119 - INFO - 取得中: Eledon Pharmaceuticals, Inc. (ELDN)
+2026-02-07 07:54:41,614 - INFO -   ✅ 取得完了: Eledon Pharmaceuticals, Inc.
+2026-02-07 07:54:43,614 - INFO - 
+[994/1000]
+2026-02-07 07:54:43,614 - INFO - 取得中: Elemental Royalty Corporation (ELE)
+2026-02-07 07:54:44,967 - INFO -   ✅ 取得完了: Elemental Royalty Corporation
+2026-02-07 07:54:46,967 - INFO - 
+[995/1000]
+2026-02-07 07:54:46,967 - INFO - 取得中: Electric Royalties Ltd. (ELECF)
+2026-02-07 07:54:48,307 - INFO -   ✅ 取得完了: Electric Royalties Ltd.
+2026-02-07 07:54:50,308 - INFO - 
+[996/1000]
+2026-02-07 07:54:50,308 - INFO - 取得中: Element Fleet Management Corp. (ELEEF)
+2026-02-07 07:54:51,770 - INFO -   ✅ 取得完了: Element Fleet Management Corp.
+2026-02-07 07:54:53,770 - INFO - 
+[997/1000]
+2026-02-07 07:54:53,771 - INFO - 取得中: e.l.f. Beauty, Inc. (ELF)
+2026-02-07 07:54:55,382 - INFO -   ✅ 取得完了: e.l.f. Beauty, Inc.
+2026-02-07 07:54:57,382 - INFO - 
+[998/1000]
+2026-02-07 07:54:57,383 - INFO - 取得中: ELFTY (ELFTY)
+2026-02-07 07:54:58,576 - INFO -   ✅ 取得完了: ELFTY
+2026-02-07 07:55:00,577 - INFO - 
+[999/1000]
+2026-02-07 07:55:00,577 - INFO - 取得中: Ellomay Capital Ltd. (ELLO)
+2026-02-07 07:55:02,032 - INFO -   ✅ 取得完了: Ellomay Capital Ltd.
+2026-02-07 07:55:04,033 - INFO - 
+[1000/1000]
+2026-02-07 07:55:04,033 - INFO - 取得中: Electromed, Inc. (ELMD)
+2026-02-07 07:55:05,443 - INFO -   ✅ 取得完了: Electromed, Inc.
+2026-02-07 07:55:05,448 - INFO - 
+============================================================
+2026-02-07 07:55:05,448 - INFO - 取得結果サマリー
+2026-02-07 07:55:05,448 - INFO - ============================================================
+2026-02-07 07:55:05,448 - INFO - 取得成功: 1000社
+2026-02-07 07:55:05,449 - INFO - 取得失敗: 0社
+2026-02-07 07:55:05,483 - INFO - 
+データをCSVファイルに保存しました: Export/us_stocks_data_us_3_20260207_075505.csv
+2026-02-07 07:55:05,483 - INFO - 
+取得データ（最初の3列）:
+2026-02-07 07:55:05,489 - INFO - 
+                                    会社名  銘柄コード          時価総額       PBR      ROE
+0           CION Investment Corporation   CION  4.599265e+08  0.594093  0.03220
+1                   CirTran Corporation   CIRX  1.137440e+05 -0.004453      NaN
+2                      CISO Global Inc.   CISO  1.704593e+07  0.807933 -1.17396
+3                             C3is Inc.   CISS  2.284750e+06  0.001226  0.07198
+4  COSCO SHIPPING Development Co., Ltd.  CITAF  3.574739e+09  0.419785  0.05533
+2026-02-07 07:55:05,489 - INFO - ================================================================================
+2026-02-07 07:55:05,489 - INFO - 株式財務データ取得プロセス完了
+2026-02-07 07:55:05,489 - INFO - 開始時刻: 2026-02-07 06:59:12
+2026-02-07 07:55:05,489 - INFO - 終了時刻: 2026-02-07 07:55:05
+2026-02-07 07:55:05,489 - INFO - 総実行時間: 55分52.7秒
+2026-02-07 07:55:05,489 - INFO - 処理結果: 成功 1000社 / 失敗 0社 / 合計 1000社
+2026-02-07 07:55:05,489 - INFO - 平均処理時間: 3.4秒（1社あたり）
+2026-02-07 07:55:05,490 - INFO - 保存ファイル: Export/us_stocks_data_us_3_20260207_075505.csv
+2026-02-07 07:55:05,490 - INFO - ================================================================================
+2026-02-07 07:55:05,490 - INFO - 
+============================================================
+2026-02-07 07:55:05,490 - INFO - 処理完了
+2026-02-07 07:55:05,490 - INFO - ============================================================
