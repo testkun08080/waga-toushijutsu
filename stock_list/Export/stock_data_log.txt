@@ -72032,3 +72032,1441 @@
 ============================================================
 2026-02-07 14:25:03,674 - INFO - 処理完了
 2026-02-07 14:25:03,674 - INFO - ============================================================
+2026-02-07 14:25:45,654 - INFO - yfinance version: 1.1.0
+2026-02-07 14:25:45,654 - INFO - 処理対象ファイル: us_stocks_11.json
+2026-02-07 14:25:45,654 - INFO - ============================================================
+2026-02-07 14:25:45,654 - INFO - ================================================================================
+2026-02-07 14:25:45,654 - INFO - 株式財務データ取得プロセス開始 - 開始時刻: 2026-02-07 14:25:45
+2026-02-07 14:25:45,654 - INFO - 処理対象ファイル: us_stocks_11.json
+2026-02-07 14:25:45,654 - INFO - ================================================================================
+2026-02-07 14:25:45,655 - INFO - us_stocks_11.jsonから338社の銘柄データを読み込みました
+2026-02-07 14:25:45,655 - INFO - ============================================================
+2026-02-07 14:25:45,655 - INFO - 株式財務データ取得開始
+2026-02-07 14:25:45,656 - INFO - ============================================================
+2026-02-07 14:25:45,656 - INFO - 
+[1/338]
+2026-02-07 14:25:45,656 - INFO - 取得中: Wealthfront Corporation (WLTH)
+2026-02-07 14:25:47,585 - ERROR - $WLTH: possibly delisted; no price data found  (1d 2024-01-28 -> 2024-02-03) (Yahoo error = "Data doesn't exist for startDate = 1706418000, endDate = 1706936400")
+2026-02-07 14:25:47,593 - INFO -   ✅ 取得完了: Wealthfront Corporation
+2026-02-07 14:25:49,593 - INFO - 
+[2/338]
+2026-02-07 14:25:49,593 - INFO - 取得中: John Wiley & Sons, Inc. (WLY)
+2026-02-07 14:25:51,081 - INFO -   ✅ 取得完了: John Wiley & Sons, Inc.
+2026-02-07 14:25:53,082 - INFO - 
+[3/338]
+2026-02-07 14:25:53,082 - INFO - 取得中: John Wiley & Sons, Inc. (WLYB)
+2026-02-07 14:25:54,460 - INFO -   ✅ 取得完了: John Wiley & Sons, Inc.
+2026-02-07 14:25:56,460 - INFO - 
+[4/338]
+2026-02-07 14:25:56,460 - INFO - 取得中: Waste Management, Inc. (WM)
+2026-02-07 14:25:57,962 - INFO -   ✅ 取得完了: Waste Management, Inc.
+2026-02-07 14:25:59,962 - INFO - 
+[5/338]
+2026-02-07 14:25:59,962 - INFO - 取得中: The Williams Companies, Inc. (WMB)
+2026-02-07 14:26:01,301 - INFO -   ✅ 取得完了: The Williams Companies, Inc.
+2026-02-07 14:26:03,302 - INFO - 
+[6/338]
+2026-02-07 14:26:03,302 - INFO - 取得中: Warner Music Group Corp. (WMG)
+2026-02-07 14:26:04,560 - INFO -   ✅ 取得完了: Warner Music Group Corp.
+2026-02-07 14:26:06,561 - INFO - 
+[7/338]
+2026-02-07 14:26:06,561 - INFO - 取得中: Weis Markets, Inc. (WMK)
+2026-02-07 14:26:07,858 - INFO -   ✅ 取得完了: Weis Markets, Inc.
+2026-02-07 14:26:09,858 - INFO - 
+[8/338]
+2026-02-07 14:26:09,858 - INFO - 取得中: Advanced Drainage Systems, Inc. (WMS)
+2026-02-07 14:26:11,253 - INFO -   ✅ 取得完了: Advanced Drainage Systems, Inc.
+2026-02-07 14:26:13,253 - INFO - 
+[9/338]
+2026-02-07 14:26:13,254 - INFO - 取得中: Walmart Inc. (WMT)
+2026-02-07 14:26:14,740 - INFO -   ✅ 取得完了: Walmart Inc.
+2026-02-07 14:26:16,741 - INFO - 
+[10/338]
+2026-02-07 14:26:16,741 - INFO - 取得中: Wabash National Corporation (WNC)
+2026-02-07 14:26:18,180 - INFO -   ✅ 取得完了: Wabash National Corporation
+2026-02-07 14:26:20,180 - INFO - 
+[11/338]
+2026-02-07 14:26:20,180 - INFO - 取得中: SolarWindow Technologies, Inc. (WNDW)
+2026-02-07 14:26:21,462 - INFO -   ✅ 取得完了: SolarWindow Technologies, Inc.
+2026-02-07 14:26:23,462 - INFO - 
+[12/338]
+2026-02-07 14:26:23,463 - INFO - 取得中: Western New England Bancorp, Inc. (WNEB)
+2026-02-07 14:26:24,783 - INFO -   ✅ 取得完了: Western New England Bancorp, Inc.
+2026-02-07 14:26:26,783 - INFO - 
+[13/338]
+2026-02-07 14:26:26,784 - INFO - 取得中: Worldwide NFT, Inc. (WNFT)
+2026-02-07 14:26:28,047 - INFO -   ✅ 取得完了: Worldwide NFT, Inc.
+2026-02-07 14:26:30,047 - INFO - 
+[14/338]
+2026-02-07 14:26:30,047 - INFO - 取得中: WNHK (WNHK)
+2026-02-07 14:26:31,136 - INFO -   ✅ 取得完了: WNHK
+2026-02-07 14:26:33,136 - INFO - 
+[15/338]
+2026-02-07 14:26:33,136 - INFO - 取得中: Winvest Group Ltd. (WNLV)
+2026-02-07 14:26:34,708 - ERROR - $WNLV: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 14:26:34,715 - INFO -   ✅ 取得完了: Winvest Group Ltd.
+2026-02-07 14:26:36,716 - INFO - 
+[16/338]
+2026-02-07 14:26:36,716 - INFO - 取得中: WNS (WNS)
+2026-02-07 14:26:36,980 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: WNS"}}}
+2026-02-07 14:26:37,855 - INFO -   ✅ 取得完了: WNS
+2026-02-07 14:26:39,855 - INFO - 
+[17/338]
+2026-02-07 14:26:39,855 - INFO - 取得中: Meiwu Technology Company Limited (WNW)
+2026-02-07 14:26:41,180 - INFO -   ✅ 取得完了: Meiwu Technology Company Limited
+2026-02-07 14:26:43,180 - INFO - 
+[18/338]
+2026-02-07 14:26:43,180 - INFO - 取得中: WORK Medical Technology Group LTD (WOK)
+2026-02-07 14:26:44,524 - INFO -   ✅ 取得完了: WORK Medical Technology Group LTD
+2026-02-07 14:26:46,524 - INFO - 
+[19/338]
+2026-02-07 14:26:46,524 - INFO - 取得中: Wolfspeed, Inc. (WOLF)
+2026-02-07 14:26:48,035 - ERROR - $WOLF: possibly delisted; no price data found  (1d 2024-06-27 -> 2024-07-03) (Yahoo error = "Data doesn't exist for startDate = 1719460800, endDate = 1719979200")
+2026-02-07 14:26:48,045 - INFO -   ✅ 取得完了: Wolfspeed, Inc.
+2026-02-07 14:26:50,045 - INFO - 
+[20/338]
+2026-02-07 14:26:50,046 - INFO - 取得中: Wolters Kluwer N.V. (WOLTF)
+2026-02-07 14:26:51,346 - INFO -   ✅ 取得完了: Wolters Kluwer N.V.
+2026-02-07 14:26:53,347 - INFO - 
+[21/338]
+2026-02-07 14:26:53,347 - INFO - 取得中: Wolverine Resources Corp. (WOLV)
+2026-02-07 14:26:54,564 - INFO -   ✅ 取得完了: Wolverine Resources Corp.
+2026-02-07 14:26:56,564 - INFO - 
+[22/338]
+2026-02-07 14:26:56,564 - INFO - 取得中: WonderFi Technologies Inc. (WONDF)
+2026-02-07 14:26:57,806 - INFO -   ✅ 取得完了: WonderFi Technologies Inc.
+2026-02-07 14:26:59,807 - INFO - 
+[23/338]
+2026-02-07 14:26:59,807 - INFO - 取得中: Petco Health and Wellness Company, Inc. (WOOF)
+2026-02-07 14:27:01,140 - INFO -   ✅ 取得完了: Petco Health and Wellness Company, Inc.
+2026-02-07 14:27:03,140 - INFO - 
+[24/338]
+2026-02-07 14:27:03,140 - INFO - 取得中: Woodside Energy Group Ltd (WOPEF)
+2026-02-07 14:27:04,524 - INFO -   ✅ 取得完了: Woodside Energy Group Ltd
+2026-02-07 14:27:06,525 - INFO - 
+[25/338]
+2026-02-07 14:27:06,525 - INFO - 取得中: Worthington Enterprises, Inc. (WOR)
+2026-02-07 14:27:07,962 - INFO -   ✅ 取得完了: Worthington Enterprises, Inc.
+2026-02-07 14:27:09,963 - INFO - 
+[26/338]
+2026-02-07 14:27:09,963 - INFO - 取得中: SCWorx Corp. (WORX)
+2026-02-07 14:27:11,276 - INFO -   ✅ 取得完了: SCWorx Corp.
+2026-02-07 14:27:13,276 - INFO - 
+[27/338]
+2026-02-07 14:27:13,276 - INFO - 取得中: W. P. Carey Inc. (WPC)
+2026-02-07 14:27:14,607 - INFO -   ✅ 取得完了: W. P. Carey Inc.
+2026-02-07 14:27:16,608 - INFO - 
+[28/338]
+2026-02-07 14:27:16,608 - INFO - 取得中: West Point Gold Corp. (WPGCF)
+2026-02-07 14:27:17,913 - INFO -   ✅ 取得完了: West Point Gold Corp.
+2026-02-07 14:27:19,914 - INFO - 
+[29/338]
+2026-02-07 14:27:19,914 - INFO - 取得中: Wheaton Precious Metals Corp. (WPM)
+2026-02-07 14:27:21,187 - INFO -   ✅ 取得完了: Wheaton Precious Metals Corp.
+2026-02-07 14:27:23,188 - INFO - 
+[30/338]
+2026-02-07 14:27:23,188 - INFO - 取得中: WPP plc (WPP)
+2026-02-07 14:27:24,560 - INFO -   ✅ 取得完了: WPP plc
+2026-02-07 14:27:26,560 - INFO - 
+[31/338]
+2026-02-07 14:27:26,561 - INFO - 取得中: WPP plc (WPPGF)
+2026-02-07 14:27:27,871 - INFO -   ✅ 取得完了: WPP plc
+2026-02-07 14:27:29,872 - INFO - 
+[32/338]
+2026-02-07 14:27:29,872 - INFO - 取得中: Westport Fuel Systems Inc. (WPRT)
+2026-02-07 14:27:31,104 - INFO -   ✅ 取得完了: Westport Fuel Systems Inc.
+2026-02-07 14:27:33,105 - INFO - 
+[33/338]
+2026-02-07 14:27:33,105 - INFO - 取得中: Wrap Technologies, Inc. (WRAP)
+2026-02-07 14:27:34,410 - INFO -   ✅ 取得完了: Wrap Technologies, Inc.
+2026-02-07 14:27:36,410 - INFO - 
+[34/338]
+2026-02-07 14:27:36,410 - INFO - 取得中: W. R. Berkley Corporation (WRB)
+2026-02-07 14:27:37,753 - INFO -   ✅ 取得完了: W. R. Berkley Corporation
+2026-02-07 14:27:39,753 - INFO - 
+[35/338]
+2026-02-07 14:27:39,753 - INFO - 取得中: W. R. Berkley Corporation 5.70% SB DB 2058 (WRB-PE)
+2026-02-07 14:27:40,840 - INFO -   ✅ 取得完了: W. R. Berkley Corporation 5.70% SB DB 2058
+2026-02-07 14:27:42,841 - INFO - 
+[36/338]
+2026-02-07 14:27:42,841 - INFO - 取得中: W.R. Berkley Corporation 5.10%  (WRB-PF)
+2026-02-07 14:27:43,777 - INFO -   ✅ 取得完了: W.R. Berkley Corporation 5.10% 
+2026-02-07 14:27:45,777 - INFO - 
+[37/338]
+2026-02-07 14:27:45,778 - INFO - 取得中: W.R. Berkley Corporation 4.25%  (WRB-PG)
+2026-02-07 14:27:46,721 - INFO -   ✅ 取得完了: W.R. Berkley Corporation 4.25% 
+2026-02-07 14:27:48,722 - INFO - 
+[38/338]
+2026-02-07 14:27:48,722 - INFO - 取得中: W.R. Berkley Corporation 4.125% (WRB-PH)
+2026-02-07 14:27:50,145 - INFO -   ✅ 取得完了: W.R. Berkley Corporation 4.125%
+2026-02-07 14:27:52,145 - INFO - 
+[39/338]
+2026-02-07 14:27:52,145 - INFO - 取得中: Warby Parker Inc. (WRBY)
+2026-02-07 14:27:53,410 - INFO -   ✅ 取得完了: Warby Parker Inc.
+2026-02-07 14:27:55,411 - INFO - 
+[40/338]
+2026-02-07 14:27:55,411 - INFO - 取得中: WeRide Inc. (WRD)
+2026-02-07 14:27:56,972 - ERROR - $WRD: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 14:27:56,983 - INFO -   ✅ 取得完了: WeRide Inc.
+2026-02-07 14:27:58,983 - INFO - 
+[41/338]
+2026-02-07 14:27:58,983 - INFO - 取得中: WRDIF (WRDIF)
+2026-02-07 14:27:59,953 - INFO -   ✅ 取得完了: WRDIF
+2026-02-07 14:28:01,953 - INFO - 
+[42/338]
+2026-02-07 14:28:01,953 - INFO - 取得中: White River Bancshares Co (WRIV)
+2026-02-07 14:28:03,223 - INFO -   ✅ 取得完了: White River Bancshares Co
+2026-02-07 14:28:05,223 - INFO - 
+[43/338]
+2026-02-07 14:28:05,223 - INFO - 取得中: World Acceptance Corporation (WRLD)
+2026-02-07 14:28:06,457 - INFO -   ✅ 取得完了: World Acceptance Corporation
+2026-02-07 14:28:08,457 - INFO - 
+[44/338]
+2026-02-07 14:28:08,457 - INFO - 取得中: West Red Lake Gold Mines Ltd. (WRLGF)
+2026-02-07 14:28:09,649 - INFO -   ✅ 取得完了: West Red Lake Gold Mines Ltd.
+2026-02-07 14:28:11,649 - INFO - 
+[45/338]
+2026-02-07 14:28:11,650 - INFO - 取得中: WRLRF (WRLRF)
+2026-02-07 14:28:12,855 - INFO -   ✅ 取得完了: WRLRF
+2026-02-07 14:28:14,855 - INFO - 
+[46/338]
+2026-02-07 14:28:14,856 - INFO - 取得中: Western Copper and Gold Corporation (WRN)
+2026-02-07 14:28:16,083 - INFO -   ✅ 取得完了: Western Copper and Gold Corporation
+2026-02-07 14:28:18,084 - INFO - 
+[47/338]
+2026-02-07 14:28:18,084 - INFO - 取得中: WRPT (WRPT)
+2026-02-07 14:28:18,637 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: WRPT"}}}
+2026-02-07 14:28:19,489 - INFO -   ✅ 取得完了: WRPT
+2026-02-07 14:28:21,490 - INFO - 
+[48/338]
+2026-02-07 14:28:21,490 - INFO - 取得中: Worthington Steel, Inc. (WS)
+2026-02-07 14:28:22,718 - INFO -   ✅ 取得完了: Worthington Steel, Inc.
+2026-02-07 14:28:24,718 - INFO - 
+[49/338]
+2026-02-07 14:28:24,718 - INFO - 取得中: WesBanco, Inc. (WSBC)
+2026-02-07 14:28:26,029 - INFO -   ✅ 取得完了: WesBanco, Inc.
+2026-02-07 14:28:28,030 - INFO - 
+[50/338]
+2026-02-07 14:28:28,030 - INFO - 取得中: WesBanco, Inc. (WSBCO)
+2026-02-07 14:28:29,167 - INFO -   ✅ 取得完了: WesBanco, Inc.
+2026-02-07 14:28:31,168 - INFO - 
+[51/338]
+2026-02-07 14:28:31,168 - INFO - 取得中: Waterstone Financial, Inc. (WSBF)
+2026-02-07 14:28:32,560 - INFO -   ✅ 取得完了: Waterstone Financial, Inc.
+2026-02-07 14:28:34,561 - INFO - 
+[52/338]
+2026-02-07 14:28:34,561 - INFO - 取得中: Winchester Bancorp, Inc. (WSBK)
+2026-02-07 14:28:36,052 - ERROR - $WSBK: possibly delisted; no price data found  (1d 2024-06-27 -> 2024-07-03) (Yahoo error = "Data doesn't exist for startDate = 1719460800, endDate = 1719979200")
+2026-02-07 14:28:36,059 - INFO -   ✅ 取得完了: Winchester Bancorp, Inc.
+2026-02-07 14:28:38,060 - INFO - 
+[53/338]
+2026-02-07 14:28:38,060 - INFO - 取得中: WillScot Holdings Corporation (WSC)
+2026-02-07 14:28:39,295 - INFO -   ✅ 取得完了: WillScot Holdings Corporation
+2026-02-07 14:28:41,296 - INFO - 
+[54/338]
+2026-02-07 14:28:41,296 - INFO - 取得中: WSFS Financial Corporation (WSFS)
+2026-02-07 14:28:42,629 - INFO -   ✅ 取得完了: WSFS Financial Corporation
+2026-02-07 14:28:44,629 - INFO - 
+[55/338]
+2026-02-07 14:28:44,629 - INFO - 取得中: WeShop Holdings Limited (WSHP)
+2026-02-07 14:28:46,239 - ERROR - $WSHP: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 14:28:46,246 - INFO -   ✅ 取得完了: WeShop Holdings Limited
+2026-02-07 14:28:48,246 - INFO - 
+[56/338]
+2026-02-07 14:28:48,247 - INFO - 取得中: WISeKey International Holding AG (WSKEF)
+2026-02-07 14:28:49,624 - INFO -   ✅ 取得完了: WISeKey International Holding AG
+2026-02-07 14:28:51,625 - INFO - 
+[57/338]
+2026-02-07 14:28:51,625 - INFO - 取得中: Williams-Sonoma, Inc. (WSM)
+2026-02-07 14:28:52,936 - INFO -   ✅ 取得完了: Williams-Sonoma, Inc.
+2026-02-07 14:28:54,936 - INFO - 
+[58/338]
+2026-02-07 14:28:54,936 - INFO - 取得中: Watsco, Inc. (WSO)
+2026-02-07 14:28:56,219 - INFO -   ✅ 取得完了: Watsco, Inc.
+2026-02-07 14:28:58,220 - INFO - 
+[59/338]
+2026-02-07 14:28:58,220 - INFO - 取得中: Watsco, Inc. (WSO-B)
+2026-02-07 14:28:59,521 - INFO -   ✅ 取得完了: Watsco, Inc.
+2026-02-07 14:29:01,521 - INFO - 
+[60/338]
+2026-02-07 14:29:01,521 - INFO - 取得中: Whitestone REIT (WSR)
+2026-02-07 14:29:02,815 - INFO -   ✅ 取得完了: Whitestone REIT
+2026-02-07 14:29:04,816 - INFO - 
+[61/338]
+2026-02-07 14:29:04,816 - INFO - 取得中: West Pharmaceutical Services, Inc. (WST)
+2026-02-07 14:29:06,163 - INFO -   ✅ 取得完了: West Pharmaceutical Services, Inc.
+2026-02-07 14:29:08,163 - INFO - 
+[62/338]
+2026-02-07 14:29:08,163 - INFO - 取得中: Westin Acquisition Corp (WSTN)
+2026-02-07 14:29:09,228 - INFO -   ✅ 取得完了: Westin Acquisition Corp
+2026-02-07 14:29:11,229 - INFO - 
+[63/338]
+2026-02-07 14:29:11,229 - INFO - 取得中: Westin Acquisition Corp (WSTNR)
+2026-02-07 14:29:12,171 - INFO -   ✅ 取得完了: Westin Acquisition Corp
+2026-02-07 14:29:14,171 - INFO - 
+[64/338]
+2026-02-07 14:29:14,171 - INFO - 取得中: Westin Acquisition Corp (WSTNU)
+2026-02-07 14:29:15,315 - INFO -   ✅ 取得完了: Westin Acquisition Corp
+2026-02-07 14:29:17,315 - INFO - 
+[65/338]
+2026-02-07 14:29:17,315 - INFO - 取得中: Western Uranium & Vanadium Corp. (WSTRF)
+2026-02-07 14:29:18,879 - ERROR - $WSTRF: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 14:29:18,887 - INFO -   ✅ 取得完了: Western Uranium & Vanadium Corp.
+2026-02-07 14:29:20,887 - INFO - 
+[66/338]
+2026-02-07 14:29:20,887 - INFO - 取得中: Wheels Up Experience Inc. (WSUPW)
+2026-02-07 14:29:22,008 - INFO -   ✅ 取得完了: Wheels Up Experience Inc.
+2026-02-07 14:29:24,008 - INFO - 
+[67/338]
+2026-02-07 14:29:24,008 - INFO - 取得中: WisdomTree, Inc. (WT)
+2026-02-07 14:29:25,282 - INFO -   ✅ 取得完了: WisdomTree, Inc.
+2026-02-07 14:29:27,282 - INFO - 
+[68/338]
+2026-02-07 14:29:27,282 - INFO - 取得中: West Bancorporation, Inc. (WTBA)
+2026-02-07 14:29:28,608 - INFO -   ✅ 取得完了: West Bancorporation, Inc.
+2026-02-07 14:29:30,608 - INFO - 
+[69/338]
+2026-02-07 14:29:30,609 - INFO - 取得中: WiseTech Global Limited (WTCHF)
+2026-02-07 14:29:31,887 - INFO -   ✅ 取得完了: WiseTech Global Limited
+2026-02-07 14:29:33,887 - INFO - 
+[70/338]
+2026-02-07 14:29:33,887 - INFO - 取得中: The Alkaline Water Company Inc. (WTER)
+2026-02-07 14:29:35,137 - INFO -   ✅ 取得完了: The Alkaline Water Company Inc.
+2026-02-07 14:29:37,138 - INFO - 
+[71/338]
+2026-02-07 14:29:37,138 - INFO - 取得中: Waton Financial Limited (WTF)
+2026-02-07 14:29:38,619 - ERROR - $WTF: possibly delisted; no price data found  (1d 2024-03-28 -> 2024-04-03) (Yahoo error = "Data doesn't exist for startDate = 1711598400, endDate = 1712116800")
+2026-02-07 14:29:38,627 - INFO -   ✅ 取得完了: Waton Financial Limited
+2026-02-07 14:29:40,628 - INFO - 
+[72/338]
+2026-02-07 14:29:40,628 - INFO - 取得中: Wintrust Financial Corporation (WTFC)
+2026-02-07 14:29:41,914 - INFO -   ✅ 取得完了: Wintrust Financial Corporation
+2026-02-07 14:29:43,915 - INFO - 
+[73/338]
+2026-02-07 14:29:43,915 - INFO - 取得中: Wintrust Financial Corporation (WTFCN)
+2026-02-07 14:29:44,989 - INFO -   ✅ 取得完了: Wintrust Financial Corporation
+2026-02-07 14:29:46,989 - INFO - 
+[74/338]
+2026-02-07 14:29:46,989 - INFO - 取得中: Wintergreen Acquisition Corp. (WTG)
+2026-02-07 14:29:47,992 - INFO -   ✅ 取得完了: Wintergreen Acquisition Corp.
+2026-02-07 14:29:49,992 - INFO - 
+[75/338]
+2026-02-07 14:29:49,992 - INFO - 取得中: Wintergreen Acquisition Corp. (WTGUR)
+2026-02-07 14:29:51,034 - INFO -   ✅ 取得完了: Wintergreen Acquisition Corp.
+2026-02-07 14:29:53,035 - INFO - 
+[76/338]
+2026-02-07 14:29:53,035 - INFO - 取得中: Wintergreen Acquisition Corp. (WTGUU)
+2026-02-07 14:29:54,126 - INFO -   ✅ 取得完了: Wintergreen Acquisition Corp.
+2026-02-07 14:29:56,126 - INFO - 
+[77/338]
+2026-02-07 14:29:56,127 - INFO - 取得中: Westhaven Gold Corp. (WTHVF)
+2026-02-07 14:29:57,366 - INFO -   ✅ 取得完了: Westhaven Gold Corp.
+2026-02-07 14:29:59,366 - INFO - 
+[78/338]
+2026-02-07 14:29:59,366 - INFO - 取得中: W&T Offshore, Inc. (WTI)
+2026-02-07 14:30:00,863 - INFO -   ✅ 取得完了: W&T Offshore, Inc.
+2026-02-07 14:30:02,864 - INFO - 
+[79/338]
+2026-02-07 14:30:02,864 - INFO - 取得中: MicroSectors Energy -3X Inverse Leveraged ETN (WTID)
+2026-02-07 14:30:03,864 - INFO -   ✅ 取得完了: MicroSectors Energy -3X Inverse Leveraged ETN
+2026-02-07 14:30:05,864 - INFO - 
+[80/338]
+2026-02-07 14:30:05,864 - INFO - 取得中: MicroSectors Energy 3X Leveraged ETN (WTIU)
+2026-02-07 14:30:06,947 - INFO -   ✅ 取得完了: MicroSectors Energy 3X Leveraged ETN
+2026-02-07 14:30:08,947 - INFO - 
+[81/338]
+2026-02-07 14:30:08,947 - INFO - 取得中: Wolters Kluwer N.V. (WTKWY)
+2026-02-07 14:30:10,416 - INFO -   ✅ 取得完了: Wolters Kluwer N.V.
+2026-02-07 14:30:12,416 - INFO - 
+[82/338]
+2026-02-07 14:30:12,416 - INFO - 取得中: White Mountains Insurance Group, Ltd. (WTM)
+2026-02-07 14:30:13,673 - INFO -   ✅ 取得完了: White Mountains Insurance Group, Ltd.
+2026-02-07 14:30:15,673 - INFO - 
+[83/338]
+2026-02-07 14:30:15,673 - INFO - 取得中: UTime Limited (WTO)
+2026-02-07 14:30:16,959 - INFO -   ✅ 取得完了: UTime Limited
+2026-02-07 14:30:18,960 - INFO - 
+[84/338]
+2026-02-07 14:30:18,960 - INFO - 取得中: Essential Utilities, Inc. (WTRG)
+2026-02-07 14:30:20,343 - INFO -   ✅ 取得完了: Essential Utilities, Inc.
+2026-02-07 14:30:22,343 - INFO - 
+[85/338]
+2026-02-07 14:30:22,344 - INFO - 取得中: Watts Water Technologies, Inc. (WTS)
+2026-02-07 14:30:23,621 - INFO -   ✅ 取得完了: Watts Water Technologies, Inc.
+2026-02-07 14:30:25,622 - INFO - 
+[86/338]
+2026-02-07 14:30:25,622 - INFO - 取得中: Select Water Solutions, Inc. (WTTR)
+2026-02-07 14:30:26,849 - INFO -   ✅ 取得完了: Select Water Solutions, Inc.
+2026-02-07 14:30:28,849 - INFO - 
+[87/338]
+2026-02-07 14:30:28,849 - INFO - 取得中: Willis Towers Watson Public Limited Company (WTW)
+2026-02-07 14:30:30,131 - INFO -   ✅ 取得完了: Willis Towers Watson Public Limited Company
+2026-02-07 14:30:32,131 - INFO - 
+[88/338]
+2026-02-07 14:30:32,132 - INFO - 取得中: The Western Union Company (WU)
+2026-02-07 14:30:33,576 - INFO -   ✅ 取得完了: The Western Union Company
+2026-02-07 14:30:35,577 - INFO - 
+[89/338]
+2026-02-07 14:30:35,577 - INFO - 取得中: TeraWulf Inc. (WULF)
+2026-02-07 14:30:36,930 - INFO -   ✅ 取得完了: TeraWulf Inc.
+2026-02-07 14:30:38,931 - INFO - 
+[90/338]
+2026-02-07 14:30:38,931 - INFO - 取得中: Wave Life Sciences Ltd. (WVE)
+2026-02-07 14:30:40,308 - INFO -   ✅ 取得完了: Wave Life Sciences Ltd.
+2026-02-07 14:30:42,308 - INFO - 
+[91/338]
+2026-02-07 14:30:42,308 - INFO - 取得中: Willamette Valley Vineyards, Inc. (WVVI)
+2026-02-07 14:30:43,587 - INFO -   ✅ 取得完了: Willamette Valley Vineyards, Inc.
+2026-02-07 14:30:45,587 - INFO - 
+[92/338]
+2026-02-07 14:30:45,587 - INFO - 取得中: Willamette Valley Vineyards, Inc. (WVVIP)
+2026-02-07 14:30:46,656 - INFO -   ✅ 取得完了: Willamette Valley Vineyards, Inc.
+2026-02-07 14:30:48,657 - INFO - 
+[93/338]
+2026-02-07 14:30:48,657 - INFO - 取得中: WW International, Inc. (WW)
+2026-02-07 14:30:50,046 - ERROR - $WW: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 14:30:50,055 - INFO -   ✅ 取得完了: WW International, Inc.
+2026-02-07 14:30:52,055 - INFO - 
+[94/338]
+2026-02-07 14:30:52,055 - INFO - 取得中: Woodward, Inc. (WWD)
+2026-02-07 14:30:53,511 - INFO -   ✅ 取得完了: Woodward, Inc.
+2026-02-07 14:30:55,511 - INFO - 
+[95/338]
+2026-02-07 14:30:55,511 - INFO - 取得中: Westwater Resources, Inc. (WWR)
+2026-02-07 14:30:56,760 - INFO -   ✅ 取得完了: Westwater Resources, Inc.
+2026-02-07 14:30:58,760 - INFO - 
+[96/338]
+2026-02-07 14:30:58,760 - INFO - 取得中: Wolverine World Wide, Inc. (WWW)
+2026-02-07 14:31:00,271 - INFO -   ✅ 取得完了: Wolverine World Wide, Inc.
+2026-02-07 14:31:02,272 - INFO - 
+[97/338]
+2026-02-07 14:31:02,272 - INFO - 取得中: WF International Limited (WXM)
+2026-02-07 14:31:03,723 - ERROR - $WXM: possibly delisted; no price data found  (1d 2024-09-27 -> 2024-10-03) (Yahoo error = "Data doesn't exist for startDate = 1727409600, endDate = 1727928000")
+2026-02-07 14:31:03,733 - INFO -   ✅ 取得完了: WF International Limited
+2026-02-07 14:31:05,733 - INFO - 
+[98/338]
+2026-02-07 14:31:05,733 - INFO - 取得中: Weyerhaeuser Company (WY)
+2026-02-07 14:31:07,474 - INFO -   ✅ 取得完了: Weyerhaeuser Company
+2026-02-07 14:31:09,475 - INFO - 
+[99/338]
+2026-02-07 14:31:09,475 - INFO - 取得中: WhiteFiber, Inc. (WYFI)
+2026-02-07 14:31:10,596 - INFO -   ✅ 取得完了: WhiteFiber, Inc.
+2026-02-07 14:31:12,597 - INFO - 
+[100/338]
+2026-02-07 14:31:12,597 - INFO - 取得中: Wenyuan Group Corp. (WYGC)
+2026-02-07 14:31:13,985 - INFO -   ✅ 取得完了: Wenyuan Group Corp.
+2026-02-07 14:31:15,986 - INFO - 
+[101/338]
+2026-02-07 14:31:15,986 - INFO - 取得中: Wing Yip Food Holdings Group Limited (WYHG)
+2026-02-07 14:31:17,864 - ERROR - $WYHG: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 14:31:17,874 - INFO -   ✅ 取得完了: Wing Yip Food Holdings Group Limited
+2026-02-07 14:31:19,875 - INFO - 
+[102/338]
+2026-02-07 14:31:19,875 - INFO - 取得中: Wynn Resorts, Limited (WYNN)
+2026-02-07 14:31:21,151 - INFO -   ✅ 取得完了: Wynn Resorts, Limited
+2026-02-07 14:31:23,152 - INFO - 
+[103/338]
+2026-02-07 14:31:23,152 - INFO - 取得中: WYTEC INTERNATIONAL INC (WYTC)
+2026-02-07 14:31:24,132 - INFO -   ✅ 取得完了: WYTEC INTERNATIONAL INC
+2026-02-07 14:31:26,132 - INFO - 
+[104/338]
+2026-02-07 14:31:26,132 - INFO - 取得中: WidePoint Corporation (WYY)
+2026-02-07 14:31:27,393 - INFO -   ✅ 取得完了: WidePoint Corporation
+2026-02-07 14:31:29,393 - INFO - 
+[105/338]
+2026-02-07 14:31:29,393 - INFO - 取得中: Longevity Health Holdings, Inc. (XAGE)
+2026-02-07 14:31:30,728 - INFO -   ✅ 取得完了: Longevity Health Holdings, Inc.
+2026-02-07 14:31:32,728 - INFO - 
+[106/338]
+2026-02-07 14:31:32,728 - INFO - 取得中: Longevity Health Holdings, Inc. (XAGEW)
+2026-02-07 14:31:33,799 - INFO -   ✅ 取得完了: Longevity Health Holdings, Inc.
+2026-02-07 14:31:35,799 - INFO - 
+[107/338]
+2026-02-07 14:31:35,799 - INFO - 取得中: Beyond Air, Inc. (XAIR)
+2026-02-07 14:31:37,128 - INFO -   ✅ 取得完了: Beyond Air, Inc.
+2026-02-07 14:31:39,128 - INFO - 
+[108/338]
+2026-02-07 14:31:39,129 - INFO - 取得中: Xenetic Biosciences, Inc. (XBIO)
+2026-02-07 14:31:40,607 - INFO -   ✅ 取得完了: Xenetic Biosciences, Inc.
+2026-02-07 14:31:42,607 - INFO - 
+[109/338]
+2026-02-07 14:31:42,607 - INFO - 取得中: XBiotech Inc. (XBIT)
+2026-02-07 14:31:43,807 - INFO -   ✅ 取得完了: XBiotech Inc.
+2026-02-07 14:31:45,807 - INFO - 
+[110/338]
+2026-02-07 14:31:45,807 - INFO - 取得中: XBP Global Holdings, Inc. (XBP)
+2026-02-07 14:31:47,032 - INFO -   ✅ 取得完了: XBP Global Holdings, Inc.
+2026-02-07 14:31:49,032 - INFO - 
+[111/338]
+2026-02-07 14:31:49,032 - INFO - 取得中: XBP Global Holdings, Inc. (XBPEW)
+2026-02-07 14:31:50,393 - INFO -   ✅ 取得完了: XBP Global Holdings, Inc.
+2026-02-07 14:31:52,393 - INFO - 
+[112/338]
+2026-02-07 14:31:52,394 - INFO - 取得中: XCBE (XCBE)
+2026-02-07 14:31:52,755 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: XCBE"}}}
+2026-02-07 14:31:53,642 - INFO -   ✅ 取得完了: XCBE
+2026-02-07 14:31:55,642 - INFO - 
+[113/338]
+2026-02-07 14:31:55,642 - INFO - 取得中: X3 Acquisition Corp. Ltd. (XCBEU)
+2026-02-07 14:31:56,635 - INFO -   ✅ 取得完了: X3 Acquisition Corp. Ltd.
+2026-02-07 14:31:58,636 - INFO - 
+[114/338]
+2026-02-07 14:31:58,636 - INFO - 取得中: XCHG Limited (XCH)
+2026-02-07 14:32:00,012 - ERROR - $XCH: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 14:32:00,021 - INFO -   ✅ 取得完了: XCHG Limited
+2026-02-07 14:32:02,021 - INFO - 
+[115/338]
+2026-02-07 14:32:02,022 - INFO - 取得中: Xcelerate Inc. (XCRT)
+2026-02-07 14:32:03,055 - INFO -   ✅ 取得完了: Xcelerate Inc.
+2026-02-07 14:32:05,056 - INFO - 
+[116/338]
+2026-02-07 14:32:05,056 - INFO - 取得中: Exicure, Inc. (XCUR)
+2026-02-07 14:32:06,899 - INFO -   ✅ 取得完了: Exicure, Inc.
+2026-02-07 14:32:08,899 - INFO - 
+[117/338]
+2026-02-07 14:32:08,899 - INFO - 取得中: Xcel Energy Inc. (XEL)
+2026-02-07 14:32:10,415 - INFO -   ✅ 取得完了: Xcel Energy Inc.
+2026-02-07 14:32:12,415 - INFO - 
+[118/338]
+2026-02-07 14:32:12,416 - INFO - 取得中: Exela Technologies, Inc. (XELA)
+2026-02-07 14:32:13,902 - INFO -   ✅ 取得完了: Exela Technologies, Inc.
+2026-02-07 14:32:15,902 - INFO - 
+[119/338]
+2026-02-07 14:32:15,903 - INFO - 取得中: Xcel Brands, Inc. (XELB)
+2026-02-07 14:32:17,103 - INFO -   ✅ 取得完了: Xcel Brands, Inc.
+2026-02-07 14:32:19,103 - INFO - 
+[120/338]
+2026-02-07 14:32:19,103 - INFO - 取得中: Xcel Energy Inc. (XELLL)
+2026-02-07 14:32:20,043 - INFO -   ✅ 取得完了: Xcel Energy Inc.
+2026-02-07 14:32:22,043 - INFO - 
+[121/338]
+2026-02-07 14:32:22,043 - INFO - 取得中: Xenon Pharmaceuticals Inc. (XENE)
+2026-02-07 14:32:23,328 - INFO -   ✅ 取得完了: Xenon Pharmaceuticals Inc.
+2026-02-07 14:32:25,329 - INFO - 
+[122/338]
+2026-02-07 14:32:25,329 - INFO - 取得中: Xeriant, Inc. (XERI)
+2026-02-07 14:32:26,755 - INFO -   ✅ 取得完了: Xeriant, Inc.
+2026-02-07 14:32:28,755 - INFO - 
+[123/338]
+2026-02-07 14:32:28,755 - INFO - 取得中: Xeris Biopharma Holdings, Inc. (XERS)
+2026-02-07 14:32:30,086 - INFO -   ✅ 取得完了: Xeris Biopharma Holdings, Inc.
+2026-02-07 14:32:32,087 - INFO - 
+[124/338]
+2026-02-07 14:32:32,087 - INFO - 取得中: XFLH (XFLH)
+2026-02-07 14:32:32,567 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: XFLH"}}}
+2026-02-07 14:32:33,477 - INFO -   ✅ 取得完了: XFLH
+2026-02-07 14:32:35,477 - INFO - 
+[125/338]
+2026-02-07 14:32:35,477 - INFO - 取得中: XAI Octagon Floating Rate & Alternative Income Trust (XFLT)
+2026-02-07 14:32:36,756 - INFO -   ✅ 取得完了: XAI Octagon Floating Rate & Alternative Income Trust
+2026-02-07 14:32:38,757 - INFO - 
+[126/338]
+2026-02-07 14:32:38,757 - INFO - 取得中: X4 Pharmaceuticals, Inc. (XFOR)
+2026-02-07 14:32:40,192 - INFO -   ✅ 取得完了: X4 Pharmaceuticals, Inc.
+2026-02-07 14:32:42,192 - INFO - 
+[127/338]
+2026-02-07 14:32:42,193 - INFO - 取得中: Exagen Inc. (XGN)
+2026-02-07 14:32:43,448 - INFO -   ✅ 取得完了: Exagen Inc.
+2026-02-07 14:32:45,448 - INFO - 
+[128/338]
+2026-02-07 14:32:45,448 - INFO - 取得中: XChange TEC.INC (XHG)
+2026-02-07 14:32:46,694 - INFO -   ✅ 取得完了: XChange TEC.INC
+2026-02-07 14:32:48,695 - INFO - 
+[129/338]
+2026-02-07 14:32:48,695 - INFO - 取得中: TEN Holdings, Inc. (XHLD)
+2026-02-07 14:32:50,175 - ERROR - $XHLD: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 14:32:50,182 - INFO -   ✅ 取得完了: TEN Holdings, Inc.
+2026-02-07 14:32:52,183 - INFO - 
+[130/338]
+2026-02-07 14:32:52,183 - INFO - 取得中: Xenia Hotels & Resorts, Inc. (XHR)
+2026-02-07 14:32:53,671 - INFO -   ✅ 取得完了: Xenia Hotels & Resorts, Inc.
+2026-02-07 14:32:55,671 - INFO - 
+[131/338]
+2026-02-07 14:32:55,671 - INFO - 取得中: XPLR Infrastructure, LP (XIFR)
+2026-02-07 14:32:56,905 - INFO -   ✅ 取得完了: XPLR Infrastructure, LP
+2026-02-07 14:32:58,905 - INFO - 
+[132/338]
+2026-02-07 14:32:58,905 - INFO - 取得中: Xenous Holdings, Inc. (XITO)
+2026-02-07 14:33:00,761 - INFO -   ✅ 取得完了: Xenous Holdings, Inc.
+2026-02-07 14:33:02,761 - INFO - 
+[133/338]
+2026-02-07 14:33:02,761 - INFO - 取得中: Goldwind Science&Technology Co., Ltd. (XJNGF)
+2026-02-07 14:33:04,186 - INFO -   ✅ 取得完了: Goldwind Science&Technology Co., Ltd.
+2026-02-07 14:33:06,187 - INFO - 
+[134/338]
+2026-02-07 14:33:06,187 - INFO - 取得中: Xilio Therapeutics, Inc. (XLO)
+2026-02-07 14:33:07,417 - INFO -   ✅ 取得完了: Xilio Therapeutics, Inc.
+2026-02-07 14:33:09,418 - INFO - 
+[135/338]
+2026-02-07 14:33:09,418 - INFO - 取得中: Xometry, Inc. (XMTR)
+2026-02-07 14:33:10,698 - INFO -   ✅ 取得完了: Xometry, Inc.
+2026-02-07 14:33:12,698 - INFO - 
+[136/338]
+2026-02-07 14:33:12,699 - INFO - 取得中: Xencor, Inc. (XNCR)
+2026-02-07 14:33:13,987 - INFO -   ✅ 取得完了: Xencor, Inc.
+2026-02-07 14:33:15,987 - INFO - 
+[137/338]
+2026-02-07 14:33:15,987 - INFO - 取得中: SUPA Consolidated Inc. (XNDA)
+2026-02-07 14:33:17,282 - INFO -   ✅ 取得完了: SUPA Consolidated Inc.
+2026-02-07 14:33:19,283 - INFO - 
+[138/338]
+2026-02-07 14:33:19,283 - INFO - 取得中: Xunlei Limited (XNET)
+2026-02-07 14:33:20,829 - INFO -   ✅ 取得完了: Xunlei Limited
+2026-02-07 14:33:22,829 - INFO - 
+[139/338]
+2026-02-07 14:33:22,830 - INFO - 取得中: Goldwind Science&Technology Co., Ltd. (XNJJY)
+2026-02-07 14:33:24,352 - INFO -   ✅ 取得完了: Goldwind Science&Technology Co., Ltd.
+2026-02-07 14:33:26,353 - INFO - 
+[140/338]
+2026-02-07 14:33:26,353 - INFO - 取得中: Exxon Mobil Corporation (XOM)
+2026-02-07 14:33:27,791 - INFO -   ✅ 取得完了: Exxon Mobil Corporation
+2026-02-07 14:33:29,791 - INFO - 
+[141/338]
+2026-02-07 14:33:29,791 - INFO - 取得中: XOMA Royalty Corporation (XOMA)
+2026-02-07 14:33:31,185 - INFO -   ✅ 取得完了: XOMA Royalty Corporation
+2026-02-07 14:33:33,185 - INFO - 
+[142/338]
+2026-02-07 14:33:33,185 - INFO - 取得中: XOMA Royalty Corporation (XOMAO)
+2026-02-07 14:33:34,298 - INFO -   ✅ 取得完了: XOMA Royalty Corporation
+2026-02-07 14:33:36,298 - INFO - 
+[143/338]
+2026-02-07 14:33:36,298 - INFO - 取得中: XOMA Royalty Corporation (XOMAP)
+2026-02-07 14:33:37,499 - INFO -   ✅ 取得完了: XOMA Royalty Corporation
+2026-02-07 14:33:39,499 - INFO - 
+[144/338]
+2026-02-07 14:33:39,499 - INFO - 取得中: Xtreme One Entertainment, Inc. (XONI)
+2026-02-07 14:33:40,626 - INFO -   ✅ 取得完了: Xtreme One Entertainment, Inc.
+2026-02-07 14:33:42,626 - INFO - 
+[145/338]
+2026-02-07 14:33:42,626 - INFO - 取得中: Xos, Inc. (XOS)
+2026-02-07 14:33:43,996 - INFO -   ✅ 取得完了: Xos, Inc.
+2026-02-07 14:33:45,996 - INFO - 
+[146/338]
+2026-02-07 14:33:45,997 - INFO - 取得中: Xos, Inc. (XOSWW)
+2026-02-07 14:33:47,277 - INFO -   ✅ 取得完了: Xos, Inc.
+2026-02-07 14:33:49,277 - INFO - 
+[147/338]
+2026-02-07 14:33:49,277 - INFO - 取得中: XP Inc. (XP)
+2026-02-07 14:33:50,621 - INFO -   ✅ 取得完了: XP Inc.
+2026-02-07 14:33:52,622 - INFO - 
+[148/338]
+2026-02-07 14:33:52,622 - INFO - 取得中: Xpand Boom Technology Inc (XPD)
+2026-02-07 14:33:54,058 - ERROR - $XPD: possibly delisted; no price data found  (1d 2023-06-27 -> 2023-07-03)
+2026-02-07 14:33:54,066 - INFO -   ✅ 取得完了: Xpand Boom Technology Inc
+2026-02-07 14:33:56,066 - INFO - 
+[149/338]
+2026-02-07 14:33:56,066 - INFO - 取得中: XPEL, Inc. (XPEL)
+2026-02-07 14:33:57,312 - INFO -   ✅ 取得完了: XPEL, Inc.
+2026-02-07 14:33:59,312 - INFO - 
+[150/338]
+2026-02-07 14:33:59,313 - INFO - 取得中: Xperi Inc. (XPER)
+2026-02-07 14:34:00,626 - INFO -   ✅ 取得完了: Xperi Inc.
+2026-02-07 14:34:02,627 - INFO - 
+[151/338]
+2026-02-07 14:34:02,627 - INFO - 取得中: XPeng Inc. (XPEV)
+2026-02-07 14:34:04,212 - INFO -   ✅ 取得完了: XPeng Inc.
+2026-02-07 14:34:06,212 - INFO - 
+[152/338]
+2026-02-07 14:34:06,212 - INFO - 取得中: Solitario Resources Corp. (XPL)
+2026-02-07 14:34:07,484 - INFO -   ✅ 取得完了: Solitario Resources Corp.
+2026-02-07 14:34:09,484 - INFO - 
+[153/338]
+2026-02-07 14:34:09,484 - INFO - 取得中: XPeng Inc. (XPNGF)
+2026-02-07 14:34:10,926 - INFO -   ✅ 取得完了: XPeng Inc.
+2026-02-07 14:34:12,926 - INFO - 
+[154/338]
+2026-02-07 14:34:12,927 - INFO - 取得中: XPO, Inc. (XPO)
+2026-02-07 14:34:14,236 - INFO -   ✅ 取得完了: XPO, Inc.
+2026-02-07 14:34:16,236 - INFO - 
+[155/338]
+2026-02-07 14:34:16,236 - INFO - 取得中: Xponential Fitness, Inc. (XPOF)
+2026-02-07 14:34:17,640 - INFO -   ✅ 取得完了: Xponential Fitness, Inc.
+2026-02-07 14:34:19,640 - INFO - 
+[156/338]
+2026-02-07 14:34:19,640 - INFO - 取得中: Expion360 Inc. (XPON)
+2026-02-07 14:34:20,819 - INFO -   ✅ 取得完了: Expion360 Inc.
+2026-02-07 14:34:22,819 - INFO - 
+[157/338]
+2026-02-07 14:34:22,820 - INFO - 取得中: Expro Group Holdings N.V. (XPRO)
+2026-02-07 14:34:24,158 - INFO -   ✅ 取得完了: Expro Group Holdings N.V.
+2026-02-07 14:34:26,159 - INFO - 
+[158/338]
+2026-02-07 14:34:26,159 - INFO - 取得中: Federated Project & Trade Finance Tender Fund (XPTFX)
+2026-02-07 14:34:27,100 - INFO -   ✅ 取得完了: Federated Project & Trade Finance Tender Fund
+2026-02-07 14:34:29,100 - INFO - 
+[159/338]
+2026-02-07 14:34:29,100 - INFO - 取得中: DENTSPLY SIRONA Inc. (XRAY)
+2026-02-07 14:34:30,516 - INFO -   ✅ 取得完了: DENTSPLY SIRONA Inc.
+2026-02-07 14:34:32,517 - INFO - 
+[160/338]
+2026-02-07 14:34:32,517 - INFO - 取得中: Bitwise XRP ETF (XRP)
+2026-02-07 14:34:33,496 - INFO -   ✅ 取得完了: Bitwise XRP ETF
+2026-02-07 14:34:35,496 - INFO - 
+[161/338]
+2026-02-07 14:34:35,496 - INFO - 取得中: Armada Acquisition Corp. II (XRPN)
+2026-02-07 14:34:36,520 - INFO -   ✅ 取得完了: Armada Acquisition Corp. II
+2026-02-07 14:34:38,520 - INFO - 
+[162/338]
+2026-02-07 14:34:38,521 - INFO - 取得中: Armada Acquisition Corp. II (XRPNU)
+2026-02-07 14:34:39,857 - INFO -   ✅ 取得完了: Armada Acquisition Corp. II
+2026-02-07 14:34:41,858 - INFO - 
+[163/338]
+2026-02-07 14:34:41,858 - INFO - 取得中: Armada Acquisition Corp. II (XRPNW)
+2026-02-07 14:34:42,926 - INFO -   ✅ 取得完了: Armada Acquisition Corp. II
+2026-02-07 14:34:44,927 - INFO - 
+[164/338]
+2026-02-07 14:34:44,927 - INFO - 取得中: Franklin XRP ETF (XRPZ)
+2026-02-07 14:34:45,986 - INFO -   ✅ 取得完了: Franklin XRP ETF
+2026-02-07 14:34:47,987 - INFO - 
+[165/338]
+2026-02-07 14:34:47,987 - INFO - 取得中: XORTX Therapeutics Inc. (XRTX)
+2026-02-07 14:34:49,297 - INFO -   ✅ 取得完了: XORTX Therapeutics Inc.
+2026-02-07 14:34:51,298 - INFO - 
+[166/338]
+2026-02-07 14:34:51,298 - INFO - 取得中: Xerox Holdings Corporation (XRX)
+2026-02-07 14:34:52,828 - INFO -   ✅ 取得完了: Xerox Holdings Corporation
+2026-02-07 14:34:54,828 - INFO - 
+[167/338]
+2026-02-07 14:34:54,828 - INFO - 取得中: Voya Credit Income A (XSIAX)
+2026-02-07 14:34:55,855 - INFO -   ✅ 取得完了: Voya Credit Income A
+2026-02-07 14:34:57,856 - INFO - 
+[168/338]
+2026-02-07 14:34:57,856 - INFO - 取得中: XSLL (XSLL)
+2026-02-07 14:34:58,217 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: XSLL"}}}
+2026-02-07 14:34:59,080 - INFO -   ✅ 取得完了: XSLL
+2026-02-07 14:35:01,080 - INFO - 
+[169/338]
+2026-02-07 14:35:01,080 - INFO - 取得中: Xtra-Gold Resources Corp. (XTGRF)
+2026-02-07 14:35:02,370 - INFO -   ✅ 取得完了: Xtra-Gold Resources Corp.
+2026-02-07 14:35:04,370 - INFO - 
+[170/338]
+2026-02-07 14:35:04,370 - INFO - 取得中: XTI Aerospace, Inc. (XTIA)
+2026-02-07 14:35:05,587 - INFO -   ✅ 取得完了: XTI Aerospace, Inc.
+2026-02-07 14:35:07,587 - INFO - 
+[171/338]
+2026-02-07 14:35:07,587 - INFO - 取得中: X3 Holdings Co., Ltd. (XTKG)
+2026-02-07 14:35:08,794 - INFO -   ✅ 取得完了: X3 Holdings Co., Ltd.
+2026-02-07 14:35:10,794 - INFO - 
+[172/338]
+2026-02-07 14:35:10,795 - INFO - 取得中: XTL Biopharmaceuticals Ltd. (XTLB)
+2026-02-07 14:35:12,118 - INFO -   ✅ 取得完了: XTL Biopharmaceuticals Ltd.
+2026-02-07 14:35:14,118 - INFO - 
+[173/338]
+2026-02-07 14:35:14,118 - INFO - 取得中: Xtant Medical Holdings, Inc. (XTNT)
+2026-02-07 14:35:15,338 - INFO -   ✅ 取得完了: Xtant Medical Holdings, Inc.
+2026-02-07 14:35:17,339 - INFO - 
+[174/338]
+2026-02-07 14:35:17,339 - INFO - 取得中: Xtract One Technologies Inc. (XTRAF)
+2026-02-07 14:35:18,560 - INFO -   ✅ 取得完了: Xtract One Technologies Inc.
+2026-02-07 14:35:20,560 - INFO - 
+[175/338]
+2026-02-07 14:35:20,560 - INFO - 取得中: Adastra Holdings Ltd. (XTXXF)
+2026-02-07 14:35:21,901 - INFO -   ✅ 取得完了: Adastra Holdings Ltd.
+2026-02-07 14:35:23,901 - INFO - 
+[176/338]
+2026-02-07 14:35:23,901 - INFO - 取得中: XWELL, Inc. (XWEL)
+2026-02-07 14:35:25,305 - INFO -   ✅ 取得完了: XWELL, Inc.
+2026-02-07 14:35:27,305 - INFO - 
+[177/338]
+2026-02-07 14:35:27,306 - INFO - 取得中: XMax Inc. (XWIN)
+2026-02-07 14:35:28,633 - INFO -   ✅ 取得完了: XMax Inc.
+2026-02-07 14:35:30,633 - INFO - 
+[178/338]
+2026-02-07 14:35:30,634 - INFO - 取得中: Aei Income & Growth Fund LP (XXAAU)
+2026-02-07 14:35:31,678 - INFO -   ✅ 取得完了: Aei Income & Growth Fund LP
+2026-02-07 14:35:33,678 - INFO - 
+[179/338]
+2026-02-07 14:35:33,678 - INFO - 取得中: Xinxu Copper Industry Technology Ltd (XXC)
+2026-02-07 14:35:34,948 - ERROR - $XXC: possibly delisted; no price data found  (1d 2024-06-27 -> 2024-07-03)
+2026-02-07 14:35:34,958 - INFO -   ✅ 取得完了: Xinxu Copper Industry Technology Ltd
+2026-02-07 14:35:36,958 - INFO - 
+[180/338]
+2026-02-07 14:35:36,958 - INFO - 取得中: Twenty One Capital, Inc. (XXI)
+2026-02-07 14:35:38,103 - INFO -   ✅ 取得完了: Twenty One Capital, Inc.
+2026-02-07 14:35:40,103 - INFO - 
+[181/338]
+2026-02-07 14:35:40,103 - INFO - 取得中: 22nd Century Group, Inc. (XXII)
+2026-02-07 14:35:41,480 - INFO -   ✅ 取得完了: 22nd Century Group, Inc.
+2026-02-07 14:35:43,480 - INFO - 
+[182/338]
+2026-02-07 14:35:43,480 - INFO - 取得中: X Financial (XYF)
+2026-02-07 14:35:44,924 - INFO -   ✅ 取得完了: X Financial
+2026-02-07 14:35:46,924 - INFO - 
+[183/338]
+2026-02-07 14:35:46,924 - INFO - 取得中: XYJG (XYJG)
+2026-02-07 14:35:47,850 - INFO -   ✅ 取得完了: XYJG
+2026-02-07 14:35:49,850 - INFO - 
+[184/338]
+2026-02-07 14:35:49,850 - INFO - 取得中: Xylem Inc. (XYL)
+2026-02-07 14:35:51,301 - INFO -   ✅ 取得完了: Xylem Inc.
+2026-02-07 14:35:53,301 - INFO - 
+[185/338]
+2026-02-07 14:35:53,302 - INFO - 取得中: XY Labs, Inc. (XYLB)
+2026-02-07 14:35:54,345 - INFO -   ✅ 取得完了: XY Labs, Inc.
+2026-02-07 14:35:56,345 - INFO - 
+[186/338]
+2026-02-07 14:35:56,346 - INFO - 取得中: Block, Inc. (XYZ)
+2026-02-07 14:35:57,596 - INFO -   ✅ 取得完了: Block, Inc.
+2026-02-07 14:35:59,596 - INFO - 
+[187/338]
+2026-02-07 14:35:59,596 - INFO - 取得中: Mitsui Kinzoku Company, Limited (XZJCF)
+2026-02-07 14:36:00,844 - INFO -   ✅ 取得完了: Mitsui Kinzoku Company, Limited
+2026-02-07 14:36:02,845 - INFO - 
+[188/338]
+2026-02-07 14:36:02,845 - INFO - 取得中: Exzeo Group, Inc. (XZO)
+2026-02-07 14:36:03,944 - INFO -   ✅ 取得完了: Exzeo Group, Inc.
+2026-02-07 14:36:05,944 - INFO - 
+[189/338]
+2026-02-07 14:36:05,944 - INFO - 取得中: Youxin Technology Ltd (YAAS)
+2026-02-07 14:36:07,401 - ERROR - $YAAS: possibly delisted; no price data found  (1d 2024-09-27 -> 2024-10-03) (Yahoo error = "Data doesn't exist for startDate = 1727409600, endDate = 1727928000")
+2026-02-07 14:36:07,410 - INFO -   ✅ 取得完了: Youxin Technology Ltd
+2026-02-07 14:36:09,410 - INFO - 
+[190/338]
+2026-02-07 14:36:09,411 - INFO - 取得中: Yalla Group Limited (YALA)
+2026-02-07 14:36:10,779 - INFO -   ✅ 取得完了: Yalla Group Limited
+2026-02-07 14:36:12,779 - INFO - 
+[191/338]
+2026-02-07 14:36:12,779 - INFO - 取得中: Yamaha Motor Co., Ltd. (YAMHF)
+2026-02-07 14:36:14,211 - INFO -   ✅ 取得完了: Yamaha Motor Co., Ltd.
+2026-02-07 14:36:16,211 - INFO - 
+[192/338]
+2026-02-07 14:36:16,211 - INFO - 取得中: Yara International ASA (YARIY)
+2026-02-07 14:36:17,510 - INFO -   ✅ 取得完了: Yara International ASA
+2026-02-07 14:36:19,510 - INFO - 
+[193/338]
+2026-02-07 14:36:19,510 - INFO - 取得中: Yuanbao Inc. (YB)
+2026-02-07 14:36:21,074 - ERROR - $YB: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 14:36:21,083 - INFO -   ✅ 取得完了: Yuanbao Inc.
+2026-02-07 14:36:23,083 - INFO - 
+[194/338]
+2026-02-07 14:36:23,083 - INFO - 取得中: Yubo International Biotech Limited (YBGJ)
+2026-02-07 14:36:24,572 - INFO -   ✅ 取得完了: Yubo International Biotech Limited
+2026-02-07 14:36:26,572 - INFO - 
+[195/338]
+2026-02-07 14:36:26,573 - INFO - 取得中: cbdMD, Inc. (YCBD)
+2026-02-07 14:36:27,791 - INFO -   ✅ 取得完了: cbdMD, Inc.
+2026-02-07 14:36:29,791 - INFO - 
+[196/338]
+2026-02-07 14:36:29,791 - INFO - 取得中: ProShares Ultra Yen (YCL)
+2026-02-07 14:36:30,887 - INFO -   ✅ 取得完了: ProShares Ultra Yen
+2026-02-07 14:36:32,887 - INFO - 
+[197/338]
+2026-02-07 14:36:32,887 - INFO - 取得中: ProShares UltraShort Yen (YCS)
+2026-02-07 14:36:33,821 - INFO -   ✅ 取得完了: ProShares UltraShort Yen
+2026-02-07 14:36:35,821 - INFO - 
+[198/338]
+2026-02-07 14:36:35,821 - INFO - 取得中: AA Mission Acquisition Corp. II (YCY)
+2026-02-07 14:36:36,837 - INFO -   ✅ 取得完了: AA Mission Acquisition Corp. II
+2026-02-07 14:36:38,837 - INFO - 
+[199/338]
+2026-02-07 14:36:38,838 - INFO - 取得中: AA Mission Acquisition Corp. II (YCY-UN)
+2026-02-07 14:36:39,988 - INFO -   ✅ 取得完了: AA Mission Acquisition Corp. II
+2026-02-07 14:36:41,988 - INFO - 
+[200/338]
+2026-02-07 14:36:41,988 - INFO - 取得中: AA Mission Acquisition Corp. II WT (YCY-WT)
+2026-02-07 14:36:42,973 - INFO -   ✅ 取得完了: AA Mission Acquisition Corp. II WT
+2026-02-07 14:36:44,973 - INFO - 
+[201/338]
+2026-02-07 14:36:44,973 - INFO - 取得中: One and one Green Technologies. Inc (YDDL)
+2026-02-07 14:36:46,531 - ERROR - $YDDL: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 14:36:46,539 - INFO -   ✅ 取得完了: One and one Green Technologies. Inc
+2026-02-07 14:36:48,540 - INFO - 
+[202/338]
+2026-02-07 14:36:48,540 - INFO - 取得中: YD Bio Ltd (YDES)
+2026-02-07 14:36:50,040 - ERROR - $YDES: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 14:36:50,049 - INFO -   ✅ 取得完了: YD Bio Ltd
+2026-02-07 14:36:52,049 - INFO - 
+[203/338]
+2026-02-07 14:36:52,049 - INFO - 取得中: YD Bio Limited (YDESW)
+2026-02-07 14:36:53,088 - INFO -   ✅ 取得完了: YD Bio Limited
+2026-02-07 14:36:55,088 - INFO - 
+[204/338]
+2026-02-07 14:36:55,088 - INFO - 取得中: Yueda Digital Holding (YDKG)
+2026-02-07 14:36:56,440 - INFO -   ✅ 取得完了: Yueda Digital Holding
+2026-02-07 14:36:58,440 - INFO - 
+[205/338]
+2026-02-07 14:36:58,441 - INFO - 取得中: Yelp Inc. (YELP)
+2026-02-07 14:36:59,737 - INFO -   ✅ 取得完了: Yelp Inc.
+2026-02-07 14:37:01,738 - INFO - 
+[206/338]
+2026-02-07 14:37:01,738 - INFO - 取得中: YETI Holdings, Inc. (YETI)
+2026-02-07 14:37:02,962 - INFO -   ✅ 取得完了: YETI Holdings, Inc.
+2026-02-07 14:37:04,963 - INFO - 
+[207/338]
+2026-02-07 14:37:04,963 - INFO - 取得中: Yext, Inc. (YEXT)
+2026-02-07 14:37:06,185 - INFO -   ✅ 取得完了: Yext, Inc.
+2026-02-07 14:37:08,185 - INFO - 
+[208/338]
+2026-02-07 14:37:08,185 - INFO - 取得中: MingZhu Logistics Holdings Limited (YGMZF)
+2026-02-07 14:37:09,383 - INFO -   ✅ 取得完了: MingZhu Logistics Holdings Limited
+2026-02-07 14:37:11,384 - INFO - 
+[209/338]
+2026-02-07 14:37:11,384 - INFO - 取得中: YGSHY (YGSHY)
+2026-02-07 14:37:12,329 - INFO -   ✅ 取得完了: YGSHY
+2026-02-07 14:37:14,329 - INFO - 
+[210/338]
+2026-02-07 14:37:14,329 - INFO - 取得中: LQR House Inc. (YHC)
+2026-02-07 14:37:15,866 - INFO -   ✅ 取得完了: LQR House Inc.
+2026-02-07 14:37:17,867 - INFO - 
+[211/338]
+2026-02-07 14:37:17,867 - INFO - 取得中: Yunhong Green CTI Ltd. (YHGJ)
+2026-02-07 14:37:19,119 - INFO -   ✅ 取得完了: Yunhong Green CTI Ltd.
+2026-02-07 14:37:21,119 - INFO - 
+[212/338]
+2026-02-07 14:37:21,119 - INFO - 取得中: YHN Acquisition I Limited (YHNA)
+2026-02-07 14:37:22,228 - INFO -   ✅ 取得完了: YHN Acquisition I Limited
+2026-02-07 14:37:24,228 - INFO - 
+[213/338]
+2026-02-07 14:37:24,228 - INFO - 取得中: YHN Acquisition I Limited (YHNAR)
+2026-02-07 14:37:25,186 - INFO -   ✅ 取得完了: YHN Acquisition I Limited
+2026-02-07 14:37:27,186 - INFO - 
+[214/338]
+2026-02-07 14:37:27,186 - INFO - 取得中: YHN Acquisition I Limited (YHNAU)
+2026-02-07 14:37:28,470 - INFO -   ✅ 取得完了: YHN Acquisition I Limited
+2026-02-07 14:37:30,470 - INFO - 
+[215/338]
+2026-02-07 14:37:30,470 - INFO - 取得中: 111, Inc. (YI)
+2026-02-07 14:37:31,996 - INFO -   ✅ 取得完了: 111, Inc.
+2026-02-07 14:37:33,996 - INFO - 
+[216/338]
+2026-02-07 14:37:33,997 - INFO - 取得中: Planet Image International Limited (YIBO)
+2026-02-07 14:37:35,752 - ERROR - $YIBO: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 14:37:35,762 - INFO -   ✅ 取得完了: Planet Image International Limited
+2026-02-07 14:37:37,762 - INFO - 
+[217/338]
+2026-02-07 14:37:37,762 - INFO - 取得中: YIFE (YIFE)
+2026-02-07 14:37:38,013 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: YIFE"}}}
+2026-02-07 14:37:38,944 - INFO -   ✅ 取得完了: YIFE
+2026-02-07 14:37:40,944 - INFO - 
+[218/338]
+2026-02-07 14:37:40,944 - INFO - 取得中: Yunji Inc. (YJ)
+2026-02-07 14:37:42,243 - INFO -   ✅ 取得完了: Yunji Inc.
+2026-02-07 14:37:44,243 - INFO - 
+[219/338]
+2026-02-07 14:37:44,243 - INFO - 取得中: VitaNova Life Sciences Corporation (YJGJ)
+2026-02-07 14:37:45,518 - INFO -   ✅ 取得完了: VitaNova Life Sciences Corporation
+2026-02-07 14:37:47,518 - INFO - 
+[220/338]
+2026-02-07 14:37:47,519 - INFO - 取得中: Yakult Honsha Co.,Ltd. (YKLTF)
+2026-02-07 14:37:48,966 - INFO -   ✅ 取得完了: Yakult Honsha Co.,Ltd.
+2026-02-07 14:37:50,966 - INFO - 
+[221/338]
+2026-02-07 14:37:50,966 - INFO - 取得中: Yakult Honsha Co.,Ltd. (YKLTY)
+2026-02-07 14:37:52,267 - INFO -   ✅ 取得完了: Yakult Honsha Co.,Ltd.
+2026-02-07 14:37:54,268 - INFO - 
+[222/338]
+2026-02-07 14:37:54,268 - INFO - 取得中: Zi Yun Dong Fang Ltd (YLY)
+2026-02-07 14:37:55,544 - ERROR - $YLY: possibly delisted; no price data found  (1d 2024-05-28 -> 2024-06-03)
+2026-02-07 14:37:55,552 - INFO -   ✅ 取得完了: Zi Yun Dong Fang Ltd
+2026-02-07 14:37:57,552 - INFO - 
+[223/338]
+2026-02-07 14:37:57,552 - INFO - 取得中: J-Star Holding Co., Ltd. (YMAT)
+2026-02-07 14:37:59,245 - ERROR - $YMAT: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 14:37:59,255 - INFO -   ✅ 取得完了: J-Star Holding Co., Ltd.
+2026-02-07 14:38:01,255 - INFO - 
+[224/338]
+2026-02-07 14:38:01,256 - INFO - 取得中: Yamaha Motor Co., Ltd. (YMHAY)
+2026-02-07 14:38:02,518 - INFO -   ✅ 取得完了: Yamaha Motor Co., Ltd.
+2026-02-07 14:38:04,519 - INFO - 
+[225/338]
+2026-02-07 14:38:04,519 - INFO - 取得中: Full Truck Alliance Co. Ltd. (YMM)
+2026-02-07 14:38:05,742 - INFO -   ✅ 取得完了: Full Truck Alliance Co. Ltd.
+2026-02-07 14:38:07,742 - INFO - 
+[226/338]
+2026-02-07 14:38:07,742 - INFO - 取得中: Yimutian Inc. (YMT)
+2026-02-07 14:38:09,268 - ERROR - $YMT: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 14:38:09,278 - INFO -   ✅ 取得完了: Yimutian Inc.
+2026-02-07 14:38:11,278 - INFO - 
+[227/338]
+2026-02-07 14:38:11,278 - INFO - 取得中: YMXK (YMXK)
+2026-02-07 14:38:12,201 - INFO -   ✅ 取得完了: YMXK
+2026-02-07 14:38:14,202 - INFO - 
+[228/338]
+2026-02-07 14:38:14,202 - INFO - 取得中: The York Water Company (YORW)
+2026-02-07 14:38:15,618 - INFO -   ✅ 取得完了: The York Water Company
+2026-02-07 14:38:17,619 - INFO - 
+[229/338]
+2026-02-07 14:38:17,619 - INFO - 取得中: Yotta Acquisition Corporation (YOTA)
+2026-02-07 14:38:19,187 - INFO -   ✅ 取得完了: Yotta Acquisition Corporation
+2026-02-07 14:38:21,187 - INFO - 
+[230/338]
+2026-02-07 14:38:21,187 - INFO - 取得中: Clear Secure, Inc. (YOU)
+2026-02-07 14:38:22,458 - INFO -   ✅ 取得完了: Clear Secure, Inc.
+2026-02-07 14:38:24,459 - INFO - 
+[231/338]
+2026-02-07 14:38:24,459 - INFO - 取得中: Youlife Group Inc. (YOUL)
+2026-02-07 14:38:25,928 - ERROR - $YOUL: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 14:38:25,938 - INFO -   ✅ 取得完了: Youlife Group Inc.
+2026-02-07 14:38:27,938 - INFO - 
+[232/338]
+2026-02-07 14:38:27,938 - INFO - 取得中: YPF Sociedad Anónima (YPF)
+2026-02-07 14:38:29,467 - INFO -   ✅ 取得完了: YPF Sociedad Anónima
+2026-02-07 14:38:31,467 - INFO - 
+[233/338]
+2026-02-07 14:38:31,467 - INFO - 取得中: 17 Education & Technology Group Inc. (YQ)
+2026-02-07 14:38:32,683 - INFO -   ✅ 取得完了: 17 Education & Technology Group Inc.
+2026-02-07 14:38:34,683 - INFO - 
+[234/338]
+2026-02-07 14:38:34,683 - INFO - 取得中: YouneeqAI Technical Services, Inc. (YQAI)
+2026-02-07 14:38:36,042 - INFO -   ✅ 取得完了: YouneeqAI Technical Services, Inc.
+2026-02-07 14:38:38,042 - INFO - 
+[235/338]
+2026-02-07 14:38:38,042 - INFO - 取得中: Yara International ASA (YRAIF)
+2026-02-07 14:38:39,550 - INFO -   ✅ 取得完了: Yara International ASA
+2026-02-07 14:38:41,550 - INFO - 
+[236/338]
+2026-02-07 14:38:41,551 - INFO - 取得中: Yiren Digital Ltd. (YRD)
+2026-02-07 14:38:42,744 - INFO -   ✅ 取得完了: Yiren Digital Ltd.
+2026-02-07 14:38:44,744 - INFO - 
+[237/338]
+2026-02-07 14:38:44,744 - INFO - 取得中: Yatsen Holding Limited (YSG)
+2026-02-07 14:38:45,957 - INFO -   ✅ 取得完了: Yatsen Holding Limited
+2026-02-07 14:38:47,957 - INFO - 
+[238/338]
+2026-02-07 14:38:47,957 - INFO - 取得中: Yangzijiang Shipbuilding (Holdings) Ltd. (YSHLF)
+2026-02-07 14:38:49,211 - INFO -   ✅ 取得完了: Yangzijiang Shipbuilding (Holdings) Ltd.
+2026-02-07 14:38:51,212 - INFO - 
+[239/338]
+2026-02-07 14:38:51,212 - INFO - 取得中: York Space Systems, Inc. (YSS)
+2026-02-07 14:38:52,300 - INFO -   ✅ 取得完了: York Space Systems, Inc.
+2026-02-07 14:38:54,301 - INFO - 
+[240/338]
+2026-02-07 14:38:54,301 - INFO - 取得中: YSX Tech. Co., Ltd (YSXT)
+2026-02-07 14:38:56,075 - ERROR - $YSXT: possibly delisted; no price data found  (1d 2024-03-28 -> 2024-04-03) (Yahoo error = "Data doesn't exist for startDate = 1711598400, endDate = 1712116800")
+2026-02-07 14:38:56,084 - INFO -   ✅ 取得完了: YSX Tech. Co., Ltd
+2026-02-07 14:38:58,084 - INFO - 
+[241/338]
+2026-02-07 14:38:58,085 - INFO - 取得中: Yale Transaction Finders, Inc. (YTFD)
+2026-02-07 14:38:59,335 - INFO -   ✅ 取得完了: Yale Transaction Finders, Inc.
+2026-02-07 14:39:01,335 - INFO - 
+[242/338]
+2026-02-07 14:39:01,335 - INFO - 取得中: Yatra Online, Inc. (YTRA)
+2026-02-07 14:39:02,617 - INFO -   ✅ 取得完了: Yatra Online, Inc.
+2026-02-07 14:39:04,617 - INFO - 
+[243/338]
+2026-02-07 14:39:04,617 - INFO - 取得中: Yum! Brands, Inc. (YUM)
+2026-02-07 14:39:05,927 - INFO -   ✅ 取得完了: Yum! Brands, Inc.
+2026-02-07 14:39:07,928 - INFO - 
+[244/338]
+2026-02-07 14:39:07,928 - INFO - 取得中: Yum China Holdings, Inc. (YUMC)
+2026-02-07 14:39:09,580 - INFO -   ✅ 取得完了: Yum China Holdings, Inc.
+2026-02-07 14:39:11,580 - INFO - 
+[245/338]
+2026-02-07 14:39:11,580 - INFO - 取得中: YXT.COM Group Holding Limited (YXT)
+2026-02-07 14:39:13,215 - ERROR - $YXT: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 14:39:13,224 - INFO -   ✅ 取得完了: YXT.COM Group Holding Limited
+2026-02-07 14:39:15,225 - INFO - 
+[246/338]
+2026-02-07 14:39:15,225 - INFO - 取得中: AiRWA Inc. (YYAI)
+2026-02-07 14:39:16,588 - INFO -   ✅ 取得完了: AiRWA Inc.
+2026-02-07 14:39:18,588 - INFO - 
+[247/338]
+2026-02-07 14:39:18,588 - INFO - 取得中: YY Group Holding Limited (YYGH)
+2026-02-07 14:39:20,319 - ERROR - $YYGH: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 14:39:20,328 - INFO -   ✅ 取得完了: YY Group Holding Limited
+2026-02-07 14:39:22,328 - INFO - 
+[248/338]
+2026-02-07 14:39:22,328 - INFO - 取得中: Zillow Group, Inc. (Z)
+2026-02-07 14:39:23,629 - INFO -   ✅ 取得完了: Zillow Group, Inc.
+2026-02-07 14:39:25,630 - INFO - 
+[249/338]
+2026-02-07 14:39:25,630 - INFO - 取得中: Zapp Electric Vehicles Group Limited (ZAPPF)
+2026-02-07 14:39:26,973 - INFO -   ✅ 取得完了: Zapp Electric Vehicles Group Limited
+2026-02-07 14:39:28,974 - INFO - 
+[250/338]
+2026-02-07 14:39:28,974 - INFO - 取得中: Zapp Electric Vehicles Group Limited (ZAPWF)
+2026-02-07 14:39:30,097 - INFO -   ✅ 取得完了: Zapp Electric Vehicles Group Limited
+2026-02-07 14:39:32,097 - INFO - 
+[251/338]
+2026-02-07 14:39:32,097 - INFO - 取得中: ATIF Holdings Limited (ZBAI)
+2026-02-07 14:39:33,534 - INFO -   ✅ 取得完了: ATIF Holdings Limited
+2026-02-07 14:39:35,535 - INFO - 
+[252/338]
+2026-02-07 14:39:35,535 - INFO - 取得中: Zhibao Technology Inc. (ZBAO)
+2026-02-07 14:39:36,843 - INFO -   ✅ 取得完了: Zhibao Technology Inc.
+2026-02-07 14:39:38,843 - INFO - 
+[253/338]
+2026-02-07 14:39:38,844 - INFO - 取得中: Zimmer Biomet Holdings, Inc. (ZBH)
+2026-02-07 14:39:40,315 - INFO -   ✅ 取得完了: Zimmer Biomet Holdings, Inc.
+2026-02-07 14:39:42,315 - INFO - 
+[254/338]
+2026-02-07 14:39:42,316 - INFO - 取得中: Zenas BioPharma, Inc. (ZBIO)
+2026-02-07 14:39:43,761 - ERROR - $ZBIO: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 14:39:43,769 - INFO -   ✅ 取得完了: Zenas BioPharma, Inc.
+2026-02-07 14:39:45,769 - INFO - 
+[255/338]
+2026-02-07 14:39:45,769 - INFO - 取得中: Zebra Technologies Corporation (ZBRA)
+2026-02-07 14:39:47,215 - INFO -   ✅ 取得完了: Zebra Technologies Corporation
+2026-02-07 14:39:49,216 - INFO - 
+[256/338]
+2026-02-07 14:39:49,216 - INFO - 取得中: Zoomcar Holdings, Inc. (ZCAR)
+2026-02-07 14:39:50,601 - INFO -   ✅ 取得完了: Zoomcar Holdings, Inc.
+2026-02-07 14:39:52,601 - INFO - 
+[257/338]
+2026-02-07 14:39:52,601 - INFO - 取得中: Zoomcar Holdings, Inc. (ZCARW)
+2026-02-07 14:39:53,770 - INFO -   ✅ 取得完了: Zoomcar Holdings, Inc.
+2026-02-07 14:39:55,771 - INFO - 
+[258/338]
+2026-02-07 14:39:55,771 - INFO - 取得中: Zhongchao Inc. (ZCMD)
+2026-02-07 14:39:57,060 - INFO -   ✅ 取得完了: Zhongchao Inc.
+2026-02-07 14:39:59,060 - INFO - 
+[259/338]
+2026-02-07 14:39:59,061 - INFO - 取得中: Golden Cross Resources Inc. (ZCRMF)
+2026-02-07 14:40:00,517 - ERROR - $ZCRMF: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 14:40:00,524 - INFO -   ✅ 取得完了: Golden Cross Resources Inc.
+2026-02-07 14:40:02,524 - INFO - 
+[260/338]
+2026-02-07 14:40:02,525 - INFO - 取得中: Grayscale Zcash Trust (ZEC) (ZCSH)
+2026-02-07 14:40:03,491 - INFO -   ✅ 取得完了: Grayscale Zcash Trust (ZEC)
+2026-02-07 14:40:05,491 - INFO - 
+[261/338]
+2026-02-07 14:40:05,491 - INFO - 取得中: Ziff Davis, Inc. (ZD)
+2026-02-07 14:40:06,757 - INFO -   ✅ 取得完了: Ziff Davis, Inc.
+2026-02-07 14:40:08,757 - INFO - 
+[262/338]
+2026-02-07 14:40:08,757 - INFO - 取得中: DirectBooking Technology Co., Ltd. (ZDAI)
+2026-02-07 14:40:10,241 - ERROR - $ZDAI: possibly delisted; no price data found  (1d 2024-03-28 -> 2024-04-03) (Yahoo error = "Data doesn't exist for startDate = 1711598400, endDate = 1712116800")
+2026-02-07 14:40:10,249 - INFO -   ✅ 取得完了: DirectBooking Technology Co., Ltd.
+2026-02-07 14:40:12,250 - INFO - 
+[263/338]
+2026-02-07 14:40:12,250 - INFO - 取得中: ZDAN (ZDAN)
+2026-02-07 14:40:13,182 - INFO -   ✅ 取得完了: ZDAN
+2026-02-07 14:40:15,182 - INFO - 
+[264/338]
+2026-02-07 14:40:15,182 - INFO - 取得中: Zedcor Inc. (ZDCAF)
+2026-02-07 14:40:16,743 - INFO -   ✅ 取得完了: Zedcor Inc.
+2026-02-07 14:40:18,744 - INFO - 
+[265/338]
+2026-02-07 14:40:18,744 - INFO - 取得中: Zedge, Inc. (ZDGE)
+2026-02-07 14:40:20,000 - INFO -   ✅ 取得完了: Zedge, Inc.
+2026-02-07 14:40:22,001 - INFO - 
+[266/338]
+2026-02-07 14:40:22,001 - INFO - 取得中: Zoned Properties, Inc. (ZDPY)
+2026-02-07 14:40:23,211 - INFO -   ✅ 取得完了: Zoned Properties, Inc.
+2026-02-07 14:40:25,212 - INFO - 
+[267/338]
+2026-02-07 14:40:25,212 - INFO - 取得中: Zefiro Methane Corp. (ZEFIF)
+2026-02-07 14:40:26,450 - INFO -   ✅ 取得完了: Zefiro Methane Corp.
+2026-02-07 14:40:28,450 - INFO - 
+[268/338]
+2026-02-07 14:40:28,451 - INFO - 取得中: ZenaTech, Inc. (ZENA)
+2026-02-07 14:40:30,227 - ERROR - $ZENA: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 14:40:30,236 - INFO -   ✅ 取得完了: ZenaTech, Inc.
+2026-02-07 14:40:32,236 - INFO - 
+[269/338]
+2026-02-07 14:40:32,236 - INFO - 取得中: Zenvia Inc. (ZENV)
+2026-02-07 14:40:33,508 - INFO -   ✅ 取得完了: Zenvia Inc.
+2026-02-07 14:40:35,508 - INFO - 
+[270/338]
+2026-02-07 14:40:35,508 - INFO - 取得中: Zeo Energy Corp. (ZEO)
+2026-02-07 14:40:36,736 - INFO -   ✅ 取得完了: Zeo Energy Corp.
+2026-02-07 14:40:38,736 - INFO - 
+[271/338]
+2026-02-07 14:40:38,736 - INFO - 取得中: Zeo Energy Corp. (ZEOWW)
+2026-02-07 14:40:39,938 - INFO -   ✅ 取得完了: Zeo Energy Corp.
+2026-02-07 14:40:41,938 - INFO - 
+[272/338]
+2026-02-07 14:40:41,938 - INFO - 取得中: Zeo ScientifiX, Inc. (ZEOX)
+2026-02-07 14:40:43,175 - INFO -   ✅ 取得完了: Zeo ScientifiX, Inc.
+2026-02-07 14:40:45,175 - INFO - 
+[273/338]
+2026-02-07 14:40:45,175 - INFO - 取得中: Zepp Health Corporation (ZEPP)
+2026-02-07 14:40:46,557 - INFO -   ✅ 取得完了: Zepp Health Corporation
+2026-02-07 14:40:48,558 - INFO - 
+[274/338]
+2026-02-07 14:40:48,558 - INFO - 取得中: Zeta Global Holdings Corp. (ZETA)
+2026-02-07 14:40:49,756 - INFO -   ✅ 取得完了: Zeta Global Holdings Corp.
+2026-02-07 14:40:51,756 - INFO - 
+[275/338]
+2026-02-07 14:40:51,757 - INFO - 取得中: Olympic Steel, Inc. (ZEUS)
+2026-02-07 14:40:53,258 - INFO -   ✅ 取得完了: Olympic Steel, Inc.
+2026-02-07 14:40:55,259 - INFO - 
+[276/338]
+2026-02-07 14:40:55,259 - INFO - 取得中: Zillow Group, Inc. (ZG)
+2026-02-07 14:40:56,512 - INFO -   ✅ 取得完了: Zillow Group, Inc.
+2026-02-07 14:40:58,512 - INFO - 
+[277/338]
+2026-02-07 14:40:58,512 - INFO - 取得中: ZGJLY (ZGJLY)
+2026-02-07 14:40:59,574 - INFO -   ✅ 取得完了: ZGJLY
+2026-02-07 14:41:01,575 - INFO - 
+[278/338]
+2026-02-07 14:41:01,575 - INFO - 取得中: Zenta Group Company Limited (ZGM)
+2026-02-07 14:41:03,009 - ERROR - $ZGM: possibly delisted; no price data found  (1d 2024-09-27 -> 2024-10-03) (Yahoo error = "Data doesn't exist for startDate = 1727409600, endDate = 1727928000")
+2026-02-07 14:41:03,018 - INFO -   ✅ 取得完了: Zenta Group Company Limited
+2026-02-07 14:41:05,018 - INFO - 
+[279/338]
+2026-02-07 14:41:05,018 - INFO - 取得中: Ermenegildo Zegna N.V. (ZGN)
+2026-02-07 14:41:06,332 - INFO -   ✅ 取得完了: Ermenegildo Zegna N.V.
+2026-02-07 14:41:08,332 - INFO - 
+[280/338]
+2026-02-07 14:41:08,333 - INFO - 取得中: Zhihu Inc. (ZH)
+2026-02-07 14:41:09,676 - INFO -   ✅ 取得完了: Zhihu Inc.
+2026-02-07 14:41:11,676 - INFO - 
+[281/338]
+2026-02-07 14:41:11,676 - INFO - 取得中: ZHIHF (ZHIHF)
+2026-02-07 14:41:12,606 - INFO -   ✅ 取得完了: ZHIHF
+2026-02-07 14:41:14,607 - INFO - 
+[282/338]
+2026-02-07 14:41:14,607 - INFO - 取得中: Intelligent Hotel Group Ltd (ZHJD)
+2026-02-07 14:41:15,901 - INFO -   ✅ 取得完了: Intelligent Hotel Group Ltd
+2026-02-07 14:41:17,902 - INFO - 
+[283/338]
+2026-02-07 14:41:17,902 - INFO - 取得中: Zicix Corporation (ZICX)
+2026-02-07 14:41:18,957 - INFO -   ✅ 取得完了: Zicix Corporation
+2026-02-07 14:41:20,958 - INFO - 
+[284/338]
+2026-02-07 14:41:20,958 - INFO - 取得中: ZIM Integrated Shipping Services Ltd. (ZIM)
+2026-02-07 14:41:22,530 - INFO -   ✅ 取得完了: ZIM Integrated Shipping Services Ltd.
+2026-02-07 14:41:24,530 - INFO - 
+[285/338]
+2026-02-07 14:41:24,530 - INFO - 取得中: Zions Bancorporation, National Association (ZION)
+2026-02-07 14:41:26,021 - INFO -   ✅ 取得完了: Zions Bancorporation, National Association
+2026-02-07 14:41:28,021 - INFO - 
+[286/338]
+2026-02-07 14:41:28,021 - INFO - 取得中: Zions Bancorporation, National Association (ZIONP)
+2026-02-07 14:41:29,191 - INFO -   ✅ 取得完了: Zions Bancorporation, National Association
+2026-02-07 14:41:31,191 - INFO - 
+[287/338]
+2026-02-07 14:41:31,191 - INFO - 取得中: ZipRecruiter, Inc. (ZIP)
+2026-02-07 14:41:32,435 - INFO -   ✅ 取得完了: ZipRecruiter, Inc.
+2026-02-07 14:41:34,436 - INFO - 
+[288/338]
+2026-02-07 14:41:34,436 - INFO - 取得中: ZIVO Bioscience, Inc. (ZIVO)
+2026-02-07 14:41:35,681 - INFO -   ✅ 取得完了: ZIVO Bioscience, Inc.
+2026-02-07 14:41:37,681 - INFO - 
+[289/338]
+2026-02-07 14:41:37,681 - INFO - 取得中: Zivo Bioscience, Inc. (ZIVOW)
+2026-02-07 14:41:38,737 - INFO -   ✅ 取得完了: Zivo Bioscience, Inc.
+2026-02-07 14:41:40,737 - INFO - 
+[290/338]
+2026-02-07 14:41:40,737 - INFO - 取得中: ZJGIY (ZJGIY)
+2026-02-07 14:41:41,777 - INFO -   ✅ 取得完了: ZJGIY
+2026-02-07 14:41:43,777 - INFO - 
+[291/338]
+2026-02-07 14:41:43,777 - INFO - 取得中: ZJK Industrial Co., Ltd. (ZJK)
+2026-02-07 14:41:45,190 - ERROR - $ZJK: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 14:41:45,200 - INFO -   ✅ 取得完了: ZJK Industrial Co., Ltd.
+2026-02-07 14:41:47,200 - INFO - 
+[292/338]
+2026-02-07 14:41:47,200 - INFO - 取得中: ZHEJIANG LEAPMOTOR TECHNOLOGY C (ZJLMF)
+2026-02-07 14:41:48,173 - INFO -   ✅ 取得完了: ZHEJIANG LEAPMOTOR TECHNOLOGY C
+2026-02-07 14:41:50,173 - INFO - 
+[293/338]
+2026-02-07 14:41:50,173 - INFO - 取得中: ZJNGF (ZJNGF)
+2026-02-07 14:41:51,102 - INFO -   ✅ 取得完了: ZJNGF
+2026-02-07 14:41:53,102 - INFO - 
+[294/338]
+2026-02-07 14:41:53,102 - INFO - 取得中: Jin Medical International Ltd. (ZJYL)
+2026-02-07 14:41:54,446 - INFO -   ✅ 取得完了: Jin Medical International Ltd.
+2026-02-07 14:41:56,447 - INFO - 
+[295/338]
+2026-02-07 14:41:56,447 - INFO - 取得中: ZKH Group Limited (ZKH)
+2026-02-07 14:41:57,637 - INFO -   ✅ 取得完了: ZKH Group Limited
+2026-02-07 14:41:59,638 - INFO - 
+[296/338]
+2026-02-07 14:41:59,638 - INFO - 取得中: ZK International Group Co., Ltd. (ZKIN)
+2026-02-07 14:42:00,749 - INFO -   ✅ 取得完了: ZK International Group Co., Ltd.
+2026-02-07 14:42:02,749 - INFO - 
+[297/338]
+2026-02-07 14:42:02,750 - INFO - 取得中: Lafayette Digital Acquisition Corp. I Class A Ordinary Shares (ZKP)
+2026-02-07 14:42:03,904 - INFO -   ✅ 取得完了: Lafayette Digital Acquisition Corp. I Class A Ordinary Shares
+2026-02-07 14:42:05,905 - INFO - 
+[298/338]
+2026-02-07 14:42:05,905 - INFO - 取得中: Lafayette Digital Acquisition Corp. I (ZKPU)
+2026-02-07 14:42:06,927 - INFO -   ✅ 取得完了: Lafayette Digital Acquisition Corp. I
+2026-02-07 14:42:08,927 - INFO - 
+[299/338]
+2026-02-07 14:42:08,927 - INFO - 取得中: Zai Lab Limited (ZLAB)
+2026-02-07 14:42:10,258 - INFO -   ✅ 取得完了: Zai Lab Limited
+2026-02-07 14:42:12,258 - INFO - 
+[300/338]
+2026-02-07 14:42:12,258 - INFO - 取得中: Zealand Pharma A/S (ZLDPF)
+2026-02-07 14:42:13,559 - INFO -   ✅ 取得完了: Zealand Pharma A/S
+2026-02-07 14:42:15,560 - INFO - 
+[301/338]
+2026-02-07 14:42:15,560 - INFO - 取得中: Zhanling International Limited (ZLME)
+2026-02-07 14:42:16,882 - INFO -   ✅ 取得完了: Zhanling International Limited
+2026-02-07 14:42:18,882 - INFO - 
+[302/338]
+2026-02-07 14:42:18,883 - INFO - 取得中: Zoom Communications, Inc. (ZM)
+2026-02-07 14:42:20,642 - INFO -   ✅ 取得完了: Zoom Communications, Inc.
+2026-02-07 14:42:22,642 - INFO - 
+[303/338]
+2026-02-07 14:42:22,642 - INFO - 取得中: Zeta Network Group (ZNB)
+2026-02-07 14:42:24,049 - INFO -   ✅ 取得完了: Zeta Network Group
+2026-02-07 14:42:26,049 - INFO - 
+[304/338]
+2026-02-07 14:42:26,049 - INFO - 取得中: ZNKUF (ZNKUF)
+2026-02-07 14:42:27,000 - INFO -   ✅ 取得完了: ZNKUF
+2026-02-07 14:42:29,001 - INFO - 
+[305/338]
+2026-02-07 14:42:29,001 - INFO - 取得中: Zion Oil & Gas, Inc. (ZNOG)
+2026-02-07 14:42:30,218 - INFO -   ✅ 取得完了: Zion Oil & Gas, Inc.
+2026-02-07 14:42:32,219 - INFO - 
+[306/338]
+2026-02-07 14:42:32,219 - INFO - 取得中: Zion Oil (ZNOGW)
+2026-02-07 14:42:33,433 - INFO -   ✅ 取得完了: Zion Oil
+2026-02-07 14:42:35,433 - INFO - 
+[307/338]
+2026-02-07 14:42:35,433 - INFO - 取得中: Zentalis Pharmaceuticals, Inc. (ZNTL)
+2026-02-07 14:42:36,937 - INFO -   ✅ 取得完了: Zentalis Pharmaceuticals, Inc.
+2026-02-07 14:42:38,938 - INFO - 
+[308/338]
+2026-02-07 14:42:38,938 - INFO - 取得中: Zomedica Corp. (ZOMDF)
+2026-02-07 14:42:40,223 - INFO -   ✅ 取得完了: Zomedica Corp.
+2026-02-07 14:42:42,223 - INFO - 
+[309/338]
+2026-02-07 14:42:42,223 - INFO - 取得中: CleanCore Solutions, Inc. (ZONE)
+2026-02-07 14:42:43,758 - ERROR - $ZONE: possibly delisted; no price data found  (1d 2021-06-27 -> 2021-07-03) (Yahoo error = "Data doesn't exist for startDate = 1624766400, endDate = 1625284800")
+2026-02-07 14:42:43,766 - INFO -   ✅ 取得完了: CleanCore Solutions, Inc.
+2026-02-07 14:42:45,766 - INFO - 
+[310/338]
+2026-02-07 14:42:45,767 - INFO - 取得中: ZOOZ Strategy Ltd. (ZOOZ)
+2026-02-07 14:42:47,260 - ERROR - $ZOOZ: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 14:42:47,268 - INFO -   ✅ 取得完了: ZOOZ Strategy Ltd.
+2026-02-07 14:42:49,268 - INFO - 
+[311/338]
+2026-02-07 14:42:49,268 - INFO - 取得中: ZOOZ Strategy Ltd. (ZOOZW)
+2026-02-07 14:42:50,359 - INFO -   ✅ 取得完了: ZOOZ Strategy Ltd.
+2026-02-07 14:42:52,359 - INFO - 
+[312/338]
+2026-02-07 14:42:52,359 - INFO - 取得中: Zephyr Minerals Ltd. (ZPHYF)
+2026-02-07 14:42:53,626 - INFO -   ✅ 取得完了: Zephyr Minerals Ltd.
+2026-02-07 14:42:55,627 - INFO - 
+[313/338]
+2026-02-07 14:42:55,627 - INFO - 取得中: Zapata Quantum, Inc. (ZPTA)
+2026-02-07 14:42:57,145 - ERROR - $ZPTA: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 14:42:57,154 - INFO -   ✅ 取得完了: Zapata Quantum, Inc.
+2026-02-07 14:42:59,154 - INFO - 
+[314/338]
+2026-02-07 14:42:59,154 - INFO - 取得中: Zapata Quantum, Inc. (ZPTAW)
+2026-02-07 14:43:00,285 - INFO -   ✅ 取得完了: Zapata Quantum, Inc.
+2026-02-07 14:43:02,285 - INFO - 
+[315/338]
+2026-02-07 14:43:02,285 - INFO - 取得中: ZRCN (ZRCN)
+2026-02-07 14:43:03,248 - INFO -   ✅ 取得完了: ZRCN
+2026-02-07 14:43:05,248 - INFO - 
+[316/338]
+2026-02-07 14:43:05,248 - INFO - 取得中: Zscaler, Inc. (ZS)
+2026-02-07 14:43:07,845 - INFO -   ✅ 取得完了: Zscaler, Inc.
+2026-02-07 14:43:09,845 - INFO - 
+[317/338]
+2026-02-07 14:43:09,845 - INFO - 取得中: ZSHLY (ZSHLY)
+2026-02-07 14:43:10,790 - INFO -   ✅ 取得完了: ZSHLY
+2026-02-07 14:43:12,790 - INFO - 
+[318/338]
+2026-02-07 14:43:12,790 - INFO - 取得中: Zensho Holdings Co., Ltd. (ZSHOF)
+2026-02-07 14:43:14,054 - INFO -   ✅ 取得完了: Zensho Holdings Co., Ltd.
+2026-02-07 14:43:16,054 - INFO - 
+[319/338]
+2026-02-07 14:43:16,054 - INFO - 取得中: ZSICY (ZSICY)
+2026-02-07 14:43:17,033 - INFO -   ✅ 取得完了: ZSICY
+2026-02-07 14:43:19,033 - INFO - 
+[320/338]
+2026-02-07 14:43:19,033 - INFO - 取得中: ProShares UltraShort Silver (ZSL)
+2026-02-07 14:43:19,973 - INFO -   ✅ 取得完了: ProShares UltraShort Silver
+2026-02-07 14:43:21,974 - INFO - 
+[321/338]
+2026-02-07 14:43:21,974 - INFO - 取得中: zSpace, Inc. (ZSPC)
+2026-02-07 14:43:23,447 - ERROR - $ZSPC: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 14:43:23,456 - INFO -   ✅ 取得完了: zSpace, Inc.
+2026-02-07 14:43:25,456 - INFO - 
+[322/338]
+2026-02-07 14:43:25,456 - INFO - 取得中: ZSSK (ZSSK)
+2026-02-07 14:43:26,377 - INFO -   ✅ 取得完了: ZSSK
+2026-02-07 14:43:28,378 - INFO - 
+[323/338]
+2026-02-07 14:43:28,378 - INFO - 取得中: Zentek Ltd. (ZTEK)
+2026-02-07 14:43:29,970 - INFO -   ✅ 取得完了: Zentek Ltd.
+2026-02-07 14:43:31,971 - INFO - 
+[324/338]
+2026-02-07 14:43:31,971 - INFO - 取得中: ZTO Express (Cayman) Inc. (ZTO)
+2026-02-07 14:43:33,305 - INFO -   ✅ 取得完了: ZTO Express (Cayman) Inc.
+2026-02-07 14:43:35,305 - INFO - 
+[325/338]
+2026-02-07 14:43:35,305 - INFO - 取得中: ZTOEF (ZTOEF)
+2026-02-07 14:43:36,753 - ERROR - $ZTOEF: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 14:43:36,763 - INFO -   ✅ 取得完了: ZTOEF
+2026-02-07 14:43:38,763 - INFO - 
+[326/338]
+2026-02-07 14:43:38,763 - INFO - 取得中: Virtus Global Dividend & Income Fund Inc. (ZTR)
+2026-02-07 14:43:39,878 - INFO -   ✅ 取得完了: Virtus Global Dividend & Income Fund Inc.
+2026-02-07 14:43:41,878 - INFO - 
+[327/338]
+2026-02-07 14:43:41,878 - INFO - 取得中: Zoetis Inc. (ZTS)
+2026-02-07 14:43:43,181 - INFO -   ✅ 取得完了: Zoetis Inc.
+2026-02-07 14:43:45,181 - INFO - 
+[328/338]
+2026-02-07 14:43:45,181 - INFO - 取得中: ZTEST Electronics Inc. (ZTSTF)
+2026-02-07 14:43:46,441 - INFO -   ✅ 取得完了: ZTEST Electronics Inc.
+2026-02-07 14:43:48,442 - INFO - 
+[329/338]
+2026-02-07 14:43:48,442 - INFO - 取得中: Zumiez Inc. (ZUMZ)
+2026-02-07 14:43:49,745 - INFO -   ✅ 取得完了: Zumiez Inc.
+2026-02-07 14:43:51,745 - INFO - 
+[330/338]
+2026-02-07 14:43:51,746 - INFO - 取得中: Zura Bio Limited (ZURA)
+2026-02-07 14:43:52,961 - INFO -   ✅ 取得完了: Zura Bio Limited
+2026-02-07 14:43:54,961 - INFO - 
+[331/338]
+2026-02-07 14:43:54,961 - INFO - 取得中: Zevia PBC (ZVIA)
+2026-02-07 14:43:56,243 - INFO -   ✅ 取得完了: Zevia PBC
+2026-02-07 14:43:58,244 - INFO - 
+[332/338]
+2026-02-07 14:43:58,244 - INFO - 取得中: Zevra Therapeutics, Inc. (ZVRA)
+2026-02-07 14:43:59,646 - INFO -   ✅ 取得完了: Zevra Therapeutics, Inc.
+2026-02-07 14:44:01,646 - INFO - 
+[333/338]
+2026-02-07 14:44:01,646 - INFO - 取得中: ZyVersa Therapeutics, Inc. (ZVSA)
+2026-02-07 14:44:02,915 - INFO -   ✅ 取得完了: ZyVersa Therapeutics, Inc.
+2026-02-07 14:44:04,915 - INFO - 
+[334/338]
+2026-02-07 14:44:04,915 - INFO - 取得中: Zurn Elkay Water Solutions Corporation (ZWS)
+2026-02-07 14:44:06,283 - INFO -   ✅ 取得完了: Zurn Elkay Water Solutions Corporation
+2026-02-07 14:44:08,284 - INFO - 
+[335/338]
+2026-02-07 14:44:08,284 - INFO - 取得中: ZY (ZY)
+2026-02-07 14:44:09,389 - INFO -   ✅ 取得完了: ZY
+2026-02-07 14:44:11,389 - INFO - 
+[336/338]
+2026-02-07 14:44:11,389 - INFO - 取得中: Zhengye Biotechnology Holding Limited (ZYBT)
+2026-02-07 14:44:12,924 - ERROR - $ZYBT: possibly delisted; no price data found  (1d 2023-12-28 -> 2024-01-03) (Yahoo error = "Data doesn't exist for startDate = 1703739600, endDate = 1704258000")
+2026-02-07 14:44:12,933 - INFO -   ✅ 取得完了: Zhengye Biotechnology Holding Limited
+2026-02-07 14:44:14,933 - INFO - 
+[337/338]
+2026-02-07 14:44:14,934 - INFO - 取得中: Zymeworks Inc. (ZYME)
+2026-02-07 14:44:16,168 - INFO -   ✅ 取得完了: Zymeworks Inc.
+2026-02-07 14:44:18,169 - INFO - 
+[338/338]
+2026-02-07 14:44:18,169 - INFO - 取得中: Zynex, Inc. (ZYXIQ)
+2026-02-07 14:44:19,497 - INFO -   ✅ 取得完了: Zynex, Inc.
+2026-02-07 14:44:19,499 - INFO - 
+============================================================
+2026-02-07 14:44:19,499 - INFO - 取得結果サマリー
+2026-02-07 14:44:19,499 - INFO - ============================================================
+2026-02-07 14:44:19,500 - INFO - 取得成功: 338社
+2026-02-07 14:44:19,500 - INFO - 取得失敗: 0社
+2026-02-07 14:44:19,540 - INFO - 
+データをCSVファイルに保存しました: Export/us_stocks_data_us_11_20260207_144419.csv
+2026-02-07 14:44:19,540 - INFO - 
+取得データ（最初の3列）:
+2026-02-07 14:44:19,546 - INFO - 
+                            会社名 銘柄コード          時価総額       PBR      ROE
+0       Wealthfront Corporation  WLTH  1.307549e+09  3.016973      NaN
+1       John Wiley & Sons, Inc.   WLY  1.536807e+09  2.081287  0.13605
+2       John Wiley & Sons, Inc.  WLYB  1.565715e+09  2.120436  0.13605
+3        Waste Management, Inc.    WM  9.136621e+10  9.151031  0.29696
+4  The Williams Companies, Inc.   WMB  8.172396e+10  6.549868  0.16902
+2026-02-07 14:44:19,546 - INFO - ================================================================================
+2026-02-07 14:44:19,546 - INFO - 株式財務データ取得プロセス完了
+2026-02-07 14:44:19,546 - INFO - 開始時刻: 2026-02-07 14:25:45
+2026-02-07 14:44:19,546 - INFO - 終了時刻: 2026-02-07 14:44:19
+2026-02-07 14:44:19,546 - INFO - 総実行時間: 18分33.8秒
+2026-02-07 14:44:19,546 - INFO - 処理結果: 成功 338社 / 失敗 0社 / 合計 338社
+2026-02-07 14:44:19,546 - INFO - 平均処理時間: 3.3秒（1社あたり）
+2026-02-07 14:44:19,546 - INFO - 保存ファイル: Export/us_stocks_data_us_11_20260207_144419.csv
+2026-02-07 14:44:19,546 - INFO - ================================================================================
+2026-02-07 14:44:19,547 - INFO - 
+============================================================
+2026-02-07 14:44:19,547 - INFO - 処理完了
+2026-02-07 14:44:19,547 - INFO - ============================================================
