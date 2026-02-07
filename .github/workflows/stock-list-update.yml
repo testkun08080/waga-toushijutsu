@@ -50,6 +50,17 @@ jobs:
           echo "Working directory: $(pwd)"
           ls -la stock_list/
 
+      - name: 🔐 Check SEC_USER_AGENT_CONTACT (required for US)
+        if: github.event.inputs.market == 'US'
+        run: |
+          if [ -z "${{ secrets.SEC_USER_AGENT_CONTACT }}" ]; then
+            echo "::error::米国株リスト取得には SEC_USER_AGENT_CONTACT が必要です。"
+            echo "リポジトリの Settings → Secrets and variables → Actions で SEC_USER_AGENT_CONTACT を追加し、あなたのメールアドレスを設定してください。"
+            echo "参考: https://www.sec.gov/os/accessing-edgar-data"
+            exit 1
+          fi
+          echo "✅ SEC_USER_AGENT_CONTACT が設定されています"
+
       - name: 🌐 Fetch latest stock list
         working-directory: ./stock_list
         run: |
