@@ -1,0 +1,2368 @@
+[
+  {
+    "コード": "WLTH",
+    "銘柄名": "Wealthfront Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WLY",
+    "銘柄名": "John Wiley & Sons, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WLYB",
+    "銘柄名": "John Wiley & Sons, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WM",
+    "銘柄名": "Waste Management, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WMB",
+    "銘柄名": "The Williams Companies, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WMG",
+    "銘柄名": "Warner Music Group Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WMK",
+    "銘柄名": "Weis Markets, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WMS",
+    "銘柄名": "Advanced Drainage Systems, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WMT",
+    "銘柄名": "Walmart Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WNC",
+    "銘柄名": "Wabash National Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WNDW",
+    "銘柄名": "SolarWindow Technologies, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Utilities",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WNEB",
+    "銘柄名": "Western New England Bancorp, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WNFT",
+    "銘柄名": "Worldwide NFT, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WNHK",
+    "銘柄名": "WNHK",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WNLV",
+    "銘柄名": "Winvest Group Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WNS",
+    "銘柄名": "WNS",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WNW",
+    "銘柄名": "Meiwu Technology Company Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WOK",
+    "銘柄名": "WORK Medical Technology Group LTD",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WOLF",
+    "銘柄名": "Wolfspeed, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WOLTF",
+    "銘柄名": "Wolters Kluwer N.V.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WOLV",
+    "銘柄名": "Wolverine Resources Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WONDF",
+    "銘柄名": "WonderFi Technologies Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WOOF",
+    "銘柄名": "Petco Health and Wellness Company, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WOPEF",
+    "銘柄名": "Woodside Energy Group Ltd",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WOR",
+    "銘柄名": "Worthington Enterprises, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WORX",
+    "銘柄名": "SCWorx Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WPC",
+    "銘柄名": "W. P. Carey Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WPGCF",
+    "銘柄名": "West Point Gold Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WPM",
+    "銘柄名": "Wheaton Precious Metals Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WPP",
+    "銘柄名": "WPP plc",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WPPGF",
+    "銘柄名": "WPP plc",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WPRT",
+    "銘柄名": "Westport Fuel Systems Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WRAP",
+    "銘柄名": "Wrap Technologies, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WRB",
+    "銘柄名": "W. R. Berkley Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WRB-PE",
+    "銘柄名": "W. R. Berkley Corporation 5.70% SB DB 2058",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WRB-PF",
+    "銘柄名": "W.R. Berkley Corporation 5.10% ",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WRB-PG",
+    "銘柄名": "W.R. Berkley Corporation 4.25% ",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WRB-PH",
+    "銘柄名": "W.R. Berkley Corporation 4.125%",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WRBY",
+    "銘柄名": "Warby Parker Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WRD",
+    "銘柄名": "WeRide Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WRDIF",
+    "銘柄名": "WRDIF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WRIV",
+    "銘柄名": "White River Bancshares Co",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WRLD",
+    "銘柄名": "World Acceptance Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WRLGF",
+    "銘柄名": "West Red Lake Gold Mines Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WRLRF",
+    "銘柄名": "WRLRF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WRN",
+    "銘柄名": "Western Copper and Gold Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WRPT",
+    "銘柄名": "WRPT",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WS",
+    "銘柄名": "Worthington Steel, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WSBC",
+    "銘柄名": "WesBanco, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WSBCO",
+    "銘柄名": "WesBanco, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WSBF",
+    "銘柄名": "Waterstone Financial, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WSBK",
+    "銘柄名": "Winchester Bancorp, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WSC",
+    "銘柄名": "WillScot Holdings Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WSFS",
+    "銘柄名": "WSFS Financial Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WSHP",
+    "銘柄名": "WeShop Holdings Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WSKEF",
+    "銘柄名": "WISeKey International Holding AG",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WSM",
+    "銘柄名": "Williams-Sonoma, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WSO",
+    "銘柄名": "Watsco, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WSO-B",
+    "銘柄名": "Watsco, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WSR",
+    "銘柄名": "Whitestone REIT",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WST",
+    "銘柄名": "West Pharmaceutical Services, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WSTN",
+    "銘柄名": "Westin Acquisition Corp",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WSTNR",
+    "銘柄名": "Westin Acquisition Corp",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WSTNU",
+    "銘柄名": "Westin Acquisition Corp",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WSTRF",
+    "銘柄名": "Western Uranium & Vanadium Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WSUPW",
+    "銘柄名": "Wheels Up Experience Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WT",
+    "銘柄名": "WisdomTree, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WTBA",
+    "銘柄名": "West Bancorporation, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WTCHF",
+    "銘柄名": "WiseTech Global Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WTER",
+    "銘柄名": "The Alkaline Water Company Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WTF",
+    "銘柄名": "Waton Financial Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WTFC",
+    "銘柄名": "Wintrust Financial Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WTFCN",
+    "銘柄名": "Wintrust Financial Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WTG",
+    "銘柄名": "Wintergreen Acquisition Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WTGUR",
+    "銘柄名": "Wintergreen Acquisition Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WTGUU",
+    "銘柄名": "Wintergreen Acquisition Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WTHVF",
+    "銘柄名": "Westhaven Gold Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WTI",
+    "銘柄名": "W&T Offshore, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WTID",
+    "銘柄名": "MicroSectors Energy -3X Inverse Leveraged ETN",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WTIU",
+    "銘柄名": "MicroSectors Energy 3X Leveraged ETN",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WTKWY",
+    "銘柄名": "Wolters Kluwer N.V.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WTM",
+    "銘柄名": "White Mountains Insurance Group, Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WTO",
+    "銘柄名": "UTime Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WTRG",
+    "銘柄名": "Essential Utilities, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Utilities",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WTS",
+    "銘柄名": "Watts Water Technologies, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WTTR",
+    "銘柄名": "Select Water Solutions, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WTW",
+    "銘柄名": "Willis Towers Watson Public Limited Company",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WU",
+    "銘柄名": "The Western Union Company",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WULF",
+    "銘柄名": "TeraWulf Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WVE",
+    "銘柄名": "Wave Life Sciences Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WVVI",
+    "銘柄名": "Willamette Valley Vineyards, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WVVIP",
+    "銘柄名": "Willamette Valley Vineyards, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WW",
+    "銘柄名": "WW International, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WWD",
+    "銘柄名": "Woodward, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WWR",
+    "銘柄名": "Westwater Resources, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WWW",
+    "銘柄名": "Wolverine World Wide, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WXM",
+    "銘柄名": "WF International Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WY",
+    "銘柄名": "Weyerhaeuser Company",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WYFI",
+    "銘柄名": "WhiteFiber, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WYGC",
+    "銘柄名": "Wenyuan Group Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WYHG",
+    "銘柄名": "Wing Yip Food Holdings Group Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WYNN",
+    "銘柄名": "Wynn Resorts, Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WYTC",
+    "銘柄名": "WYTEC INTERNATIONAL INC",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "WYY",
+    "銘柄名": "WidePoint Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XAGE",
+    "銘柄名": "Longevity Health Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XAGEW",
+    "銘柄名": "Longevity Health Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XAIR",
+    "銘柄名": "Beyond Air, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XBIO",
+    "銘柄名": "Xenetic Biosciences, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XBIT",
+    "銘柄名": "XBiotech Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XBP",
+    "銘柄名": "XBP Global Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XBPEW",
+    "銘柄名": "XBP Global Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XCBE",
+    "銘柄名": "XCBE",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XCBEU",
+    "銘柄名": "X3 Acquisition Corp. Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XCH",
+    "銘柄名": "XCHG Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XCRT",
+    "銘柄名": "Xcelerate Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XCUR",
+    "銘柄名": "Exicure, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XEL",
+    "銘柄名": "Xcel Energy Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Utilities",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XELA",
+    "銘柄名": "Exela Technologies, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XELB",
+    "銘柄名": "Xcel Brands, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XELLL",
+    "銘柄名": "Xcel Energy Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XENE",
+    "銘柄名": "Xenon Pharmaceuticals Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XERI",
+    "銘柄名": "Xeriant, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XERS",
+    "銘柄名": "Xeris Biopharma Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XFLH",
+    "銘柄名": "XFLH",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XFLT",
+    "銘柄名": "XAI Octagon Floating Rate & Alternative Income Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XFOR",
+    "銘柄名": "X4 Pharmaceuticals, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XGN",
+    "銘柄名": "Exagen Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XHG",
+    "銘柄名": "XChange TEC.INC",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XHLD",
+    "銘柄名": "TEN Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XHR",
+    "銘柄名": "Xenia Hotels & Resorts, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XIFR",
+    "銘柄名": "XPLR Infrastructure, LP",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Utilities",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XITO",
+    "銘柄名": "Xenous Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XJNGF",
+    "銘柄名": "Goldwind Science&Technology Co., Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XLO",
+    "銘柄名": "Xilio Therapeutics, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XMTR",
+    "銘柄名": "Xometry, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XNCR",
+    "銘柄名": "Xencor, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XNDA",
+    "銘柄名": "SUPA Consolidated Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XNET",
+    "銘柄名": "Xunlei Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XNJJY",
+    "銘柄名": "Goldwind Science&Technology Co., Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XOM",
+    "銘柄名": "Exxon Mobil Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XOMA",
+    "銘柄名": "XOMA Royalty Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XOMAO",
+    "銘柄名": "XOMA Royalty Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XOMAP",
+    "銘柄名": "XOMA Royalty Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XONI",
+    "銘柄名": "Xtreme One Entertainment, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XOS",
+    "銘柄名": "Xos, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XOSWW",
+    "銘柄名": "Xos, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XP",
+    "銘柄名": "XP Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XPD",
+    "銘柄名": "Xpand Boom Technology Inc",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XPEL",
+    "銘柄名": "XPEL, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XPER",
+    "銘柄名": "Xperi Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XPEV",
+    "銘柄名": "XPeng Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XPL",
+    "銘柄名": "Solitario Resources Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XPNGF",
+    "銘柄名": "XPeng Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XPO",
+    "銘柄名": "XPO, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XPOF",
+    "銘柄名": "Xponential Fitness, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XPON",
+    "銘柄名": "Expion360 Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XPRO",
+    "銘柄名": "Expro Group Holdings N.V.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XPTFX",
+    "銘柄名": "Federated Project & Trade Finance Tender Fund",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XRAY",
+    "銘柄名": "DENTSPLY SIRONA Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XRP",
+    "銘柄名": "Bitwise XRP ETF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XRPN",
+    "銘柄名": "Armada Acquisition Corp. II",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XRPNU",
+    "銘柄名": "Armada Acquisition Corp. II",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XRPNW",
+    "銘柄名": "Armada Acquisition Corp. II",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XRPZ",
+    "銘柄名": "Franklin XRP ETF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XRTX",
+    "銘柄名": "XORTX Therapeutics Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XRX",
+    "銘柄名": "Xerox Holdings Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XSIAX",
+    "銘柄名": "Voya Credit Income A",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XSLL",
+    "銘柄名": "XSLL",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XTGRF",
+    "銘柄名": "Xtra-Gold Resources Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XTIA",
+    "銘柄名": "XTI Aerospace, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XTKG",
+    "銘柄名": "X3 Holdings Co., Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XTLB",
+    "銘柄名": "XTL Biopharmaceuticals Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XTNT",
+    "銘柄名": "Xtant Medical Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XTRAF",
+    "銘柄名": "Xtract One Technologies Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XTXXF",
+    "銘柄名": "Adastra Holdings Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XWEL",
+    "銘柄名": "XWELL, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XWIN",
+    "銘柄名": "XMax Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XXAAU",
+    "銘柄名": "Aei Income & Growth Fund LP",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XXC",
+    "銘柄名": "Xinxu Copper Industry Technology Ltd",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XXI",
+    "銘柄名": "Twenty One Capital, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XXII",
+    "銘柄名": "22nd Century Group, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XYF",
+    "銘柄名": "X Financial",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XYJG",
+    "銘柄名": "XYJG",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XYL",
+    "銘柄名": "Xylem Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XYLB",
+    "銘柄名": "XY Labs, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XYZ",
+    "銘柄名": "Block, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XZJCF",
+    "銘柄名": "Mitsui Kinzoku Company, Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "XZO",
+    "銘柄名": "Exzeo Group, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YAAS",
+    "銘柄名": "Youxin Technology Ltd",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YALA",
+    "銘柄名": "Yalla Group Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YAMHF",
+    "銘柄名": "Yamaha Motor Co., Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YARIY",
+    "銘柄名": "Yara International ASA",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YB",
+    "銘柄名": "Yuanbao Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YBGJ",
+    "銘柄名": "Yubo International Biotech Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YCBD",
+    "銘柄名": "cbdMD, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YCL",
+    "銘柄名": "ProShares Ultra Yen",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YCS",
+    "銘柄名": "ProShares UltraShort Yen",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YCY",
+    "銘柄名": "AA Mission Acquisition Corp. II",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YCY-UN",
+    "銘柄名": "AA Mission Acquisition Corp. II",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YCY-WT",
+    "銘柄名": "AA Mission Acquisition Corp. II WT",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YDDL",
+    "銘柄名": "One and one Green Technologies. Inc",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YDES",
+    "銘柄名": "YD Bio Ltd",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YDESW",
+    "銘柄名": "YD Bio Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YDKG",
+    "銘柄名": "Yueda Digital Holding",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YELP",
+    "銘柄名": "Yelp Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YETI",
+    "銘柄名": "YETI Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YEXT",
+    "銘柄名": "Yext, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YGMZF",
+    "銘柄名": "MingZhu Logistics Holdings Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YGSHY",
+    "銘柄名": "YGSHY",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YHC",
+    "銘柄名": "LQR House Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YHGJ",
+    "銘柄名": "Yunhong Green CTI Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YHNA",
+    "銘柄名": "YHN Acquisition I Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YHNAR",
+    "銘柄名": "YHN Acquisition I Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YHNAU",
+    "銘柄名": "YHN Acquisition I Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YI",
+    "銘柄名": "111, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YIBO",
+    "銘柄名": "Planet Image International Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YIFE",
+    "銘柄名": "YIFE",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YJ",
+    "銘柄名": "Yunji Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YJGJ",
+    "銘柄名": "VitaNova Life Sciences Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YKLTF",
+    "銘柄名": "Yakult Honsha Co.,Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YKLTY",
+    "銘柄名": "Yakult Honsha Co.,Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YLY",
+    "銘柄名": "Zi Yun Dong Fang Ltd",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YMAT",
+    "銘柄名": "J-Star Holding Co., Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YMHAY",
+    "銘柄名": "Yamaha Motor Co., Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YMM",
+    "銘柄名": "Full Truck Alliance Co. Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YMT",
+    "銘柄名": "Yimutian Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YMXK",
+    "銘柄名": "YMXK",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YORW",
+    "銘柄名": "The York Water Company",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Utilities",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YOTA",
+    "銘柄名": "Yotta Acquisition Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YOU",
+    "銘柄名": "Clear Secure, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YOUL",
+    "銘柄名": "Youlife Group Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YPF",
+    "銘柄名": "YPF Sociedad Anónima",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YQ",
+    "銘柄名": "17 Education & Technology Group Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YQAI",
+    "銘柄名": "YouneeqAI Technical Services, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YRAIF",
+    "銘柄名": "Yara International ASA",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YRD",
+    "銘柄名": "Yiren Digital Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YSG",
+    "銘柄名": "Yatsen Holding Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YSHLF",
+    "銘柄名": "Yangzijiang Shipbuilding (Holdings) Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YSS",
+    "銘柄名": "York Space Systems, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YSXT",
+    "銘柄名": "YSX Tech. Co., Ltd",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YTFD",
+    "銘柄名": "Yale Transaction Finders, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YTRA",
+    "銘柄名": "Yatra Online, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YUM",
+    "銘柄名": "Yum! Brands, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YUMC",
+    "銘柄名": "Yum China Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YXT",
+    "銘柄名": "YXT.COM Group Holding Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YYAI",
+    "銘柄名": "AiRWA Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "YYGH",
+    "銘柄名": "YY Group Holding Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "Z",
+    "銘柄名": "Zillow Group, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZAPPF",
+    "銘柄名": "Zapp Electric Vehicles Group Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZAPWF",
+    "銘柄名": "Zapp Electric Vehicles Group Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZBAI",
+    "銘柄名": "ATIF Holdings Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZBAO",
+    "銘柄名": "Zhibao Technology Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZBH",
+    "銘柄名": "Zimmer Biomet Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZBIO",
+    "銘柄名": "Zenas BioPharma, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZBRA",
+    "銘柄名": "Zebra Technologies Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZCAR",
+    "銘柄名": "Zoomcar Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZCARW",
+    "銘柄名": "Zoomcar Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZCMD",
+    "銘柄名": "Zhongchao Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZCRMF",
+    "銘柄名": "Golden Cross Resources Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZCSH",
+    "銘柄名": "Grayscale Zcash Trust (ZEC)",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZD",
+    "銘柄名": "Ziff Davis, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZDAI",
+    "銘柄名": "DirectBooking Technology Co., Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZDAN",
+    "銘柄名": "ZDAN",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZDCAF",
+    "銘柄名": "Zedcor Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZDGE",
+    "銘柄名": "Zedge, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZDPY",
+    "銘柄名": "Zoned Properties, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZEFIF",
+    "銘柄名": "Zefiro Methane Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZENA",
+    "銘柄名": "ZenaTech, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZENV",
+    "銘柄名": "Zenvia Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZEO",
+    "銘柄名": "Zeo Energy Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZEOWW",
+    "銘柄名": "Zeo Energy Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZEOX",
+    "銘柄名": "Zeo ScientifiX, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZEPP",
+    "銘柄名": "Zepp Health Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZETA",
+    "銘柄名": "Zeta Global Holdings Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZEUS",
+    "銘柄名": "Olympic Steel, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZG",
+    "銘柄名": "Zillow Group, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZGJLY",
+    "銘柄名": "ZGJLY",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZGM",
+    "銘柄名": "Zenta Group Company Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZGN",
+    "銘柄名": "Ermenegildo Zegna N.V.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZH",
+    "銘柄名": "Zhihu Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZHIHF",
+    "銘柄名": "ZHIHF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZHJD",
+    "銘柄名": "Intelligent Hotel Group Ltd",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZICX",
+    "銘柄名": "Zicix Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZIM",
+    "銘柄名": "ZIM Integrated Shipping Services Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZION",
+    "銘柄名": "Zions Bancorporation, National Association",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZIONP",
+    "銘柄名": "Zions Bancorporation, National Association",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZIP",
+    "銘柄名": "ZipRecruiter, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZIVO",
+    "銘柄名": "ZIVO Bioscience, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZIVOW",
+    "銘柄名": "Zivo Bioscience, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZJGIY",
+    "銘柄名": "ZJGIY",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZJK",
+    "銘柄名": "ZJK Industrial Co., Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZJLMF",
+    "銘柄名": "ZHEJIANG LEAPMOTOR TECHNOLOGY C",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZJNGF",
+    "銘柄名": "ZJNGF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZJYL",
+    "銘柄名": "Jin Medical International Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZKH",
+    "銘柄名": "ZKH Group Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZKIN",
+    "銘柄名": "ZK International Group Co., Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZKP",
+    "銘柄名": "Lafayette Digital Acquisition Corp. I Class A Ordinary Shares",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZKPU",
+    "銘柄名": "Lafayette Digital Acquisition Corp. I",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZLAB",
+    "銘柄名": "Zai Lab Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZLDPF",
+    "銘柄名": "Zealand Pharma A/S",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZLME",
+    "銘柄名": "Zhanling International Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZM",
+    "銘柄名": "Zoom Communications, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZNB",
+    "銘柄名": "Zeta Network Group",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZNKUF",
+    "銘柄名": "ZNKUF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZNOG",
+    "銘柄名": "Zion Oil & Gas, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZNOGW",
+    "銘柄名": "Zion Oil",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZNTL",
+    "銘柄名": "Zentalis Pharmaceuticals, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZOMDF",
+    "銘柄名": "Zomedica Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZONE",
+    "銘柄名": "CleanCore Solutions, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZOOZ",
+    "銘柄名": "ZOOZ Strategy Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZOOZW",
+    "銘柄名": "ZOOZ Strategy Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZPHYF",
+    "銘柄名": "Zephyr Minerals Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZPTA",
+    "銘柄名": "Zapata Quantum, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZPTAW",
+    "銘柄名": "Zapata Quantum, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZRCN",
+    "銘柄名": "ZRCN",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZS",
+    "銘柄名": "Zscaler, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZSHLY",
+    "銘柄名": "ZSHLY",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZSHOF",
+    "銘柄名": "Zensho Holdings Co., Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZSICY",
+    "銘柄名": "ZSICY",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZSL",
+    "銘柄名": "ProShares UltraShort Silver",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZSPC",
+    "銘柄名": "zSpace, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZSSK",
+    "銘柄名": "ZSSK",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZTEK",
+    "銘柄名": "Zentek Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZTO",
+    "銘柄名": "ZTO Express (Cayman) Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZTOEF",
+    "銘柄名": "ZTOEF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZTR",
+    "銘柄名": "Virtus Global Dividend & Income Fund Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZTS",
+    "銘柄名": "Zoetis Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZTSTF",
+    "銘柄名": "ZTEST Electronics Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZUMZ",
+    "銘柄名": "Zumiez Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZURA",
+    "銘柄名": "Zura Bio Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZVIA",
+    "銘柄名": "Zevia PBC",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZVRA",
+    "銘柄名": "Zevra Therapeutics, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZVSA",
+    "銘柄名": "ZyVersa Therapeutics, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZWS",
+    "銘柄名": "Zurn Elkay Water Solutions Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZY",
+    "銘柄名": "ZY",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZYBT",
+    "銘柄名": "Zhengye Biotechnology Holding Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZYME",
+    "銘柄名": "Zymeworks Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ZYXIQ",
+    "銘柄名": "Zynex, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  }
+]

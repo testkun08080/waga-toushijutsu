@@ -1,0 +1,7002 @@
+[
+  {
+    "コード": "ELME",
+    "銘柄名": "Elme Communities",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ELOG",
+    "銘柄名": "Eastern International Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ELPC",
+    "銘柄名": "Companhia Paranaense de Energia",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Utilities",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ELPW",
+    "銘柄名": "Elong Power Holding Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ELRE",
+    "銘柄名": "Yinfu Gold Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ELS",
+    "銘柄名": "Equity LifeStyle Properties, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ELSE",
+    "銘柄名": "Electro-Sensors, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ELTK",
+    "銘柄名": "Eltek Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ELTP",
+    "銘柄名": "Elite Pharmaceuticals, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ELTX",
+    "銘柄名": "Elicio Therapeutics, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ELUT",
+    "銘柄名": "Elutia Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ELV",
+    "銘柄名": "Elevance Health, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ELVA",
+    "銘柄名": "Electrovaya Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ELVG",
+    "銘柄名": "Elvictor Group, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ELVN",
+    "銘柄名": "Enliven Therapeutics, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ELVR",
+    "銘柄名": "Elevra Lithium Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ELWS",
+    "銘柄名": "Earlyworks Co., Ltd",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ELWT",
+    "銘柄名": "Elauwit Connection, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EM",
+    "銘柄名": "Smart Share Global Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EMA",
+    "銘柄名": "Emera Incorporated",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Utilities",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EMAT",
+    "銘柄名": "Evolution Metals & Technologies Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EMBC",
+    "銘柄名": "Embecta Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EMBJ",
+    "銘柄名": "Embraer S.A.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EMBYF",
+    "銘柄名": "Nexera Energy Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EMCGF",
+    "銘柄名": "Embrace Change Acquisition Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EMCRF",
+    "銘柄名": "Embrace Change Acquisition Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EMCUF",
+    "銘柄名": "Embrace Change Acquisition Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EMCWF",
+    "銘柄名": "Embrace Change Acquisition Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EMD",
+    "銘柄名": "Western Asset Emerging Markets Debt Fund Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EME",
+    "銘柄名": "EMCOR Group, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EMED",
+    "銘柄名": "Electromedical Technologies, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EMF",
+    "銘柄名": "Templeton Emerging Markets Fund",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EMGDF",
+    "銘柄名": "Eminent Gold Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EMI",
+    "銘柄名": "Encore Medical Inc",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EMICF",
+    "銘柄名": "EMICF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Utilities",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EMIS",
+    "銘柄名": "Emmis Acquisition Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EMISR",
+    "銘柄名": "Emmis Acquisition Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EML",
+    "銘柄名": "The Eastern Company",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EMMA",
+    "銘柄名": "Emmaus Life Sciences, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EMN",
+    "銘柄名": "Eastman Chemical Company",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EMO",
+    "銘柄名": "ClearBridge Energy Midstream Opportunity Fund Inc",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EMP",
+    "銘柄名": "Entergy Mississippi, Inc. 1M BD 66",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EMPD",
+    "銘柄名": "Empery Digital Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EMPG",
+    "銘柄名": "Empro Group Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EMR",
+    "銘柄名": "Emerson Electric Co.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EMRH",
+    "銘柄名": "Emerging Holdings Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EMRJF",
+    "銘柄名": "EMRJF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EMS",
+    "銘柄名": "EMS",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EMYB",
+    "銘柄名": "Embassy Bancorp, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ENAKF",
+    "銘柄名": "E.ON SE",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Utilities",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ENB",
+    "銘柄名": "Enbridge Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ENBFF",
+    "銘柄名": "Enbridge Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ENBGF",
+    "銘柄名": "Enbridge Inc",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ENBHF",
+    "銘柄名": "Enbridge Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ENBMF",
+    "銘柄名": "ENBRIDGE INC",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ENBNF",
+    "銘柄名": "Enbridge Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ENBOF",
+    "銘柄名": "ENBRIDGE INC",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ENBP",
+    "銘柄名": "ENB Financial Corp",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ENBRF",
+    "銘柄名": "Enbridge Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ENBSF",
+    "銘柄名": "ENBSF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ENDI",
+    "銘柄名": "CrossingBridge Advisors, LLC",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ENDMF",
+    "銘柄名": "Enduro Metals Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ENDV",
+    "銘柄名": "Endonovo Therapeutics, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ENFFF",
+    "銘柄名": "ENFFF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ENFY",
+    "銘柄名": "Enlightify Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ENGN",
+    "銘柄名": "enGene Holdings Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ENGNW",
+    "銘柄名": "enGene Holdings Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ENGS",
+    "銘柄名": "Energys Group Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ENIC",
+    "銘柄名": "Enel Chile S.A.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Utilities",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ENJ",
+    "銘柄名": "Entergy Utility Group, Inc. 1ST MTG 5% 52",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ENLT",
+    "銘柄名": "Enlight Renewable Energy Ltd",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Utilities",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ENLV",
+    "銘柄名": "Enlivex Therapeutics Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ENNPF",
+    "銘柄名": "Enbridge Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ENO",
+    "銘柄名": "Entergy Utility Group, Inc. 1ST MTG BD 66",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ENOV",
+    "銘柄名": "Enovis Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ENPH",
+    "銘柄名": "Enphase Energy, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ENR",
+    "銘柄名": "Energizer Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ENRT",
+    "銘柄名": "Enertopia Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ENS",
+    "銘柄名": "EnerSys",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ENSC",
+    "銘柄名": "Ensysce Biosciences, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ENSCW",
+    "銘柄名": "Leisure Acquisition Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ENSG",
+    "銘柄名": "The Ensign Group, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ENTA",
+    "銘柄名": "Enanta Pharmaceuticals, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ENTG",
+    "銘柄名": "Entegris, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ENTX",
+    "銘柄名": "Entera Bio Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ENTXW",
+    "銘柄名": "ENTXW",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ENVA",
+    "銘柄名": "Enova International, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ENVB",
+    "銘柄名": "Enveric Biosciences, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ENVX",
+    "銘柄名": "Enovix Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ENZN",
+    "銘柄名": "Enzon Pharmaceuticals, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EOD",
+    "銘柄名": "Wells Fargo Advantage Funds - Allspring Global Dividend Opportunity Fund",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EOG",
+    "銘柄名": "EOG Resources, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EOHC",
+    "銘柄名": "EOHC",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EOI",
+    "銘柄名": "Eaton Vance Enhanced Equity Income Fund",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EOLS",
+    "銘柄名": "Evolus, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EONGY",
+    "銘柄名": "E.ON SE",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Utilities",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EONR",
+    "銘柄名": "EON Resources Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EONR-WT",
+    "銘柄名": "EON Resources Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EOS",
+    "銘柄名": "Eaton Vance Enhanced Equity Income Fund II",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EOSE",
+    "銘柄名": "Eos Energy Enterprises, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EOT",
+    "銘柄名": "Eaton Vance National Municipal Opportunities Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EP",
+    "銘柄名": "Empire Petroleum Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EP-PC",
+    "銘柄名": "El Paso Energy Capital Trust I PFD CV TR SECS",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EPAC",
+    "銘柄名": "Enerpac Tool Group Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EPAM",
+    "銘柄名": "EPAM Systems, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EPC",
+    "銘柄名": "Edgewell Personal Care Company",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EPD",
+    "銘柄名": "Enterprise Products Partners L.P.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EPDU",
+    "銘柄名": "EPDU",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EPM",
+    "銘柄名": "Evolution Petroleum Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EPOW",
+    "銘柄名": "Sunrise New Energy Co., Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EPR",
+    "銘柄名": "EPR Properties",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EPR-PC",
+    "銘柄名": "EPR Properties",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EPR-PE",
+    "銘柄名": "EPR Properties",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EPR-PG",
+    "銘柄名": "EPR Properties",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EPRT",
+    "銘柄名": "Essential Properties Realty Trust, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EPRX",
+    "銘柄名": "Eupraxia Pharmaceuticals Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EPSM",
+    "銘柄名": "Epsium Enterprise Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EPSN",
+    "銘柄名": "Epsilon Energy Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EPWK",
+    "銘柄名": "EPWK Holdings Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EPWKF",
+    "銘柄名": "EPWK Holdings Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EQ",
+    "銘柄名": "Equillium, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EQBK",
+    "銘柄名": "Equity Bancshares, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EQH",
+    "銘柄名": "Equitable Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EQH-PA",
+    "銘柄名": "Equitable Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EQH-PC",
+    "銘柄名": "Equitable Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EQIX",
+    "銘柄名": "Equinix, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EQNR",
+    "銘柄名": "Equinor ASA",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EQPT",
+    "銘柄名": "EquipmentShare.com Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EQR",
+    "銘柄名": "Equity Residential",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EQS",
+    "銘柄名": "Equus Total Return, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EQT",
+    "銘柄名": "EQT Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EQTRF",
+    "銘柄名": "Altamira Gold Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EQX",
+    "銘柄名": "Equinox Gold Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ERAS",
+    "銘柄名": "Erasca, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ERC",
+    "銘柄名": "Allspring Multi-Sector Income Fund",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ERELY",
+    "銘柄名": "Eregli Demir ve Çelik Fabrikalari T.A.S.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ERH",
+    "銘柄名": "Allspring Utilities and High Income Fund",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ERIC",
+    "銘柄名": "Telefonaktiebolaget LM Ericsson (publ)",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ERIE",
+    "銘柄名": "Erie Indemnity Company",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ERII",
+    "銘柄名": "Energy Recovery, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ERIXF",
+    "銘柄名": "Telefonaktiebolaget LM Ericsson (publ)",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ERLFF",
+    "銘柄名": "Entrée Resources Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ERNA",
+    "銘柄名": "Ernexa Therapeutics Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ERO",
+    "銘柄名": "Ero Copper Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ERRAF",
+    "銘柄名": "Emera Incorporated",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Utilities",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ES",
+    "銘柄名": "Eversource Energy",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Utilities",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ESAB",
+    "銘柄名": "ESAB Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ESAUF",
+    "銘柄名": "ESGold Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ESBA",
+    "銘柄名": "Empire State Realty OP, L.P.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ESCA",
+    "銘柄名": "Escalade, Incorporated",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ESE",
+    "銘柄名": "ESCO Technologies Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ESEA",
+    "銘柄名": "Euroseas Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ESGH",
+    "銘柄名": "ESG Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ESGL",
+    "銘柄名": "ESGL Holdings Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ESGLW",
+    "銘柄名": "ESGL Holdings Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ESHA",
+    "銘柄名": "ESH Acquisition Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ESHAR",
+    "銘柄名": "ESH Acquisition Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ESHSF",
+    "銘柄名": "EDDY SMART HOME SOLUTIONS LTD",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ESI",
+    "銘柄名": "Element Solutions Inc",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ESLA",
+    "銘柄名": "Estrella Immunopharma, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ESLAW",
+    "銘柄名": "Estrella Immunopharma, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ESLT",
+    "銘柄名": "Elbit Systems Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ESMC",
+    "銘柄名": "Escalon Medical Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ESMR",
+    "銘柄名": "ESMR",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ESNT",
+    "銘柄名": "Essent Group Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ESOA",
+    "銘柄名": "Energy Services of America Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ESP",
+    "銘柄名": "Espey Mfg. & Electronics Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ESPR",
+    "銘柄名": "Esperion Therapeutics, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ESQ",
+    "銘柄名": "Esquire Financial Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ESRT",
+    "銘柄名": "Empire State Realty Trust, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ESS",
+    "銘柄名": "Essex Property Trust, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ESSI",
+    "銘柄名": "Eco Science Solutions, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ESTA",
+    "銘柄名": "Establishment Labs Holdings Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ESTC",
+    "銘柄名": "Elastic N.V.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ET",
+    "銘柄名": "Energy Transfer LP",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ET-PI",
+    "銘柄名": "Energy Transfer LP",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ETB",
+    "銘柄名": "Eaton Vance Tax-Managed Buy-Write Income Fund",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ETCG",
+    "銘柄名": "Grayscale Ethereum Classic Trust (ETC)",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ETD",
+    "銘柄名": "Ethan Allen Interiors Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ETG",
+    "銘柄名": "Eaton Vance Tax-Advantaged Global Dividend Income Fund",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ETH",
+    "銘柄名": "Grayscale Ethereum Mini Trust ETF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ETHA",
+    "銘柄名": "iShares Ethereum Trust ETF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ETHB",
+    "銘柄名": "ETHB",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ETHE",
+    "銘柄名": "Grayscale Ethereum Staking ETF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ETHM",
+    "銘柄名": "Dynamix Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ETHMU",
+    "銘柄名": "Dynamix Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ETHMW",
+    "銘柄名": "Dynamix Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ETHV",
+    "銘柄名": "VanEck Ethereum ETF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ETHW",
+    "銘柄名": "Bitwise Ethereum ETF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ETHZ",
+    "銘柄名": "ETHZilla Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ETI-P",
+    "銘柄名": "Entergy Texas, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Utilities",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ETJ",
+    "銘柄名": "Eaton Vance Risk-Managed Diversified Equity Income Fund",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ETN",
+    "銘柄名": "Eaton Corporation plc",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ETO",
+    "銘柄名": "Eaton Vance Tax-Advantaged Global Dividend Opportunities Fund",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ETON",
+    "銘柄名": "Eton Pharmaceuticals, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ETOR",
+    "銘柄名": "eToro Group Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ETR",
+    "銘柄名": "Entergy Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Utilities",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ETS",
+    "銘柄名": "Elite Express Holding Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ETST",
+    "銘柄名": "Earth Science Tech, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ETSY",
+    "銘柄名": "Etsy, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ETUGF",
+    "銘柄名": "E2Gold Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ETV",
+    "銘柄名": "Eaton Vance Tax-Managed Buy-Write Opportunities Fund",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ETW",
+    "銘柄名": "Eaton Vance Tax-Managed Global Buy-Write Opportunities Fund",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ETX",
+    "銘柄名": "Eaton Vance Municipal Income 2028 Term Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "ETY",
+    "銘柄名": "Eaton Vance Tax-Managed Diversified Equity Income Fund",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EU",
+    "銘柄名": "enCore Energy Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EUBG",
+    "銘柄名": "Entrepreneur Universe Bright Group",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EUDA",
+    "銘柄名": "EUDA Health Holdings Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EUDAW",
+    "銘柄名": "EUDA Health Holdings Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EUEMF",
+    "銘柄名": "Grit Metals Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EUO",
+    "銘柄名": "ProShares UltraShort Euro",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EUPX",
+    "銘柄名": "EUPX",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EURK",
+    "銘柄名": "Eureka Acquisition Corp",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EURKR",
+    "銘柄名": "Eureka Acquisition Corp",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EURKU",
+    "銘柄名": "Eureka Acquisition Corp",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EVAC",
+    "銘柄名": "EQV Ventures Acquisition Corp. II",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EVAC-UN",
+    "銘柄名": "EQV Ventures Acquisition Corp. II",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EVAC-WT",
+    "銘柄名": "EQV Ventures Acquisition Corp. II WT",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EVAX",
+    "銘柄名": "Evaxion A/S",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EVC",
+    "銘柄名": "Entravision Communications Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EVCM",
+    "銘柄名": "EverCommerce Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EVER",
+    "銘柄名": "EverQuote, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EVEX",
+    "銘柄名": "Eve Holding, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EVEX-WT",
+    "銘柄名": "Eve Holding, Inc. WT",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EVF",
+    "銘柄名": "Eaton Vance Senior Income Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EVFM",
+    "銘柄名": "Evofem Biosciences, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EVG",
+    "銘柄名": "Eaton Vance Short Duration Diversified Income Fund",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EVGN",
+    "銘柄名": "Evogene Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EVGO",
+    "銘柄名": "EVgo, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EVGOW",
+    "銘柄名": "EVgo, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EVH",
+    "銘柄名": "Evolent Health, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EVI",
+    "銘柄名": "EVI Industries, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EVLV",
+    "銘柄名": "Evolv Technologies Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EVLVW",
+    "銘柄名": "Evolv Technologies Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EVMN",
+    "銘柄名": "Evommune, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EVN",
+    "銘柄名": "Eaton Vance Municipal Income Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EVO",
+    "銘柄名": "Evotec SE",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EVOH",
+    "銘柄名": "EvoAir Holdings Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EVON",
+    "銘柄名": "EvoNexus Group Ltd",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EVOTF",
+    "銘柄名": "Evotec SE",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EVOX",
+    "銘柄名": "Evolution Global Acquisition Corp",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EVOXU",
+    "銘柄名": "Evolution Global Acquisition Corp",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EVOXW",
+    "銘柄名": "Evolution Global Acquisition Corp",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EVR",
+    "銘柄名": "Evercore Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EVRG",
+    "銘柄名": "Evergy, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Utilities",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EVT",
+    "銘柄名": "Eaton Vance Tax-Advantaged Dividend Income Fund",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EVTC",
+    "銘柄名": "EVERTEC, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EVTK",
+    "銘柄名": "Eventiko Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EVTL",
+    "銘柄名": "Vertical Aerospace Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EVTV",
+    "銘柄名": "Envirotech Vehicles, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EVTWF",
+    "銘柄名": "Vertical Aerospace Ltd",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EVV",
+    "銘柄名": "Eaton Vance Limited Duration Income Fund",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EVVO",
+    "銘柄名": "EVVO",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EW",
+    "銘柄名": "Edwards Lifesciences Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EWBC",
+    "銘柄名": "East West Bancorp, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EWCZ",
+    "銘柄名": "European Wax Center, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EWSB",
+    "銘柄名": "EWSB Bancorp, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EWTX",
+    "銘柄名": "Edgewise Therapeutics, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EXAS",
+    "銘柄名": "Exact Sciences Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EXC",
+    "銘柄名": "Exelon Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Utilities",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EXDW",
+    "銘柄名": "Exceed World, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EXE",
+    "銘柄名": "Expand Energy Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EXEEL",
+    "銘柄名": "Expand Energy Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EXEEW",
+    "銘柄名": "Expand Energy Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EXEEZ",
+    "銘柄名": "Expand Energy Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EXEL",
+    "銘柄名": "Exelixis, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EXFY",
+    "銘柄名": "Expensify, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EXG",
+    "銘柄名": "Eaton Vance Tax-Managed Global Diversified Equity Income Fund",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EXK",
+    "銘柄名": "Endeavour Silver Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EXLS",
+    "銘柄名": "ExlService Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EXOD",
+    "銘柄名": "Exodus Movement, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EXOZ",
+    "銘柄名": "eXoZymes, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EXP",
+    "銘柄名": "Eagle Materials Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EXPD",
+    "銘柄名": "Expeditors International of Washington, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EXPE",
+    "銘柄名": "Expedia Group, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EXPI",
+    "銘柄名": "eXp World Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EXPO",
+    "銘柄名": "Exponent, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EXR",
+    "銘柄名": "Extra Space Storage Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EXTR",
+    "銘柄名": "Extreme Networks, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EYE",
+    "銘柄名": "National Vision Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EYGPF",
+    "銘柄名": "Electricity Generating Public Company Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Utilities",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EYPT",
+    "銘柄名": "EyePoint, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EYUBY",
+    "銘柄名": "Electricity Generating Public Company Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Utilities",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EYUUF",
+    "銘柄名": "Electricity Generating Public C",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Utilities",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EZBC",
+    "銘柄名": "Franklin Bitcoin ETF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EZET",
+    "銘柄名": "Franklin Ethereum ETF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EZGO",
+    "銘柄名": "EZGO Technologies Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EZOO",
+    "銘柄名": "Ezagoo Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EZPW",
+    "銘柄名": "EZCORP, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EZPZ",
+    "銘柄名": "Franklin Crypto Index ETF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EZRA",
+    "銘柄名": "Reliance Global Group, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "EZRAW",
+    "銘柄名": "Reliance Global Group, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "F",
+    "銘柄名": "Ford Motor Company",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "F-PB",
+    "銘柄名": "Ford Motor Company 6.20% Notes ",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "F-PC",
+    "銘柄名": "Ford Motor Company 6% Notes due",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "F-PD",
+    "銘柄名": "Ford Motor Company 6.500% Notes",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FA",
+    "銘柄名": "First Advantage Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FACT",
+    "銘柄名": "FACT II Acquisition Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FACTU",
+    "銘柄名": "FACT II Acquisition Corp",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FACTW",
+    "銘柄名": "FACT II Acquisition Corp",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FAF",
+    "銘柄名": "First American Financial Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FALC",
+    "銘柄名": "FalconStor Software, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FAMI",
+    "銘柄名": "Farmmi, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FANG",
+    "銘柄名": "Diamondback Energy, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FANUF",
+    "銘柄名": "Fanuc Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FARM",
+    "銘柄名": "Farmer Bros. Co.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FAST",
+    "銘柄名": "Fastenal Company",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FAT",
+    "銘柄名": "FAT Brands Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FATBB",
+    "銘柄名": "FAT Brands Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FATBP",
+    "銘柄名": "FAT Brands Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FATE",
+    "銘柄名": "Fate Therapeutics, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FATN",
+    "銘柄名": "FatPipe, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FAX",
+    "銘柄名": "Abrdn Asia-Pacific Income Fund Inc",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FBCD",
+    "銘柄名": "FBC Holding, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FBDS",
+    "銘柄名": "Fuss Brands Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FBGL",
+    "銘柄名": "FBS Global Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FBIN",
+    "銘柄名": "Fortune Brands Innovations, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FBIO",
+    "銘柄名": "Fortress Biotech, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FBIOP",
+    "銘柄名": "Fortress Biotech, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FBIZ",
+    "銘柄名": "First Business Financial Services, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FBK",
+    "銘柄名": "FB Financial Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FBLA",
+    "銘柄名": "FB Bancorp, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FBLG",
+    "銘柄名": "FibroBiologics, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FBNC",
+    "銘柄名": "First Bancorp",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FBP",
+    "銘柄名": "First BanCorp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FBRT",
+    "銘柄名": "Franklin BSP Realty Trust, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FBRT-PE",
+    "銘柄名": "Franklin BSP Realty Trust, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FBRX",
+    "銘柄名": "Forte Biosciences, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FBSI",
+    "銘柄名": "First Bancshares, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FBTC",
+    "銘柄名": "Fidelity Wise Origin Bitcoin Fund",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FBYD",
+    "銘柄名": "Falcon's Beyond Global, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FBYDW",
+    "銘柄名": "Falcon's Beyond Global, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FC",
+    "銘柄名": "Franklin Covey Co.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FCAP",
+    "銘柄名": "First Capital, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FCBC",
+    "銘柄名": "First Community Bankshares, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FCCI",
+    "銘柄名": "Fast Casual Concepts, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FCCN",
+    "銘柄名": "Spectral Capital Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FCCO",
+    "銘柄名": "First Community Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FCEL",
+    "銘柄名": "FuelCell Energy, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FCELB",
+    "銘柄名": "FuelCell Energy, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FCF",
+    "銘柄名": "First Commonwealth Financial Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FCFS",
+    "銘柄名": "FirstCash Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FCHDF",
+    "銘柄名": "FAIRCHILD GOLD CORP.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FCHL",
+    "銘柄名": "Fitness Champs Holdings Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FCHRF",
+    "銘柄名": "Georg Fischer AG",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FCHS",
+    "銘柄名": "First Choice Healthcare Solutions, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FCN",
+    "銘柄名": "FTI Consulting, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FCNCA",
+    "銘柄名": "First Citizens BancShares, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FCNCB",
+    "銘柄名": "First Citizens BancShares, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FCNCO",
+    "銘柄名": "First Citizens BancShares, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FCNCP",
+    "銘柄名": "First Citizens BancShares, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FCO",
+    "銘柄名": "abrdn Global Income Fund, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FCPT",
+    "銘柄名": "Four Corners Property Trust, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FCRS",
+    "銘柄名": "FutureCrest Acquisition Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FCRS-UN",
+    "銘柄名": "FutureCrest Acquisition Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FCRS-WT",
+    "銘柄名": "FutureCrest Acquisition Corp. WT",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FCRX",
+    "銘柄名": "Crescent Capital BDC, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FCT",
+    "銘柄名": "First Trust Senior Floating Rate Income Fund II",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FCUV",
+    "銘柄名": "Focus Universal Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FCX",
+    "銘柄名": "Freeport-McMoRan Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FDBC",
+    "銘柄名": "Fidelity D & D Bancorp, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FDCT",
+    "銘柄名": "FDCTech, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FDMT",
+    "銘柄名": "4D Molecular Therapeutics, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FDP",
+    "銘柄名": "Fresh Del Monte Produce Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FDS",
+    "銘柄名": "FactSet Research Systems Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FDSB",
+    "銘柄名": "Fifth District Bancorp, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FDUS",
+    "銘柄名": "Fidus Investment Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FDX",
+    "銘柄名": "FedEx Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FDXF",
+    "銘柄名": "FDXF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FDXTF",
+    "銘柄名": "FendX Technologies Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FE",
+    "銘柄名": "FirstEnergy Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Utilities",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FEAM",
+    "銘柄名": "5E Advanced Materials, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FEAV",
+    "銘柄名": "5E Advanced Materials, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FEBO",
+    "銘柄名": "Fenbo Holdings Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FECOF",
+    "銘柄名": "FEC Resources Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FEDU",
+    "銘柄名": "Four Seasons Education (Cayman) Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FEED",
+    "銘柄名": "ENvue Medical, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FEIM",
+    "銘柄名": "Frequency Electronics, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FELE",
+    "銘柄名": "Franklin Electric Co., Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FEMY",
+    "銘柄名": "Femasys Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FENC",
+    "銘柄名": "Fennec Pharmaceuticals Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FENG",
+    "銘柄名": "Phoenix New Media Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FER",
+    "銘柄名": "Ferrovial SE",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FERA",
+    "銘柄名": "Fifth Era Acquisition Corp I",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FERAR",
+    "銘柄名": "Fifth Era Acquisition Corp I",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FERAU",
+    "銘柄名": "Fifth Era Acquisition Corp I",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FERG",
+    "銘柄名": "Ferguson Enterprises Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FET",
+    "銘柄名": "Forum Energy Technologies, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FETH",
+    "銘柄名": "Fidelity Ethereum Fund",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FF",
+    "銘柄名": "FutureFuel Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FFA",
+    "銘柄名": "First Trust Enhanced Equity Income Fund",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FFAI",
+    "銘柄名": "Faraday Future Intelligent Electric Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FFAIW",
+    "銘柄名": "Faraday Future Intelligent Electric Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FFBC",
+    "銘柄名": "First Financial Bancorp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FFC",
+    "銘柄名": "Flaherty & Crumrine Preferred Securities Income Fund Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FFIC",
+    "銘柄名": "Flushing Financial Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FFIN",
+    "銘柄名": "First Financial Bankshares, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FFIV",
+    "銘柄名": "F5, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FFLO",
+    "銘柄名": "Free Flow USA, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FFMGF",
+    "銘柄名": "First Mining Gold Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FFWM",
+    "銘柄名": "First Foundation Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FG",
+    "銘柄名": "F&G Annuities & Life, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FGBI",
+    "銘柄名": "First Guaranty Bancshares, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FGBIP",
+    "銘柄名": "First Guaranty Bancshares, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FGCO",
+    "銘柄名": "Financial Gravity Companies, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FGDL",
+    "銘柄名": "Franklin Responsibly Sourced Gold ETF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FGFH",
+    "銘柄名": "Foresight Financial Group, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FGHFD",
+    "銘柄名": "Vanta Holdings Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FGHFF",
+    "銘柄名": "Forte Group Holdings Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FGI",
+    "銘柄名": "FGI Industries Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FGII",
+    "銘柄名": "FGII",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FGIIU",
+    "銘柄名": "FG Imperii Acquisition Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FGIWW",
+    "銘柄名": "FGI Industries Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FGL",
+    "銘柄名": "Founder Group Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FGMC",
+    "銘柄名": "FG Merger II Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FGMCR",
+    "銘柄名": "FG Merger II Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FGMCU",
+    "銘柄名": "FG Merger II Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FGN",
+    "銘柄名": "F&G Annuities & Life, Inc. 7.95",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FGNV",
+    "銘柄名": "Forge Innovation Development Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FGNX",
+    "銘柄名": "FG Nexus Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FGNXP",
+    "銘柄名": "FG Nexus Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FGO",
+    "銘柄名": "FG HOLDINGS LTD",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FGOVF",
+    "銘柄名": "Freegold Ventures Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FGPR",
+    "銘柄名": "Ferrellgas Partners, L.P.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FGPRB",
+    "銘柄名": "Ferrellgas Partners, L.P.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FGSN",
+    "銘柄名": "F&G Annuities & Life, Inc. 7.30",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FGXC",
+    "銘柄名": "FGXC",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FHB",
+    "銘柄名": "First Hawaiian, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FHFFY",
+    "銘柄名": "FHFFY",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FHI",
+    "銘柄名": "Federated Hermes, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FHLD",
+    "銘柄名": "FHLD",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FHN",
+    "銘柄名": "First Horizon Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FHN-PC",
+    "銘柄名": "First Horizon Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FHN-PE",
+    "銘柄名": "First Horizon Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FHN-PF",
+    "銘柄名": "First Horizon Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FHTX",
+    "銘柄名": "Foghorn Therapeutics Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FIBK",
+    "銘柄名": "First Interstate BancSystem, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FICO",
+    "銘柄名": "Fair Isaac Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FIEE",
+    "銘柄名": "FiEE, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FIG",
+    "銘柄名": "Figma, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FIGP",
+    "銘柄名": "Forge Group, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FIGR",
+    "銘柄名": "Figure Technology Solutions, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FIGS",
+    "銘柄名": "FIGS, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FIGX",
+    "銘柄名": "FIGX Capital Acquisition Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FIGXU",
+    "銘柄名": "FIGX Capital Acquisition Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FIGXW",
+    "銘柄名": "FIGX Capital Acquisition Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FIHL",
+    "銘柄名": "Fidelis Insurance Holdings Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FIISO",
+    "銘柄名": "Financial Institutions, Inc. 8.48% SRB1 PFD B",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FIISP",
+    "銘柄名": "FIISP",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FILG",
+    "銘柄名": "Grayscale Filecoin Trust (FIL)",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FINCF",
+    "銘柄名": "FINCF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FINGF",
+    "銘柄名": "Finning International Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FINS",
+    "銘柄名": "Angel Oak Financial Strategies Income Term Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FINV",
+    "銘柄名": "FinVolution Group",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FINW",
+    "銘柄名": "FinWise Bancorp",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FIP",
+    "銘柄名": "FTAI Infrastructure Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FIS",
+    "銘柄名": "Fidelity National Information Services, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FISI",
+    "銘柄名": "Financial Institutions, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FISK",
+    "銘柄名": "Empire State Realty OP, L.P.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FISV",
+    "銘柄名": "Fiserv, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FIT",
+    "銘柄名": "FIT",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FITB",
+    "銘柄名": "Fifth Third Bancorp",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FITBI",
+    "銘柄名": "Fifth Third Bancorp",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FITBO",
+    "銘柄名": "Fifth Third Bancorp",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FITBP",
+    "銘柄名": "Fifth Third Bancorp",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FIVE",
+    "銘柄名": "Five Below, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FIVN",
+    "銘柄名": "Five9, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FIX",
+    "銘柄名": "Comfort Systems USA, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FIZZ",
+    "銘柄名": "National Beverage Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FJET",
+    "銘柄名": "Starfighters Space, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FKURF",
+    "銘柄名": "Fujikura Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FKWL",
+    "銘柄名": "Franklin Wireless Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FKYS",
+    "銘柄名": "First Keystone Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FLC",
+    "銘柄名": "Flaherty & Crumrine Total Return Fund Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FLD",
+    "銘柄名": "Fold Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FLDDW",
+    "銘柄名": "Fold Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FLEX",
+    "銘柄名": "Flex Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FLG",
+    "銘柄名": "Flagstar Bank, National Association",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FLG-PA",
+    "銘柄名": "Flagstar Bank, National Association",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FLG-PU",
+    "銘柄名": "New York Community Capital Trust V",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FLGC",
+    "銘柄名": "ZeroStack Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FLGT",
+    "銘柄名": "Fulgent Genetics, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FLL",
+    "銘柄名": "Full House Resorts, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FLNC",
+    "銘柄名": "Fluence Energy, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Utilities",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FLNCF",
+    "銘柄名": "Freelancer Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FLNG",
+    "銘柄名": "FLEX LNG Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FLNT",
+    "銘柄名": "Fluent, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FLO",
+    "銘柄名": "Flowers Foods, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FLOC",
+    "銘柄名": "Flowco Holdings Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FLR",
+    "銘柄名": "Fluor Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FLS",
+    "銘柄名": "Flowserve Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FLUT",
+    "銘柄名": "Flutter Entertainment plc",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FLUX",
+    "銘柄名": "Flux Power Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FLWS",
+    "銘柄名": "1-800-FLOWERS.COM, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FLX",
+    "銘柄名": "BingEx Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FLXS",
+    "銘柄名": "Flexsteel Industries, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FLY",
+    "銘柄名": "Firefly Aerospace Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FLYD",
+    "銘柄名": "MicroSectors Travel -3X Inverse Leveraged ETNs",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FLYE",
+    "銘柄名": "Fly-E Group, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FLYU",
+    "銘柄名": "MicroSectors Travel 3X Leveraged ETNs",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FLYW",
+    "銘柄名": "Flywire Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FLYX",
+    "銘柄名": "flyExclusive, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FLYX-WT",
+    "銘柄名": "flyExclusive, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FLYYQ",
+    "銘柄名": "Spirit Aviation Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FMAC",
+    "銘柄名": "FMAC",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FMAO",
+    "銘柄名": "Farmers & Merchants Bancorp, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FMBH",
+    "銘柄名": "First Mid Bancshares, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FMBM",
+    "銘柄名": "F & M Bank Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FMC",
+    "銘柄名": "FMC Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FMCB",
+    "銘柄名": "Farmers & Merchants Bancorp",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FMCC",
+    "銘柄名": "Federal Home Loan Mortgage Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FMCCG",
+    "銘柄名": "Federal Home Loan Mortgage Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FMCCH",
+    "銘柄名": "Federal Home Loan Mortgage Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FMCCI",
+    "銘柄名": "Federal Home Loan Mortgage Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FMCCJ",
+    "銘柄名": "Federal Home Loan Mortgage Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FMCCK",
+    "銘柄名": "Federal Home Loan Mortgage Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FMCCL",
+    "銘柄名": "Federal Home Loan Mortgage Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FMCCM",
+    "銘柄名": "Federal Home Loan Mortgage Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FMCCN",
+    "銘柄名": "Federal Home Loan Mortgage Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FMCCO",
+    "銘柄名": "Federal Home Loan Mortgage Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FMCCP",
+    "銘柄名": "Federal Home Loan Mortgage Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FMCCS",
+    "銘柄名": "Federal Home Loan Mortgage Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FMCCT",
+    "銘柄名": "Federal Home Loan Mortgage Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FMCKI",
+    "銘柄名": "Federal Home Loan Mortgage Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FMCKJ",
+    "銘柄名": "Federal Home Loan Mortgage Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FMCKK",
+    "銘柄名": "Federal Home Loan Mortgage Corporation PFD",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FMCKL",
+    "銘柄名": "Federal Home Loan Mortgage Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FMCKM",
+    "銘柄名": "Federal Home Loan Mortgage Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FMCKN",
+    "銘柄名": "Federal Home Loan Mortgage Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FMCKO",
+    "銘柄名": "Federal Home Loan Mortgage Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FMCKP",
+    "銘柄名": "Federal Home Loan Mortgage Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FMCQF",
+    "銘柄名": "Fresenius Medical Care AG",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FMCXF",
+    "銘柄名": "Foran Mining Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FMFC",
+    "銘柄名": "Kandal M Venture Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FMFG",
+    "銘柄名": "Farmers and Merchants Bancshares, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FMHS",
+    "銘柄名": "Farmhouse, Inc",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FMN",
+    "銘柄名": "Federated Hermes Premier Municipal Income Fund",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FMNB",
+    "銘柄名": "Farmers National Banc Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FMS",
+    "銘柄名": "Fresenius Medical Care AG",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FMST",
+    "銘柄名": "Foremost Clean Energy Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FMSTW",
+    "銘柄名": "Foremost Clean Energy Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FMTOF",
+    "銘柄名": "Femto Technologies Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FMX",
+    "銘柄名": "Fomento Económico Mexicano, S.A.B. de C.V.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FMY",
+    "銘柄名": "First Trust Mortgage Income Fund",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FN",
+    "銘柄名": "Fabrinet",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FNB",
+    "銘柄名": "F.N.B. Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FNCH",
+    "銘柄名": "Finch Therapeutics Group, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FNCTF",
+    "銘柄名": "Orange S.A.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FND",
+    "銘柄名": "Floor & Decor Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FNF",
+    "銘柄名": "Fidelity National Financial, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FNFI",
+    "銘柄名": "First Niles Financial, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FNFPA",
+    "銘柄名": "First Niles Financial, Inc. PFD SER A",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FNGD",
+    "銘柄名": "MicroSectors FANG+ Index -3X Inverse Leveraged ETN",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FNGO",
+    "銘柄名": "MicroSectors FANG+ Index 2X Leveraged ETN",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FNGR",
+    "銘柄名": "FingerMotion, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FNGS",
+    "銘柄名": "MicroSectors FANG+ ETN",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FNGU",
+    "銘柄名": "MicroSectors FANG+ 3X Leveraged",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FNIGY",
+    "銘柄名": "FNIGY",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FNKO",
+    "銘柄名": "Funko, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FNLC",
+    "銘柄名": "The First Bancorp, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FNMA",
+    "銘柄名": "Federal National Mortgage Association",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FNMAG",
+    "銘柄名": "Federal National Mortgage Association",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FNMAH",
+    "銘柄名": "Federal National Mortgage Association",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FNMAI",
+    "銘柄名": "Federal National Mortgage Association",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FNMAJ",
+    "銘柄名": "Federal National Mortgage Association",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FNMAK",
+    "銘柄名": "Federal National Mortgage Association",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FNMAL",
+    "銘柄名": "Federal National Mortgage Association",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FNMAM",
+    "銘柄名": "Federal National Mortgage Association",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FNMAN",
+    "銘柄名": "Federal National Mortgage Association",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FNMAO",
+    "銘柄名": "Federal National Mortgage Association",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FNMAP",
+    "銘柄名": "Federal National Mortgage Association",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FNMAS",
+    "銘柄名": "Federal National Mortgage Association",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FNMAT",
+    "銘柄名": "Federal National Mortgage Association",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FNMCD",
+    "銘柄名": "Goldsky Resources Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FNMFM",
+    "銘柄名": "Federal National Mortgage Association",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FNMFN",
+    "銘柄名": "Federal National Mortgage Association",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FNMFO",
+    "銘柄名": "Federal National Mortgage Association",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FNRN",
+    "銘柄名": "First Northern Community Bancorp",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FNV",
+    "銘柄名": "Franco-Nevada Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FNWB",
+    "銘柄名": "First Northwest Bancorp",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FNWD",
+    "銘柄名": "Finward Bancorp",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FNXMF",
+    "銘柄名": "Finex Metals Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FOA",
+    "銘柄名": "Finance of America Companies Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FOACW",
+    "銘柄名": "FOACW",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FOF",
+    "銘柄名": "Cohen & Steers Closed-End Opportunity Fund, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FOFA",
+    "銘柄名": "Family Office of America Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FOFO",
+    "銘柄名": "Hang Feng Technology Innovation Co., Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FOLD",
+    "銘柄名": "Amicus Therapeutics, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FONR",
+    "銘柄名": "FONAR Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FOR",
+    "銘柄名": "Forestar Group Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FORA",
+    "銘柄名": "Forian Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FORFF",
+    "銘柄名": "Fortis Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Utilities",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FORL",
+    "銘柄名": "Four Leaf Acquisition Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FORM",
+    "銘柄名": "FormFactor, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FORR",
+    "銘柄名": "Forrester Research, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FORTY",
+    "銘柄名": "Formula Systems (1985) Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FOSL",
+    "銘柄名": "Fossil Group, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FOTB",
+    "銘柄名": "First Ottawa Bancshares, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FOUR",
+    "銘柄名": "Shift4 Payments, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FOUR-PA",
+    "銘柄名": "Shift4 Payments, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FOX",
+    "銘柄名": "Fox Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FOXA",
+    "銘柄名": "Fox Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FOXF",
+    "銘柄名": "Fox Factory Holding Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FOXO",
+    "銘柄名": "FOXO Technologies Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FOXOW",
+    "銘柄名": "FOXO Technologies Inc. Redeemab",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FOXX",
+    "銘柄名": "Foxx Development Holdings Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FOXXW",
+    "銘柄名": "Foxx Development Holdings Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FPF",
+    "銘柄名": "First Trust Intermediate Duration Preferred & Income Fund",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FPH",
+    "銘柄名": "Five Point Holdings, LLC",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FPI",
+    "銘柄名": "Farmland Partners Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FPRGF",
+    "銘柄名": "Falco Resources Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FPS",
+    "銘柄名": "Forgent Power Solutions, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FR",
+    "銘柄名": "First Industrial Realty Trust, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FRA",
+    "銘柄名": "BlackRock Floating Rate Income Strategies Fund, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FRAF",
+    "銘柄名": "Franklin Financial Services Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FRBP",
+    "銘柄名": "FRANKLIN BSP CAP CORP",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FRD",
+    "銘柄名": "Friedman Industries, Incorporated",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FRECF",
+    "銘柄名": "FREQUENCY EXCHANGE CORP.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FREGP",
+    "銘柄名": "Federal Home Loan Mortgage Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FREJN",
+    "銘柄名": "Federal Home Loan Mortgage Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FREJO",
+    "銘柄名": "Federal Home Loan Mortgage Corporation PFD 5.1% SAL",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FREJP",
+    "銘柄名": "Federal Home Loan Mortgage Corporation PFD 5.30%",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FREVS",
+    "銘柄名": "First Real Estate Investment Trust of New Jersey, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FRFAF",
+    "銘柄名": "FRFAF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FRFFF",
+    "銘柄名": "Fairfax Financial Holdings Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FRFHF",
+    "銘柄名": "Fairfax Financial Holdings Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FRGE",
+    "銘柄名": "Forge Global Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FRGT",
+    "銘柄名": "Freight Technologies, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FRHC",
+    "銘柄名": "Freedom Holdings Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FRLCY",
+    "銘柄名": "FRLCY",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FRME",
+    "銘柄名": "First Merchants Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FRMEP",
+    "銘柄名": "First Merchants Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FRMI",
+    "銘柄名": "Fermi Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FRO",
+    "銘柄名": "Frontline plc",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FROG",
+    "銘柄名": "JFrog Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FRPH",
+    "銘柄名": "FRP Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FRPT",
+    "銘柄名": "Freshpet, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FRQN",
+    "銘柄名": "Frequency Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FRSH",
+    "銘柄名": "Freshworks Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FRSPF",
+    "銘柄名": "First Phosphate Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FRST",
+    "銘柄名": "Primis Financial Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FRSX",
+    "銘柄名": "Foresight Autonomous Holdings Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FRT",
+    "銘柄名": "Federal Realty Investment Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FRT-PC",
+    "銘柄名": "Federal Realty Investment Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FRTRY",
+    "銘柄名": "FRTRY",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FRTSF",
+    "銘柄名": "Fortis Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Utilities",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FRZT",
+    "銘柄名": "Freeze Tag, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FSBC",
+    "銘柄名": "Five Star Bancorp",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FSBW",
+    "銘柄名": "FS Bancorp, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FSCO",
+    "銘柄名": "FS Credit Opportunities Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FSEA",
+    "銘柄名": "First Seacoast Bancorp, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FSFG",
+    "銘柄名": "First Savings Financial Group, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FSHP",
+    "銘柄名": "Flag Ship Acquisition Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FSHPR",
+    "銘柄名": "Flag Ship Acquisition Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FSHPU",
+    "銘柄名": "Flag Ship Acquisition Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FSI",
+    "銘柄名": "Flexible Solutions International, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FSK",
+    "銘柄名": "FS KKR Capital Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FSLR",
+    "銘柄名": "First Solar, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FSLY",
+    "銘柄名": "Fastly, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FSM",
+    "銘柄名": "Fortuna Mining Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FSNUF",
+    "銘柄名": "Fresenius SE & Co. KGaA",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FSNUY",
+    "銘柄名": "Fresenius SE & Co. KGaA",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FSOL",
+    "銘柄名": "Fidelity Solana Fund",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FSP",
+    "銘柄名": "Franklin Street Properties Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FSS",
+    "銘柄名": "Federal Signal Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FSSL",
+    "銘柄名": "FS Specialty Lending Fund",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FSTJ",
+    "銘柄名": "First America Resources Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FSTR",
+    "銘柄名": "L.B. Foster Company",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FSTWF",
+    "銘柄名": "FSTWF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FSUN",
+    "銘柄名": "FirstSun Capital Bancorp",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FSV",
+    "銘柄名": "FirstService Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FT",
+    "銘柄名": "Franklin Universal Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FTAI",
+    "銘柄名": "FTAI Aviation Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FTAIM",
+    "銘柄名": "FTAI Aviation Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FTAIN",
+    "銘柄名": "FTAI Aviation Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FTCI",
+    "銘柄名": "FTC Solar, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FTCO",
+    "銘柄名": "Fortitude Gold Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FTDR",
+    "銘柄名": "Frontdoor, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FTEK",
+    "銘柄名": "Fuel Tech, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FTEL",
+    "銘柄名": "Fitell Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FTF",
+    "銘柄名": "Franklin Limited Duration Income Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FTFT",
+    "銘柄名": "Future FinTech Group Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FTHM",
+    "銘柄名": "Fathom Holdings Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FTHY",
+    "銘柄名": "First Trust High Yield Opportunities 2027 Term Fund",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FTI",
+    "銘柄名": "TechnipFMC plc",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FTII",
+    "銘柄名": "FutureTech II Acquisition Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FTK",
+    "銘柄名": "Flotek Industries, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FTLF",
+    "銘柄名": "FitLife Brands, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FTNT",
+    "銘柄名": "Fortinet, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FTPSF",
+    "銘柄名": "FTPSF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FTRE",
+    "銘柄名": "Fortrea Holdings Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FTRK",
+    "銘柄名": "FAST TRACK GROUP",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FTRSF",
+    "銘柄名": "Fortis Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Utilities",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FTS",
+    "銘柄名": "Fortis Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Utilities",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FTSP",
+    "銘柄名": "FinTrade Sherpa, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FTV",
+    "銘柄名": "Fortive Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FTW",
+    "銘柄名": "EQV Ventures Acquisition Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FTW-UN",
+    "銘柄名": "EQV Ventures Acquisition Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FTW-WT",
+    "銘柄名": "EQV Ventures Acquisition Corp. WT",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FTY",
+    "銘柄名": "iShares Real Estate 50",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FTZFF",
+    "銘柄名": "Fitzroy Minerals Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FUBO",
+    "銘柄名": "FuboTV Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FUEMF",
+    "銘柄名": "FUERTE METALS CORP.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FUFU",
+    "銘柄名": "BitFuFu Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FUFUW",
+    "銘柄名": "BitFuFu Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FUJIF",
+    "銘柄名": "FUJIFILM Holdings Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FUJIY",
+    "銘柄名": "FUJIFILM Holdings Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FUL",
+    "銘柄名": "H.B. Fuller Company",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FULC",
+    "銘柄名": "Fulcrum Therapeutics, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FULO",
+    "銘柄名": "FullNet Communications, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FULT",
+    "銘柄名": "Fulton Financial Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FULTP",
+    "銘柄名": "Fulton Financial Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FUN",
+    "銘柄名": "Six Flags Entertainment Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FUNC",
+    "銘柄名": "First United Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FUND",
+    "銘柄名": "Sprott Focus Trust, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FUNI",
+    "銘柄名": "Hypha Labs, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FURCF",
+    "銘柄名": "Forvia SE",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FURY",
+    "銘柄名": "Fury Gold Mines Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FUSB",
+    "銘柄名": "First US Bancshares, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FUSE",
+    "銘柄名": "Fusemachines Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FUSEW",
+    "銘柄名": "Fusemachines Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FUST",
+    "銘柄名": "Fuse Group Holding Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FUTU",
+    "銘柄名": "Futu Holdings Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FUU",
+    "銘柄名": "FUU",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FUUFF",
+    "銘柄名": "F3 Uranium Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FVCB",
+    "銘柄名": "FVCBankcorp, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FVGPY",
+    "銘柄名": "FVGPY",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FVN",
+    "銘柄名": "Future Vision II Acquisition Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FVNNR",
+    "銘柄名": "Future Vision II Acquisition Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FVNNU",
+    "銘柄名": "Future Vision II Acquisition Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FVR",
+    "銘柄名": "FrontView REIT, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FVRR",
+    "銘柄名": "Fiverr International Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FVTI",
+    "銘柄名": "Fortune Valley Treasures, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FWDI",
+    "銘柄名": "Forward Industries, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FWFW",
+    "銘柄名": "Flywheel Advanced Technology, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FWONA",
+    "銘柄名": "Formula One Group",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FWONB",
+    "銘柄名": "Formula One Group",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FWONK",
+    "銘柄名": "Formula One Group",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FWRD",
+    "銘柄名": "Forward Air Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FWRG",
+    "銘柄名": "First Watch Restaurant Group, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FXA",
+    "銘柄名": "Invesco CurrencyShares Australian Dollar Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FXB",
+    "銘柄名": "Invesco CurrencyShares British Pound Sterling Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FXBY",
+    "銘柄名": "Foxby Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FXC",
+    "銘柄名": "Invesco CurrencyShares Canadian Dollar Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FXCNF",
+    "銘柄名": "FXCNF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FXCNY",
+    "銘柄名": "FXCNY",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FXE",
+    "銘柄名": "Invesco CurrencyShares Euro Currency Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FXF",
+    "銘柄名": "Invesco CurrencyShares Swiss Franc Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FXNC",
+    "銘柄名": "First National Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FXY",
+    "銘柄名": "Invesco CurrencyShares Japanese Yen Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FYBR",
+    "銘柄名": "Frontier Communications Parent, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FYNN",
+    "銘柄名": "Fyntechnical Innovations Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "FZMD",
+    "銘柄名": "Fuse Medical, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "G",
+    "銘柄名": "Genpact Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GAB",
+    "銘柄名": "The Gabelli Equity Trust Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GAB-PG",
+    "銘柄名": "The Gabelli Equity Trust Inc. PFD-G",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GAB-PH",
+    "銘柄名": "The Gabelli Equity Trust Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GAB-PK",
+    "銘柄名": "The Gabelli Equity Trust Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GABC",
+    "銘柄名": "German American Bancorp, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GACW",
+    "銘柄名": "GACW",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GADA",
+    "銘柄名": "GADA",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GAERF",
+    "銘柄名": "Grupo Aeroportuario del Centro Norte, S.A.B. de C.V.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GAFC",
+    "銘柄名": "Guru App Factory Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GAIA",
+    "銘柄名": "Gaia, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GAIN",
+    "銘柄名": "Gladstone Investment Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GAINI",
+    "銘柄名": "Gladstone Investment Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GAINN",
+    "銘柄名": "Gladstone Investment Corporation 5.00% Notes Due 2026",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GAINZ",
+    "銘柄名": "Gladstone Investment Corporation 4.875% Notes due 2028",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GALDY",
+    "銘柄名": "GALDERMA GROUP AG",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GALT",
+    "銘柄名": "Galectin Therapeutics Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GAM",
+    "銘柄名": "General American Investors Company, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GAM-PB",
+    "銘柄名": "General American Investors Company, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GAMB",
+    "銘柄名": "Gambling.com Group Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GAME",
+    "銘柄名": "GameSquare Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GAMG",
+    "銘柄名": "Global Asset Management Group I",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GANX",
+    "銘柄名": "Gain Therapeutics, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GAP",
+    "銘柄名": "The Gap, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GARLF",
+    "銘柄名": "Roxmore Resources Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GARWF",
+    "銘柄名": "Golden Arrow Resources Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GASS",
+    "銘柄名": "StealthGas Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GATX",
+    "銘柄名": "GATX Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GAU",
+    "銘柄名": "Galiano Gold Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GAUZ",
+    "銘柄名": "Gauzy Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GBAB",
+    "銘柄名": "Guggenheim Taxable Municipal Bond & Investment Grade Debt Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GBAT",
+    "銘柄名": "Grayscale Basic Attention Token Trust (BAT)",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GBCI",
+    "銘柄名": "Glacier Bancorp, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GBCS",
+    "銘柄名": "Selectis Health, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GBDC",
+    "銘柄名": "Golub Capital BDC, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GBFH",
+    "銘柄名": "GBank Financial Holdings Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GBH",
+    "銘柄名": "Gigabit Inc",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GBIO",
+    "銘柄名": "Generation Bio Co.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GBLI",
+    "銘柄名": "Global Indemnity Group, LLC",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GBNB",
+    "銘柄名": "GBNB",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GBNXF",
+    "銘柄名": "Gibson Energy Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GBNXY",
+    "銘柄名": "GBNXY",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GBNY",
+    "銘柄名": "Generations Bancorp NY, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GBR",
+    "銘柄名": "New Concept Energy, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GBTC",
+    "銘柄名": "Grayscale Bitcoin Trust ETF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GBTG",
+    "銘柄名": "Global Business Travel Group, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GBUG",
+    "銘柄名": "Sprott Active Gold & Silver Miners ETF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GBUX",
+    "銘柄名": "GivBux, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GBX",
+    "銘柄名": "The Greenbrier Companies, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GCAN",
+    "銘柄名": "The Greater Cannabis Company, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GCBC",
+    "銘柄名": "Greene County Bancorp, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GCDT",
+    "銘柄名": "Green Circle Decarbonize Techno",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GCGJ",
+    "銘柄名": "GCGJ",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GCL",
+    "銘柄名": "GCL Global Holdings Ltd",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GCLWW",
+    "銘柄名": "GCL Global Holdings Ltd",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GCMG",
+    "銘柄名": "GCM Grosvenor Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GCO",
+    "銘柄名": "Genesco Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GCT",
+    "銘柄名": "GigaCloud Technology Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GCTK",
+    "銘柄名": "GlucoTrack, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GCTS",
+    "銘柄名": "GCT Semiconductor Holding, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GCTS-WT",
+    "銘柄名": "GCT Semiconductor Holding, Inc. WT",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GCUMF",
+    "銘柄名": "Gunnison Copper Corp",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GCV",
+    "銘柄名": "The Gabelli Convertible and Income Securities Fund Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GD",
+    "銘柄名": "General Dynamics Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GDC",
+    "銘柄名": "GD Culture Group Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GDDY",
+    "銘柄名": "GoDaddy Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GDEL",
+    "銘柄名": "GDEL",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GDEN",
+    "銘柄名": "Golden Entertainment, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GDERF",
+    "銘柄名": "GALDERMA GROUP AG",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GDEV",
+    "銘柄名": "GDEV Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GDEVW",
+    "銘柄名": "GDEV Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GDHG",
+    "銘柄名": "Golden Heaven Group Holdings Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GDHLF",
+    "銘柄名": "GDHLF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GDL",
+    "銘柄名": "The GDL Fund",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GDLC",
+    "銘柄名": "Grayscale CoinDesk Crypto 5 ETF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GDLG",
+    "銘柄名": "Glidelogic Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GDNT",
+    "銘柄名": "GDNT",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GDO",
+    "銘柄名": "Western Asset Global Corporate Defined Opportunity Fund Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GDOG",
+    "銘柄名": "Grayscale Dogecoin Trust ETF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GDOT",
+    "銘柄名": "Green Dot Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GDRX",
+    "銘柄名": "GoodRx Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GDRZF",
+    "銘柄名": "Gold Reserve Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GDS",
+    "銘柄名": "GDS Holdings Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GDSRF",
+    "銘柄名": "Gold Strike Resources Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GDST",
+    "銘柄名": "Goldenstone Acquisition Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GDSTR",
+    "銘柄名": "Goldenstone Acquisition Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GDSTU",
+    "銘柄名": "Goldenstone Acquisition Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GDSTW",
+    "銘柄名": "Goldenstone Acquisition Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GDTC",
+    "銘柄名": "CytoMed Therapeutics Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GDV",
+    "銘柄名": "The Gabelli Dividend & Income Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GDV-PH",
+    "銘柄名": "The Gabelli Dividend & Income Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GDV-PK",
+    "銘柄名": "The Gabelli Dividend & Income Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GDXD",
+    "銘柄名": "MicroSectors Gold Miners -3X Inverse Leveraged ETNs",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GDXU",
+    "銘柄名": "MicroSectors Gold Miners 3X Leveraged ETNs",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GDYN",
+    "銘柄名": "Grid Dynamics Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GE",
+    "銘柄名": "GE Aerospace",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GEBRF",
+    "銘柄名": "Greenbriar Sustainable Living Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Utilities",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GECC",
+    "銘柄名": "Great Elm Capital Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GECCG",
+    "銘柄名": "Great Elm Capital Corp. 7.75% Notes Due 2030",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GECCH",
+    "銘柄名": "Great Elm Capital Corp. - 8.125",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GECCI",
+    "銘柄名": "Great Elm Capital Corp. 8.50% NOTES DUE 2029",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GECCO",
+    "銘柄名": "Great Elm Capital Corp. 5.875% Notes due 2026",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GEDC",
+    "銘柄名": "CalEthos Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GEF",
+    "銘柄名": "Greif, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GEF-B",
+    "銘柄名": "Greif, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GEG",
+    "銘柄名": "Great Elm Group, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GEGGL",
+    "銘柄名": "Great Elm Group, Inc.  7.25% Notes due 2027",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GEGP",
+    "銘柄名": "Gold Enterprise Group, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GEHC",
+    "銘柄名": "GE HealthCare Technologies Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GEHDF",
+    "銘柄名": "Great Eastern Holdings Ltd",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GEL",
+    "銘柄名": "Genesis Energy, L.P.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GELHY",
+    "銘柄名": "Geely Automobile Holdings Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GELS",
+    "銘柄名": "Gelteq Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GELYF",
+    "銘柄名": "Geely Automobile Holdings Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GEMI",
+    "銘柄名": "Gemini Space Station, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GEN",
+    "銘柄名": "Gen Digital Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GENC",
+    "銘柄名": "Gencor Industries, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GENI",
+    "銘柄名": "Genius Sports Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GENK",
+    "銘柄名": "GEN Restaurant Group, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GENVR",
+    "銘柄名": "Gen Digital Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GEO",
+    "銘柄名": "The GEO Group, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GEOS",
+    "銘柄名": "Geospace Technologies Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GERN",
+    "銘柄名": "Geron Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GES",
+    "銘柄名": "Guess?, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GETY",
+    "銘柄名": "Getty Images Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GEV",
+    "銘柄名": "GE Vernova Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GEVI",
+    "銘柄名": "General Enterprise Ventures, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GEVO",
+    "銘柄名": "Gevo, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GF",
+    "銘柄名": "The New Germany Fund, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GFAI",
+    "銘柄名": "Guardforce AI Co., Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GFAIW",
+    "銘柄名": "Guardforce AI Co., Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GFASY",
+    "銘柄名": "Gafisa S.A.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GFCHY",
+    "銘柄名": "GFCHY",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GFF",
+    "銘柄名": "Griffon Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GFI",
+    "銘柄名": "Gold Fields Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GFIOF",
+    "銘柄名": "Gold Fields Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GFL",
+    "銘柄名": "GFL Environmental Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GFLT",
+    "銘柄名": "GenFlat Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GFMH",
+    "銘柄名": "Goliath Film and Media Holdings",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GFR",
+    "銘柄名": "Greenfire Resources Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GFRWF",
+    "銘柄名": "GFRWF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GFS",
+    "銘柄名": "GLOBALFOUNDRIES Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GFSAY",
+    "銘柄名": "GFSAY",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GFTFF",
+    "銘柄名": "Grafton Resources Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GFTL",
+    "銘柄名": "Great Future Technology Inc",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GFTTY",
+    "銘柄名": "GFTTY",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GGAL",
+    "銘柄名": "Grupo Financiero Galicia S.A.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GGAZF",
+    "銘柄名": "Goldgroup Mining Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GGB",
+    "銘柄名": "Gerdau S.A.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GGBY",
+    "銘柄名": "GGBY",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GGG",
+    "銘柄名": "Graco Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GGLXF",
+    "銘柄名": "GGL Resources Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GGN",
+    "銘柄名": "GAMCO Global Gold, Natural Resources & Income Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GGN-PB",
+    "銘柄名": "GAMCO Global Gold, Natural Resources & Income Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GGPSF",
+    "銘柄名": "GREATLAND RES LTD.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GGR",
+    "銘柄名": "Gogoro Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GGROU",
+    "銘柄名": "Golden Growers Cooperative",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GGROW",
+    "銘柄名": "Gogoro Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GGRPY",
+    "銘柄名": "GGRPY",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GGT",
+    "銘柄名": "The Gabelli Multimedia Trust Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GGT-PE",
+    "銘柄名": "The Gabelli Multimedia Trust Inc. 5.125% PFD SER E",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GGT-PG",
+    "銘柄名": "The Gabelli Multimedia Trust Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GGTKY",
+    "銘柄名": "GGTKY",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GGZ",
+    "銘柄名": "The Gabelli Global Small and Mid Cap Value Trust",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GH",
+    "銘柄名": "Guardant Health, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GHBWF",
+    "銘柄名": "GHBWF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GHC",
+    "銘柄名": "Graham Holdings Company",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GHG",
+    "銘柄名": "GreenTree Hospitality Group Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GHI",
+    "銘柄名": "Greystone Housing Impact Investors LP",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GHM",
+    "銘柄名": "Graham Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GHRS",
+    "銘柄名": "GH Research PLC",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GHRTF",
+    "銘柄名": "Greenheart Gold Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GHST",
+    "銘柄名": "GHST World Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GHY",
+    "銘柄名": "PGIM Global High Yield Fund, Inc",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GIB",
+    "銘柄名": "CGI Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GIBO",
+    "銘柄名": "GIBO Holdings Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GIBOW",
+    "銘柄名": "GIBO Holdings Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GIC",
+    "銘柄名": "Global Industrial Company",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GIDMF",
+    "銘柄名": "Nexus Uranium Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GIFI",
+    "銘柄名": "Gulf Island Fabrication, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GIFLF",
+    "銘柄名": "Grifols, S.A.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GIFOF",
+    "銘柄名": "Grifols, S.A.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GIFT",
+    "銘柄名": "Giftify, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GIG",
+    "銘柄名": "GigCapital7 Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GIGGF",
+    "銘柄名": "Giga Metals Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GIGGU",
+    "銘柄名": "GigCapital7 Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GIGGW",
+    "銘柄名": "GigCapital7 Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GIGM",
+    "銘柄名": "GigaMedia Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GIII",
+    "銘柄名": "G-III Apparel Group, Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GIKLY",
+    "銘柄名": "Grifols, S.A.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GIL",
+    "銘柄名": "Gildan Activewear Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GILD",
+    "銘柄名": "Gilead Sciences, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GILT",
+    "銘柄名": "Gilat Satellite Networks Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GINT",
+    "銘柄名": "GINT",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GIPL",
+    "銘柄名": "Global Innovative Platforms Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GIPR",
+    "銘柄名": "Generation Income Properties, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Real Estate",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GIPRW",
+    "銘柄名": "Generation Income Properties, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GIS",
+    "銘柄名": "General Mills, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Defensive",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GITS",
+    "銘柄名": "Global Interactive Technologies, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GIVE",
+    "銘柄名": "Wealth Management System Inc",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GIW",
+    "銘柄名": "GigCapital8 Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GIWWR",
+    "銘柄名": "GigCapital8 Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GIWWU",
+    "銘柄名": "GigCapital8 Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GIX",
+    "銘柄名": "GIX",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GIXXU",
+    "銘柄名": "GigCapital9 Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GJH",
+    "銘柄名": "STRATS Trust for United States Cellular Corp. Securities, Series 2004-6 STRATS 6.375",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GJO",
+    "銘柄名": "Strats Trust Wal Mart Stores Inc. STRT CTF 05-4",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GJP",
+    "銘柄名": "STRATS Trust For Dominion Resources Inc. Securities, Series 2005-6",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GJR",
+    "銘柄名": "Strats Trust For Procter &amp; Gambel Security CTF 2006-1",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GJS",
+    "銘柄名": "STRATS Trust for Goldman Sachs Group Securities, Series 2006-2",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GJT",
+    "銘柄名": "Strats(SM) Trust For Allstate Corp Securities, Series 2006-3 06-3 ASSET BKD",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GKOR",
+    "銘柄名": "Golkor Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GKOS",
+    "銘柄名": "Glaukos Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GL",
+    "銘柄名": "Globe Life Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GL-PD",
+    "銘柄名": "Globe Life Inc. 4.25% Junior Su",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GLABF",
+    "銘柄名": "Gemina Laboratories Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GLAD",
+    "銘柄名": "Gladstone Capital Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GLAI",
+    "銘柄名": "Global AI, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GLASF",
+    "銘柄名": "Glass House Brands Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GLATF",
+    "銘柄名": "Global Atomic Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GLAXF",
+    "銘柄名": "GSK plc",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GLBE",
+    "銘柄名": "Global-E Online Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Consumer Cyclical",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GLBS",
+    "銘柄名": "Globus Maritime Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GLBZ",
+    "銘柄名": "Glen Burnie Bancorp",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GLCP",
+    "銘柄名": "GLCP",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GLD",
+    "銘柄名": "SPDR Gold Shares",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GLDD",
+    "銘柄名": "Great Lakes Dredge & Dock Corporation",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Industrials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GLDG",
+    "銘柄名": "GoldMining Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GLDI",
+    "銘柄名": "UBS ETRACS Gold Shares Covered Call ETN",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GLDM",
+    "銘柄名": "SPDR Gold MiniShares",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GLDW",
+    "銘柄名": "Roundhill Gold WeeklyPay ETF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GLE",
+    "銘柄名": "Global Engine Group Holding Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GLED",
+    "銘柄名": "GLED",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GLEI",
+    "銘柄名": "GLEI",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GLGI",
+    "銘柄名": "Greystone Logistics, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GLIBA",
+    "銘柄名": "GCI Liberty, Inc. - Series A GC",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GLIBB",
+    "銘柄名": "GCI Liberty, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GLIBK",
+    "銘柄名": "GCI Liberty, Inc. - Series C GC",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Communication Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GLIV",
+    "銘柄名": "Grayscale Livepeer Trust (LPT)",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GLL",
+    "銘柄名": "ProShares UltraShort Gold",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GLMD",
+    "銘柄名": "Galmed Pharmaceuticals Ltd.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Healthcare",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GLNG",
+    "銘柄名": "Golar LNG Limited",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Energy",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GLNK",
+    "銘柄名": "Grayscale Chainlink Trust ETF",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Unknown",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GLNS",
+    "銘柄名": "Golden Star Resource Corp.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Basic Materials",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GLO",
+    "銘柄名": "Clough Global Opportunities Fund",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Financial Services",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GLOB",
+    "銘柄名": "Globant S.A.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  },
+  {
+    "コード": "GLOO",
+    "銘柄名": "Gloo Holdings, Inc.",
+    "市場・商品区分": "NASDAQ",
+    "33業種区分": "Technology",
+    "市場タイプ": "US"
+  }
+]
