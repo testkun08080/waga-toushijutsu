@@ -1,7 +1,7 @@
 # 📋 Stock List Update Report
 
 **Market:** JP
-**Generated:** Sun Feb  8 06:26:13 UTC 2026
+**Generated:** Fri Feb 13 14:17:04 UTC 2026
 **Reason:** Manual stock list update
 **Workflow:** 📋 Stock List Update
 
@@ -18,6 +18,6 @@
 - **stocks_4.json** - Size: 134K, Companies: 771
 
 ## 🤖 Automation Info
-- **GitHub Action:** [📋 Stock List Update](https://github.com/testkun08080/waga-toushijutsu/actions/runs/21793633570)
-- **Commit SHA:** 92c24f6c2f69d3b411d7d46ee9143ccdf8b18a87
+- **GitHub Action:** [📋 Stock List Update](https://github.com/testkun08080/waga-toushijutsu/actions/runs/21990061820)
+- **Commit SHA:** e132ae688e73a773fb7a4528efd885720cec088a
 - **Repository:** testkun08080/waga-toushijutsu
