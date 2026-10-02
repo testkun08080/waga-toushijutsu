@@ -1,4 +1,4 @@
-# 📊 yfinance × 日本株式スクリーニング **（with わが投資術）**
+# 📊 yfinance × 日・米株式スクリーニング **（with わが投資術）**
 
 ## ⚠️ 注意事項
 
@@ -14,13 +14,25 @@
 
 ## 📘 概要
 
-[わが投資術](https://amzn.to/3IEVRkq) の考え方をもとに、  
-**日本株をシンプルに分析・可視化**するためのツールです。
+[わが投資術](https://amzn.to/3IEVRkq) の考え方をもとに、
+**日本株・米国株をシンプルに分析・可視化**するためのツールです。
 
 - 📈 GitHub Actions による自動データ収集
-- 🔍 Web 上でのスクリーニング・可視化
-- 📂 ドラッグ&ドロップで CSV ファイルアップロード（完全クライアントサイド）
-- ⚙️ JPX 公式データ対応・簡易データ分割機能
+- 🔍 ブラウザ上でのスクリーニング・可視化
+- 🌍 **米国株対応(ベータ)**（S&P500、NASDAQ、NYSE）
+  - 市場タイプフィルター（日本株/米国株の選択）
+  - 市場タイプに応じた市場区分の動的表示
+  - 都道府県フィルターは日本株のみ表示
+
+## 🌐 オンラインデモ
+
+**以下 URL 上で CSV 分析用のアプリケーション**にアクセスできます:
+
+👉 **<https://yfinance-jp-screener-search.vercel.app/>**
+
+> ℹ️ **CSV のローカル保存について**
+> 利便性のため、最後に読み込んだ CSV は **お使いのブラウザの IndexedDB に保存** され、次回起動時に自動復元されます。
+> データは端末内に留まり、サーバーには送信されません。サイドバーの「すべてクリア」で削除できます。
 
 ---
 
@@ -29,6 +41,7 @@
 日本で頑張ってる企業を見つけたい。  
 けど、せっかくなら割安株を見つけてみたい。  
 そんな想いと、わが投資術を参考にして作成した**個人開発による実験的プロジェクト**です。
+※米国株も一応対応させました
 
 ---
 
@@ -59,15 +72,16 @@
 
 **データ収集時間:**
 約 3700 社のデータをダウンロードするにはおよそ 3~４時間ほどかかります
+※米国株は約10000社で、１４時間ほどかかります
+※GitHub Actions で並列で行えば、どちらも1時間ほどで終わります
 
 ```bash
 # 1. リポジトリをクローン
-git clone https://github.com/yourusername/yfinance-jp-screener.git
+git clone https://github.com/testkun08080/yfinance-jp-screener.git
 cd yfinance-jp-screener
 
 # 2. 環境変数を設定
 cp .env.example .env
-# STOCK_FILEはデフォルトでは"stocks_sample.json"になっています。 必ず全て取得したい場合は"stocks_all.json"へ変えて下さい
 
 # 3. Docker起動（データ収集 → ビルド → プレビュー）
 
@@ -94,16 +108,23 @@ open http://localhost:8000
 
 ```bash
 # 1. リポジトリをクローン
-git clone https://github.com/yourusername/yfinance-jp-screener.git
+git clone https://github.com/testkun08080/yfinance-jp-screener.git
 cd yfinance-jp-screener/stock_list
 
 # 2. Python環境のセットアップ（uvを使用）
 uv sync
 
 # 3. 株式リスト取得（初回のみ）
+
+# 日本株リスト取得
 uv run get_jp_stocklist.py
 
+# 米国株リスト取得（オプション）
+uv run get_us_stocklist.py
+
 # 4. データ取得を実行
+
+# 日本株データ取得
 uv run sumalize.py stocks_sample.json   #ダウンロードテスト用
 
 #===約1000社ずつダウンロード(推奨)===
@@ -115,8 +136,15 @@ uv run sumalize.py stocks_sample.json   #ダウンロードテスト用
 #===すべての銘柄を対象にしたダウロード===
 # uv run sumalize.py stocks_all.json
 
-# 6. CSV結合
-uv run combine_latest_csv.py
+# 米国株データ取得（オプション）
+# uv run sumalize.py us_stocks_all.json
+# または分割ファイルを使用
+# uv run sumalize.py us_stocks_1.json
+
+# 5. CSV結合
+uv run combine_latest_csv.py                      # 両方の市場タイプを結合
+# uv run combine_latest_csv.py --market-type JP   # 日本株のみ
+# uv run combine_latest_csv.py --market-type US   # 米国株のみ
 ```
 
 #### フロントエンド環境のセットアップ
@@ -128,12 +156,12 @@ cd ../stock_search
 # 2. 依存関係をインストール
 npm install
 
-# 3. ビルド（ビルドしないとcsvが正常にpublicへコピーされません）
+# 3. ビルド
 npm run build
 
 # 4. プレビュー
 npm run preview
-# http://localhost:8000/ にアクセス(.envに依存)
+# おそらく　http://localhost:4173/ にアクセス
 
 ```
 
@@ -159,11 +187,11 @@ GitHub Actions でワークフローを使用する前に、以下の設定変�
 
 ### 📊 データ取得手順
 
-1. このリポジトリを**プライベートリポジトリとしてフォーク**します
+1. このリポジトリを**プライベートリポジトリとしてクローン、もしくはフォーク**します
    - パブリックリポジトリで使用すると、データの二次配布に当たる可能性があると考えられます
 2. フォークしたプライベートリポジトリの **Actions** タブに移動
-3. **""Stock List Update"** を実行して、リストを取得
-4. **" Sequential Stock Fetch - Part 1"** を実行しデータのダウンロード（自動的に終われば次のワークフローが起動するはずです...3~4 時間ほどかかります）
+3. **""Stock List Update"** を実行して、リストを取得(米国は2時間ぐらいかかります)
+4. **"Sequential Stock Fetch"** を実行しデータのダウンロード（Part 1 から開始し、分割ファイル数に応じて Part 2, 3, … が自動で連鎖します。約1時間ほど）
 5. 実行完了後、`stock_list/Export/` ディレクトリにデータファイルが生成されます
 
 ---
@@ -171,6 +199,8 @@ GitHub Actions でワークフローを使用する前に、以下の設定変�
 ## 📁 生成されるファイル
 
 実行後、`stock_list/Export/` ディレクトリに以下のファイルが生成されます：
+
+### 日本株データ
 
 ```
 Export/
@@ -181,6 +211,20 @@ Export/
 └── YYYYMMDD_combined.csv                       # 結合されたデータ（オプション）
 ```
 
+### 米国株データ
+
+```
+Export/
+├── us_stocks_data_1_YYYYMMDD_HHMMSS.csv        # us_stocks_1.json のデータ
+├── us_stocks_data_2_YYYYMMDD_HHMMSS.csv        # us_stocks_2.json のデータ
+└── YYYYMMDD_us_combined.csv                   # 米国株の結合データ（オプション）
+```
+
+### データ構造
+
+- **市場タイプ列**: 各 CSV ファイルに`市場タイプ`列が追加され、`JP`（日本株）または`US`（米国株）が記録されます
+- **後方互換性**: 既存の日本株 CSV ファイルも正常に動作します（市場タイプが未指定の場合は自動判定）
+
 ---
 
 ## 📚 参考/出典 / 🙏 お礼
@@ -189,6 +233,7 @@ Export/
 - [Yahoo Finance](https://finance.yahoo.com/)
 - [日本取引所グループ（JPX）](https://www.jpx.co.jp/)
 - [わが投資術](https://amzn.to/3IEVRkq)
+- [sec.gov (ティッカー json)](https://www.sec.gov/files/company_tickers.json)
 
 ※使わせていただいている JPX のデータや yfinance の作成者に感謝申し上げます。
 

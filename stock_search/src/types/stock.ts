@@ -102,6 +102,59 @@ export interface SearchFilters {
   netCashRatioMax: number | null;
 }
 
+export type ScreenerOperator = "gte" | "lte" | "between" | "eq";
+
+export type CategoricalConditionField = "industries" | "market" | "prefecture";
+
+export type ScreenerCondition =
+  | {
+      id: string;
+      kind?: "numeric";
+      field: string;
+      operator: ScreenerOperator;
+      value: number | [number, number];
+    }
+  | {
+      id: string;
+      kind: "categorical";
+      field: CategoricalConditionField;
+      operator: "in";
+      values: string[];
+    };
+
+export interface ScreenerState {
+  conditions: ScreenerCondition[];
+  companyName: string;
+  stockCode: string;
+  industries: string[];
+  market: string[];
+  prefecture: string[];
+  marketType: ("JP" | "US")[];
+  excludeMissing: boolean;
+  sort: SortConfig | null;
+}
+
+export type ScreenerCategoricalKey =
+  | "companyName"
+  | "stockCode"
+  | "industries"
+  | "market"
+  | "prefecture"
+  | "marketType"
+  | "excludeMissing";
+
+/** ユーザーが保存したスクリーニング条件（localStorage に永続化） */
+export interface SavedFilterPreset {
+  id: string;
+  label: string;
+  /** v2: 動的条件 */
+  conditions?: ScreenerCondition[];
+  /** v1 互換（読み込み時に conditions へ変換） */
+  filters?: SearchFilters;
+  /** v2 カテゴリ・検索（filters 非使用時） */
+  screener?: Omit<ScreenerState, "conditions" | "sort">;
+}
+
 export interface SortConfig {
   key: keyof StockData;
   direction: "asc" | "desc";
@@ -113,17 +166,19 @@ export interface PaginationConfig {
   totalItems: number;
 }
 
+/** お気に入り銘柄（ブラウザの localStorage に保存） */
+export interface FavoriteItem {
+  code: string;
+  name?: string;
+}
+
 export const MARKET_OPTIONS = [
   "プライム（内国株式）",
   "スタンダード（内国株式）",
   "グロース（内国株式）",
 ] as const;
 
-export const US_MARKET_OPTIONS = [
-  "NYSE",
-  "NASDAQ",
-  "AMEX",
-] as const;
+export const US_MARKET_OPTIONS = ["NYSE", "NASDAQ", "AMEX"] as const;
 
 export const MARKET_TYPE_OPTIONS = ["JP", "US"] as const;
 

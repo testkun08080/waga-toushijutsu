@@ -133,6 +133,18 @@ stock_search/
 - **任意の CSV 構造**: 自動カラム検出で任意の CSV に対応
 - **エラーハンドリング**: 不正なファイル形式の検出
 
+#### ローカル保存（IndexedDB）
+
+利便性のため、最後に読み込んだ CSV は **同一オリジンのブラウザ IndexedDB** に保存され、次回起動時に自動復元されます。
+
+- 保存先 DB: `yfinance-jp-screener-csv` / store: `persistedCsv`
+- **データは端末内に留まり、サーバー送信は行いません**
+- 復元中も新しい CSV のドロップを受け付け、新しい選択が優先されます
+- 削除するにはサイドバーの **「すべてクリア」** ボタンを使用してください
+- ストレージ容量超過 (`QuotaExceededError`)、プライベートモード等で保存できない場合はインラインでメッセージを表示します（解析・表示は継続します）
+
+実装: [`src/utils/csvIndexedDb.ts`](src/utils/csvIndexedDb.ts)
+
 ---
 
 ## セットアップ
@@ -252,18 +264,19 @@ DataTable コンポーネントで表示
 
 ```dockerfile
 # Stage 1: Builder
-FROM node:20-alpine AS builder
+FROM node:22-alpine AS builder
 WORKDIR /app
 COPY package*.json ./
 RUN npm ci
 COPY . .
 RUN npm run build
 
-# Stage 2: Runner
-FROM nginx:alpine
+# Stage 2: Runner（非root）
+FROM nginxinc/nginx-unprivileged:alpine
 COPY --from=builder /app/dist /usr/share/nginx/html
 COPY nginx.conf /etc/nginx/conf.d/default.conf
-EXPOSE 80
+COPY nginx-security-headers.conf /etc/nginx/snippets/security-headers.conf
+EXPOSE 8080
 ```
 
 ### nginx 設定

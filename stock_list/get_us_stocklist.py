@@ -37,6 +37,7 @@ SECの公開データから米国上場企業リストを取得し、JSON形式�
 import json
 import logging
 import os
+import sys
 import time
 import requests
 import yfinance as yf
@@ -68,7 +69,9 @@ def get_us_ticker_list() -> List[str]:
         # SECのAPI使用規約に従い、User-Agentに連絡先を含める
         # 環境変数から連絡先を取得（uvで設定された環境変数またはシステム環境変数）
         # 空文字は未設定扱い（GHA で secret 未設定だと "" が渡る）
-        contact_email = (os.getenv("SEC_USER_AGENT_CONTACT") or "").strip() or "your@email.com"
+        contact_email = (
+            os.getenv("SEC_USER_AGENT_CONTACT") or ""
+        ).strip() or "your@email.com"
         if contact_email == "your@email.com":
             logger.warning(
                 "⚠️  SEC_USER_AGENT_CONTACT が未設定です。SEC が 403 を返す場合があります。"
@@ -185,7 +188,7 @@ def main():
 
     if not tickers:
         logger.error("❌ SECからのティッカーリスト取得に失敗しました")
-        return
+        return 1
 
     logger.info(f"取得対象: {len(tickers)}社")
     logger.info("⚠️  注意: 大量のデータを取得するため、実行に時間がかかります")
@@ -198,7 +201,9 @@ def main():
 
     for i, ticker in enumerate(tickers, 1):
         if i % 100 == 0:
-            logger.info(f"[{i}/{len(tickers)}] 進捗: {i}/{len(tickers)} (成功: {success_count}, 失敗: {fail_count})")
+            logger.info(
+                f"[{i}/{len(tickers)}] 進捗: {i}/{len(tickers)} (成功: {success_count}, 失敗: {fail_count})"
+            )
         else:
             logger.debug(f"[{i}/{len(tickers)}] 処理中: {ticker}")
 
@@ -217,6 +222,10 @@ def main():
     logger.info(f"取得成功: {success_count}社")
     logger.info(f"取得失敗: {fail_count}社")
 
+    if not stock_list:
+        logger.error("❌ 銘柄情報を1件も取得できませんでした")
+        return 1
+
     # JSONファイルに保存
     output_file = "us_stocks_all.json"
     with open(output_file, "w", encoding="utf-8") as f:
@@ -226,7 +235,8 @@ def main():
     logger.info(f"✅ JSONファイルに保存しました: {output_file}")
     logger.info(f"   総企業数: {len(stock_list)}社")
     logger.info("=" * 60)
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

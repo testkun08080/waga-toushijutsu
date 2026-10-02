@@ -1,0 +1,7 @@
+{
+  "inputs": {
+    "artifact_age": "5 month",
+    "skip_tags": "false",
+    "skip_recent": "0"
+  }
+}

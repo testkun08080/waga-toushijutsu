@@ -7,12 +7,20 @@ import { DATE_FORMAT, FILE_SIZE } from "../constants/formatting";
  */
 
 /**
+ * CSV数式インジェクション対策（OWASP推奨）
+ * Excel等で数式として解釈される文字列（= + - @ タブ CR 始まり）に ' を前置する。
+ * ただし純粋な数値文字列（"-12.5"）と欠損値の "-" はそのまま残す。
+ */
+export const neutralizeFormula = (value: string): string => {
+  if (value === "-" || /^-?\d*\.?\d+$/.test(value)) return value;
+  if (/^[=+\-@\t\r]/.test(value)) return `'${value}`;
+  return value;
+};
+
+/**
  * データをCSV形式の文字列に変換
  */
-export const convertToCSV = (
-  data: StockData[],
-  columns: ColumnConfig[],
-): string => {
+export const convertToCSV = (data: StockData[], columns: ColumnConfig[]): string => {
   if (data.length === 0) return "";
 
   // 表示される列のみを取得
@@ -37,8 +45,8 @@ export const convertToCSV = (
         return value.toString();
       }
 
-      // 文字列の処理（ダブルクォートをエスケープ）
-      const stringValue = String(value);
+      // 文字列の処理（数式インジェクション対策 + ダブルクォートをエスケープ）
+      const stringValue = neutralizeFormula(String(value));
       const escapedValue = stringValue.replace(/"/g, '""');
       return `"${escapedValue}"`;
     });
@@ -53,10 +61,7 @@ export const convertToCSV = (
 /**
  * CSVファイルをダウンロード
  */
-export const downloadCSV = (
-  csvContent: string,
-  filename: string = "stock_data.csv",
-): void => {
+export const downloadCSV = (csvContent: string, filename: string = "stock_data.csv"): void => {
   // BOMを追加してExcelでの文字化けを防ぐ
   const BOM = "\uFEFF";
   const csvWithBOM = BOM + csvContent;
@@ -86,26 +91,18 @@ export const downloadCSV = (
 /**
  * ファイル名を生成（日時付き）
  */
-export const generateFileName = (
-  baseFileName: string = "stock_data",
-): string => {
+export const generateFileName = (baseFileName: string = "stock_data"): string => {
   const now = new Date();
   const year = now.getFullYear();
   const month = String(now.getMonth() + 1).padStart(
     DATE_FORMAT.zeroPadLength,
-    DATE_FORMAT.zeroPadChar,
+    DATE_FORMAT.zeroPadChar
   );
-  const day = String(now.getDate()).padStart(
-    DATE_FORMAT.zeroPadLength,
-    DATE_FORMAT.zeroPadChar,
-  );
-  const hours = String(now.getHours()).padStart(
-    DATE_FORMAT.zeroPadLength,
-    DATE_FORMAT.zeroPadChar,
-  );
+  const day = String(now.getDate()).padStart(DATE_FORMAT.zeroPadLength, DATE_FORMAT.zeroPadChar);
+  const hours = String(now.getHours()).padStart(DATE_FORMAT.zeroPadLength, DATE_FORMAT.zeroPadChar);
   const minutes = String(now.getMinutes()).padStart(
     DATE_FORMAT.zeroPadLength,
-    DATE_FORMAT.zeroPadChar,
+    DATE_FORMAT.zeroPadChar
   );
 
   return `${baseFileName}_${year}${month}${day}_${hours}${minutes}.csv`;
@@ -117,25 +114,19 @@ export const generateFileName = (
 export const generateFileNameWithFilters = (
   baseFileName: string = "stock_data",
   filterCount: number,
-  totalCount: number,
+  totalCount: number
 ): string => {
   const now = new Date();
   const year = now.getFullYear();
   const month = String(now.getMonth() + 1).padStart(
     DATE_FORMAT.zeroPadLength,
-    DATE_FORMAT.zeroPadChar,
+    DATE_FORMAT.zeroPadChar
   );
-  const day = String(now.getDate()).padStart(
-    DATE_FORMAT.zeroPadLength,
-    DATE_FORMAT.zeroPadChar,
-  );
-  const hours = String(now.getHours()).padStart(
-    DATE_FORMAT.zeroPadLength,
-    DATE_FORMAT.zeroPadChar,
-  );
+  const day = String(now.getDate()).padStart(DATE_FORMAT.zeroPadLength, DATE_FORMAT.zeroPadChar);
+  const hours = String(now.getHours()).padStart(DATE_FORMAT.zeroPadLength, DATE_FORMAT.zeroPadChar);
   const minutes = String(now.getMinutes()).padStart(
     DATE_FORMAT.zeroPadLength,
-    DATE_FORMAT.zeroPadChar,
+    DATE_FORMAT.zeroPadChar
   );
 
   if (filterCount < totalCount) {
@@ -148,10 +139,7 @@ export const generateFileNameWithFilters = (
 /**
  * データサイズの計算（概算）
  */
-export const estimateCSVSize = (
-  data: StockData[],
-  columns: ColumnConfig[],
-): string => {
+export const estimateCSVSize = (data: StockData[], columns: ColumnConfig[]): string => {
   if (data.length === 0) return "0 KB";
 
   // サンプルデータでサイズを推定
