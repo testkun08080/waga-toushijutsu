@@ -122,6 +122,11 @@ jobs:
     needs: [discover, fetch]
     runs-on: ubuntu-24.04
     timeout-minutes: 30
+    # 両ワークフローが同じ Export/<date>_<market>_combined.csv をコミットし得るため、
+    # 結合〜コミットのジョブだけ共通グループで直列化する（fetch の長時間ジョブはロックしない）
+    concurrency:
+      group: combined-csv-commit-${{ github.ref }}
+      cancel-in-progress: false
     permissions:
       contents: write
     env:
@@ -166,7 +171,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git pull origin "$GITHUB_REF_NAME" --rebase
+          git pull --rebase --autostash origin "$GITHUB_REF_NAME"
 
       - name: 💾 Commit and push
         uses: stefanzweifel/git-auto-commit-action@4a55954c782fc1ea30b9056cd3e7a2b40ca8887d # v7.2.0
